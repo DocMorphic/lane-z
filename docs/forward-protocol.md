@@ -28,3 +28,7 @@ For each NVDA and TSLA, go long on the first qualifying grid row when both Light
 Arca symbol maps show SPY on both dates and IWM only on July 1. The report uses all three of those market-days and reports the cash P&L by symbol and date.
 
 The Arca sample's SPY reference price exceeds the original $500 request. The cash arm uses a $1,000 maximum request so it can buy at least one share of SPY. The perpetual arms keep $500. This sample-based sizing correction precedes inspection of the Arca replay outputs.
+
+## NYSE Arca queue diagnostic
+
+The 60-second crypto reversal rule generated no valid entry on the dense SPY/IWM samples. To get fill evidence on the cash venue, run a separate long-only queue-pressure diagnostic on July 2 SPY, with no parameter search. Buy on the first grid row with top-size imbalance of at least 0.75, positive sampled one-second order-flow imbalance, and a spread of one bp or less. Hold for five seconds using the same Arca whole-share sizing, IOC limits, exchange fee, fee reserve, and slippage reserve. Keep the 500 and 900 ms order-delay cases. The prior rule stayed flat on this sample, and this diagnostic is exploratory because the cash sample was chosen for the earlier comparison.
