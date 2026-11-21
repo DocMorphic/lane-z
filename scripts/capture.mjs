@@ -41,25 +41,40 @@ function record(exchange, symbol, venueMs, receivedMs, prices) {
 }
 
 function connect(url, onOpen, onQuote) {
-  const socket = new WebSocket(url);
-  sockets.add(socket);
-  socket.addEventListener("open", () => onOpen(socket));
-  socket.addEventListener("message", event => {
+  const host = new URL(url).host;
+  let activeSocket;
+  let retryMs = 1_000;
+
+  function dial() {
     if (stopped) return;
-    const receivedMs = Date.now();
-    try {
-      onQuote(JSON.parse(event.data), receivedMs);
-    } catch (error) {
-      void stop(error.message);
-    }
-  });
-  socket.addEventListener("error", event => {
-    void stop(new URL(url).host + ": " + (event.message || "connection failed"));
-  });
-  socket.addEventListener("close", event => {
-    void stop(new URL(url).host + " closed the feed (" + event.code + ")");
-  });
-  return socket;
+    const socket = new WebSocket(url);
+    activeSocket = socket;
+    sockets.add(socket);
+    socket.addEventListener("open", () => {
+      retryMs = 1_000;
+      onOpen(socket);
+    });
+    socket.addEventListener("message", event => {
+      if (stopped) return;
+      const receivedMs = Date.now();
+      try {
+        onQuote(JSON.parse(event.data), receivedMs);
+      } catch (error) {
+        void stop(error.message);
+      }
+    });
+    socket.addEventListener("error", () => socket.close());
+    socket.addEventListener("close", event => {
+      sockets.delete(socket);
+      if (stopped) return;
+      console.error(`${new Date().toISOString()} ${host} closed (${event.code}). Reconnecting in ${retryMs} ms.`);
+      setTimeout(dial, retryMs).unref();
+      retryMs = Math.min(retryMs * 2, 30_000);
+    });
+  }
+
+  dial();
+  return () => activeSocket;
 }
 
 async function stop(error) {
@@ -79,7 +94,7 @@ async function stop(error) {
   }
 }
 
-const hyperSocket = connect("wss://api.hyperliquid.xyz/ws", socket => {
+const currentHyperSocket = connect("wss://api.hyperliquid.xyz/ws", socket => {
   for (const symbol of hyperliquid) {
     socket.send(JSON.stringify({ method: "subscribe", subscription: { type: "bbo", coin: "xyz:" + symbol } }));
   }
@@ -92,6 +107,7 @@ const hyperSocket = connect("wss://api.hyperliquid.xyz/ws", socket => {
   }
 });
 heartbeat = setInterval(() => {
+  const hyperSocket = currentHyperSocket();
   if (hyperSocket.readyState === WebSocket.OPEN) hyperSocket.send('{"method":"ping"}');
 }, 25_000);
 
@@ -103,3 +119,4 @@ connect("wss://fstream.binance.com/public/stream?streams=" + streams, () => {}, 
 });
 
 process.on("SIGINT", () => void stop());
+process.on("SIGTERM", () => void stop());
