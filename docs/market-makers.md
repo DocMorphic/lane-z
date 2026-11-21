@@ -68,6 +68,8 @@ In the independent NVDA check from 17:00 to 18:00 UTC on November 21, 1,182 of 1
 
 Markout measures the signed move from the observed trade price to the later midpoint. The exit proxy uses the later liquidation-side touch and charges a 0.3 bp maker entry fee, a 0.9 bp taker exit fee and a 0.5 bp exit reserve. It filters out old quotes and exits that cross funding. These figures describe actual public prints under a hypothetical exit. They provide no evidence of our place in the queue or a passive paper fill rate.
 
+An independent order-level TSLA sample supported a separate two-minute test with modeled receive, placement, cancel, and exit timing. The order book matched both later checkpoints exactly. One paper position closed at 250 ms and lost $0.0302. Both slower scenarios exhausted displayed size at the exit touch and left simulated inventory open. [TSLA order-level sample and replay](l4-smoke.md)
+
 ## Reproduction
 
 Install `requirements-research.txt`. The report records the URL and SHA-256 of every input. Download them into `data/makers/` under the report's `file` names, then run the following command.

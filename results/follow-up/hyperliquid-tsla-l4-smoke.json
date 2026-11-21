@@ -1,0 +1,141 @@
+{
+  "symbol": "xyz:TSLA",
+  "protocol": "single_sample_zero_priority_paper_smoke",
+  "modeled_market_data_delay_ms": 500,
+  "sources": {
+    "l2_orderbook": {
+      "url": "https://0xarchive.io/samples/evaluation/data/hip3/xyz-tsla/l2_orderbook.parquet",
+      "sha256": "2116a17ab7a42ea4bd838624632059e6e5fa873206591597459113c9ce991e62",
+      "rows": 1910
+    },
+    "l4_checkpoints": {
+      "url": "https://0xarchive.io/samples/evaluation/data/hip3/xyz-tsla/l4_checkpoints.parquet",
+      "sha256": "4d3f2de6c409fe189d5c1af330102988374d09fbcc7641199cdc19800ed9d18f",
+      "rows": 3
+    },
+    "l4_orderbook": {
+      "url": "https://0xarchive.io/samples/evaluation/data/hip3/xyz-tsla/l4_orderbook.parquet",
+      "sha256": "1a366caca550d7cd1c40fb3b0482f4ecefe4dbf3c093649148e7cc99bb98d24c",
+      "rows": 70705
+    },
+    "l4_orders": {
+      "url": "https://0xarchive.io/samples/evaluation/data/hip3/xyz-tsla/l4_orders.parquet",
+      "sha256": "8a8b40c32c1f0b8026d8624495cb294070cbe9383e055a5540d272282beff23f",
+      "rows": 70870
+    },
+    "trades": {
+      "url": "https://0xarchive.io/samples/evaluation/data/hip3/xyz-tsla/trades.parquet",
+      "sha256": "ddc1da7d7985c8fca6f115c56519ea9e347510c312fb0f97b3d2508b1d84ffb7",
+      "rows": 68682
+    }
+  },
+  "order_book_audit": {
+    "first_checkpoint": {
+      "utc": "2026-11-10T15:01:35.730000+00:00",
+      "block": 1216268997,
+      "orders": 2642
+    },
+    "last_checkpoint_utc": "2026-11-10T15:03:35.739000+00:00",
+    "matched_checkpoints": [
+      {
+        "block": 1216270000,
+        "orders": 2677,
+        "applied_diffs": 18432
+      },
+      {
+        "block": 1216270691,
+        "orders": 2649,
+        "applied_diffs": 12521
+      }
+    ],
+    "market_blocks_with_diffs": 1354,
+    "lifecycle_status_counts": {
+      "open": 15491,
+      "canceled": 15248,
+      "filled": 234,
+      "reduceOnlyCanceled": 5,
+      "triggered": 2,
+      "selfTradeCanceled": 1,
+      "siblingFilledCanceled": 1
+    },
+    "maker_taker_matched_prints": 208,
+    "supported_previously_resting_maker_prints": 154
+  },
+  "by_per_message_delay_ms": {
+    "250": {
+      "decision_slots": 56,
+      "entry_attempts": 50,
+      "rested": 6,
+      "moved_touch": 33,
+      "would_cross": 11,
+      "pending_skips": 6,
+      "stale_skips": 0,
+      "maker_fills": 1,
+      "partial_entry_fills": 0,
+      "closed": 1,
+      "gross_closed_usd": -0.01325,
+      "fees_closed_usd": 0.0119651475,
+      "slippage_reserve_closed_usd": 0.0049853125,
+      "net_closed_usd": -0.03020046,
+      "credited_entry_units_by_print_evidence": {
+        "strictly_through": 0.265
+      },
+      "unresolved_position": null,
+      "complete": true
+    },
+    "500": {
+      "decision_slots": 17,
+      "entry_attempts": 15,
+      "rested": 3,
+      "moved_touch": 9,
+      "would_cross": 3,
+      "pending_skips": 2,
+      "stale_skips": 0,
+      "maker_fills": 1,
+      "partial_entry_fills": 0,
+      "closed": 0,
+      "gross_closed_usd": 0.0,
+      "fees_closed_usd": 0.0,
+      "slippage_reserve_closed_usd": 0.0,
+      "net_closed_usd": 0.0,
+      "credited_entry_units_by_print_evidence": {
+        "strictly_through": 0.265
+      },
+      "unresolved_position": {
+        "maker_side": "long",
+        "entry_units": 0.265,
+        "ioc_executed_units": 0.067,
+        "remaining_units": 0.198,
+        "exit_issue": "insufficient_touch_size"
+      },
+      "complete": false
+    },
+    "900": {
+      "decision_slots": 15,
+      "entry_attempts": 15,
+      "rested": 1,
+      "moved_touch": 12,
+      "would_cross": 2,
+      "pending_skips": 0,
+      "stale_skips": 0,
+      "maker_fills": 1,
+      "partial_entry_fills": 0,
+      "closed": 0,
+      "gross_closed_usd": 0.0,
+      "fees_closed_usd": 0.0,
+      "slippage_reserve_closed_usd": 0.0,
+      "net_closed_usd": 0.0,
+      "credited_entry_units_by_print_evidence": {
+        "strictly_through": 0.265
+      },
+      "unresolved_position": {
+        "maker_side": "long",
+        "entry_units": 0.265,
+        "ioc_executed_units": 0.06,
+        "remaining_units": 0.205,
+        "exit_issue": "insufficient_touch_size"
+      },
+      "complete": false
+    }
+  }
+}
