@@ -1,0 +1,72 @@
+{
+  "decision_time_utc": "15:30:00+00:00",
+  "hurdle_bps": 12,
+  "paper_fill_simulation": false,
+  "sources": [
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1790812799&end_timestamp=1791417601&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1790812800000&endTime=1791417600000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1790812799&end_timestamp=1791417601&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1790812800000&endTime=1791417600000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1791417599&end_timestamp=1792022401&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1791417600000&endTime=1792022400000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1791417599&end_timestamp=1792022401&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1791417600000&endTime=1792022400000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1792022399&end_timestamp=1792627201&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1792022400000&endTime=1792627200000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1792022399&end_timestamp=1792627201&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1792022400000&endTime=1792627200000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1792627199&end_timestamp=1793232001&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1792627200000&endTime=1793232000000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1792627199&end_timestamp=1793232001&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1792627200000&endTime=1793232000000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1793231999&end_timestamp=1793836801&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1793232000000&endTime=1793836800000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1793231999&end_timestamp=1793836801&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1793232000000&endTime=1793836800000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1793836799&end_timestamp=1794441601&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1793836800000&endTime=1794441600000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1793836799&end_timestamp=1794441601&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1793836800000&endTime=1794441600000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1794441599&end_timestamp=1795046401&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1794441600000&endTime=1795046400000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1794441599&end_timestamp=1795046401&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1794441600000&endTime=1795046400000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=110&resolution=1h&start_timestamp=1795046399&end_timestamp=1795219201&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=NVDAUSDT&startTime=1795046400000&endTime=1795219200000&limit=1000",
+    "https://mainnet.zklighter.elliot.ai/api/v1/fundings?market_id=112&resolution=1h&start_timestamp=1795046399&end_timestamp=1795219201&count_back=0",
+    "https://fapi.binance.com/fapi/v1/fundingRate?symbol=TSLAUSDT&startTime=1795046400000&endTime=1795219200000&limit=1000"
+  ],
+  "validation": {
+    "symbol_days": 58,
+    "selected_symbol_days": 1,
+    "max_absolute_prior_spread_bps": 12.3728,
+    "total_funding_bps_at_equal_notional": -2.23,
+    "after_cost_bps_at_equal_notional": {
+      "10": -12.23,
+      "12": -14.23,
+      "15": -17.23
+    },
+    "selected": [
+      {
+        "day_utc": "2026-10-19",
+        "symbol": "TSLA",
+        "long_venue": "lighter",
+        "prior_spread_bps": 12.3728,
+        "received_funding_bps": -2.23
+      }
+    ]
+  },
+  "test": {
+    "symbol_days": 38,
+    "selected_symbol_days": 0,
+    "max_absolute_prior_spread_bps": 10.1859,
+    "total_funding_bps_at_equal_notional": 0,
+    "after_cost_bps_at_equal_notional": {
+      "10": 0.0,
+      "12": 0.0,
+      "15": 0.0
+    },
+    "selected": []
+  },
+  "snapshot_sha256": "671cf5a12a85a0cbde30e87d164746df524dbf2fab4206b16041e306280d06f3"
+}

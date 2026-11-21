@@ -98,14 +98,16 @@ def screen(snapshots):
     for period, bounds in PERIODS.items():
         selected = []
         total_days = 0
+        peak_prior = Decimal(0)
         for day in dates(*bounds):
             total_days += 1
             stamp = int(datetime.combine(day, DECISION_TIME).timestamp())
             for symbol in LIGHTER_MARKETS:
                 prior = spread(history, symbol, stamp - DAY_SECONDS, stamp)
+                following = spread(history, symbol, stamp, stamp + DAY_SECONDS)
+                peak_prior = max(peak_prior, abs(prior))
                 if abs(prior) <= HURDLE_BPS:
                     continue
-                following = spread(history, symbol, stamp, stamp + DAY_SECONDS)
                 selected.append({"day_utc": day.isoformat(), "symbol": symbol,
                                  "long_venue": "lighter" if prior > 0 else "binance",
                                  "prior_spread_bps": float(prior),
@@ -113,6 +115,7 @@ def screen(snapshots):
         received = sum(row["received_funding_bps"] for row in selected)
         result[period] = {
             "symbol_days": total_days * len(LIGHTER_MARKETS), "selected_symbol_days": len(selected),
+            "max_absolute_prior_spread_bps": float(peak_prior),
             "total_funding_bps_at_equal_notional": received,
             "after_cost_bps_at_equal_notional": {str(cost): received - len(selected) * float(cost) for cost in QUOTED_COSTS},
             "selected": selected,

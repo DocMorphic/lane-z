@@ -29,6 +29,12 @@ There were zero attempts in three validation windows and two attempts across six
 
 The sample shows the cost of missed legs, and it provides no filled-pair observations to estimate returns on the hedge itself. [Complete replay and 36 file hashes](../results/follow-up/hedged-perps.json)
 
+## Funding carry
+
+A longer hold can collect the difference between the venues' funding payments. At 15:30 UTC, the fixed screen uses the previous 24 hours of settled rates. When the difference exceeds 12 bps, it hypothetically shorts the venue where longs were paying more, buys the other venue, and measures the next 24 hours of funding at equal dollar notionals. The cost hurdle allows 8 bps for Binance round-trip fees, 2 bps for four fills' slippage, and 2 bps for combined spread. Actual spread and position P&L can vary. Lighter settles funding hourly. Its historical response's displayed hourly percent is combined with the payer direction. Binance rates are signed fractions per actual settled payment. [Lighter funding](https://docs.lighter.xyz/trading/funding) · [Lighter history API](https://github.com/elliottech/lighter-python/blob/main/docs/CandlestickApi.md#fundings) · [Binance funding history API](https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/market-data)
+
+The October validation period had one candidate across 58 symbol-days. On that TSLA day, a prior 12.37 bps spread flipped, and the following day would have paid −2.23 bps before costs, or −14.23 bps after the screen's 12 bps allowance. The November holdout had zero candidates across 38 symbol-days. This was a funding-only feasibility screen with no price-basis or fill simulation. [Funding screen results](../results/follow-up/funding-carry.json)
+
 ## Prediction markets and betting hedges
 
 A complete set of the two tokens for the same Polymarket binary condition is backed by 1 pUSD per set. A sub-1 sum is an opportunity to investigate only if both sides can be acquired in sufficient size and the difference covers trading and settlement friction. Two quote snapshots can move independently before the second order arrives. [Position and token mechanics](https://docs.polymarket.com/concepts/positions-tokens) · [Fee mechanics](https://docs.polymarket.com/trading/fees)
@@ -43,6 +49,8 @@ Use the hedge report's source URLs and filenames for the historical quotes. Thes
 
 ```sh
 python -m lane_z.hedge --data data/hedged --output data/check-hedged-perps.json
+python -m lane_z.funding_screen --capture --snapshot data/funding/new.json \
+  --output data/check-funding.json
 python -m lane_z.event_hedge --capture --snapshot data/event-hedge/new.json \
   --output data/check-event-hedge.json
 ```
