@@ -100,6 +100,17 @@ class ReplayTest(unittest.TestCase):
         self.assertAlmostEqual(trade.fees_usd, 60 * 0.9 / 10_000)
         self.assertAlmostEqual(trade.net_usd, -0.0129)
 
+    def test_cash_share_rounding_and_per_share_fee(self):
+        rows = [quote(t, t, bid=149.99, ask=150.01) for t in self.grid]
+        session = make_session(rows, self.grid)
+        direction = np.zeros(len(self.grid), dtype=np.int8)
+        direction[0] = 1
+        cash = Execution(hold_ms=1_000, notional_usd=500, lot_size=1, fee_bps=0, fee_per_unit_usd=0.003)
+        result = replay(session, direction, cash)
+        self.assertEqual(len(result.trades), 1)
+        self.assertEqual(result.trades[0].size, 3)
+        self.assertAlmostEqual(result.trades[0].fees_usd, 0.018)
+
     def test_unresolved_exit_marks_result_incomplete(self):
         rows = [quote(t, t, bid_size=10.0 if i <= 1 else 0.0) for i, t in enumerate(self.grid)]
         session = make_session(rows, self.grid)

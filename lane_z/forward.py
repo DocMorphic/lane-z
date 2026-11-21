@@ -3,13 +3,13 @@
 import argparse
 import json
 from dataclasses import replace
-from datetime import date
+from datetime import date, datetime, time, timezone
 from pathlib import Path
 
 import numpy as np
 
 from .model import Ridge
-from .replay import Execution
+from .replay import Execution, sides
 from .study import STUDIES, breakdown, feature_names, load_sessions, policy, predictions
 
 
@@ -29,12 +29,26 @@ def frozen_models(report, hold_ms):
     return models
 
 
+def utc_window(day: str, times: list[str]) -> tuple[int, int]:
+    start, end = (
+        int(datetime.combine(date.fromisoformat(day), time.fromisoformat(value), timezone.utc).timestamp())
+        * 1_000_000
+        for value in times
+    )
+    if start >= end:
+        raise ValueError("UTC window must end later on the same date")
+    return start, end
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("days", nargs="+", type=date.fromisoformat)
     parser.add_argument("--data", type=Path, required=True)
     parser.add_argument("--report", type=Path, default=Path("results/binance.json"))
     parser.add_argument("--delay-ms", type=int)
+    parser.add_argument("--fee-bps", type=float)
+    parser.add_argument("--slippage-bps", type=float)
+    parser.add_argument("--utc-window", nargs=2, metavar=("START", "END"))
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     report = json.loads(args.report.read_text())
@@ -44,15 +58,39 @@ def main():
         parser.error("forward dates must come after the source report's held-out dates")
     if args.delay_ms is not None and not 1 <= args.delay_ms <= 10_000:
         parser.error("--delay-ms must be between 1 and 10000")
-    sessions, audit = load_sessions(args.data, days, regime)
+    window = None
+    if args.utc_window:
+        if len(days) != 1:
+            parser.error("--utc-window takes a single date")
+        try:
+            window = utc_window(days[0], args.utc_window)
+        except ValueError as error:
+            parser.error(str(error))
+    sessions, audit = load_sessions(args.data, days, regime, window=window)
     for item in audit:
         del item["url"]
     reference = report["reference_policy"]
     execution = Execution(**report["execution_assumptions"]["cross_base"])
-    if args.delay_ms is not None:
-        execution = replace(execution, delay_ms=args.delay_ms)
+    overrides = {"delay_ms": args.delay_ms}
+    for name in ("fee_bps", "slippage_bps"):
+        value = getattr(args, name)
+        if value is not None and (not np.isfinite(value) or value < 0):
+            parser.error(f"--{name.replace('_', '-')} must be finite and non-negative")
+        overrides[name] = value
+    execution = replace(execution, **{name: value for name, value in overrides.items() if value is not None})
     scores = predictions(sessions, days, execution.hold_ms, frozen_models(report, execution.hold_ms))
     result = breakdown(policy(sessions, scores, execution, "cross", reference["margin_bps"]))
+    coverage = []
+    for (day, symbol), session in sessions.items():
+        values = scores[day, symbol]["cross"]
+        eligible = session.can_signal
+        coverage.append({
+            "day": day,
+            "symbol": symbol,
+            "decision_rows": int(eligible.sum()),
+            "finite_forecasts": int(np.count_nonzero(eligible & np.isfinite(values))),
+            "forecasts_past_entry_gate": int(np.count_nonzero(sides(session, values, reference["margin_bps"]))),
+        })
     payload = {
         "regime": regime,
         "days": days,
@@ -60,6 +98,10 @@ def main():
         "policy_status": "selected" if report["selection"] else "unqualified_reference_diagnostic",
         "hold_ms": execution.hold_ms,
         "delay_ms": execution.delay_ms,
+        "fee_bps": execution.fee_bps,
+        "slippage_bps": execution.slippage_bps,
+        "utc_window": args.utc_window,
+        "coverage": coverage,
         "margin_bps": reference["margin_bps"],
         "performance": result,
         "data_audit": audit,

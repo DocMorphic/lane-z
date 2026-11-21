@@ -43,6 +43,9 @@ class Execution:
     slippage_bps: float = SLIPPAGE_BPS
     notional_usd: float = 100.0
     max_venue_age_ms: int = MAX_AGE_MS
+    lot_size: float = LOT
+    min_order_usd: float = MIN_ORDER_USD
+    fee_per_unit_usd: float = 0.0
 
 
 @dataclass(frozen=True)
@@ -99,13 +102,13 @@ def price_limit(reference: float, side: int, cushion_bps: float) -> float:
     return reference * (1 + side * cushion_bps / BPS)
 
 
-def fill(quote, valid: bool, side: int, limit: float, requested_lots: int):
+def fill(quote, valid: bool, side: int, limit: float, requested_lots: int, lot_size: float):
     if not valid:
         return 0, 0.0
     price, available = (quote["ask"], quote["ask_size"]) if side > 0 else (quote["bid"], quote["bid_size"])
     if side * (price - limit) > 0:
         return 0, 0.0
-    displayed_lots = int(np.floor(available / LOT + 1e-8))
+    displayed_lots = int(np.floor(available / lot_size + 1e-8))
     return min(requested_lots, displayed_lots), float(price)
 
 
@@ -119,6 +122,7 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
     step = GRID_MS * US_PER_MS
     delay = execution.delay_ms * US_PER_MS
     arrival = grid + delay
+    lot_size = execution.lot_size
     holding_steps = exit_delay_steps(execution)
     venue_quotes, venue_valid = session.venue.asof(arrival, execution.max_venue_age_ms * US_PER_MS)
     observed = session.features.quote
@@ -133,12 +137,12 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
         entry_time = int(arrival[index])
         available_after = entry_time + delay
         entry_reference = observed["ask"][index] if side > 0 else observed["bid"][index]
-        requested = int(execution.notional_usd / entry_reference / LOT)
+        requested = int(execution.notional_usd / entry_reference / lot_size)
         entry_limit = price_limit(entry_reference, side, ENTRY_LIMIT_BPS)
-        if requested * LOT * entry_limit < MIN_ORDER_USD:
+        if requested == 0 or requested * lot_size * entry_limit < execution.min_order_usd:
             result.missed_entries += 1
             continue
-        lots, entry_px = fill(venue_quotes[index], venue_valid[index], side, entry_limit, requested)
+        lots, entry_px = fill(venue_quotes[index], venue_valid[index], side, entry_limit, requested, lot_size)
         if not lots:
             result.missed_entries += 1
             continue
@@ -158,11 +162,11 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
                 continue
             reference = observed["bid"][cursor] if side > 0 else observed["ask"][cursor]
             limit = price_limit(reference, -side, EXIT_LIMIT_BPS)
-            exited, exit_px = fill(quote, venue_valid[cursor], -side, limit, remains)
+            exited, exit_px = fill(quote, venue_valid[cursor], -side, limit, remains, lot_size)
             if exited:
                 last_consumed = quote["venue"]
                 remains -= exited
-                exit_usd += exited * LOT * exit_px
+                exit_usd += exited * lot_size * exit_px
             if not remains:
                 break
 
@@ -176,12 +180,13 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
         if entry_time // US_PER_HOUR != exit_time // US_PER_HOUR:
             result.funding_crossings += 1
 
-        entry_usd = lots * LOT * entry_px
+        quantity = lots * lot_size
+        entry_usd = quantity * entry_px
         turnover = entry_usd + exit_usd
         result.trades.append(Trade(
-            decision, entry_time, exit_time, side, lots * LOT, entry_usd,
+            decision, entry_time, exit_time, side, quantity, entry_usd,
             side * (exit_usd - entry_usd),
-            turnover * execution.fee_bps / BPS,
+            turnover * execution.fee_bps / BPS + 2 * quantity * execution.fee_per_unit_usd,
             turnover * execution.slippage_bps / BPS,
         ))
     return result

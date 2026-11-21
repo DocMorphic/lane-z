@@ -45,21 +45,20 @@ STUDIES = {
 }
 
 
-def load_sessions(root: Path, days: tuple[str, ...], regime: str, source_delay_ms: int = 0):
+def load_sessions(
+    root: Path, days: tuple[str, ...], regime: str, source_delay_ms: int = 0, window=None,
+):
     sessions = {}
     audit = []
     for day in days:
-        end = timestamp(day, 15, 55)
-        grid = np.arange(
-            timestamp(day, 9, 35), end + EXIT_BUFFER_MS * US_PER_MS,
-            GRID_MS * US_PER_MS,
-        )
+        start, end = window or (timestamp(day, 9, 35), timestamp(day, 15, 55))
+        grid = np.arange(start, end + EXIT_BUFFER_MS * US_PER_MS, GRID_MS * US_PER_MS)
         target_books = {}
         observed = {}
         for symbol in SYMBOLS:
             path = sample_path(root, day, symbol)
             rows = read_quotes(path, symbol)
-            audit.append(quote_audit(path, rows, day, symbol))
+            audit.append(quote_audit(path, rows, day, symbol, window=window))
             observed[symbol] = local_features(Book.observed(rows), grid)
             if symbol in TARGETS:
                 target_books[symbol] = Book.executed(rows)
@@ -73,7 +72,7 @@ def load_sessions(root: Path, days: tuple[str, ...], regime: str, source_delay_m
             if regime == "binance":
                 path = sample_path(root, day, symbol, BINANCE)
                 rows = read_quotes(path, symbol, BINANCE)
-                audit.append(quote_audit(path, rows, day, symbol, BINANCE))
+                audit.append(quote_audit(path, rows, day, symbol, BINANCE, window=window))
                 # Apply extra delay only to the leader feed, keeping the Hyperliquid replay unchanged.
                 rows["receive"] += source_delay_ms * US_PER_MS
                 external = local_features(Book.observed(rows), grid)
@@ -116,7 +115,7 @@ def breakdown(outputs: dict) -> dict:
     for day in dict.fromkeys(key[0] for key in outputs):
         by_day[day] = summarize([value for key, value in outputs.items() if key[0] == day])
     by_symbol = {}
-    for symbol in TARGETS:
+    for symbol in dict.fromkeys(key[1] for key in outputs):
         by_symbol[symbol] = summarize([value for key, value in outputs.items() if key[1] == symbol])
     return {"all": summarize(all_results), "by_day": by_day, "by_symbol": by_symbol}
 

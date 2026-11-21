@@ -134,11 +134,9 @@ class Book:
         return rows, valid
 
 
-def quote_audit(path, rows, day, symbol, exchange=HYPERLIQUID) -> dict:
-    core = rows[
-        (rows["receive"] >= timestamp(day, 9, 35))
-        & (rows["receive"] < timestamp(day, 15, 55))
-    ]
+def quote_audit(path, rows, day, symbol, exchange=HYPERLIQUID, window=None) -> dict:
+    start, end = window or (timestamp(day, 9, 35), timestamp(day, 15, 55))
+    core = rows[(rows["receive"] >= start) & (rows["receive"] < end)]
     if len(core) < 2:
         raise ValueError(f"{path} has fewer than two core-session quotes")
     interval = np.diff(core["receive"]) / US_PER_MS
