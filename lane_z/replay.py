@@ -89,12 +89,13 @@ def markout(session: Session, execution: Execution) -> np.ndarray:
     return np.where(session.can_signal, delta_bps(after, before), np.nan)
 
 
-def sides(session: Session, prediction: np.ndarray, margin_bps: float) -> np.ndarray:
-    """Select direction at decision time with the base fee and displayed spread."""
+def sides(session: Session, prediction: np.ndarray, margin_bps: float, *,
+          fee_bps: float = FEE_BPS, slippage_bps: float = SLIPPAGE_BPS) -> np.ndarray:
+    """Select direction at decision time using the displayed spread and cost reserve."""
     observed = session.features.quote
     with np.errstate(invalid="ignore", divide="ignore"):
         spread = BPS * (observed["ask"] - observed["bid"]) / session.features.mid
-    reserve = spread + 2 * (FEE_BPS + SLIPPAGE_BPS) + margin_bps
+    reserve = spread + 2 * (fee_bps + slippage_bps) + margin_bps
     eligible = session.can_signal & (spread <= SPREAD_CAP_BPS) & (abs(prediction) > reserve)
     return np.where(eligible, np.sign(prediction), 0).astype(np.int8)
 

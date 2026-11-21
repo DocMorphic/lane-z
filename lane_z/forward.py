@@ -9,8 +9,8 @@ from pathlib import Path
 import numpy as np
 
 from .model import Ridge
-from .replay import Execution, sides
-from .study import STUDIES, breakdown, feature_names, load_sessions, policy, predictions
+from .replay import FEE_BPS, SLIPPAGE_BPS, Execution, replay, sides
+from .study import STUDIES, breakdown, feature_names, load_sessions, predictions
 
 
 def frozen_models(report, hold_ms):
@@ -48,6 +48,8 @@ def main():
     parser.add_argument("--delay-ms", type=int)
     parser.add_argument("--fee-bps", type=float)
     parser.add_argument("--slippage-bps", type=float)
+    parser.add_argument("--gate-on-execution-costs", action="store_true",
+                        help="require the forecast to clear the fees and reserve charged by the replay")
     parser.add_argument("--utc-window", nargs=2, metavar=("START", "END"))
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
@@ -79,17 +81,22 @@ def main():
         overrides[name] = value
     execution = replace(execution, **{name: value for name, value in overrides.items() if value is not None})
     scores = predictions(sessions, days, execution.hold_ms, frozen_models(report, execution.hold_ms))
-    result = breakdown(policy(sessions, scores, execution, "cross", reference["margin_bps"]))
+    gate = {"fee_bps": execution.fee_bps, "slippage_bps": execution.slippage_bps} if args.gate_on_execution_costs else {
+        "fee_bps": FEE_BPS, "slippage_bps": SLIPPAGE_BPS,
+    }
+    outputs = {}
     coverage = []
     for (day, symbol), session in sessions.items():
         values = scores[day, symbol]["cross"]
+        direction = sides(session, values, reference["margin_bps"], **gate)
+        outputs[day, symbol] = replay(session, direction, execution)
         eligible = session.can_signal
         coverage.append({
             "day": day,
             "symbol": symbol,
             "decision_rows": int(eligible.sum()),
             "finite_forecasts": int(np.count_nonzero(eligible & np.isfinite(values))),
-            "forecasts_past_entry_gate": int(np.count_nonzero(sides(session, values, reference["margin_bps"]))),
+            "forecasts_past_entry_gate": int(np.count_nonzero(direction)),
         })
     payload = {
         "regime": regime,
@@ -100,10 +107,11 @@ def main():
         "delay_ms": execution.delay_ms,
         "fee_bps": execution.fee_bps,
         "slippage_bps": execution.slippage_bps,
+        "entry_cost_gate": gate,
         "utc_window": args.utc_window,
         "coverage": coverage,
         "margin_bps": reference["margin_bps"],
-        "performance": result,
+        "performance": breakdown(outputs),
         "data_audit": audit,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)

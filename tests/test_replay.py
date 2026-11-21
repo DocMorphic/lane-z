@@ -79,6 +79,12 @@ class ReplayTest(unittest.TestCase):
         self.assertEqual(result.missed_entries, 1)
         self.assertFalse(result.trades)
 
+    def test_stricter_cost_gate_can_veto_a_frozen_signal(self):
+        session = make_session([quote(t, t) for t in self.grid], self.grid)
+        predictions = np.full(len(self.grid), 4.5)
+        self.assertEqual(sides(session, predictions, 0)[0], 1)
+        self.assertEqual(sides(session, predictions, 0, slippage_bps=0.5)[0], 0)
+
     def test_partial_entry_exit_and_no_double_consumption(self):
         rows = [
             quote(t, t, bid_size=0.1 if i == 6 else 10, ask_size=0.3 if i == 1 else 10)
