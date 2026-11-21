@@ -40,6 +40,19 @@ Each date uses 15:02–15:58 UTC for decisions, with the final two minutes of th
 
 No policy is selected from the test. The adaptive policy qualifies only with at least 25 completed round trips in both validation and test, positive and complete validation base P&L, positive test base P&L on at least two dates, and positive and complete totals under each test execution scenario. The qualification is a research filter and three held-out hours per symbol provide limited evidence about other market regimes.
 
+## Results
+
+The archive provided 53,659 comparable validation labels and 80,520 held-out labels. All four policies made zero attempts in either period. The adaptive rule flagged 15,920 held-out decision rows as thin or widening. No forecast reached the cost gate with or without that rule, so this run cannot measure whether avoiding those rows improves executed P&L.
+
+| Forecast | Test RMSE (bps) | Test correlation to later midpoint return |
+| --- | ---: | ---: |
+| Constant zero | 4.027109 | — |
+| Local | 4.026962 | 0.01801 |
+| Flow | 4.027012 | 0.01771 |
+| Book and leader | 4.027415 | 0.01763 |
+
+The richer forecast improved correlation in validation (0.02241 versus 0.00696 for local), and the gain disappeared on the holdout. Aggressor flow, same-price depth changes, and external quotes were plausible signals. Together they produced no executable edge in this sample. The exercise left the paper portfolio flat. [Full metrics and 48 source hashes](../results/follow-up/maker-response.json)
+
 ## Reproduction
 
 Install `requirements-research.txt`. The report records the URL and SHA-256 of every input. Download them into `data/makers/` under the report's `file` names, then run the following command.

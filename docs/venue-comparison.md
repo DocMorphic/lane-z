@@ -32,7 +32,18 @@ A distinct continuation rule waited for a ten-second rally in both Binance and L
 | Lighter continuation, 500 ms | 140 | 105 | −$2.37 | −0.53 |
 | Lighter continuation, 900 ms | 155 | 96 | −$10.65 | −2.51 |
 
-The Binance reversal lost $27.54 crossing the displayed spread before $98.13 in fees and $12.27 in reserves. Lighter lost $17.32 before its $14.76 slippage reserve despite zero protocol fees. The continuation earned $2.13 before its $4.50 reserve at 500 ms and lost $6.40 before the reserve at 900 ms. Two of six continuation dates had positive 500 ms net P&L. These tests did not qualify an executable strategy.
+### Where the P&L went
+
+The midpoint column measures signed price movement between the simulated entry and exit matches. It weights each partial exit by its filled size. Spread cost is the difference between that midpoint result and the result at executable bid and ask prices. The fee and slippage columns are both deducted from the result after spread. All values are USD and use 500 ms per order leg.
+
+| Test | Midpoint move | Spread cost | After spread | Modeled fees | Slippage reserve | Net |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Binance reversal | −$21.37 | $6.16 | −$27.54 | $98.13 | $12.27 | −$137.93 |
+| Lighter reversal | +$0.61 | $17.93 | −$17.32 | $0.00 | $14.76 | −$32.08 |
+| Lighter continuation | +$8.01 | $5.88 | +$2.13 | $0.00 | $4.50 | −$2.37 |
+| NYSE Arca SPY queue pressure | −$3.08 | $24.37 | −$27.45 | $65.92 | $61.01 | −$154.38 |
+
+Binance's reversal forecast went against subsequent price movement even at the midpoint. Fees accounted for most of the total loss. The Lighter reversal had almost flat midpoint P&L, and paid $17.93 across the spread at a zero-fee venue. Two of six continuation dates had positive 500 ms net P&L. These tests yielded no qualifying paper strategy.
 
 The 500 ms continuation replay could absorb about 0.24 bps of extra slippage on each side before turning negative. Its paper trades used a 0.5 bps-per-side reserve. At 900 ms the result was already negative before the reserve.
 
