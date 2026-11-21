@@ -25,42 +25,48 @@ SESSIONS = (
 )
 INTERNAL_SESSIONS = ("2026-01-01", "2026-02-01", "2026-03-01", "2026-08-01", "2026-11-01")
 NEW_YORK = ZoneInfo("America/New_York")
-DATA_ROOT = "https://datasets.tardis.dev/v1/hyperliquid/book_ticker"
+DATA_ROOT = "https://datasets.tardis.dev/v1"
+HYPERLIQUID = "hyperliquid"
+BINANCE = "binance-futures"
 QUOTE_DTYPE = np.dtype([
     ("venue", "i8"), ("receive", "i8"), ("bid", "f8"), ("ask", "f8"),
     ("bid_size", "f8"), ("ask_size", "f8"),
 ])
 
 
-def sample_url(day: str, symbol: str) -> str:
-    return f"{DATA_ROOT}/{day.replace('-', '/')}/XYZ-{symbol}.csv.gz"
+def dataset_symbol(symbol: str, exchange: str) -> str:
+    return f"XYZ-{symbol}" if exchange == HYPERLIQUID else f"{symbol}USDT"
 
 
-def sample_path(root: Path, day: str, symbol: str) -> Path:
-    return root / f"{day}-XYZ-{symbol}.csv.gz"
+def sample_url(day: str, symbol: str, exchange: str = HYPERLIQUID) -> str:
+    return f"{DATA_ROOT}/{exchange}/book_ticker/{day.replace('-', '/')}/{dataset_symbol(symbol, exchange)}.csv.gz"
 
 
-def fetch(root: Path, days: tuple[str, ...]) -> None:
+def sample_path(root: Path, day: str, symbol: str, exchange: str = HYPERLIQUID) -> Path:
+    return root / f"{day}-{dataset_symbol(symbol, exchange)}.csv.gz"
+
+
+def fetch(root: Path, days: tuple[str, ...], markets: tuple[tuple[str, str], ...]) -> None:
     root.mkdir(parents=True, exist_ok=True)
 
-    def download(task: tuple[str, str]) -> None:
-        day, symbol = task
-        destination = sample_path(root, day, symbol)
+    def download(task: tuple[str, str, str]) -> None:
+        day, symbol, exchange = task
+        destination = sample_path(root, day, symbol, exchange)
         if destination.exists():
             return
         with tempfile.NamedTemporaryFile(dir=root, delete=False) as tmp:
             temporary = Path(tmp.name)
             try:
-                with urlopen(sample_url(day, symbol), timeout=90) as response:
+                with urlopen(sample_url(day, symbol, exchange), timeout=90) as response:
                     shutil.copyfileobj(response, tmp)
                 tmp.close()
-                read_quotes(temporary, symbol)
+                read_quotes(temporary, symbol, exchange)
                 temporary.replace(destination)
             finally:
                 temporary.unlink(missing_ok=True)
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        list(pool.map(download, [(day, symbol) for day in days for symbol in SYMBOLS]))
+        list(pool.map(download, [(day, symbol, exchange) for day in days for symbol, exchange in markets]))
 
 
 def timestamp(day: str, hour: int, minute: int) -> int:
@@ -72,13 +78,14 @@ def number(value: str) -> float:
     return float(value) if value else float("nan")
 
 
-def read_quotes(path: Path, symbol: str) -> np.ndarray:
+def read_quotes(path: Path, symbol: str, exchange: str = HYPERLIQUID) -> np.ndarray:
+    expected_symbol = dataset_symbol(symbol, exchange).replace("-", ":")
     with gzip.open(path, "rt", newline="") as handle:
         rows = csv.DictReader(handle)
 
         def parse():
             for row in rows:
-                if row["exchange"] != "hyperliquid" or row["symbol"] != f"XYZ:{symbol}":
+                if row["exchange"] != exchange or row["symbol"] != expected_symbol:
                     raise ValueError(f"{path} contains a different market")
                 yield (
                     int(row["timestamp"]), int(row["local_timestamp"]),
@@ -127,7 +134,7 @@ class Book:
         return rows, valid
 
 
-def quote_audit(path: Path, rows: np.ndarray, day: str, symbol: str) -> dict:
+def quote_audit(path, rows, day, symbol, exchange=HYPERLIQUID) -> dict:
     core = rows[
         (rows["receive"] >= timestamp(day, 9, 35))
         & (rows["receive"] < timestamp(day, 15, 55))
@@ -141,7 +148,8 @@ def quote_audit(path: Path, rows: np.ndarray, day: str, symbol: str) -> dict:
     return {
         "day": day,
         "symbol": symbol,
-        "url": sample_url(day, symbol),
+        "exchange": exchange,
+        "url": sample_url(day, symbol, exchange),
         "sha256": sha256,
         "bytes": path.stat().st_size,
         "rows": len(rows),

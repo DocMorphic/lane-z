@@ -8,10 +8,14 @@ from pathlib import Path
 import numpy as np
 
 from .data import (
-    INTERNAL_SESSIONS, SESSIONS, SYMBOLS, US_PER_MS, Book, fetch, quote_audit, read_quotes,
+    BINANCE, HYPERLIQUID, INTERNAL_SESSIONS, SESSIONS, SYMBOLS, US_PER_MS,
+    Book, fetch, quote_audit, read_quotes,
     sample_path, timestamp,
 )
-from .model import CROSS_FEATURES, GRID_MS, LOCAL_FEATURES, Ridge, features, local_features
+from .model import (
+    BINANCE_FEATURES, CROSS_FEATURES, GRID_MS, INDEX_FEATURES, LOCAL_FEATURES,
+    Ridge, binance_features, features, index_features, local_features,
+)
 from .replay import EXIT_BUFFER_MS, SPREAD_CAP_BPS, Execution, Session, markout, replay, sides, summarize
 
 
@@ -34,13 +38,14 @@ class Split:
 
 STUDIES = {
     "regular": Split(SESSIONS[:3], SESSIONS[3:4], SESSIONS[4:], (1_000, 5_000, 15_000)),
+    "binance": Split(SESSIONS[:3], SESSIONS[3:4], SESSIONS[4:], (1_000, 5_000, 15_000)),
     "internal": Split(
         INTERNAL_SESSIONS[:3], INTERNAL_SESSIONS[3:4], INTERNAL_SESSIONS[4:], (5_000, 15_000, 60_000),
     ),
 }
 
 
-def load_sessions(root: Path, days: tuple[str, ...]):
+def load_sessions(root: Path, days: tuple[str, ...], regime: str, source_delay_ms: int = 0):
     sessions = {}
     audit = []
     for day in days:
@@ -59,9 +64,20 @@ def load_sessions(root: Path, days: tuple[str, ...]):
             if symbol in TARGETS:
                 target_books[symbol] = Book.executed(rows)
         for symbol in TARGETS:
-            matrix = features(
-                observed[symbol], observed["XYZ100"], [observed["AAPL"], observed["MSFT"]],
-            )
+            if regime == "internal":
+                matrix = index_features(observed[symbol], observed["XYZ100"])
+            else:
+                matrix = features(
+                    observed[symbol], observed["XYZ100"], [observed["AAPL"], observed["MSFT"]],
+                )
+            if regime == "binance":
+                path = sample_path(root, day, symbol, BINANCE)
+                rows = read_quotes(path, symbol, BINANCE)
+                audit.append(quote_audit(path, rows, day, symbol, BINANCE))
+                # Apply extra delay only to the leader feed, keeping the Hyperliquid replay unchanged.
+                rows["receive"] += source_delay_ms * US_PER_MS
+                external = local_features(Book.observed(rows), grid)
+                matrix = binance_features(matrix, external)
             sessions[(day, symbol)] = Session(day, symbol, grid, end, matrix, target_books[symbol])
     return sessions, audit
 
@@ -87,7 +103,7 @@ def policy(sessions, forecast, execution, variant, margin, minimum_forecast=None
         prediction = values[variant]
         direction = sides(session, prediction, margin)
         if minimum_forecast is not None:
-            spread = session.features.local[:, 5]
+            spread = session.features.local[:, LOCAL_FEATURES.index("spread")]
             eligible = session.can_signal & (spread <= SPREAD_CAP_BPS) & (abs(prediction) > minimum_forecast)
             direction = np.where(eligible, np.sign(prediction), 0).astype(np.int8)
         outputs[key] = replay(session, direction, execution)
@@ -135,7 +151,9 @@ def forecast_metrics(sessions, forecasts, execution):
     return diagnostics
 
 
-def training(sessions, split):
+def training(sessions, split, regime):
+    local_names = LOCAL_FEATURES + CROSS_FEATURES if regime == "binance" else LOCAL_FEATURES
+    cross_names = {"binance": BINANCE_FEATURES, "internal": INDEX_FEATURES, "regular": CROSS_FEATURES}[regime]
     models = {}
     weights = {}
     for symbol in TARGETS:
@@ -147,7 +165,7 @@ def training(sessions, split):
             # Give both variants the same rows so the ablation tests only features.
             for index, session in enumerate(train):
                 labels[index][~np.isfinite(session.features.cross).all(axis=1)] = np.nan
-            for variant, names in (("local", LOCAL_FEATURES), ("cross", LOCAL_FEATURES + CROSS_FEATURES)):
+            for variant, names in (("local", local_names), ("cross", local_names + cross_names)):
                 model = Ridge.fit([getattr(session.features, variant) for session in train], labels)
                 models[symbol, hold, variant] = model
                 weights[symbol][str(hold)][variant] = model.serializable(names)
@@ -173,8 +191,8 @@ def choose_policy(sessions, forecasts):
 
 def run(root: Path, regime: str) -> dict:
     split = STUDIES[regime]
-    development, dev_audit = load_sessions(root, split.train + split.validation)
-    models, weights = training(development, split)
+    development, dev_audit = load_sessions(root, split.train + split.validation, regime)
+    models, weights = training(development, split, regime)
     validation = {
         hold: predictions(development, split.validation, hold, models)
         for hold in split.holds_ms
@@ -183,7 +201,7 @@ def run(root: Path, regime: str) -> dict:
 
     # Holdout is loaded only after the selection has been made.
     del development, validation
-    holdout, test_audit = load_sessions(root, split.test)
+    holdout, test_audit = load_sessions(root, split.test, regime)
     reference = selected or {"hold_ms": split.holds_ms[1], "margin_bps": 0.0}
     hold, margin = reference["hold_ms"], reference["margin_bps"]
     base = Execution(hold)
@@ -207,6 +225,15 @@ def run(root: Path, regime: str) -> dict:
     for horizon in split.holds_ms:
         forecast = predictions(holdout, split.test, horizon, models)
         diagnostic[str(horizon)] = forecast_metrics(holdout, forecast, Execution(horizon))
+    if regime == "binance":
+        delayed, _ = load_sessions(root, split.test, regime, source_delay_ms=250)
+        delayed_scores = predictions(delayed, split.test, hold, models)
+        performance["cross_250ms_extra_binance_feed"] = breakdown(
+            policy(delayed, delayed_scores, base, "cross", margin),
+        )
+        diagnostic["extra_binance_feed_delay_at_reference_hold"] = forecast_metrics(
+            delayed, delayed_scores, base,
+        )
     return {
         "regime": regime,
         "splits": asdict(split),
@@ -229,7 +256,10 @@ def main():
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     if args.command == "fetch":
-        fetch(args.data, STUDIES[args.regime].days)
+        markets = tuple((symbol, HYPERLIQUID) for symbol in SYMBOLS)
+        if args.regime == "binance":
+            markets += tuple((symbol, BINANCE) for symbol in TARGETS)
+        fetch(args.data, STUDIES[args.regime].days, markets)
         return
     report = run(args.data, args.regime)
     output = args.output or Path(f"results/{args.regime}.json")

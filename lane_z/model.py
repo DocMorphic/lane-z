@@ -19,6 +19,16 @@ CROSS_FEATURES = (
     "large_target_dislocation_1s", "large_leader_impulse_1s",
 )
 
+INDEX_FEATURES = (
+    "index_ret_250ms", "index_ret_1s", "index_ret_5s", "index_ofi_1s",
+    "index_target_gap_1s", "index_target_gap_5s", "large_index_impulse_1s",
+)
+BINANCE_FEATURES = (
+    "binance_ret_250ms", "binance_ret_1s", "binance_ret_5s", "binance_ofi_1s",
+    "binance_target_gap_250ms", "binance_target_gap_1s", "binance_target_gap_5s",
+    "relative_basis_bps", "large_binance_divergence_1s",
+)
+
 
 def delta_bps(now, earlier):
     with np.errstate(invalid="ignore", divide="ignore"):
@@ -86,6 +96,43 @@ def features(local, index, peers) -> Features:
         np.sign(average_leader) * np.maximum(abs(average_leader) - 2, 0),
     ])
     return Features(own, np.column_stack([own, cross]), mid, quote)
+
+
+def index_features(local, index) -> Features:
+    own, mid, quote = local
+    leader = index[0]
+    impulse = leader[:, 1]
+    cross = np.column_stack([
+        own, leader[:, [0, 1, 2, 4]], impulse - own[:, 1], leader[:, 2] - own[:, 2],
+        np.sign(impulse) * np.maximum(abs(impulse) - 2, 0),
+    ])
+    return Features(own, cross, mid, quote)
+
+
+def relative_basis(target_mid: np.ndarray, source_mid: np.ndarray) -> np.ndarray:
+    """Subtract the prior 60 seconds of basis, requiring 75% observed coverage."""
+    basis = delta_bps(source_mid, target_mid)
+    valid = np.isfinite(basis)
+    window = 60_000 // GRID_MS
+    cumulative = np.r_[0, np.cumsum(np.where(valid, basis, 0))]
+    count = np.r_[0, np.cumsum(valid)]
+    samples = count[window:-1] - count[:-(window + 1)]
+    previous = cumulative[window:-1] - cumulative[:-(window + 1)]
+    centered = np.full(len(basis), np.nan)
+    centered[window:] = basis[window:] - previous / np.maximum(samples, 1)
+    centered[window:][samples < 0.75 * window] = np.nan
+    return centered
+
+
+def binance_features(base: Features, external) -> Features:
+    lead, lead_mid, _ = external
+    gap = lead[:, :3] - base.local[:, :3]
+    impulse = gap[:, 1]
+    cross = np.column_stack([
+        base.cross, lead[:, [0, 1, 2, 4]], gap, relative_basis(base.mid, lead_mid),
+        np.sign(impulse) * np.maximum(abs(impulse) - 2, 0),
+    ])
+    return Features(base.cross, cross, base.mid, base.quote)
 
 
 @dataclass(frozen=True)
