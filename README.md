@@ -24,6 +24,8 @@ The positive case uses two held-out regular sessions, roughly $100 requested per
 
 The frozen Binance model made no trades in the first live Saturday window. A separate reversal rule lost money in paper tests on Hyperliquid, Binance, and Lighter, and a five-second cash queue strategy lost money on the public NYSE Arca sample. [Venue comparison and commands](docs/venue-comparison.md)
 
+India’s NSE cash screen earned ₹7,766 in its September–November price-proxy holdout and lost ₹12,793 in a separate January–May check. [NSE India results and data](docs/nse-india.md)
+
 ## Reproduce the study
 
 Use Python 3.11 or newer. The downloader fetches about 250 MB of compressed first-of-month public samples across all three arms. It keeps quote files in the ignored `data/` directory. The reports record each file's SHA-256.
