@@ -1,0 +1,244 @@
+{
+  "venue": "hyperliquid",
+  "strategy": "liquidity_shock_reversal",
+  "arca_modeled_feed_delay_ms": null,
+  "lighter_tsla_lot_size": null,
+  "execution": {
+    "base_500ms": {
+      "hold_ms": 60000,
+      "delay_ms": 500,
+      "fee_bps": 0.9,
+      "slippage_bps": 0.5,
+      "notional_usd": 500,
+      "max_venue_age_ms": 2000,
+      "lot_size": 0.001,
+      "min_order_usd": 10.0,
+      "fee_per_unit_usd": 0.0
+    },
+    "stress_900ms": {
+      "hold_ms": 60000,
+      "delay_ms": 900,
+      "fee_bps": 0.9,
+      "slippage_bps": 0.5,
+      "notional_usd": 500,
+      "max_venue_age_ms": 2000,
+      "lot_size": 0.001,
+      "min_order_usd": 10.0,
+      "fee_per_unit_usd": 0.0
+    }
+  },
+  "performance": {
+    "base_500ms": {
+      "all": {
+        "attempts": 0,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 0,
+        "entry_notional_usd": 0,
+        "gross_before_fees_usd": 0,
+        "fees_usd": 0,
+        "slippage_reserve_usd": 0,
+        "net_usd": 0,
+        "net_bps_per_entry_notional": null,
+        "win_rate": null,
+        "realized_drawdown_usd": 0.0,
+        "hold_ms_p50": null,
+        "complete": true
+      },
+      "by_day": {
+        "2026-11-21": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "NVDA": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        },
+        "TSLA": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      }
+    },
+    "stress_900ms": {
+      "all": {
+        "attempts": 0,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 0,
+        "entry_notional_usd": 0,
+        "gross_before_fees_usd": 0,
+        "fees_usd": 0,
+        "slippage_reserve_usd": 0,
+        "net_usd": 0,
+        "net_bps_per_entry_notional": null,
+        "win_rate": null,
+        "realized_drawdown_usd": 0.0,
+        "hold_ms_p50": null,
+        "complete": true
+      },
+      "by_day": {
+        "2026-11-21": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "NVDA": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        },
+        "TSLA": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      }
+    }
+  },
+  "input_audit": [
+    {
+      "day": "2026-11-21",
+      "symbol": "NVDA",
+      "data": [
+        {
+          "file": "2026-11-21-XYZ-NVDA.csv.gz",
+          "bytes": 47075,
+          "sha256": "fe57fc5b9865ae383612c5fdbcf04c7050509d37064d4e3ffd5fca725eadeaf5"
+        }
+      ],
+      "start_utc": "2026-11-21T11:24:00+00:00",
+      "end_utc": "2026-11-21T11:37:00+00:00",
+      "usable_decision_rows": 2309,
+      "funding_guarded_opportunities": {
+        "base_500ms": 0,
+        "stress_900ms": 0
+      },
+      "messages": 2912,
+      "age_ms_p50": 420.0,
+      "age_ms_p90": 537.0,
+      "spacing_ms_p50": 133.0,
+      "nonpositive_age_messages": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "TSLA",
+      "data": [
+        {
+          "file": "2026-11-21-XYZ-TSLA.csv.gz",
+          "bytes": 18172,
+          "sha256": "b388b2d67adcd38a6d2738bfbc33c5bf86cfe083062dd770d472a6f01ccb2fdb"
+        }
+      ],
+      "start_utc": "2026-11-21T11:24:00+00:00",
+      "end_utc": "2026-11-21T11:37:00+00:00",
+      "usable_decision_rows": 1745,
+      "funding_guarded_opportunities": {
+        "base_500ms": 0,
+        "stress_900ms": 0
+      },
+      "messages": 1219,
+      "age_ms_p50": 423.0,
+      "age_ms_p90": 554.4,
+      "spacing_ms_p50": 298.0,
+      "nonpositive_age_messages": 0
+    }
+  ]
+}

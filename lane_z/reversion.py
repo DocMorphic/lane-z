@@ -10,7 +10,10 @@ from pathlib import Path
 import numpy as np
 
 from .archive import arca_quotes, depth_quotes
-from .data import BPS, US_PER_HOUR, US_PER_MS, Book, read_quotes, sample_path, timestamp
+from .data import (
+    BINANCE, BPS, HYPERLIQUID, SESSIONS, US_PER_HOUR, US_PER_MS, Book,
+    read_quotes, sample_path, sample_url, timestamp,
+)
 from .forward import utc_window
 from .model import GRID_MS, Features, delta_bps, local_features
 from .replay import SPREAD_CAP_BPS, Execution, Session, replay
@@ -68,11 +71,20 @@ def reversal_direction(session: Session, execution: Execution) -> np.ndarray:
     return onset(eligible)
 
 
+def arca_queue_direction(session: Session, execution: Execution) -> np.ndarray:
+    local = session.features.local
+    eligible = funding_guarded(session, execution)
+    eligible &= (local[:, 3] >= 0.75) & (local[:, 4] > 0) & (local[:, 5] <= 1)
+    return onset(eligible)
+
+
 def make_session(day, symbol, quotes, start, end):
     if len(quotes) < 2:
         raise ValueError(f"{day} {symbol} has too few quotes")
     grid = np.arange(start, end, GRID_MS * US_PER_MS)
     local, mid, observed = local_features(Book.observed(quotes), grid)
+    if not np.isfinite(mid).any():
+        raise ValueError(f"{day} {symbol} has no usable two-sided quotes in the study window")
     return Session(day, symbol, grid, end - EXIT_BUFFER_MS * US_PER_MS,
                    Features(local, local, mid, observed), Book.executed(quotes))
 
@@ -107,10 +119,21 @@ def read_crypto_hour(root: Path, exchange: str, day: str, contract: str):
     return quotes, {**source_file(path, url), **diagnostics}
 
 
-def cases(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125):
+def cases(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125,
+          arca_queue=False, tardis_regular=False):
+    if tardis_regular:
+        exchange = HYPERLIQUID if venue == "hyperliquid" else BINANCE
+        for day in SESSIONS:
+            start, end = timestamp(day, 9, 35), timestamp(day, 15, 57)
+            for symbol in TARGETS:
+                path = sample_path(root, day, symbol, exchange)
+                audit = source_file(path, sample_url(day, symbol, exchange))
+                yield day, symbol, read_quotes(path, symbol, exchange), start, end, [audit]
+        return
     if venue == "arca":
         base = "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/"
-        for day, symbols in ARCA_SESSIONS.items():
+        arca_sessions = {"2026-07-02": ("SPY",)} if arca_queue else ARCA_SESSIONS
+        for day, symbols in arca_sessions.items():
             files = [root / f"EQY_US_TAQ_ARCA_BBO_{i}_{day.replace('-', '')}.gz" for i in (1, 2)]
             audit = [source_file(path, base + path.name) for path in files]
             quotes = arca_quotes(files, day, symbols, arca_feed_delay_ms)
@@ -132,21 +155,24 @@ def cases(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125):
             yield day, symbol, quotes, start, end, [audit]
 
 
-def run(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125):
-    execution = VENUES[venue]
+def run(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125,
+        arca_queue=False, tardis_regular=False):
+    execution = replace(VENUES[venue], hold_ms=5_000) if arca_queue else VENUES[venue]
+    signal = arca_queue_direction if arca_queue else reversal_direction
     scenarios = {"base_500ms": execution, "stress_900ms": replace(execution, delay_ms=900)}
     if venue == "binance":
         scenarios["standard_fee_5bps"] = replace(execution, fee_bps=5)
     outputs = {name: {} for name in scenarios}
     diagnostics = []
-    for day, symbol, quotes, start, end, audit in cases(root, venue, live_day, live_window, arca_feed_delay_ms):
+    samples = cases(root, venue, live_day, live_window, arca_feed_delay_ms, arca_queue, tardis_regular)
+    for day, symbol, quotes, start, end, audit in samples:
         session = make_session(day, symbol, quotes, start, end)
         key = day, symbol
         counts = {}
         for name, settings in scenarios.items():
             if venue == "lighter" and symbol == "TSLA":
                 settings = replace(settings, lot_size=0.0001)
-            direction = reversal_direction(session, settings)
+            direction = signal(session, settings)
             counts[name] = int(direction.sum())
             outputs[name][key] = replay(session, direction, settings)
         diagnostics.append({
@@ -161,6 +187,8 @@ def run(root, venue, live_day=None, live_window=None, arca_feed_delay_ms=125):
         })
     return {
         "venue": venue,
+        "strategy": "queue_pressure_diagnostic" if arca_queue else "liquidity_shock_reversal",
+        "tardis_regular": tardis_regular,
         "arca_modeled_feed_delay_ms": arca_feed_delay_ms if venue == "arca" else None,
         "lighter_tsla_lot_size": 0.0001 if venue == "lighter" else None,
         "execution": {name: asdict(settings) for name, settings in scenarios.items()},
@@ -177,12 +205,19 @@ def main():
     parser.add_argument("--date")
     parser.add_argument("--utc-window", nargs=2, metavar=("START", "END"))
     parser.add_argument("--arca-feed-delay-ms", type=int, default=125)
+    parser.add_argument("--arca-queue-diagnostic", action="store_true")
+    parser.add_argument("--tardis-regular", action="store_true")
     args = parser.parse_args()
-    if args.venue == "hyperliquid" and (not args.date or not args.utc_window):
+    if args.venue == "hyperliquid" and not args.tardis_regular and (not args.date or not args.utc_window):
         parser.error("Hyperliquid live inputs require --date and --utc-window")
+    if args.tardis_regular and args.venue not in ("hyperliquid", "binance"):
+        parser.error("--tardis-regular requires the Hyperliquid or Binance venue")
     if not 0 <= args.arca_feed_delay_ms <= 2_000:
         parser.error("--arca-feed-delay-ms must be between 0 and 2000")
-    report = run(args.data, args.venue, args.date, args.utc_window, args.arca_feed_delay_ms)
+    if args.arca_queue_diagnostic and args.venue != "arca":
+        parser.error("--arca-queue-diagnostic requires the Arca venue")
+    report = run(args.data, args.venue, args.date, args.utc_window,
+                 args.arca_feed_delay_ms, args.arca_queue_diagnostic, args.tardis_regular)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x") as file:
         json.dump(report, file, indent=2, allow_nan=False)

@@ -20,6 +20,10 @@ Every 250 ms, a ridge model estimates the move in the Hyperliquid midpoint after
 
 The positive case uses two held-out regular sessions, roughly $100 requested per order, sampled best quotes, and 0.9 bps taker fees per side. It filled 56 of 140 attempted entries, with 32 partial fills. The weekend model has one held-out session. [Full results](docs/results.md) · [Study protocol](docs/protocol.md) · [Research and sources](docs/research.md)
 
+## Follow-up venue tests
+
+The frozen Binance model made no trades in the first live Saturday window. A separate reversal rule lost money in paper tests on Hyperliquid, Binance, and Lighter, and a five-second cash queue strategy lost money on the public NYSE Arca sample. [Venue comparison and commands](docs/venue-comparison.md)
+
 ## Reproduce the study
 
 Use Python 3.11 or newer. The downloader fetches about 250 MB of compressed first-of-month public samples across all three arms. It keeps quote files in the ignored `data/` directory. The reports record each file's SHA-256.

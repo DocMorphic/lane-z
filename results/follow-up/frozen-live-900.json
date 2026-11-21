@@ -1,0 +1,222 @@
+{
+  "regime": "binance",
+  "days": [
+    "2026-11-21"
+  ],
+  "source_report": "results/binance.json",
+  "policy_status": "unqualified_reference_diagnostic",
+  "hold_ms": 5000,
+  "delay_ms": 900,
+  "fee_bps": 0.9,
+  "slippage_bps": 0.5,
+  "utc_window": [
+    "11:24",
+    "11:36"
+  ],
+  "coverage": [
+    {
+      "day": "2026-11-21",
+      "symbol": "NVDA",
+      "decision_rows": 2880,
+      "finite_forecasts": 95,
+      "forecasts_past_entry_gate": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "TSLA",
+      "decision_rows": 2880,
+      "finite_forecasts": 58,
+      "forecasts_past_entry_gate": 0
+    }
+  ],
+  "margin_bps": 0.0,
+  "performance": {
+    "all": {
+      "attempts": 0,
+      "missed_entries": 0,
+      "partial_entries": 0,
+      "delayed_exits": 0,
+      "unresolved_positions": 0,
+      "funding_crossings": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "gross_before_fees_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "net_bps_per_entry_notional": null,
+      "win_rate": null,
+      "realized_drawdown_usd": 0.0,
+      "hold_ms_p50": null,
+      "complete": true
+    },
+    "by_day": {
+      "2026-11-21": {
+        "attempts": 0,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 0,
+        "entry_notional_usd": 0,
+        "gross_before_fees_usd": 0,
+        "fees_usd": 0,
+        "slippage_reserve_usd": 0,
+        "net_usd": 0,
+        "net_bps_per_entry_notional": null,
+        "win_rate": null,
+        "realized_drawdown_usd": 0.0,
+        "hold_ms_p50": null,
+        "complete": true
+      }
+    },
+    "by_symbol": {
+      "NVDA": {
+        "attempts": 0,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 0,
+        "entry_notional_usd": 0,
+        "gross_before_fees_usd": 0,
+        "fees_usd": 0,
+        "slippage_reserve_usd": 0,
+        "net_usd": 0,
+        "net_bps_per_entry_notional": null,
+        "win_rate": null,
+        "realized_drawdown_usd": 0.0,
+        "hold_ms_p50": null,
+        "complete": true
+      },
+      "TSLA": {
+        "attempts": 0,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 0,
+        "entry_notional_usd": 0,
+        "gross_before_fees_usd": 0,
+        "fees_usd": 0,
+        "slippage_reserve_usd": 0,
+        "net_usd": 0,
+        "net_bps_per_entry_notional": null,
+        "win_rate": null,
+        "realized_drawdown_usd": 0.0,
+        "hold_ms_p50": null,
+        "complete": true
+      }
+    }
+  },
+  "data_audit": [
+    {
+      "day": "2026-11-21",
+      "symbol": "NVDA",
+      "exchange": "hyperliquid",
+      "sha256": "fe57fc5b9865ae383612c5fdbcf04c7050509d37064d4e3ffd5fca725eadeaf5",
+      "bytes": 47075,
+      "rows": 3320,
+      "session_rows": 2632,
+      "arrival_spacing_ms_p50": 133.0,
+      "arrival_spacing_ms_p90": 551.0,
+      "observation_age_ms_p50": 423.0,
+      "observation_age_ms_p90": 542.0,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "TSLA",
+      "exchange": "hyperliquid",
+      "sha256": "b388b2d67adcd38a6d2738bfbc33c5bf86cfe083062dd770d472a6f01ccb2fdb",
+      "bytes": 18172,
+      "rows": 1417,
+      "session_rows": 1102,
+      "arrival_spacing_ms_p50": 274.0,
+      "arrival_spacing_ms_p90": 1217.0,
+      "observation_age_ms_p50": 427.0,
+      "observation_age_ms_p90": 557.0,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "XYZ100",
+      "exchange": "hyperliquid",
+      "sha256": "fae11ef36a5d0c394b9013fbc1e6748949d3fe71c851f9cfe45be6b25e74b347",
+      "bytes": 26365,
+      "rows": 1976,
+      "session_rows": 1643,
+      "arrival_spacing_ms_p50": 189.0,
+      "arrival_spacing_ms_p90": 993.900000000001,
+      "observation_age_ms_p50": 421.0,
+      "observation_age_ms_p90": 545.5999999999999,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "AAPL",
+      "exchange": "hyperliquid",
+      "sha256": "145e9507e698c48252d715aa6e96914ea6e983ea6eed50429eca130da88ed7cb",
+      "bytes": 6257,
+      "rows": 476,
+      "session_rows": 380,
+      "arrival_spacing_ms_p50": 620.0,
+      "arrival_spacing_ms_p90": 5039.8,
+      "observation_age_ms_p50": 413.0,
+      "observation_age_ms_p90": 551.3000000000001,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "MSFT",
+      "exchange": "hyperliquid",
+      "sha256": "d176e55404977879902426f79d600d9b30d5d9d4847eb8ce742c41c78bec713c",
+      "bytes": 8537,
+      "rows": 662,
+      "session_rows": 577,
+      "arrival_spacing_ms_p50": 251.0,
+      "arrival_spacing_ms_p90": 1773.5,
+      "observation_age_ms_p50": 450.0,
+      "observation_age_ms_p90": 583.1999999999999,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "NVDA",
+      "exchange": "binance-futures",
+      "sha256": "6859ff3132a1aa3a8118adce8ccd105fe55fb7fb193bb18b8459e74e711afa93",
+      "bytes": 298087,
+      "rows": 37147,
+      "session_rows": 30186,
+      "arrival_spacing_ms_p50": 0.0,
+      "arrival_spacing_ms_p90": 50.0,
+      "observation_age_ms_p50": 130.0,
+      "observation_age_ms_p90": 352.0,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    },
+    {
+      "day": "2026-11-21",
+      "symbol": "TSLA",
+      "exchange": "binance-futures",
+      "sha256": "df5d55028ba6789c17d152a1e01a61d265982fce3a4d46b7eae65f187e66f059",
+      "bytes": 71531,
+      "rows": 8755,
+      "session_rows": 7409,
+      "arrival_spacing_ms_p50": 1.0,
+      "arrival_spacing_ms_p90": 168.30000000000018,
+      "observation_age_ms_p50": 131.0,
+      "observation_age_ms_p90": 446.0,
+      "venue_out_of_order": 0,
+      "negative_observation_age": 0
+    }
+  ]
+}

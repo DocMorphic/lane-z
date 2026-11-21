@@ -108,7 +108,7 @@ def arca_quotes(files: list[Path], day: str, symbols: tuple[str, ...], feed_dela
                 _, seq, stamp, symbol, *fields = line.decode("ascii").split(",")
                 if symbol not in by_symbol:
                     continue
-                _, bid, bid_size, ask, ask_size, condition, *_ = fields
+                _, ask, ask_size, bid, bid_size, condition, *_ = fields
                 venue = midnight + us_since_midnight(stamp)
                 receive = venue + feed_delay_ms * US_PER_MS
                 if condition == "R":

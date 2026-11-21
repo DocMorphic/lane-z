@@ -1,0 +1,190 @@
+{
+  "venue": "arca",
+  "strategy": "queue_pressure_diagnostic",
+  "arca_modeled_feed_delay_ms": 125,
+  "lighter_tsla_lot_size": null,
+  "execution": {
+    "base_500ms": {
+      "hold_ms": 5000,
+      "delay_ms": 500,
+      "fee_bps": 0.5,
+      "slippage_bps": 0.5,
+      "notional_usd": 1000,
+      "max_venue_age_ms": 2000,
+      "lot_size": 1,
+      "min_order_usd": 0,
+      "fee_per_unit_usd": 0.003
+    },
+    "stress_900ms": {
+      "hold_ms": 5000,
+      "delay_ms": 900,
+      "fee_bps": 0.5,
+      "slippage_bps": 0.5,
+      "notional_usd": 1000,
+      "max_venue_age_ms": 2000,
+      "lot_size": 1,
+      "min_order_usd": 0,
+      "fee_per_unit_usd": 0.003
+    }
+  },
+  "performance": {
+    "base_500ms": {
+      "all": {
+        "attempts": 819,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 819,
+        "entry_notional_usd": 610102.95,
+        "gross_before_fees_usd": -27.449999999999704,
+        "fees_usd": 65.9229225,
+        "slippage_reserve_usd": 61.0089225,
+        "net_usd": -154.38184499999971,
+        "net_bps_per_entry_notional": -2.530422857322682,
+        "win_rate": 0.028083028083028084,
+        "realized_drawdown_usd": 154.38184499999994,
+        "hold_ms_p50": 5500.0,
+        "complete": true
+      },
+      "by_day": {
+        "2026-07-02": {
+          "attempts": 819,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 819,
+          "entry_notional_usd": 610102.95,
+          "gross_before_fees_usd": -27.449999999999704,
+          "fees_usd": 65.9229225,
+          "slippage_reserve_usd": 61.0089225,
+          "net_usd": -154.38184499999971,
+          "net_bps_per_entry_notional": -2.530422857322682,
+          "win_rate": 0.028083028083028084,
+          "realized_drawdown_usd": 154.38184499999994,
+          "hold_ms_p50": 5500.0,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "SPY": {
+          "attempts": 819,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 819,
+          "entry_notional_usd": 610102.95,
+          "gross_before_fees_usd": -27.449999999999704,
+          "fees_usd": 65.9229225,
+          "slippage_reserve_usd": 61.0089225,
+          "net_usd": -154.38184499999971,
+          "net_bps_per_entry_notional": -2.530422857322682,
+          "win_rate": 0.028083028083028084,
+          "realized_drawdown_usd": 154.38184499999994,
+          "hold_ms_p50": 5500.0,
+          "complete": true
+        }
+      }
+    },
+    "stress_900ms": {
+      "all": {
+        "attempts": 753,
+        "missed_entries": 2,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 751,
+        "entry_notional_usd": 559402.22,
+        "gross_before_fees_usd": -26.90000000000032,
+        "fees_usd": 60.444877000000005,
+        "slippage_reserve_usd": 55.938877,
+        "net_usd": -143.28375400000033,
+        "net_bps_per_entry_notional": -2.561372638099297,
+        "win_rate": 0.02663115845539281,
+        "realized_drawdown_usd": 143.28375400000027,
+        "hold_ms_p50": 6000.0,
+        "complete": true
+      },
+      "by_day": {
+        "2026-07-02": {
+          "attempts": 753,
+          "missed_entries": 2,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 751,
+          "entry_notional_usd": 559402.22,
+          "gross_before_fees_usd": -26.90000000000032,
+          "fees_usd": 60.444877000000005,
+          "slippage_reserve_usd": 55.938877,
+          "net_usd": -143.28375400000033,
+          "net_bps_per_entry_notional": -2.561372638099297,
+          "win_rate": 0.02663115845539281,
+          "realized_drawdown_usd": 143.28375400000027,
+          "hold_ms_p50": 6000.0,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "SPY": {
+          "attempts": 753,
+          "missed_entries": 2,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 751,
+          "entry_notional_usd": 559402.22,
+          "gross_before_fees_usd": -26.90000000000032,
+          "fees_usd": 60.444877000000005,
+          "slippage_reserve_usd": 55.938877,
+          "net_usd": -143.28375400000033,
+          "net_bps_per_entry_notional": -2.561372638099297,
+          "win_rate": 0.02663115845539281,
+          "realized_drawdown_usd": 143.28375400000027,
+          "hold_ms_p50": 6000.0,
+          "complete": true
+        }
+      }
+    }
+  },
+  "input_audit": [
+    {
+      "day": "2026-07-02",
+      "symbol": "SPY",
+      "data": [
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_1_20260702.gz",
+          "bytes": 481841353,
+          "sha256": "f246ead938d1b15d33dc1deb439290fa2c090531a6a6e2fead8f5a8e43a7cdb1",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_1_20260702.gz"
+        },
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_2_20260702.gz",
+          "bytes": 434210882,
+          "sha256": "de758f0b0469d4d219f8fa844d18c0a71e64dcaff8a2a6b1d2680c25ae11bd99",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_2_20260702.gz"
+        }
+      ],
+      "start_utc": "2026-07-02T13:35:00+00:00",
+      "end_utc": "2026-07-02T19:57:00+00:00",
+      "usable_decision_rows": 89760,
+      "funding_guarded_opportunities": {
+        "base_500ms": 1507,
+        "stress_900ms": 1507
+      },
+      "messages": 3071134,
+      "age_ms_p50": 125.0,
+      "age_ms_p90": 125.0,
+      "spacing_ms_p50": 0.297,
+      "nonpositive_age_messages": 0
+    }
+  ]
+}

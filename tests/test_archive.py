@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 
 from lane_z.archive import arca_quotes, reconstruct_depth
-from lane_z.data import QUOTE_DTYPE, US_PER_MS, timestamp
+from lane_z.data import QUOTE_DTYPE, US_PER_MS, Book, timestamp
 
 
 class ArchiveTest(unittest.TestCase):
@@ -33,14 +33,16 @@ class ArchiveTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory, "sample.gz")
             with gzip.open(path, "wt") as sample:
-                sample.write("140,30,09:35:00.123456789,NVDA,4,100,120,101,130,R, \n")
-                sample.write("140,31,09:35:00.223456789,NVDA,5,100,100,101,100,N, \n")
-                sample.write("140,32,09:35:00.223456789,TSLA,5,900,100,901,100,R, \n")
+                sample.write("140,30,09:35:00.123456789,NVDA,4,101,130,100,120,R, \n")
+                sample.write("140,31,09:35:00.223456789,NVDA,5,101,100,100,100,N, \n")
+                sample.write("140,32,09:35:00.223456789,TSLA,5,901,100,900,100,R, \n")
             market = arca_quotes([path], "2026-07-01", ("NVDA",), 125)["NVDA"]
         self.assertEqual(len(market), 2)
         self.assertEqual(market[0]["venue"], timestamp("2026-07-01", 9, 35) + 123_456)
         self.assertEqual(market[0]["receive"] - market[0]["venue"], 125 * US_PER_MS)
         self.assertEqual((market[0]["bid"], market[0]["ask_size"]), (100, 130))
+        _, usable = Book.observed(market).asof(market["receive"], 2_000_000)
+        np.testing.assert_array_equal(usable, [True, False])
         self.assertTrue(np.isnan(market[1]["bid"]))
 
 

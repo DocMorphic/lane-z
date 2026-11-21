@@ -1,0 +1,326 @@
+{
+  "venue": "arca",
+  "strategy": "liquidity_shock_reversal",
+  "arca_modeled_feed_delay_ms": 125,
+  "lighter_tsla_lot_size": null,
+  "execution": {
+    "base_500ms": {
+      "hold_ms": 60000,
+      "delay_ms": 500,
+      "fee_bps": 0.5,
+      "slippage_bps": 0.5,
+      "notional_usd": 1000,
+      "max_venue_age_ms": 2000,
+      "lot_size": 1,
+      "min_order_usd": 0,
+      "fee_per_unit_usd": 0.003
+    },
+    "stress_900ms": {
+      "hold_ms": 60000,
+      "delay_ms": 900,
+      "fee_bps": 0.5,
+      "slippage_bps": 0.5,
+      "notional_usd": 1000,
+      "max_venue_age_ms": 2000,
+      "lot_size": 1,
+      "min_order_usd": 0,
+      "fee_per_unit_usd": 0.003
+    }
+  },
+  "performance": {
+    "base_500ms": {
+      "all": {
+        "attempts": 1,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 1,
+        "entry_notional_usd": 898.23,
+        "gross_before_fees_usd": 0.0,
+        "fees_usd": 0.107823,
+        "slippage_reserve_usd": 0.089823,
+        "net_usd": -0.197646,
+        "net_bps_per_entry_notional": -2.2003941084132124,
+        "win_rate": 0.0,
+        "realized_drawdown_usd": 0.197646,
+        "hold_ms_p50": 60500.0,
+        "complete": true
+      },
+      "by_day": {
+        "2026-07-01": {
+          "attempts": 1,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 1,
+          "entry_notional_usd": 898.23,
+          "gross_before_fees_usd": 0.0,
+          "fees_usd": 0.107823,
+          "slippage_reserve_usd": 0.089823,
+          "net_usd": -0.197646,
+          "net_bps_per_entry_notional": -2.2003941084132124,
+          "win_rate": 0.0,
+          "realized_drawdown_usd": 0.197646,
+          "hold_ms_p50": 60500.0,
+          "complete": true
+        },
+        "2026-07-02": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "SPY": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        },
+        "IWM": {
+          "attempts": 1,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 1,
+          "entry_notional_usd": 898.23,
+          "gross_before_fees_usd": 0.0,
+          "fees_usd": 0.107823,
+          "slippage_reserve_usd": 0.089823,
+          "net_usd": -0.197646,
+          "net_bps_per_entry_notional": -2.2003941084132124,
+          "win_rate": 0.0,
+          "realized_drawdown_usd": 0.197646,
+          "hold_ms_p50": 60500.0,
+          "complete": true
+        }
+      }
+    },
+    "stress_900ms": {
+      "all": {
+        "attempts": 1,
+        "missed_entries": 0,
+        "partial_entries": 0,
+        "delayed_exits": 0,
+        "unresolved_positions": 0,
+        "funding_crossings": 0,
+        "round_trips": 1,
+        "entry_notional_usd": 898.08,
+        "gross_before_fees_usd": 0.029999999999972715,
+        "fees_usd": 0.1078095,
+        "slippage_reserve_usd": 0.0898095,
+        "net_usd": -0.16761900000002727,
+        "net_bps_per_entry_notional": -1.8664150187068775,
+        "win_rate": 0.0,
+        "realized_drawdown_usd": 0.16761900000002727,
+        "hold_ms_p50": 61000.0,
+        "complete": true
+      },
+      "by_day": {
+        "2026-07-01": {
+          "attempts": 1,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 1,
+          "entry_notional_usd": 898.08,
+          "gross_before_fees_usd": 0.029999999999972715,
+          "fees_usd": 0.1078095,
+          "slippage_reserve_usd": 0.0898095,
+          "net_usd": -0.16761900000002727,
+          "net_bps_per_entry_notional": -1.8664150187068775,
+          "win_rate": 0.0,
+          "realized_drawdown_usd": 0.16761900000002727,
+          "hold_ms_p50": 61000.0,
+          "complete": true
+        },
+        "2026-07-02": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        }
+      },
+      "by_symbol": {
+        "SPY": {
+          "attempts": 0,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 0,
+          "entry_notional_usd": 0,
+          "gross_before_fees_usd": 0,
+          "fees_usd": 0,
+          "slippage_reserve_usd": 0,
+          "net_usd": 0,
+          "net_bps_per_entry_notional": null,
+          "win_rate": null,
+          "realized_drawdown_usd": 0.0,
+          "hold_ms_p50": null,
+          "complete": true
+        },
+        "IWM": {
+          "attempts": 1,
+          "missed_entries": 0,
+          "partial_entries": 0,
+          "delayed_exits": 0,
+          "unresolved_positions": 0,
+          "funding_crossings": 0,
+          "round_trips": 1,
+          "entry_notional_usd": 898.08,
+          "gross_before_fees_usd": 0.029999999999972715,
+          "fees_usd": 0.1078095,
+          "slippage_reserve_usd": 0.0898095,
+          "net_usd": -0.16761900000002727,
+          "net_bps_per_entry_notional": -1.8664150187068775,
+          "win_rate": 0.0,
+          "realized_drawdown_usd": 0.16761900000002727,
+          "hold_ms_p50": 61000.0,
+          "complete": true
+        }
+      }
+    }
+  },
+  "input_audit": [
+    {
+      "day": "2026-07-01",
+      "symbol": "SPY",
+      "data": [
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_1_20260701.gz",
+          "bytes": 359371630,
+          "sha256": "dd4d7557f5b994cb3e36403d3949bf5ccad3d0eabae880d7db9fd72525d9f6f6",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_1_20260701.gz"
+        },
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_2_20260701.gz",
+          "bytes": 341365823,
+          "sha256": "ae35bbecb94cd7dad13301e096716e69be67754e182e959ec84c55a21db5c427",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_2_20260701.gz"
+        }
+      ],
+      "start_utc": "2026-07-01T13:35:00+00:00",
+      "end_utc": "2026-07-01T19:57:00+00:00",
+      "usable_decision_rows": 89755,
+      "funding_guarded_opportunities": {
+        "base_500ms": 0,
+        "stress_900ms": 0
+      },
+      "messages": 2693257,
+      "age_ms_p50": 125.0,
+      "age_ms_p90": 125.0,
+      "spacing_ms_p50": 0.167,
+      "nonpositive_age_messages": 0
+    },
+    {
+      "day": "2026-07-01",
+      "symbol": "IWM",
+      "data": [
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_1_20260701.gz",
+          "bytes": 359371630,
+          "sha256": "dd4d7557f5b994cb3e36403d3949bf5ccad3d0eabae880d7db9fd72525d9f6f6",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_1_20260701.gz"
+        },
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_2_20260701.gz",
+          "bytes": 341365823,
+          "sha256": "ae35bbecb94cd7dad13301e096716e69be67754e182e959ec84c55a21db5c427",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_2_20260701.gz"
+        }
+      ],
+      "start_utc": "2026-07-01T13:35:00+00:00",
+      "end_utc": "2026-07-01T19:57:00+00:00",
+      "usable_decision_rows": 89697,
+      "funding_guarded_opportunities": {
+        "base_500ms": 1,
+        "stress_900ms": 1
+      },
+      "messages": 1011529,
+      "age_ms_p50": 125.0,
+      "age_ms_p90": 125.0,
+      "spacing_ms_p50": 0.33,
+      "nonpositive_age_messages": 0
+    },
+    {
+      "day": "2026-07-02",
+      "symbol": "SPY",
+      "data": [
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_1_20260702.gz",
+          "bytes": 481841353,
+          "sha256": "f246ead938d1b15d33dc1deb439290fa2c090531a6a6e2fead8f5a8e43a7cdb1",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_1_20260702.gz"
+        },
+        {
+          "file": "EQY_US_TAQ_ARCA_BBO_2_20260702.gz",
+          "bytes": 434210882,
+          "sha256": "de758f0b0469d4d219f8fa844d18c0a71e64dcaff8a2a6b1d2680c25ae11bd99",
+          "url": "https://ftp.nyse.com/Historical%20Data%20Samples/TAQ%20NYSE%20ARCA%20BBO/EQY_US_TAQ_ARCA_BBO_2_20260702.gz"
+        }
+      ],
+      "start_utc": "2026-07-02T13:35:00+00:00",
+      "end_utc": "2026-07-02T19:57:00+00:00",
+      "usable_decision_rows": 89760,
+      "funding_guarded_opportunities": {
+        "base_500ms": 0,
+        "stress_900ms": 0
+      },
+      "messages": 3071134,
+      "age_ms_p50": 125.0,
+      "age_ms_p90": 125.0,
+      "spacing_ms_p50": 0.297,
+      "nonpositive_age_messages": 0
+    }
+  ]
+}
