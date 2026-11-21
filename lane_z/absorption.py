@@ -26,13 +26,14 @@ MIN_TRADE_SHARE = 0.10
 MIN_AGGRESSOR_IMBALANCE = 0.60
 MIN_REFILL_SHARE = 0.10
 MIN_REFILL_DIRECTION_MOVE_BPS = 0.35
+TRADE_DTYPE = np.dtype([
+    ("venue", "i8"), ("receive", "i8"), ("price", "f8"), ("amount", "f8"), ("taker_sold", "?"),
+])
 
 
-def public_trades(path, symbol, grid):
+def read_public_trades(path, symbol):
     seen = set()
-    received = []
-    sizes = []
-    sellers = []
+    valid = []
     rows = 0
     discarded_by_age = 0
     previous = -1
@@ -44,9 +45,10 @@ def public_trades(path, symbol, grid):
             timestamp = int(row["timestamp"])
             receipt = int(row["local_timestamp"])
             key = timestamp, row["trade_id"]
+            price = float(row["price"])
             size = float(row["amount"])
             side = row["side"]
-            if previous > receipt or side not in ("A", "B") or not np.isfinite(size) or size <= 0:
+            if previous > receipt or side not in ("A", "B") or not np.isfinite(size + price) or min(price, size) <= 0:
                 raise ValueError(f"invalid public trade in {path}")
             previous = receipt
             if not 0 <= receipt - timestamp <= MAX_TRADE_AGE_MS * US_PER_MS:
@@ -55,12 +57,11 @@ def public_trades(path, symbol, grid):
             if key in seen:
                 continue
             seen.add(key)
-            received.append(receipt * 1_000)
-            sizes.append(size)
-            sellers.append(side == "A")
-    flow = aggressor_flow(np.asarray(received, dtype=np.int64), np.asarray(sizes), np.asarray(sellers, dtype=bool), grid)
-    return flow, {**source_file(path), "trade_rows": rows, "usable_trade_rows": len(received),
-                  "discarded_by_age": discarded_by_age, "duplicates": rows - len(received) - discarded_by_age}
+            valid.append((timestamp, receipt, price, size, side == "A"))
+    return np.array(valid, dtype=TRADE_DTYPE), {
+        **source_file(path), "trade_rows": rows, "usable_trade_rows": len(valid),
+        "discarded_by_age": discarded_by_age, "duplicates": rows - len(valid) - discarded_by_age,
+    }
 
 
 def direction(session, signed_flow, volume):
@@ -87,7 +88,8 @@ def run(day, window, quote_root, trade_root):
         trades_path = sample_path(trade_root, day, symbol)
         quotes = read_quotes(quote_path, symbol)
         session = make_session(day, symbol, quotes, start, end)
-        flow, trade_audit = public_trades(trades_path, symbol, session.grid)
+        trades, trade_audit = read_public_trades(trades_path, symbol)
+        flow = aggressor_flow(trades["receive"] * 1_000, trades["amount"], trades["taker_sold"], session.grid)
         signals = direction(session, *flow)
         for name, execution in SCENARIOS.items():
             signals_allowed = np.where(funding_guarded(session, execution), signals, 0)

@@ -53,6 +53,21 @@ The archive provided 53,659 comparable validation labels and 80,520 held-out lab
 
 The richer forecast improved correlation in validation (0.02241 versus 0.00696 for local), and the gain disappeared on the holdout. Aggressor flow, same-price depth changes, and external quotes were plausible signals. Together they produced no executable edge in this sample. The exercise left the paper portfolio flat. [Full metrics and 48 source hashes](../results/follow-up/maker-response.json)
 
+## Hyperliquid passive execution
+
+The public L2 API exposes aggregate quantity and order count at each price. The public trade stream shows prints and aggression, which support adverse-selection measurements. A new passive paper order needs an estimate of how much was ahead when it arrived and which orders left through trading or cancellation. The L2 totals alone cannot establish those quantities. The official `order_book_server` uses order-level snapshots and ordered diffs to reconstruct the queue, and its API describes the `insertBefore` field for insertion order. On Hyperliquid, price/time is the standard matching rule, with paid priority able to reorder the youngest 400 ms of resting post-only orders. The fee for that priority can be charged even if the order never fills. [Public message formats](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/websocket/subscriptions) · [Matching rules](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/order-book) · [Priority rules](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees) · [Order book server](https://github.com/hyperliquid-dex/order_book_server)
+
+In the independent NVDA check from 17:00 to 18:00 UTC on November 21, 1,182 of 1,576 timely distinct trade prints matched the resting side of the strictly earlier recorded best quote. The median quoted spread was 0.77 bps. At the median spread and with an unchanged midpoint, buying and selling passively across both sides would leave about 0.17 bps after two 0.3 bp Tier 0 growth-mode maker fees, before adverse selection, queue costs, and other frictions. [Trade[XYZ] fee schedule](https://docs.trade.xyz/perpetuals/mechanics/fees/)
+
+| Time after observed NVDA print | Notional-weighted maker midpoint markout | Notional-weighted exit proxy |
+| --- | ---: | ---: |
+| 500 ms | +0.013 bps | −2.174 bps |
+| 5 s | −0.334 bps | −2.424 bps |
+| 15.5 s | −0.637 bps | −2.745 bps |
+| 60.5 s | −0.866 bps | −2.962 bps |
+
+Markout measures the signed move from the observed trade price to the later midpoint. The exit proxy uses the later liquidation-side touch and charges a 0.3 bp maker entry fee, a 0.9 bp taker exit fee and a 0.5 bp exit reserve. It filters out old quotes and exits that cross funding. These figures describe actual public prints under a hypothetical exit. They provide no evidence of our place in the queue or a passive paper fill rate.
+
 ## Reproduction
 
 Install `requirements-research.txt`. The report records the URL and SHA-256 of every input. Download them into `data/makers/` under the report's `file` names, then run the following command.
@@ -60,3 +75,5 @@ Install `requirements-research.txt`. The report records the URL and SHA-256 of e
 ```sh
 python -m lane_z.makers --data data/makers --output data/maker-response.json
 ```
+
+To inspect passive markout on a fresh closed capture, run the public quote recorder and its `--hyperliquid-trades-only` mode into separate directories, then pass both directories to `python -m lane_z.passive_markout`. Keep observations after the analysis window to look up the exit touches.
