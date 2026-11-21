@@ -81,7 +81,7 @@ def read_trades(root, day, symbol, grid):
     }
 
 
-def liquidity_features(session, signed, volume, leader):
+def quote_liquidity(session):
     local = session.features.local
     quote = session.features.quote
     valid = np.isfinite(session.features.mid)
@@ -104,15 +104,21 @@ def liquidity_features(session, signed, volume, leader):
         deltas, SECOND, axis=0,
     ).sum(axis=2) / depth[SECOND:, None]
     spread_change = np.r_[np.full(SECOND, np.nan), spread[SECOND:] - spread[:-SECOND]]
+    wide = (spread[SECOND:] > 2.5) & (spread[SECOND:] >= 2 * spread[:-SECOND])
+    thin = depth[SECOND:] < 0.25 * depth[:-SECOND]
+    withdrawal = np.r_[np.zeros(SECOND, dtype=bool), wide | thin]
+    return depth, depth_changes, spread_change, withdrawal
+
+
+def liquidity_features(session, signed, volume, leader):
+    local = session.features.local
+    depth, depth_changes, spread_change, withdrawal = quote_liquidity(session)
     flow = np.divide(signed, volume, out=np.zeros_like(signed), where=volume > 0)
     with_flow = np.column_stack([local, flow, volume / depth])
     full = np.column_stack([
         with_flow, depth_changes, spread_change, flow * depth_changes[:, 0],
         leader[:, [0, 1, 4]], leader[:, 1] - local[:, 1],
     ])
-    wide = (spread[SECOND:] > 2.5) & (spread[SECOND:] >= 2 * spread[:-SECOND])
-    thin = depth[SECOND:] < 0.25 * depth[:-SECOND]
-    withdrawal = np.r_[np.zeros(SECOND, dtype=bool), wide | thin]
     return {"local": local, "flow": with_flow, "book_and_leader": full}, withdrawal
 
 

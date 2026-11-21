@@ -19,6 +19,14 @@ The November 4, 11, 13, 18, 19, and 20 15:00–16:00 UTC Binance and Lighter arc
 
 The two public Arca sample channels did not contain NVDA or TSLA. Their symbol-mapping records did contain SPY and IWM, so the cash arm uses those two liquid ETFs and explicitly compares different instruments. This availability adjustment was made before observing any cash-arm returns.
 
+## Hyperliquid weekend priorities
+
+Replay the published 15-second Hyperliquid-only weekend model on the same fresh weekend quotes as the published five-second Binance-input model. Both trade Hyperliquid Trade[XYZ] NVDA and TSLA in paper and retain their original fitted parameters and entry gates. The weekend model needs the target and XYZ100 books, independent of Binance. Compare forecast coverage, attempts, fills, and net dollars at each modeled order delay. Test the fixed 60-second Hyperliquid reversal as a separate rule.
+
+The additional absorption rule observes Hyperliquid's public trade prints and BBO on a common local receipt clock. Over the trailing second, require aggressive volume of at least 10% of displayed best-level depth, an aggressor imbalance of at least 60% of the traded size, and net replenishment of at least 10% of displayed depth at unchanged prices on the opposing side. Require the last 250 ms midpoint move to favor that replenishing side by at least 0.35 bps. Enter in that direction when the conditions first hold. Require a two-sided quote at most 1,000 ms old and a maximum spread of 5 bps. Stand aside if combined displayed depth falls below 25% of its level a second earlier or the spread doubles above 2.5 bps. Public size changes aggregate orders from multiple participants. They can miss additions and removals between observations. [Public WebSocket message formats](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/websocket/subscriptions)
+
+For absorption, request $100 per entry, hold 15,000 ms, and use the existing price limits and funding guard. Simulate 250, 500, and 900 ms per order leg with 0.9 bps fees and 0.5 bps slippage per side. Use November 21 from 17:00 UTC and November 22 from 00:02 UTC, ending entries at about 23:58 and 04:57 UTC respectively. The extra capture started shortly before the first window for warm-up. Trades observed over two seconds after their venue time and duplicate venue-time and trade-ID pairs are discarded. Freeze this rule before replay and treat the two windows as a single weekend observation.
+
 ## Separate Lighter continuation check
 
 The Binance and Lighter cash-hour reversal arms were negative before explicit fees. A different hypothesis is that a small pullback after a confirmed move continues in the direction of the move when an independently priced same-stock perp still confirms it. Try this on Lighter Standard, which has lower explicit taker cost and a mandatory matching delay.
