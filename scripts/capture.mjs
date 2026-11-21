@@ -5,14 +5,22 @@ import { createGzip } from "node:zlib";
 
 const [directory, secondsArg, mode, ...extra] = process.argv.slice(2);
 const seconds = Number(secondsArg);
+const modes = ["--hyperliquid-trades-only", "--hyperliquid-context-only"];
 if (!directory || !Number.isSafeInteger(seconds) || seconds < 1 || seconds > 86_400 ||
-    (mode !== undefined && mode !== "--hyperliquid-trades-only") || extra.length) {
-  throw new Error("Usage: node scripts/capture.mjs OUTPUT_DIRECTORY SECONDS [--hyperliquid-trades-only]");
+    (mode !== undefined && !modes.includes(mode)) || extra.length) {
+  throw new Error("Usage: node scripts/capture.mjs OUTPUT_DIRECTORY SECONDS [--hyperliquid-trades-only|--hyperliquid-context-only]");
 }
 
 const tradesOnly = mode === "--hyperliquid-trades-only";
-const hyperliquid = tradesOnly ? ["NVDA", "TSLA"] : ["NVDA", "TSLA", "XYZ100", "AAPL", "MSFT"];
-const binance = tradesOnly ? [] : ["NVDAUSDT", "TSLAUSDT"];
+const contextOnly = mode === "--hyperliquid-context-only";
+const hyperliquid = mode ? ["NVDA", "TSLA"] : ["NVDA", "TSLA", "XYZ100", "AAPL", "MSFT"];
+const binance = mode ? [] : ["NVDAUSDT", "TSLAUSDT"];
+const hyperChannel = tradesOnly ? "trades" : contextOnly ? "activeAssetCtx" : "bbo";
+const columns = {
+  trades: "trade_id,side,price,amount",
+  activeAssetCtx: "index_price,mark_price,funding_rate,open_interest",
+  bbo: "ask_amount,ask_price,bid_price,bid_amount",
+}[hyperChannel];
 const streams = binance.map(symbol => symbol.toLowerCase() + "@bookTicker").join("/");
 const files = new Map();
 const sockets = new Set();
@@ -33,7 +41,6 @@ function record(exchange, symbol, venueMs, receivedMs, fields) {
       process.exitCode = 1;
       void stop();
     });
-    const columns = tradesOnly ? "trade_id,side,price,amount" : "ask_amount,ask_price,bid_price,bid_amount";
     gzip.write("exchange,symbol,timestamp,local_timestamp," + columns + "\n");
     files.set(path, { gzip, flushed, rows: 0, symbol });
   }
@@ -99,13 +106,11 @@ async function stop(error) {
 
 const currentHyperSocket = connect("wss://api.hyperliquid.xyz/ws", socket => {
   for (const symbol of hyperliquid) {
-    socket.send(JSON.stringify({ method: "subscribe", subscription: {
-      type: tradesOnly ? "trades" : "bbo", coin: "xyz:" + symbol,
-    } }));
+    socket.send(JSON.stringify({ method: "subscribe", subscription: { type: hyperChannel, coin: "xyz:" + symbol } }));
   }
 }, (message, receivedMs) => {
+  if (message.channel !== hyperChannel) return;
   if (tradesOnly) {
-    if (message.channel !== "trades") return;
     for (const trade of message.data) {
       if (hyperliquid.includes(trade.coin.slice(4)) && Number.isSafeInteger(trade.time)) {
         record("hyperliquid", trade.coin.toUpperCase(), trade.time, receivedMs, [trade.tid, trade.side, trade.px, trade.sz]);
@@ -113,7 +118,15 @@ const currentHyperSocket = connect("wss://api.hyperliquid.xyz/ws", socket => {
     }
     return;
   }
-  if (message.channel !== "bbo") return;
+  if (contextOnly) {
+    const { coin, ctx } = message.data;
+    if (hyperliquid.includes(coin.slice(4))) {
+      // The context message has no venue timestamp. Its observation time is the local receipt clock.
+      record("hyperliquid", coin.toUpperCase(), receivedMs, receivedMs,
+             [ctx.oraclePx, ctx.markPx, ctx.funding, ctx.openInterest]);
+    }
+    return;
+  }
   const { coin, time, bbo: [bid, ask] } = message.data;
   const symbol = coin.slice(4);
   if (hyperliquid.includes(symbol) && Number.isSafeInteger(time)) {
