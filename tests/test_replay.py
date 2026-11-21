@@ -97,6 +97,8 @@ class ReplayTest(unittest.TestCase):
         self.assertAlmostEqual(trade.size, 0.3)
         self.assertEqual(trade.exit_time, self.grid[10])
         self.assertAlmostEqual(trade.gross_usd, -0.006)
+        self.assertAlmostEqual(summary["midpoint_move_usd"], 0)
+        self.assertAlmostEqual(summary["spread_cost_usd"], 0.006)
         self.assertAlmostEqual(trade.fees_usd, 60 * 0.9 / 10_000)
         self.assertAlmostEqual(trade.net_usd, -0.0129)
 

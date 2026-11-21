@@ -57,6 +57,7 @@ class Trade:
     size: float
     entry_usd: float
     gross_usd: float
+    midpoint_move_usd: float
     fees_usd: float
     slippage_usd: float
 
@@ -150,6 +151,7 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
 
         remains = lots
         exit_usd = 0.0
+        exit_midpoint_usd = 0.0
         last_consumed = None
         first_exit = index + holding_steps
         retry_step = max(1, int(np.ceil(2 * execution.delay_ms / GRID_MS)))
@@ -166,7 +168,9 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
             if exited:
                 last_consumed = quote["venue"]
                 remains -= exited
-                exit_usd += exited * lot_size * exit_px
+                exited_quantity = exited * lot_size
+                exit_usd += exited_quantity * exit_px
+                exit_midpoint_usd += exited_quantity * (quote["bid"] + quote["ask"]) / 2
             if not remains:
                 break
 
@@ -182,10 +186,12 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
 
         quantity = lots * lot_size
         entry_usd = quantity * entry_px
+        entry_midpoint_usd = quantity * (venue_quotes[index]["bid"] + venue_quotes[index]["ask"]) / 2
         turnover = entry_usd + exit_usd
         result.trades.append(Trade(
             decision, entry_time, exit_time, side, quantity, entry_usd,
             side * (exit_usd - entry_usd),
+            side * (exit_midpoint_usd - entry_midpoint_usd),
             turnover * execution.fee_bps / BPS + 2 * quantity * execution.fee_per_unit_usd,
             turnover * execution.slippage_bps / BPS,
         ))
@@ -198,6 +204,7 @@ def summarize(reports: list[ReplayResult]) -> dict:
         key=lambda trade: trade.exit_time,
     )
     gross = sum(trade.gross_usd for trade in trades)
+    midpoint_move = sum(trade.midpoint_move_usd for trade in trades)
     fees = sum(trade.fees_usd for trade in trades)
     slippage = sum(trade.slippage_usd for trade in trades)
     entry = sum(trade.entry_usd for trade in trades)
@@ -213,6 +220,8 @@ def summarize(reports: list[ReplayResult]) -> dict:
     result.update({
         "round_trips": len(trades),
         "entry_notional_usd": entry,
+        "midpoint_move_usd": midpoint_move,
+        "spread_cost_usd": midpoint_move - gross,
         "gross_before_fees_usd": gross,
         "fees_usd": fees,
         "slippage_reserve_usd": slippage,
