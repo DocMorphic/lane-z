@@ -151,9 +151,14 @@ def forecast_metrics(sessions, forecasts, execution):
     return diagnostics
 
 
-def training(sessions, split, regime):
+def feature_names(regime):
     local_names = LOCAL_FEATURES + CROSS_FEATURES if regime == "binance" else LOCAL_FEATURES
     cross_names = {"binance": BINANCE_FEATURES, "internal": INDEX_FEATURES, "regular": CROSS_FEATURES}[regime]
+    return {"local": local_names, "cross": local_names + cross_names}
+
+
+def training(sessions, split, regime):
+    names = feature_names(regime)
     models = {}
     weights = {}
     for symbol in TARGETS:
@@ -165,10 +170,10 @@ def training(sessions, split, regime):
             # Give both variants the same rows so the ablation tests only features.
             for index, session in enumerate(train):
                 labels[index][~np.isfinite(session.features.cross).all(axis=1)] = np.nan
-            for variant, names in (("local", local_names), ("cross", local_names + cross_names)):
+            for variant, columns in names.items():
                 model = Ridge.fit([getattr(session.features, variant) for session in train], labels)
                 models[symbol, hold, variant] = model
-                weights[symbol][str(hold)][variant] = model.serializable(names)
+                weights[symbol][str(hold)][variant] = model.serializable(columns)
     return models, weights
 
 
@@ -208,7 +213,9 @@ def run(root: Path, regime: str) -> dict:
     scores = predictions(holdout, split.test, hold, models)
     scenarios = {
         "cross_base": base,
+        "cross_500ms": replace(base, delay_ms=500),
         "cross_900ms": replace(base, delay_ms=900),
+        "cross_250ms_max_venue_age": replace(base, max_venue_age_ms=250),
         "cross_9bps_fee": replace(base, fee_bps=9),
         "cross_1bp_slippage_per_side": replace(base, slippage_bps=1),
         "cross_1000usd": replace(base, notional_usd=1_000),
@@ -226,14 +233,15 @@ def run(root: Path, regime: str) -> dict:
         forecast = predictions(holdout, split.test, horizon, models)
         diagnostic[str(horizon)] = forecast_metrics(holdout, forecast, Execution(horizon))
     if regime == "binance":
-        delayed, _ = load_sessions(root, split.test, regime, source_delay_ms=250)
-        delayed_scores = predictions(delayed, split.test, hold, models)
-        performance["cross_250ms_extra_binance_feed"] = breakdown(
-            policy(delayed, delayed_scores, base, "cross", margin),
-        )
-        diagnostic["extra_binance_feed_delay_at_reference_hold"] = forecast_metrics(
-            delayed, delayed_scores, base,
-        )
+        for extra_delay_ms in (125, 250):
+            delayed, _ = load_sessions(root, split.test, regime, source_delay_ms=extra_delay_ms)
+            delayed_scores = predictions(delayed, split.test, hold, models)
+            performance[f"cross_{extra_delay_ms}ms_extra_binance_feed"] = breakdown(
+                policy(delayed, delayed_scores, base, "cross", margin),
+            )
+            diagnostic[f"{extra_delay_ms}ms_extra_binance_feed_at_reference_hold"] = forecast_metrics(
+                delayed, delayed_scores, base,
+            )
     return {
         "regime": regime,
         "splits": asdict(split),

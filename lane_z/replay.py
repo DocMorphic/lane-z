@@ -42,6 +42,7 @@ class Execution:
     fee_bps: float = FEE_BPS
     slippage_bps: float = SLIPPAGE_BPS
     notional_usd: float = 100.0
+    max_venue_age_ms: int = MAX_AGE_MS
 
 
 @dataclass(frozen=True)
@@ -119,7 +120,7 @@ def replay(session: Session, direction: np.ndarray, execution: Execution) -> Rep
     delay = execution.delay_ms * US_PER_MS
     arrival = grid + delay
     holding_steps = exit_delay_steps(execution)
-    venue_quotes, venue_valid = session.venue.asof(arrival, MAX_AGE_MS * US_PER_MS)
+    venue_quotes, venue_valid = session.venue.asof(arrival, execution.max_venue_age_ms * US_PER_MS)
     observed = session.features.quote
     available_after = int(grid[0]) - step
 

@@ -119,8 +119,9 @@ def relative_basis(target_mid: np.ndarray, source_mid: np.ndarray) -> np.ndarray
     samples = count[window:-1] - count[:-(window + 1)]
     previous = cumulative[window:-1] - cumulative[:-(window + 1)]
     centered = np.full(len(basis), np.nan)
-    centered[window:] = basis[window:] - previous / np.maximum(samples, 1)
-    centered[window:][samples < 0.75 * window] = np.nan
+    centered[window:] = np.where(
+        samples >= 0.75 * window, basis[window:] - previous / np.maximum(samples, 1), np.nan,
+    )
     return centered
 
 
