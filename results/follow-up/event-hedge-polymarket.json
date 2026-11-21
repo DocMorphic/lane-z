@@ -1,0 +1,16 @@
+{
+  "listed_markets": 80,
+  "eligible_binary_markets": 51,
+  "complete_depth_pairs_checked": 45,
+  "missing_pair_books": 0,
+  "time_mismatched_pairs": 0,
+  "insufficient_ask_depth_or_minimum_size": 6,
+  "sets_per_market": 10,
+  "minimum_pre_fee_cost_per_set_pusd": "1.001",
+  "pre_fee_candidates": [],
+  "started_utc": "2026-11-21T13:39:29.412650+00:00",
+  "ended_utc": "2026-11-21T13:39:29.876480+00:00",
+  "markets_endpoint": "https://gamma-api.polymarket.com/markets?active=true&closed=false&limit=80&order=volume24hr&ascending=false",
+  "depth_endpoint": "https://clob.polymarket.com/books",
+  "snapshot_sha256": "9f63c537232c8334411d7c5c98486f072cb660c3327ef65ab6558d0f99440f83"
+}

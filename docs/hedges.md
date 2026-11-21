@@ -14,3 +14,35 @@ At a 250 ms decision grid, subtract the mean basis of the previous 60 seconds fr
 Validation uses October 13–15, 2026. The holdout uses October 16 and 19–23. These dates are new to the project. Each window takes decisions from 15:02 until 15:58 UTC, with the remainder of the hour reserved for exits. The experiment charges no funding when both venues close within the hour. Archive receipt timestamps come from the data vendor. The replay captures neither confirmed live order latency nor market impact beyond available displayed size and the reserve.
 
 The reported P&L includes forced unwinds, and residual exposure measures time with nonzero net share equivalents across venues. The base assumes simultaneous transmission and identical order delay. The asymmetric scenarios measure what happens when one venue is slower.
+
+### Paper results
+
+There were zero attempts in three validation windows and two attempts across six untouched test windows per symbol. Both test signals appeared on October 22. Both filled Binance only and were unwound. The base lost $0.1766 after $0.1593 in fees and $0.0199 in slippage reserve. Even with both venues set to 500 ms, price limits left the entries exposed for 1,000 ms each. There were no completed two-leg trades and no unresolved positions.
+
+| Held-out execution | Hedge round trips | Forced unwinds | Paper net | Unhedged time p90 |
+| --- | ---: | ---: | ---: | ---: |
+| 500 ms per leg | 0 | 2 | −$0.1766 | 1,000 ms |
+| Lighter at 900 ms | 0 | 2 | −$0.2208 | 2,000 ms |
+| Binance at 900 ms | 0 | 2 | −$0.1928 | 3,800 ms |
+| Binance at 5 bps | 0 | 2 | −$0.2165 | 1,000 ms |
+| Reserve 1 bp per fill | 0 | 2 | −$0.1965 | 1,000 ms |
+
+The sample shows the cost of missed legs, and it provides no filled-pair observations to estimate returns on the hedge itself. [Complete replay and 36 file hashes](../results/follow-up/hedged-perps.json)
+
+## Prediction markets and betting hedges
+
+A complete set of the two tokens for the same Polymarket binary condition is backed by 1 pUSD per set. A sub-1 sum is an opportunity to investigate only if both sides can be acquired in sufficient size and the difference covers trading and settlement friction. Two quote snapshots can move independently before the second order arrives. [Position and token mechanics](https://docs.polymarket.com/concepts/positions-tokens) · [Fee mechanics](https://docs.polymarket.com/trading/fees)
+
+At 13:39 UTC on November 21, 2026, the read-only screen took the 80 currently listed markets ranked by reported 24-hour volume. It kept 51 open standard binary conditions and found 45 with enough ask depth to buy ten tokens on both sides. The cheapest complete set cost **1.001 pUSD per 1 pUSD of backing before fees**. Six lacked sufficient ask depth or exceeded the ten-token minimum-size screen. This was one public snapshot and produced zero candidates even before costs. [Snapshot report](../results/follow-up/event-hedge-polymarket.json) · [Market discovery API](https://docs.polymarket.com/api-reference/markets/list-markets) · [Batch order books](https://docs.polymarket.com/api-reference/market-data/get-order-books-request-body)
+
+For opposite bets across venues, compare the payout in every settlement state. Matching titles can have different cutoff times, overtime rules, result sources, cancellation or refund provisions, or treatment of a player who did not participate. A cross-venue hedge can lose both legs when definitions disagree. Sportsbook hedges use the same payoff check with odds, stake limits, void rules, and fees. A combo pays based on multiple outcomes and can add correlated exposure. No cross-platform or sportsbook settlement pairs were replayed here. [Kalshi contract rules](https://help.kalshi.com/en/articles/13823822-market-rules) · [Kalshi sports and combo settlement](https://help.kalshi.com/en/articles/13823821-market-faqs)
+
+## Reproduction
+
+Use the hedge report's source URLs and filenames for the historical quotes. These commands replay the perps and capture a new prediction-market snapshot from public APIs.
+
+```sh
+python -m lane_z.hedge --data data/hedged --output data/check-hedged-perps.json
+python -m lane_z.event_hedge --capture --snapshot data/event-hedge/new.json \
+  --output data/check-event-hedge.json
+```

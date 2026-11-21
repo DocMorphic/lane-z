@@ -28,6 +28,8 @@ India’s NSE cash screen earned ₹7,766 in its September–November price-prox
 
 The market-maker response test added aggressive trades, changes in displayed depth, and Binance repricing to the Lighter model. No forecast met the executable cost gate in validation or on the holdout. [Market maker research and results](docs/market-makers.md)
 
+The two-venue hedge made two attempts. On both, only one leg filled and had to be closed. A current Polymarket snapshot found no complete binary outcome set below its payout before fees. [Hedged paper trades](docs/hedges.md)
+
 ## Reproduce the study
 
 Use Python 3.11 or newer. The downloader fetches about 250 MB of compressed first-of-month public samples across all three arms. It keeps quote files in the ignored `data/` directory. The reports record each file's SHA-256.
