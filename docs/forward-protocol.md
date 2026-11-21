@@ -32,3 +32,7 @@ The Arca sample's SPY reference price exceeds the original $500 request. The cas
 ## NYSE Arca queue diagnostic
 
 The 60-second crypto reversal rule generated no valid entry on the dense SPY/IWM samples. To get fill evidence on the cash venue, run a separate long-only queue-pressure diagnostic on July 2 SPY, with no parameter search. Buy on the first grid row with top-size imbalance of at least 0.75, positive sampled one-second order-flow imbalance, and a spread of one bp or less. Hold for five seconds using the same Arca whole-share sizing, IOC limits, exchange fee, fee reserve, and slippage reserve. Keep the 500 and 900 ms order-delay cases. The prior rule stayed flat on this sample, and this diagnostic is exploratory because the cash sample was chosen for the earlier comparison.
+
+## Matched Hyperliquid and Binance weekday comparison
+
+Apply the same frozen reversal rule to both Hyperliquid and Binance using the six regular-session Tardis dates from the original project. This provides full-session venue overlap and a live-hours Hyperliquid comparison. These dates were used for the original Binance model, and this run is retrospective. The alternative rule was fixed using separate dates. Use the same $500 sizes and per-venue fee and delay assumptions as the November test.
