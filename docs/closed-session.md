@@ -23,6 +23,8 @@ python -m lane_z.closed_session --forward --data data/overnight-combined \
 
 The funding and exit guards left 392 scheduled symbol-bars. Only 66 had the fresh target and index observations required for both returns. Of those, 57 came from March 1 and none came from November 1. No supported bar reached the fixed 50 bps shock threshold. The rule attempted zero orders and produced $0 paper P&L at all three modeled latencies. Sparse quote support and the absence of a qualifying dislocation leave the trade hypothesis untested on these dates.
 
+[Quote-only retrospective report](../results/follow-up/closed-session-retrospective.json)
+
 ## Fixed oracle-premium rule
 
 This independent rule uses the observed Hyperliquid oracle instead of the index comparison. On each five-minute timestamp, compute the target's log premium to the latest oracle observation received no more than five seconds earlier. Center the current premium on the median of the preceding twelve five-minute observations, with at least eight valid values. The current point is excluded from that median. Historical midpoint observations used for the trailing premium and the 15-minute lookback can be up to 30 seconds old. The current midpoint and touch must meet the replay's regular two-second freshness limit.
@@ -37,3 +39,5 @@ python -m lane_z.oracle_dislocation --retrospective --data data/tardis \
 python -m lane_z.oracle_dislocation --forward --data data/overnight-combined \
   --oracle-data data/overnight-hyperliquid-context --output data/oracle-2026-11-22.json
 ```
+
+The retrospective oracle run had enough observations on 75 of 392 scheduled symbol-bars. None reached the 50 bp current-move threshold. It made zero attempts at each delay. The two-symbol sample gives no filled trades with which to evaluate the oracle signal. [Oracle retrospective report](../results/follow-up/oracle-dislocation-retrospective.json)
