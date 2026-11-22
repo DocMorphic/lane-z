@@ -146,7 +146,7 @@ def run(root):
                     row["status"] = "unlisted_at_signal"
                     continue
                 if (metadata["expiration_timestamp"] != ms(expiry, 8) or metadata["contract_size"] != 10
-                        or metadata["instrument_type"] != "reversed"):
+                        or metadata["future_type"] != "reversed"):
                     raise ValueError(f"Unexpected specification for {contract(expiry)}")
                 spot = bars(source(root, f"{expiry}-spot-entry"))
                 future = bars(source(root, f"{expiry}-future-entry"))
@@ -178,13 +178,14 @@ def run(root):
                     spot_open, future_open, spot_exit = (item[field] for item, field in zip(matches, ("high", "low", "low")))
                 trade = inverse_trade(notional, quantity, spot_open, future_open, delivery, spot_exit, reserve)
                 observed_range = bars(source(root, f"{expiry}-future-range"))
-                first_bar = ms(signal_day, 0)
-                if any(first_bar + i * 86_400_000 not in observed_range for i in range(ENTRY_DAYS + 1)):
+                # Deribit daily candles follow its 08:00 UTC settlement session.
+                margin_days = [ms(signal_day + i * DAY, 8) for i in range(ENTRY_DAYS)]
+                if not all(day in observed_range for day in margin_days):
                     row["status"] = "incomplete_collateral_range"
                     continue
                 margin_ratio = min(
                     1 + (trade["btc_after_entry_fee"] / notional - 1 / trade["future_entry_price"]) * mark
-                    for bar in observed_range.values() for mark in (bar["low"], bar["high"])
+                    for day in margin_days for mark in (observed_range[day]["low"], observed_range[day]["high"])
                 )
                 if trade["spend_usdc"] > capital or trade["btc_at_expiry"] <= 0 or margin_ratio <= 0.04:
                     row["status"] = "incomplete_capital_or_collateral"

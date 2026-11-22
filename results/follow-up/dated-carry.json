@@ -1,0 +1,1599 @@
+{
+  "capital_per_cohort_usdc": 1000.0,
+  "spot_symbol": "BTC_USDC",
+  "windows": {
+    "development": {
+      "first": "2023-06-01",
+      "end_exclusive": "2025-01-01",
+      "cash_hurdle_pnl_usdc": 64.3064059833276,
+      "base": {
+        "closed_positions": 7,
+        "closed_net_usdc": 43.92968122401135,
+        "active_days": 147,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2023-06-30",
+            "instrument": "BTC-30JUN23",
+            "projected_pnl_usdc": -0.754159398232332,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-07-28",
+            "instrument": "BTC-28JUL23",
+            "projected_pnl_usdc": 1.3014308709432498,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-08-25",
+            "instrument": "BTC-25AUG23",
+            "projected_pnl_usdc": 1.206941930292487,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-09-29",
+            "instrument": "BTC-29SEP23",
+            "projected_pnl_usdc": -0.2744104602936659,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-10-27",
+            "instrument": "BTC-27OCT23",
+            "projected_pnl_usdc": -0.9485042769629217,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-11-24",
+            "instrument": "BTC-24NOV23",
+            "projected_pnl_usdc": 5.349062985843943,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "paper_closed",
+            "pnl_usdc": 5.056746484403561,
+            "capital_usdc": 1005.0567464844036,
+            "gross_at_proxies_usdc": 8.041495325728988,
+            "min_daily_margin_ratio": 0.9970696908101975
+          },
+          {
+            "expiry": "2023-12-29",
+            "instrument": "BTC-29DEC23",
+            "projected_pnl_usdc": 1.543787018698822,
+            "decision_hurdle_usdc": 2.2705056761031503,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-01-26",
+            "instrument": "BTC-26JAN24",
+            "projected_pnl_usdc": 3.469272210226336,
+            "decision_hurdle_usdc": 2.2705056761031503,
+            "status": "paper_closed",
+            "pnl_usdc": 8.335106126278447,
+            "capital_usdc": 1013.391852610682,
+            "gross_at_proxies_usdc": 11.174544805490541,
+            "min_daily_margin_ratio": 1.0041840675228069
+          },
+          {
+            "expiry": "2024-02-23",
+            "instrument": "BTC-23FEB24",
+            "projected_pnl_usdc": 3.4920617508760188e-06,
+            "decision_hurdle_usdc": 2.2893353649111057,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-03-29",
+            "instrument": "BTC-29MAR24",
+            "projected_pnl_usdc": 7.888248962201146,
+            "decision_hurdle_usdc": 2.2893353649111057,
+            "status": "paper_closed",
+            "pnl_usdc": 7.659771648604192,
+            "capital_usdc": 1021.0516242592862,
+            "gross_at_proxies_usdc": 10.624804769883895,
+            "min_daily_margin_ratio": 0.9971703474593673
+          },
+          {
+            "expiry": "2024-04-26",
+            "instrument": "BTC-26APR24",
+            "projected_pnl_usdc": 4.9967085106463855,
+            "decision_hurdle_usdc": 2.306639417708765,
+            "status": "paper_closed",
+            "pnl_usdc": 5.614152895734151,
+            "capital_usdc": 1026.6657771550204,
+            "gross_at_proxies_usdc": 8.5243933062402,
+            "min_daily_margin_ratio": 0.9998778414856323
+          },
+          {
+            "expiry": "2024-05-31",
+            "instrument": "BTC-31MAY24",
+            "projected_pnl_usdc": 2.4149043036196645,
+            "decision_hurdle_usdc": 2.3193222498581565,
+            "status": "paper_closed",
+            "pnl_usdc": 0.008841447794793567,
+            "capital_usdc": 1026.6746186028151,
+            "gross_at_proxies_usdc": 3.0569262274647144,
+            "min_daily_margin_ratio": 0.9966142307566697
+          },
+          {
+            "expiry": "2024-06-28",
+            "instrument": "BTC-28JUN24",
+            "projected_pnl_usdc": 4.607192740797245,
+            "decision_hurdle_usdc": 2.3193422234143495,
+            "status": "paper_closed",
+            "pnl_usdc": 4.8026705172238735,
+            "capital_usdc": 1031.4772891200391,
+            "gross_at_proxies_usdc": 7.653647648000401,
+            "min_daily_margin_ratio": 0.9985950795965547
+          },
+          {
+            "expiry": "2024-07-26",
+            "instrument": "BTC-26JUL24",
+            "projected_pnl_usdc": -0.420192605790362,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-08-30",
+            "instrument": "BTC-30AUG24",
+            "projected_pnl_usdc": 1.7287973381542088,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-09-27",
+            "instrument": "BTC-27SEP24",
+            "projected_pnl_usdc": -0.48404163646353027,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-10-25",
+            "instrument": "BTC-25OCT24",
+            "projected_pnl_usdc": -0.0799296862672918,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-11-29",
+            "instrument": "BTC-29NOV24",
+            "projected_pnl_usdc": -2.3006926874456894,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-12-27",
+            "instrument": "BTC-27DEC24",
+            "projected_pnl_usdc": 7.270110754076086,
+            "decision_hurdle_usdc": 2.330191850271692,
+            "status": "paper_closed",
+            "pnl_usdc": 12.452392103972329,
+            "capital_usdc": 1043.9296812240113,
+            "gross_at_proxies_usdc": 15.405588546174954,
+            "min_daily_margin_ratio": 1.0011039789549934
+          }
+        ]
+      },
+      "adverse_hourly_prices": {
+        "closed_positions": 7,
+        "closed_net_usdc": -29.83099457623166,
+        "active_days": 147,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2023-06-30",
+            "instrument": "BTC-30JUN23",
+            "projected_pnl_usdc": -0.754159398232332,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-07-28",
+            "instrument": "BTC-28JUL23",
+            "projected_pnl_usdc": 1.3014308709432498,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-08-25",
+            "instrument": "BTC-25AUG23",
+            "projected_pnl_usdc": 1.206941930292487,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-09-29",
+            "instrument": "BTC-29SEP23",
+            "projected_pnl_usdc": -0.2744104602936659,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-10-27",
+            "instrument": "BTC-27OCT23",
+            "projected_pnl_usdc": -0.9485042769629217,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2023-11-24",
+            "instrument": "BTC-24NOV23",
+            "projected_pnl_usdc": 5.349062985843943,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "paper_closed",
+            "pnl_usdc": -4.120177876469143,
+            "capital_usdc": 995.8798221235309,
+            "gross_at_proxies_usdc": 1.6246766005732525,
+            "min_daily_margin_ratio": 0.9889092532743644
+          },
+          {
+            "expiry": "2023-12-29",
+            "instrument": "BTC-29DEC23",
+            "projected_pnl_usdc": 1.5266338680331728,
+            "decision_hurdle_usdc": 2.249774250814564,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-01-26",
+            "instrument": "BTC-26JAN24",
+            "projected_pnl_usdc": 3.4307252386051914,
+            "decision_hurdle_usdc": 2.249774250814564,
+            "status": "paper_closed",
+            "pnl_usdc": -6.370077178683346,
+            "capital_usdc": 989.5097449448475,
+            "gross_at_proxies_usdc": -0.9808681264215693,
+            "min_daily_margin_ratio": 1.0022872811306631
+          },
+          {
+            "expiry": "2024-02-23",
+            "instrument": "BTC-23FEB24",
+            "projected_pnl_usdc": 3.6714400266646408e-06,
+            "decision_hurdle_usdc": 2.235383723670692,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-03-29",
+            "instrument": "BTC-29MAR24",
+            "projected_pnl_usdc": 7.714880571273625,
+            "decision_hurdle_usdc": 2.235383723670692,
+            "status": "paper_closed",
+            "pnl_usdc": -5.403318790066237,
+            "capital_usdc": 984.1064261547813,
+            "gross_at_proxies_usdc": 0.15430692940412882,
+            "min_daily_margin_ratio": 0.993438484023801
+          },
+          {
+            "expiry": "2024-04-26",
+            "instrument": "BTC-26APR24",
+            "projected_pnl_usdc": 4.831981871160451,
+            "decision_hurdle_usdc": 2.2231771830693248,
+            "status": "paper_closed",
+            "pnl_usdc": -5.848838215178034,
+            "capital_usdc": 978.2575879396032,
+            "gross_at_proxies_usdc": -0.44521953984622087,
+            "min_daily_margin_ratio": 0.9892377152795302
+          },
+          {
+            "expiry": "2024-05-31",
+            "instrument": "BTC-31MAY24",
+            "projected_pnl_usdc": 2.3099087386057136,
+            "decision_hurdle_usdc": 2.2099641775225014,
+            "status": "paper_closed",
+            "pnl_usdc": -11.206847861664414,
+            "capital_usdc": 967.0507400779388,
+            "gross_at_proxies_usdc": -5.6039576938713935,
+            "min_daily_margin_ratio": 0.9915811612604842
+          },
+          {
+            "expiry": "2024-06-28",
+            "instrument": "BTC-28JUN24",
+            "projected_pnl_usdc": 4.356802742482728,
+            "decision_hurdle_usdc": 2.1846469884482143,
+            "status": "paper_closed",
+            "pnl_usdc": -0.6696776363338586,
+            "capital_usdc": 966.381062441605,
+            "gross_at_proxies_usdc": 4.5041508516884505,
+            "min_daily_margin_ratio": 0.9974351884684228
+          },
+          {
+            "expiry": "2024-07-26",
+            "instrument": "BTC-26JUL24",
+            "projected_pnl_usdc": -0.39278871654846625,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-08-30",
+            "instrument": "BTC-30AUG24",
+            "projected_pnl_usdc": 1.6160504792572965,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-09-27",
+            "instrument": "BTC-27SEP24",
+            "projected_pnl_usdc": -0.45247363089663395,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-10-25",
+            "instrument": "BTC-25OCT24",
+            "projected_pnl_usdc": -0.07471581224115198,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-11-29",
+            "instrument": "BTC-29NOV24",
+            "projected_pnl_usdc": -2.1506471475129274,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2024-12-27",
+            "instrument": "BTC-27DEC24",
+            "projected_pnl_usdc": 6.795972754542163,
+            "decision_hurdle_usdc": 2.1831341317067676,
+            "status": "paper_closed",
+            "pnl_usdc": 3.787942982163372,
+            "capital_usdc": 970.1690054237683,
+            "gross_at_proxies_usdc": 9.092337977888747,
+            "min_daily_margin_ratio": 0.9947799630361736
+          }
+        ]
+      }
+    },
+    "holdout_2025": {
+      "first": "2025-01-01",
+      "end_exclusive": "2026-01-01",
+      "cash_hurdle_pnl_usdc": 40.000000000000036,
+      "base": {
+        "closed_positions": 1,
+        "closed_net_usdc": 0.038075703178492404,
+        "active_days": 21,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2025-01-31",
+            "instrument": "BTC-31JAN25",
+            "projected_pnl_usdc": 2.675915601647148,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "paper_closed",
+            "pnl_usdc": 0.038075703178492404,
+            "capital_usdc": 1000.0380757031785,
+            "gross_at_proxies_usdc": 3.03943297696253,
+            "min_daily_margin_ratio": 1.0009618616605254
+          },
+          {
+            "expiry": "2025-02-28",
+            "instrument": "BTC-28FEB25",
+            "projected_pnl_usdc": -0.3415148440018356,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-03-28",
+            "instrument": "BTC-28MAR25",
+            "projected_pnl_usdc": -0.008315418411484643,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-04-25",
+            "instrument": "BTC-25APR25",
+            "projected_pnl_usdc": -1.0489232511532691,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-05-30",
+            "instrument": "BTC-30MAY25",
+            "projected_pnl_usdc": -0.17424602580808823,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-06-27",
+            "instrument": "BTC-27JUN25",
+            "projected_pnl_usdc": -0.9712814050608358,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-07-25",
+            "instrument": "BTC-25JUL25",
+            "projected_pnl_usdc": -0.19166095317393683,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-08-29",
+            "instrument": "BTC-29AUG25",
+            "projected_pnl_usdc": 1.2409880432519458,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-09-26",
+            "instrument": "BTC-26SEP25",
+            "projected_pnl_usdc": 0.7102344167855108,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-10-31",
+            "instrument": "BTC-31OCT25",
+            "projected_pnl_usdc": 0.701749149900138,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-11-28",
+            "instrument": "BTC-28NOV25",
+            "projected_pnl_usdc": -1.335250014825192,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-12-26",
+            "instrument": "BTC-26DEC25",
+            "projected_pnl_usdc": -0.7629514936685382,
+            "decision_hurdle_usdc": 2.2591680869221187,
+            "status": "below_cash_hurdle"
+          }
+        ]
+      },
+      "adverse_hourly_prices": {
+        "closed_positions": 1,
+        "closed_net_usdc": -6.810745814624283,
+        "active_days": 21,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2025-01-31",
+            "instrument": "BTC-31JAN25",
+            "projected_pnl_usdc": 2.675915601647148,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "paper_closed",
+            "pnl_usdc": -6.810745814624283,
+            "capital_usdc": 993.1892541853757,
+            "gross_at_proxies_usdc": -1.0294010585032538,
+            "min_daily_margin_ratio": 0.9989265400940979
+          },
+          {
+            "expiry": "2025-02-28",
+            "instrument": "BTC-28FEB25",
+            "projected_pnl_usdc": -0.33772094439518696,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-03-28",
+            "instrument": "BTC-28MAR25",
+            "projected_pnl_usdc": -0.008223652898550426,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-04-25",
+            "instrument": "BTC-25APR25",
+            "projected_pnl_usdc": -1.037269444096296,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-05-30",
+            "instrument": "BTC-30MAY25",
+            "projected_pnl_usdc": -0.17230995885495304,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-06-27",
+            "instrument": "BTC-27JUN25",
+            "projected_pnl_usdc": -0.9604901462927273,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-07-25",
+            "instrument": "BTC-25JUL25",
+            "projected_pnl_usdc": -0.1895305896229047,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-08-29",
+            "instrument": "BTC-29AUG25",
+            "projected_pnl_usdc": 1.2271991053559077,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-09-26",
+            "instrument": "BTC-26SEP25",
+            "projected_pnl_usdc": 0.7023426723031889,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-10-31",
+            "instrument": "BTC-31OCT25",
+            "projected_pnl_usdc": 0.6939504865994195,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-11-28",
+            "instrument": "BTC-28NOV25",
+            "projected_pnl_usdc": -1.3204129291694926,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2025-12-26",
+            "instrument": "BTC-26DEC25",
+            "projected_pnl_usdc": -0.7544750948579804,
+            "decision_hurdle_usdc": 2.2436960370252526,
+            "status": "below_cash_hurdle"
+          }
+        ]
+      }
+    },
+    "holdout_2026": {
+      "first": "2026-01-01",
+      "end_exclusive": "2026-11-22",
+      "cash_hurdle_pnl_usdc": 35.53950606668144,
+      "base": {
+        "closed_positions": 0,
+        "closed_net_usdc": 0.0,
+        "active_days": 0,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2026-01-30",
+            "instrument": "BTC-30JAN26",
+            "projected_pnl_usdc": 0.7118057751662263,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-02-27",
+            "instrument": "BTC-27FEB26",
+            "projected_pnl_usdc": -5.013275110439167,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-03-27",
+            "instrument": "BTC-27MAR26",
+            "projected_pnl_usdc": -1.5813805841811472,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-04-24",
+            "instrument": "BTC-24APR26",
+            "projected_pnl_usdc": -2.588157850027528,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-05-29",
+            "instrument": "BTC-29MAY26",
+            "projected_pnl_usdc": -2.652834382790161,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-06-26",
+            "instrument": "BTC-26JUN26",
+            "projected_pnl_usdc": -2.96008362089151,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-07-31",
+            "instrument": "BTC-31JUL26",
+            "projected_pnl_usdc": -1.572364264468547,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-08-28",
+            "instrument": "BTC-28AUG26",
+            "projected_pnl_usdc": -0.9786488849529178,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-09-25",
+            "instrument": "BTC-25SEP26",
+            "projected_pnl_usdc": -1.7515607172877026,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-10-30",
+            "instrument": "BTC-30OCT26",
+            "projected_pnl_usdc": 0.3655725051492027,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          }
+        ]
+      },
+      "adverse_hourly_prices": {
+        "closed_positions": 0,
+        "closed_net_usdc": 0.0,
+        "active_days": 0,
+        "incomplete": 0,
+        "months": [
+          {
+            "expiry": "2026-01-30",
+            "instrument": "BTC-30JAN26",
+            "projected_pnl_usdc": 0.7118057751662263,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-02-27",
+            "instrument": "BTC-27FEB26",
+            "projected_pnl_usdc": -5.013275110439167,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-03-27",
+            "instrument": "BTC-27MAR26",
+            "projected_pnl_usdc": -1.5813805841811472,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-04-24",
+            "instrument": "BTC-24APR26",
+            "projected_pnl_usdc": -2.588157850027528,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-05-29",
+            "instrument": "BTC-29MAY26",
+            "projected_pnl_usdc": -2.652834382790161,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-06-26",
+            "instrument": "BTC-26JUN26",
+            "projected_pnl_usdc": -2.96008362089151,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-07-31",
+            "instrument": "BTC-31JUL26",
+            "projected_pnl_usdc": -1.572364264468547,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-08-28",
+            "instrument": "BTC-28AUG26",
+            "projected_pnl_usdc": -0.9786488849529178,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-09-25",
+            "instrument": "BTC-25SEP26",
+            "projected_pnl_usdc": -1.7515607172877026,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          },
+          {
+            "expiry": "2026-10-30",
+            "instrument": "BTC-30OCT26",
+            "projected_pnl_usdc": 0.3655725051492027,
+            "decision_hurdle_usdc": 2.2590820707837356,
+            "status": "below_cash_hurdle"
+          }
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "file": "2023-06-30-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30JUN23&start_timestamp=1686294000000&end_timestamp=1686301200000&resolution=60",
+      "sha256": "1b5a29f46350f233e6ec617c2b137b44c2dfe69938efd31a7f4e9c9ff8fa3938"
+    },
+    {
+      "file": "2023-06-30-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30JUN23&start_timestamp=1686268800000&end_timestamp=1688083200000&resolution=1D",
+      "sha256": "06d75a62cf577fe0711b5d352fb6b7b8eae40cd56b86c8a07bae29b2adaa1050"
+    },
+    {
+      "file": "2023-06-30-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1686294000000&end_timestamp=1686301200000&resolution=60",
+      "sha256": "b38dee5068b3459c29866bf312d0f8544bd7a5b8454a83e54e1600123de633fd"
+    },
+    {
+      "file": "2023-06-30-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1688115600000&end_timestamp=1688115600000&resolution=60",
+      "sha256": "832ddf702a4025a653eefb9fe1841de8c7c1b403872816d64c3e5a5ed24fde94"
+    },
+    {
+      "file": "2023-07-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28JUL23&start_timestamp=1688713200000&end_timestamp=1688720400000&resolution=60",
+      "sha256": "a3871bd175097e91f628e6f315cc925cc4e6d4f4f41c625df9b47b9d069d68a6"
+    },
+    {
+      "file": "2023-07-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28JUL23&start_timestamp=1688688000000&end_timestamp=1690502400000&resolution=1D",
+      "sha256": "e9cd568da7635674ecffec862c52ac90d77a12ada7dc47df2cc8c94680d8cb2d"
+    },
+    {
+      "file": "2023-07-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1688713200000&end_timestamp=1688720400000&resolution=60",
+      "sha256": "f03e087c64f1864eb836dbb107ff9d25bb727d972e4686b04d6d3e5c98de3260"
+    },
+    {
+      "file": "2023-07-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1690534800000&end_timestamp=1690534800000&resolution=60",
+      "sha256": "94b5d43108fd7d0fac1ef79d10e228617badc843c69236636e18c6970dbac32a"
+    },
+    {
+      "file": "2023-08-25-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25AUG23&start_timestamp=1691132400000&end_timestamp=1691139600000&resolution=60",
+      "sha256": "bf6e0402df84ff65910c34586005902eabb03df8317332a17d80942eeaf6d694"
+    },
+    {
+      "file": "2023-08-25-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25AUG23&start_timestamp=1691107200000&end_timestamp=1692921600000&resolution=1D",
+      "sha256": "f16a15facd652d10f7180afcd153f6c93daecf6fb5e92c44f90d78f426d658e3"
+    },
+    {
+      "file": "2023-08-25-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1691132400000&end_timestamp=1691139600000&resolution=60",
+      "sha256": "46daa0faa3f2dc586eb57f26acb8093502a7f14a086995d667d3194147173151"
+    },
+    {
+      "file": "2023-08-25-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1692954000000&end_timestamp=1692954000000&resolution=60",
+      "sha256": "56d88dd36744fd1867114f5f7ae0ce6e74139dce340367bb198d8485ee3fd923"
+    },
+    {
+      "file": "2023-09-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29SEP23&start_timestamp=1694156400000&end_timestamp=1694163600000&resolution=60",
+      "sha256": "7e52204c12e3182d5b603d5c4c6230b91363bd4634b3fca50830ef90e22189ee"
+    },
+    {
+      "file": "2023-09-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29SEP23&start_timestamp=1694131200000&end_timestamp=1695945600000&resolution=1D",
+      "sha256": "835981997134cf2df871aa6abe07b4fb967107176cb8dd432499d787caa88dc3"
+    },
+    {
+      "file": "2023-09-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1694156400000&end_timestamp=1694163600000&resolution=60",
+      "sha256": "672ede87426fae745f17d8a5909206941e8967381f3f59a2526e84267788effd"
+    },
+    {
+      "file": "2023-09-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1695978000000&end_timestamp=1695978000000&resolution=60",
+      "sha256": "09aa7db395f8cfe210b9b0846b379e71a01b7c9dfc9fa6f8a142257d8f302662"
+    },
+    {
+      "file": "2023-10-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27OCT23&start_timestamp=1696575600000&end_timestamp=1696582800000&resolution=60",
+      "sha256": "3c71dcf1e5ae0f489d3a948e319c3fb7c9bd8af1f92cbcd9210c8b1b8d28c883"
+    },
+    {
+      "file": "2023-10-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27OCT23&start_timestamp=1696550400000&end_timestamp=1698364800000&resolution=1D",
+      "sha256": "c294bc82e6ba77aa59c851f48228319c4c91139cb19cb064d27ae94c1f4efba0"
+    },
+    {
+      "file": "2023-10-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1696575600000&end_timestamp=1696582800000&resolution=60",
+      "sha256": "beebc5b971a15319b56244c8069b98ce14aa7f118b2df239074f99f809d1d2f5"
+    },
+    {
+      "file": "2023-10-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1698397200000&end_timestamp=1698397200000&resolution=60",
+      "sha256": "6a6c3753e6fd4311e2d2dff80448622b26228908e783f8fd2cdcddded9dc23e0"
+    },
+    {
+      "file": "2023-11-24-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-24NOV23&start_timestamp=1698994800000&end_timestamp=1699002000000&resolution=60",
+      "sha256": "fbd729179c084d51764387304411bf8b6410da53dd85ca730d5b6c01a488ab52"
+    },
+    {
+      "file": "2023-11-24-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-24NOV23&start_timestamp=1698969600000&end_timestamp=1700784000000&resolution=1D",
+      "sha256": "e8a680ed5e9cde97be073e5c1f8d228e36093a507d38cb245a9516ac017dd416"
+    },
+    {
+      "file": "2023-11-24-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1698994800000&end_timestamp=1699002000000&resolution=60",
+      "sha256": "dcc442746b76617cb150a4b9790cb7271381e6e1cf0ed13d4150a93ab75e4eea"
+    },
+    {
+      "file": "2023-11-24-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1700816400000&end_timestamp=1700816400000&resolution=60",
+      "sha256": "e8ff87d68f8de5a4eea33c18b51060ae96f963965efaca8eaa88ce572ad04729"
+    },
+    {
+      "file": "2023-12-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29DEC23&start_timestamp=1702018800000&end_timestamp=1702026000000&resolution=60",
+      "sha256": "2c61fc2d45a90edeca4632d80fb2a14e86158f14c6c2f828819dff1d7c4559c5"
+    },
+    {
+      "file": "2023-12-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29DEC23&start_timestamp=1701993600000&end_timestamp=1703808000000&resolution=1D",
+      "sha256": "8e5f4d0840d0ed2469a3a42218e06b2479af05d4268087cac3c88de8f4d2008a"
+    },
+    {
+      "file": "2023-12-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1702018800000&end_timestamp=1702026000000&resolution=60",
+      "sha256": "48f10118a75178b4664b65e4e59a4ab1c38a8ed5c62e688dbae49987635c8770"
+    },
+    {
+      "file": "2023-12-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1703840400000&end_timestamp=1703840400000&resolution=60",
+      "sha256": "f3b0ceec27b48b34608a18aa3095310822c810c43ba77ec51a04edb4f2ae2163"
+    },
+    {
+      "file": "2024-01-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JAN24&start_timestamp=1704438000000&end_timestamp=1704445200000&resolution=60",
+      "sha256": "2d88d8866e5a655fb334b565efd88be938e8d50b6372c9d845511d433231ff41"
+    },
+    {
+      "file": "2024-01-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JAN24&start_timestamp=1704412800000&end_timestamp=1706227200000&resolution=1D",
+      "sha256": "dfd5b419b0e9368bb986b62ae13c6e4f05bcda6a9e6c42bbcf6fc1e968aa9c90"
+    },
+    {
+      "file": "2024-01-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1704438000000&end_timestamp=1704445200000&resolution=60",
+      "sha256": "ea1233b67534ff975b12808b0494963bf276672c5571503c372ce28cf6fb7c4c"
+    },
+    {
+      "file": "2024-01-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1706259600000&end_timestamp=1706259600000&resolution=60",
+      "sha256": "137eeedf4acbfd360866d5ec86c3b0587214292fac730e8bc020fbf3745d9e06"
+    },
+    {
+      "file": "2024-02-23-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-23FEB24&start_timestamp=1706857200000&end_timestamp=1706864400000&resolution=60",
+      "sha256": "29a934e0bec1a404fa4d8c69f6310e4eb6b24d317383f5a24e98f8d1fb8cd46d"
+    },
+    {
+      "file": "2024-02-23-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-23FEB24&start_timestamp=1706832000000&end_timestamp=1708646400000&resolution=1D",
+      "sha256": "8c1433887edd3925ff30f4cd53283c0b570a9960eb6fb5f359e3a742244bf8d4"
+    },
+    {
+      "file": "2024-02-23-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1706857200000&end_timestamp=1706864400000&resolution=60",
+      "sha256": "9d13d6fc18e1570673ae4646b885d2ca6534d39d646053c99c30d335b814680b"
+    },
+    {
+      "file": "2024-02-23-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1708678800000&end_timestamp=1708678800000&resolution=60",
+      "sha256": "18cb4e25eeb80a77f41db3a6480d788f8171fc9fe8c8bf1f739f8935d76088e7"
+    },
+    {
+      "file": "2024-03-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29MAR24&start_timestamp=1709881200000&end_timestamp=1709888400000&resolution=60",
+      "sha256": "b8b407111f3f38f89403cab0d3156112e20f7fb327339e738a39f31f61c646d6"
+    },
+    {
+      "file": "2024-03-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29MAR24&start_timestamp=1709856000000&end_timestamp=1711670400000&resolution=1D",
+      "sha256": "73481e9715fd5890d6a1187769ba8f4ed56c08350339a5b795cd2e21226176bc"
+    },
+    {
+      "file": "2024-03-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1709881200000&end_timestamp=1709888400000&resolution=60",
+      "sha256": "54dcfe47c0c682b84c232f63c0ebfc26432e982cac08952e7e6b5c97612ab081"
+    },
+    {
+      "file": "2024-03-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1711702800000&end_timestamp=1711702800000&resolution=60",
+      "sha256": "407514cef02aeb619e5fe9ab8151249ad5b09f983aa1d0847536036a2929185f"
+    },
+    {
+      "file": "2024-04-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26APR24&start_timestamp=1712300400000&end_timestamp=1712307600000&resolution=60",
+      "sha256": "1c34778bccbdcaef4df5ce548e573dd2341edfb0c78d77d4ea18ba8430770e12"
+    },
+    {
+      "file": "2024-04-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26APR24&start_timestamp=1712275200000&end_timestamp=1714089600000&resolution=1D",
+      "sha256": "6737a0ff99eb05d3fb0ae8056a1b5ed8eb4cae79a28faaaabfcc89e42d03aea7"
+    },
+    {
+      "file": "2024-04-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1712300400000&end_timestamp=1712307600000&resolution=60",
+      "sha256": "5a89ff6c0a1852904d6e62f6cf8e046368547dac572388c23450f13ac8a3e9ed"
+    },
+    {
+      "file": "2024-04-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1714122000000&end_timestamp=1714122000000&resolution=60",
+      "sha256": "e9ba352083d54fd3a0bed0b693637bd899c793c77a4d94f183388f771a73236e"
+    },
+    {
+      "file": "2024-05-31-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31MAY24&start_timestamp=1715324400000&end_timestamp=1715331600000&resolution=60",
+      "sha256": "646ec95ffb5f38c7bd2b8049787f5eff4ef14d6989a8d474a4ce3faa87c9499d"
+    },
+    {
+      "file": "2024-05-31-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31MAY24&start_timestamp=1715299200000&end_timestamp=1717113600000&resolution=1D",
+      "sha256": "a191e541e1bdc0ffcd51c777619ba3ee264db6bfdc2ec2f8c0b08e89a5042112"
+    },
+    {
+      "file": "2024-05-31-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1715324400000&end_timestamp=1715331600000&resolution=60",
+      "sha256": "a32757f21a3c12304773c1127f2d4f2f0f3c552f51d271874ed005061c83c0c4"
+    },
+    {
+      "file": "2024-05-31-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1717146000000&end_timestamp=1717146000000&resolution=60",
+      "sha256": "16ef08b04402288c21eddb3dac2ae476f32801d8670638ff1332cb76c34ae6ad"
+    },
+    {
+      "file": "2024-06-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28JUN24&start_timestamp=1717743600000&end_timestamp=1717750800000&resolution=60",
+      "sha256": "284729369dfa4e78406d627baf54c95f5a0673104a58451d0639885823c28f0e"
+    },
+    {
+      "file": "2024-06-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28JUN24&start_timestamp=1717718400000&end_timestamp=1719532800000&resolution=1D",
+      "sha256": "6868331abee8289bdf95968cdd7f55b38a31a5885c4dd02e7ccdfe2f8fed5874"
+    },
+    {
+      "file": "2024-06-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1717743600000&end_timestamp=1717750800000&resolution=60",
+      "sha256": "89ae4f4c99b6546645d526ef433436521853f69b6c8c19e1cf7f1bc51cd754a8"
+    },
+    {
+      "file": "2024-06-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1719565200000&end_timestamp=1719565200000&resolution=60",
+      "sha256": "9341181eb91f22286ac82cb0c73a4ddc0bf2707ce020067aeeac43087fd9fdc4"
+    },
+    {
+      "file": "2024-07-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JUL24&start_timestamp=1720162800000&end_timestamp=1720170000000&resolution=60",
+      "sha256": "38185b4844b15f2a28d90b25dab469f99ecde0a409264a54fc993f31d99cbc93"
+    },
+    {
+      "file": "2024-07-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JUL24&start_timestamp=1720137600000&end_timestamp=1721952000000&resolution=1D",
+      "sha256": "3bcdb7177c1537b56b693b3d423c0a01462a65afbf15a5be3849d65a9f8570a0"
+    },
+    {
+      "file": "2024-07-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1720162800000&end_timestamp=1720170000000&resolution=60",
+      "sha256": "a6bbd8b778bc5ffbfd41d2ae2bb6ce313780eb3de0ff6e4f226587c512b18c0e"
+    },
+    {
+      "file": "2024-07-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1721984400000&end_timestamp=1721984400000&resolution=60",
+      "sha256": "ef27553c120b323d86b7402a52d0a81f6e18994d968e56631b157ad1c79364bb"
+    },
+    {
+      "file": "2024-08-30-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30AUG24&start_timestamp=1723186800000&end_timestamp=1723194000000&resolution=60",
+      "sha256": "e83ffac5157fee70d935788b10191c0719223e7bdf51a077d1558a86908b5e10"
+    },
+    {
+      "file": "2024-08-30-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30AUG24&start_timestamp=1723161600000&end_timestamp=1724976000000&resolution=1D",
+      "sha256": "6471fc996aa3389708fd1becd1e8c27244f91dc5e1447d433790edb43a5d1d07"
+    },
+    {
+      "file": "2024-08-30-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1723186800000&end_timestamp=1723194000000&resolution=60",
+      "sha256": "df88db78aadc0d24660bb48776f43a53237730dab32b318f43b1ff0c6b43ba72"
+    },
+    {
+      "file": "2024-08-30-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1725008400000&end_timestamp=1725008400000&resolution=60",
+      "sha256": "7bb395bd8c5f1eceb4c44814535e5cbd3c2a118ff6581d522cee2f04b0a893b9"
+    },
+    {
+      "file": "2024-09-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27SEP24&start_timestamp=1725606000000&end_timestamp=1725613200000&resolution=60",
+      "sha256": "2e2dbc6ce3d6043be90bfb43d7b369d66deb925e2a32ce1ea6550f8668b67b92"
+    },
+    {
+      "file": "2024-09-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27SEP24&start_timestamp=1725580800000&end_timestamp=1727395200000&resolution=1D",
+      "sha256": "60092c852c6b3b1ec0a06ea406f33bc4e4ea52a84624dff485c603d98c035afe"
+    },
+    {
+      "file": "2024-09-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1725606000000&end_timestamp=1725613200000&resolution=60",
+      "sha256": "9ed793fe299a8d41991e23ca028cda9502fbf770d5131c08424b2b87a62892c1"
+    },
+    {
+      "file": "2024-09-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1727427600000&end_timestamp=1727427600000&resolution=60",
+      "sha256": "4d9668ef01488754910411d3379cee101b6644e59bc7e4b0e19eacd7e5b471b1"
+    },
+    {
+      "file": "2024-10-25-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25OCT24&start_timestamp=1728025200000&end_timestamp=1728032400000&resolution=60",
+      "sha256": "43cd1ede42565a7196f3a10098757747caee088706189d2af08c0986626bcc18"
+    },
+    {
+      "file": "2024-10-25-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25OCT24&start_timestamp=1728000000000&end_timestamp=1729814400000&resolution=1D",
+      "sha256": "f5373e85e4917e3068c7ed54bdd2c9c22fca2a4a67c57fedce38d06512f94a8c"
+    },
+    {
+      "file": "2024-10-25-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1728025200000&end_timestamp=1728032400000&resolution=60",
+      "sha256": "753a827cd04e3bb03d87d77c34018ebc9ef7f4ce999a1e9e499a4bf6ceaae38a"
+    },
+    {
+      "file": "2024-10-25-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1729846800000&end_timestamp=1729846800000&resolution=60",
+      "sha256": "d165b969b4fdb42972c8784589a4dd79b67ea0b12f2f24ae5ed9ce131f8d58a1"
+    },
+    {
+      "file": "2024-11-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29NOV24&start_timestamp=1731049200000&end_timestamp=1731056400000&resolution=60",
+      "sha256": "44a6dca15006ba7638b80bbaef2fb4a5b9aa90f97b09be0175ffa30b00162f35"
+    },
+    {
+      "file": "2024-11-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29NOV24&start_timestamp=1731024000000&end_timestamp=1732838400000&resolution=1D",
+      "sha256": "10ae924a970dea4b1046a1ada9b19a68f712d96f68e8028c1ef2e0a42e2e2cb4"
+    },
+    {
+      "file": "2024-11-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1731049200000&end_timestamp=1731056400000&resolution=60",
+      "sha256": "c7555a239c6f1276a1ed759d7ab6329f548c5101bcdde2f1c565fc2bbd12e40b"
+    },
+    {
+      "file": "2024-11-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1732870800000&end_timestamp=1732870800000&resolution=60",
+      "sha256": "89a0786108b8d50586db8e1002a7f7603df313cad20d4a03c5a69c59f00a9ff5"
+    },
+    {
+      "file": "2024-12-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27DEC24&start_timestamp=1733468400000&end_timestamp=1733475600000&resolution=60",
+      "sha256": "6bf237c21b6ef0f73a8261fb81d3aba75169be633c0d67704201bb5a603d91ed"
+    },
+    {
+      "file": "2024-12-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27DEC24&start_timestamp=1733443200000&end_timestamp=1735257600000&resolution=1D",
+      "sha256": "b117e0dafd4a01059674a6b33581f0144a071938c933f460ae9d3cd9a80022b0"
+    },
+    {
+      "file": "2024-12-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1733468400000&end_timestamp=1733475600000&resolution=60",
+      "sha256": "120c63a989b3905c5028ee69a3fe50d3f06d9505f9c9df05dd510733d1263f96"
+    },
+    {
+      "file": "2024-12-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1735290000000&end_timestamp=1735290000000&resolution=60",
+      "sha256": "1d532b7d2ca353d8530d9056913e9d2631ce964867019ff0b7450a0e40fe30cd"
+    },
+    {
+      "file": "2025-01-31-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31JAN25&start_timestamp=1736492400000&end_timestamp=1736499600000&resolution=60",
+      "sha256": "b5af3a5bd46e3b7a50e4de1f99de8921264595498ddb7693981dfb309408fcf1"
+    },
+    {
+      "file": "2025-01-31-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31JAN25&start_timestamp=1736467200000&end_timestamp=1738281600000&resolution=1D",
+      "sha256": "d1f5286a10aec9ee0b5b6f80e8f8536ef7980476c53fd77f495868ff6724e631"
+    },
+    {
+      "file": "2025-01-31-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1736492400000&end_timestamp=1736499600000&resolution=60",
+      "sha256": "b7f84c9262ed16349b5c7b1f8868a454605c7c1ae8ae1ac65c6d1313abbb0c8d"
+    },
+    {
+      "file": "2025-01-31-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1738314000000&end_timestamp=1738314000000&resolution=60",
+      "sha256": "d9616647aff843a3ee57b1764442da701210ee33ed911b3f585e598b9fbb0520"
+    },
+    {
+      "file": "2025-02-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28FEB25&start_timestamp=1738911600000&end_timestamp=1738918800000&resolution=60",
+      "sha256": "6f135c95d95917ade4eb99767a83162e1dd0f587d521f61e71833ca025db941c"
+    },
+    {
+      "file": "2025-02-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28FEB25&start_timestamp=1738886400000&end_timestamp=1740700800000&resolution=1D",
+      "sha256": "4ea9d8c9331f6ab135f123d2cd8fb5deb2b896a995ce314f8fcd88e9724376d3"
+    },
+    {
+      "file": "2025-02-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1738911600000&end_timestamp=1738918800000&resolution=60",
+      "sha256": "9d8195c79199ba24065a7d19871fc0dd1e9cb68aff94ebf494bbf45210338321"
+    },
+    {
+      "file": "2025-02-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1740733200000&end_timestamp=1740733200000&resolution=60",
+      "sha256": "31dc137a6ff693d8c915aab8fd25ce8fee0513e1de03156bcb8eb6bb6da01c6d"
+    },
+    {
+      "file": "2025-03-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28MAR25&start_timestamp=1741330800000&end_timestamp=1741338000000&resolution=60",
+      "sha256": "e08ae813d8c57784791dcde8fc9911839e08cd1993a06b8eb5efd0049fcfaae4"
+    },
+    {
+      "file": "2025-03-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28MAR25&start_timestamp=1741305600000&end_timestamp=1743120000000&resolution=1D",
+      "sha256": "7a46b73dea83c7b15aa6d7951b0a4be9bf170bcdf1bbfdfdde457b697761c611"
+    },
+    {
+      "file": "2025-03-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1741330800000&end_timestamp=1741338000000&resolution=60",
+      "sha256": "c0fa1e3c81cafdb74f92d92a9c3cc33dd3aa19f937644ce770874a7a9b0a8c15"
+    },
+    {
+      "file": "2025-03-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1743152400000&end_timestamp=1743152400000&resolution=60",
+      "sha256": "1573c8c0500072d2f9f8b81831abb0603a8e7e405f26d1b43cfada6cbedb8fc0"
+    },
+    {
+      "file": "2025-04-25-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25APR25&start_timestamp=1743750000000&end_timestamp=1743757200000&resolution=60",
+      "sha256": "435a2963cad2ee991aa4c12e076bd4d52c1e3a1512c3d65df643f6f7a99d1368"
+    },
+    {
+      "file": "2025-04-25-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25APR25&start_timestamp=1743724800000&end_timestamp=1745539200000&resolution=1D",
+      "sha256": "82de514eea87195ee2efdb0a9fef98cc1d93663f91816862f00b4fe67046c15a"
+    },
+    {
+      "file": "2025-04-25-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1743750000000&end_timestamp=1743757200000&resolution=60",
+      "sha256": "ff0ac5b1dca4b3463a49cd0fd93b54e2965897e2de3789330347a0cc0889d547"
+    },
+    {
+      "file": "2025-04-25-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1745571600000&end_timestamp=1745571600000&resolution=60",
+      "sha256": "1d02074aaaf24bbb429e274e230fa0b65bf7fc008ec709db7cdc3a07c9ce93fb"
+    },
+    {
+      "file": "2025-05-30-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30MAY25&start_timestamp=1746774000000&end_timestamp=1746781200000&resolution=60",
+      "sha256": "608557a839f3cb9f70178f7155e624953396156a3dedb819cf3d35c4f380afa2"
+    },
+    {
+      "file": "2025-05-30-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30MAY25&start_timestamp=1746748800000&end_timestamp=1748563200000&resolution=1D",
+      "sha256": "d44ddfc401cb20e721a85ce0419698af89441dc9b792f7bf92ac445a405e9141"
+    },
+    {
+      "file": "2025-05-30-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1746774000000&end_timestamp=1746781200000&resolution=60",
+      "sha256": "9e1b2436054a0b7b611d4eb71903e3e6f57948adb4251ba11fde15ce9ee328c3"
+    },
+    {
+      "file": "2025-05-30-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1748595600000&end_timestamp=1748595600000&resolution=60",
+      "sha256": "b775a348fc15c996fea805ff6a8eb3f6c96d2f08db1d1172ca3dc56f3dd286ad"
+    },
+    {
+      "file": "2025-06-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27JUN25&start_timestamp=1749193200000&end_timestamp=1749200400000&resolution=60",
+      "sha256": "88b0a9f09a8b4e92ea66f392944a07703e2d48d3fca5dba22de7d12f8b1abf52"
+    },
+    {
+      "file": "2025-06-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27JUN25&start_timestamp=1749168000000&end_timestamp=1750982400000&resolution=1D",
+      "sha256": "450cc5f2f7b7946fed4b38ccbd8556044370f858215f362c9fbaa53add6f44cb"
+    },
+    {
+      "file": "2025-06-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1749193200000&end_timestamp=1749200400000&resolution=60",
+      "sha256": "93670e790a0a93ea8ddc3d34d376555d4ac20347329468ca4bd53c7c793a76a6"
+    },
+    {
+      "file": "2025-06-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1751014800000&end_timestamp=1751014800000&resolution=60",
+      "sha256": "3d832221de1adb67e12f84ef1faed242ab2f55bc04d9c9496b914023e9ad3834"
+    },
+    {
+      "file": "2025-07-25-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25JUL25&start_timestamp=1751612400000&end_timestamp=1751619600000&resolution=60",
+      "sha256": "4b78290c2b2baf9c3ccc821fcc94d7d3651ca415bdde6cc3711b4258a149a1af"
+    },
+    {
+      "file": "2025-07-25-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25JUL25&start_timestamp=1751587200000&end_timestamp=1753401600000&resolution=1D",
+      "sha256": "c88df0cf9aa84fdda1c8235f5755ecb5cc3522c113b952d292bcf061eff14761"
+    },
+    {
+      "file": "2025-07-25-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1751612400000&end_timestamp=1751619600000&resolution=60",
+      "sha256": "b4e9a50c862551c9afee0b6872369a1274a422c3e5425334c3f62fc57b67e9bf"
+    },
+    {
+      "file": "2025-07-25-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1753434000000&end_timestamp=1753434000000&resolution=60",
+      "sha256": "3c0101a046b6f0ad97fa0fb4f09673f65569fffdc33368971c3d21e25b2b819d"
+    },
+    {
+      "file": "2025-08-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29AUG25&start_timestamp=1754636400000&end_timestamp=1754643600000&resolution=60",
+      "sha256": "ba137a8e8c0d754f7e5a2ccece6e71ce7976172f2a0b47b54dceb663145ea51e"
+    },
+    {
+      "file": "2025-08-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29AUG25&start_timestamp=1754611200000&end_timestamp=1756425600000&resolution=1D",
+      "sha256": "c0664972d0005e175c09befe8e867d0cd16d2f5e38bc877a4779d8588610f6a3"
+    },
+    {
+      "file": "2025-08-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1754636400000&end_timestamp=1754643600000&resolution=60",
+      "sha256": "507dfe020a64871d6784b38edcf15e4c620ee146d4ec39a61137f2f0b5c1fb77"
+    },
+    {
+      "file": "2025-08-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1756458000000&end_timestamp=1756458000000&resolution=60",
+      "sha256": "fc6f6a69a9e7259df4677884f09e5188f3adb3a1253c6902dccc165b3886c9ac"
+    },
+    {
+      "file": "2025-09-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26SEP25&start_timestamp=1757055600000&end_timestamp=1757062800000&resolution=60",
+      "sha256": "b20e64872d6a716c8a67c8de3010d9c1beb75c0f90fa9d38c92837aceb1bb965"
+    },
+    {
+      "file": "2025-09-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26SEP25&start_timestamp=1757030400000&end_timestamp=1758844800000&resolution=1D",
+      "sha256": "b31745585289f49b33f5075960cde452de543a1b98eb2a452a08b5747a37c931"
+    },
+    {
+      "file": "2025-09-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1757055600000&end_timestamp=1757062800000&resolution=60",
+      "sha256": "c362810bb516e950a0f835e4e0fc99629b620635bfb71d6e15824cc6e884ed18"
+    },
+    {
+      "file": "2025-09-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1758877200000&end_timestamp=1758877200000&resolution=60",
+      "sha256": "63a12fcbc60b3b1c043db13f3c3cb73041c036e524e2046e5c1d09a3c885bd59"
+    },
+    {
+      "file": "2025-10-31-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31OCT25&start_timestamp=1760079600000&end_timestamp=1760086800000&resolution=60",
+      "sha256": "54f90cc60ad4011e99e80efa844e0d289b3bfafd53e3c37d703742445731f6ea"
+    },
+    {
+      "file": "2025-10-31-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31OCT25&start_timestamp=1760054400000&end_timestamp=1761868800000&resolution=1D",
+      "sha256": "df15c30d81bd87ed21a47898b638bdac3097e585d3ea3be6686c56fea2b292ae"
+    },
+    {
+      "file": "2025-10-31-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1760079600000&end_timestamp=1760086800000&resolution=60",
+      "sha256": "59f1ded9c1a0ec281c979d2c218c6c840f298a8d7a0d781315e84198ee6f3848"
+    },
+    {
+      "file": "2025-10-31-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1761901200000&end_timestamp=1761901200000&resolution=60",
+      "sha256": "5f1c70ad431d71685c0dc89aac783414f58ef2e65cba500bf7aabdef22ecfea1"
+    },
+    {
+      "file": "2025-11-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28NOV25&start_timestamp=1762498800000&end_timestamp=1762506000000&resolution=60",
+      "sha256": "de81f6d29fbeaf52b31a2213a7fde714f5d82fbe39b309b7193b82b137e5b316"
+    },
+    {
+      "file": "2025-11-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28NOV25&start_timestamp=1762473600000&end_timestamp=1764288000000&resolution=1D",
+      "sha256": "7a99f41236d5a142579253c94f22422a892f1a0f6ca7a6b8a18e46435d74481d"
+    },
+    {
+      "file": "2025-11-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1762498800000&end_timestamp=1762506000000&resolution=60",
+      "sha256": "49ab862bf316f13c96e0d8d89dddd2c17704937a9d657ad4993db7dffa8f8a8d"
+    },
+    {
+      "file": "2025-11-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1764320400000&end_timestamp=1764320400000&resolution=60",
+      "sha256": "ae66e299245321cabd1f911f612f391100114f7b66b67b456d458ec385d80966"
+    },
+    {
+      "file": "2025-12-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26DEC25&start_timestamp=1764918000000&end_timestamp=1764925200000&resolution=60",
+      "sha256": "ccf9b0cc77f113f0b442e2377270a85c7eef316784331726c8abccdf9bc9bce7"
+    },
+    {
+      "file": "2025-12-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26DEC25&start_timestamp=1764892800000&end_timestamp=1766707200000&resolution=1D",
+      "sha256": "a32b0dc746704d45df4a66ba09f586137b9017fa4063678c552b717cf74a1c99"
+    },
+    {
+      "file": "2025-12-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1764918000000&end_timestamp=1764925200000&resolution=60",
+      "sha256": "ea61c2b3836cd30c330dcef9721f4f7c8f83d0ae45091808833c297c120be4a4"
+    },
+    {
+      "file": "2025-12-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1766739600000&end_timestamp=1766739600000&resolution=60",
+      "sha256": "cefa4ef578bf33d4972aa38e400f608dd32809096076b2bd996c035f7dbd8235"
+    },
+    {
+      "file": "2026-01-30-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30JAN26&start_timestamp=1767942000000&end_timestamp=1767949200000&resolution=60",
+      "sha256": "0e5486415f713e6eac88d071c9acb078e6667634bb4d46c0d98356ba6708ade4"
+    },
+    {
+      "file": "2026-01-30-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30JAN26&start_timestamp=1767916800000&end_timestamp=1769731200000&resolution=1D",
+      "sha256": "655ae29c17479149692b15cbc4e134b6b0eaac9cac9e7b136817306d9bb0d9dd"
+    },
+    {
+      "file": "2026-01-30-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1767942000000&end_timestamp=1767949200000&resolution=60",
+      "sha256": "205ba61f2319fe6dd6dcc4ec9f66af2138c6dc39e9ea79f01026085cd5ab046d"
+    },
+    {
+      "file": "2026-01-30-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1769763600000&end_timestamp=1769763600000&resolution=60",
+      "sha256": "8b6095cf94c0d40dceda4cadc26aa8ec282781b7accdc6ad12b3970d3e1ce538"
+    },
+    {
+      "file": "2026-02-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27FEB26&start_timestamp=1770361200000&end_timestamp=1770368400000&resolution=60",
+      "sha256": "078aa8adabd8fb75185806ad0272a2432491a4506ee69fe51941e037d0e96f12"
+    },
+    {
+      "file": "2026-02-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27FEB26&start_timestamp=1770336000000&end_timestamp=1772150400000&resolution=1D",
+      "sha256": "239cdef951a1fed4b6361a0645019107c48fbbf75c834c4cb40f10091b7dc4a1"
+    },
+    {
+      "file": "2026-02-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1770361200000&end_timestamp=1770368400000&resolution=60",
+      "sha256": "84ae43a549e9ab6609d2ca6cf23733ea818757ecd84a6e1ada44977b343feba6"
+    },
+    {
+      "file": "2026-02-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1772182800000&end_timestamp=1772182800000&resolution=60",
+      "sha256": "d6848d4dd83619e65db124a29b5be1c8c2c6a3a6ad09cf23ca666bf421e87084"
+    },
+    {
+      "file": "2026-03-27-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27MAR26&start_timestamp=1772780400000&end_timestamp=1772787600000&resolution=60",
+      "sha256": "858f461a6318a4a793cbc7b0bf17ef6869e1f04063d036251d8b45939ca60021"
+    },
+    {
+      "file": "2026-03-27-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-27MAR26&start_timestamp=1772755200000&end_timestamp=1774569600000&resolution=1D",
+      "sha256": "7aa21e4e9713d95acc1b1608a92c5ff574547b525a9274b904c0448ec04717bd"
+    },
+    {
+      "file": "2026-03-27-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1772780400000&end_timestamp=1772787600000&resolution=60",
+      "sha256": "121b8151f63baab1da00ad6b08c27e094352c7ff0a9b27993ade952369c9ed2b"
+    },
+    {
+      "file": "2026-03-27-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1774602000000&end_timestamp=1774602000000&resolution=60",
+      "sha256": "c67f98be03205be0d5a0e49005ef1aa236a44e33f646f24f0c03f0ef8386f27b"
+    },
+    {
+      "file": "2026-04-24-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-24APR26&start_timestamp=1775199600000&end_timestamp=1775206800000&resolution=60",
+      "sha256": "c20ba67a30de8c0ddf29ad122583d4aee0afa8b16f7d99149cad1f0cdf7bb154"
+    },
+    {
+      "file": "2026-04-24-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-24APR26&start_timestamp=1775174400000&end_timestamp=1776988800000&resolution=1D",
+      "sha256": "941732f480fefd2bc2f8726363c8d1171dcdd9d06b5a0c658d370e962fbd94ee"
+    },
+    {
+      "file": "2026-04-24-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1775199600000&end_timestamp=1775206800000&resolution=60",
+      "sha256": "7f28f6f2c3614ac908afa170756b6ca672813107f5c35fbf802014385a94337e"
+    },
+    {
+      "file": "2026-04-24-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1777021200000&end_timestamp=1777021200000&resolution=60",
+      "sha256": "6fadd415767832e8c1e11269129efd13b5831445d7716b5baf72f37cf8483dfb"
+    },
+    {
+      "file": "2026-05-29-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29MAY26&start_timestamp=1778223600000&end_timestamp=1778230800000&resolution=60",
+      "sha256": "82d82415969a6a01b6dfb9503b2213ec46084177ec4db7077a177ae2b5f12e67"
+    },
+    {
+      "file": "2026-05-29-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-29MAY26&start_timestamp=1778198400000&end_timestamp=1780012800000&resolution=1D",
+      "sha256": "960a8c94b0430c71e7b1b30221092a4aacbff8b38b616b21d0b94a974f3b8527"
+    },
+    {
+      "file": "2026-05-29-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1778223600000&end_timestamp=1778230800000&resolution=60",
+      "sha256": "dda46d161cfeb08739ab05e1a7347b3d16daa1827128abebd843bdd695ab6c4e"
+    },
+    {
+      "file": "2026-05-29-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1780045200000&end_timestamp=1780045200000&resolution=60",
+      "sha256": "5a940ff89afe7cea4f1e832f582034b810ed856cbfa935fbf67dcc358676b4da"
+    },
+    {
+      "file": "2026-06-26-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JUN26&start_timestamp=1780642800000&end_timestamp=1780650000000&resolution=60",
+      "sha256": "aa7497ff9302b8daa9a09a6487769532a9ace4560d7bd4d56b66abbdd864a612"
+    },
+    {
+      "file": "2026-06-26-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-26JUN26&start_timestamp=1780617600000&end_timestamp=1782432000000&resolution=1D",
+      "sha256": "6a10bb19e334b34c59d6e2147620aaa4de789cb4f5d2b8f59786ab1dc3847078"
+    },
+    {
+      "file": "2026-06-26-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1780642800000&end_timestamp=1780650000000&resolution=60",
+      "sha256": "0ca2ffacb63f788e13c04c806f1ed7e5b8367bc66995134d750eb5d8be011542"
+    },
+    {
+      "file": "2026-06-26-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1782464400000&end_timestamp=1782464400000&resolution=60",
+      "sha256": "14703da1d0d00cfd0addb74c8259a5f6be51952131ab56b2eec4544dbb3bfddc"
+    },
+    {
+      "file": "2026-07-31-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31JUL26&start_timestamp=1783666800000&end_timestamp=1783674000000&resolution=60",
+      "sha256": "b0320a604a82830562397623b98b294a3f30aa9e4894a938251e77f406958a93"
+    },
+    {
+      "file": "2026-07-31-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-31JUL26&start_timestamp=1783641600000&end_timestamp=1785456000000&resolution=1D",
+      "sha256": "08111755e36b6a66f7041f7241524935b774b97f8d0b370a9da4543ea6084d17"
+    },
+    {
+      "file": "2026-07-31-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1783666800000&end_timestamp=1783674000000&resolution=60",
+      "sha256": "edd6978e60c57cec466ed52be298caa99b2736c357769096d6bcf3a7afe8fa99"
+    },
+    {
+      "file": "2026-07-31-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1785488400000&end_timestamp=1785488400000&resolution=60",
+      "sha256": "6d7a8b665aea0d92673b63c1c5d766b070b27e8a2528d5991a001ab6e16347a2"
+    },
+    {
+      "file": "2026-08-28-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28AUG26&start_timestamp=1786086000000&end_timestamp=1786093200000&resolution=60",
+      "sha256": "ee102d578f14a9c7eeef47a40b00dff3bdd2d6879ada2ab306f509c096ccebfa"
+    },
+    {
+      "file": "2026-08-28-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-28AUG26&start_timestamp=1786060800000&end_timestamp=1787875200000&resolution=1D",
+      "sha256": "f3d0623c07e93c5f00646a09fd0c2111e5fd6b04ea00f14b512ddce6e5e2cb13"
+    },
+    {
+      "file": "2026-08-28-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1786086000000&end_timestamp=1786093200000&resolution=60",
+      "sha256": "7b3453aac4d4bc639f43eba2d9d1f44b18f64d88fc89cdf8c34449308e3c0e0f"
+    },
+    {
+      "file": "2026-08-28-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1787907600000&end_timestamp=1787907600000&resolution=60",
+      "sha256": "cd22177cd0541d5fec11996f8ebfdac77aff9df0add416a48739c7ce11907e49"
+    },
+    {
+      "file": "2026-09-25-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25SEP26&start_timestamp=1788505200000&end_timestamp=1788512400000&resolution=60",
+      "sha256": "adb996442c44e8c40a17e1ef88a382ef92159abde86f4228fc6f23387b291a45"
+    },
+    {
+      "file": "2026-09-25-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-25SEP26&start_timestamp=1788480000000&end_timestamp=1790294400000&resolution=1D",
+      "sha256": "6a29d9c9565155fd1105eb2ae7b9590991f5dc3456b8a6161fbacf5509c5adcd"
+    },
+    {
+      "file": "2026-09-25-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1788505200000&end_timestamp=1788512400000&resolution=60",
+      "sha256": "597998c9b7c583973510f2625ae5213187adc3ca8bb0821362c038276bf76f9d"
+    },
+    {
+      "file": "2026-09-25-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1790326800000&end_timestamp=1790326800000&resolution=60",
+      "sha256": "974afcf19baf5c5f02b70a49228308d73e0839570983b56d2c3d4db13dd83faf"
+    },
+    {
+      "file": "2026-10-30-future-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30OCT26&start_timestamp=1791529200000&end_timestamp=1791536400000&resolution=60",
+      "sha256": "62f96fe229a666cb1ee6584c398699a999ff887e6eacd6a8017c4ea0053a9e18"
+    },
+    {
+      "file": "2026-10-30-future-range.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC-30OCT26&start_timestamp=1791504000000&end_timestamp=1793318400000&resolution=1D",
+      "sha256": "b5617af6eadd3c8d92a4d06a294b748b4e112ee1738ed18fae3153326037371c"
+    },
+    {
+      "file": "2026-10-30-spot-entry.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1791529200000&end_timestamp=1791536400000&resolution=60",
+      "sha256": "95162270f7e0128b2f4dad2add744b947763c2d37981f0e98e5a03b2dc7fb700"
+    },
+    {
+      "file": "2026-10-30-spot-exit.json",
+      "url": "https://history.deribit.com/api/v2/public/get_tradingview_chart_data?instrument_name=BTC_USDC&start_timestamp=1793350800000&end_timestamp=1793350800000&resolution=60",
+      "sha256": "b48fdae6d696b66713b3690d650bd1475fb2a8b88ba1a21cdbf3879e46c456a0"
+    },
+    {
+      "file": "catalog.json",
+      "url": "https://history.deribit.com/api/v2/public/get_instruments?currency=BTC&kind=future&expired=true",
+      "sha256": "a71a0ad7113d0d6b4a1e8c4110ca3c1f66c951f6025d79aa09290d0c74e36b88"
+    },
+    {
+      "file": "delivery-0.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=0",
+      "sha256": "dab339aaa9fedf5ed5b29458cf917d821b375241ec17254f19c195819b81c5f6"
+    },
+    {
+      "file": "delivery-100.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=100",
+      "sha256": "1e18741dd256f2e0ef19f93fad25746355677982b72ef3b328ff88dd23d53472"
+    },
+    {
+      "file": "delivery-1000.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=1000",
+      "sha256": "bb32f6e1d027153b7250d573bc00938aa962e4ca0360da8f3cf6b6a1d99f9a1c"
+    },
+    {
+      "file": "delivery-1100.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=1100",
+      "sha256": "0aba51c77362578a24104ade2f8cfbf19b87a918af7ddeb15da521f4b8b6c34f"
+    },
+    {
+      "file": "delivery-1200.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=1200",
+      "sha256": "599958ea1394f5d57f780ae87c02805a5e8cc88f2c4a6f21fc9a1af12c0b3454"
+    },
+    {
+      "file": "delivery-200.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=200",
+      "sha256": "23786ae2a68f8a651d24d30681d2e0a4c19a87206a218d24f3e61538c7a9f586"
+    },
+    {
+      "file": "delivery-300.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=300",
+      "sha256": "c2e6aeb9230d58e730ccc23009a75b0dba5c0dcc3af9ca12b4144f7c6866aa87"
+    },
+    {
+      "file": "delivery-400.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=400",
+      "sha256": "837ad70788e1cf6d98a25ecf4fc9f61c9814da88965c69df1f6356d6d2571e2f"
+    },
+    {
+      "file": "delivery-500.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=500",
+      "sha256": "78f09c262289419dbb4ffd764ee510e95247c8cbd993ae2c73d77e6559370c95"
+    },
+    {
+      "file": "delivery-600.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=600",
+      "sha256": "d71e92b0aa94984a554d30d58f8d3a848d95fb74606ab07d1b498aa609472ffb"
+    },
+    {
+      "file": "delivery-700.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=700",
+      "sha256": "05a4035a9e0a771f14a5cc0a27dc4fe673ed20d6f3b8243994e31ee4cade99d0"
+    },
+    {
+      "file": "delivery-800.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=800",
+      "sha256": "0e655fb8e98630b8d14a260963567ff006e39f9981b725d3c9c0e03c1d0d1fa6"
+    },
+    {
+      "file": "delivery-900.json",
+      "url": "https://www.deribit.com/api/v2/public/get_delivery_prices?index_name=btc_usd&count=100&offset=900",
+      "sha256": "ddf6a5aeeb59ba3e6b23ad6a1e095e207fa2b15024e63a705b38e20af112e35b"
+    }
+  ]
+}
