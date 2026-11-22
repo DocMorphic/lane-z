@@ -1,0 +1,880 @@
+{
+  "initial_usd": 1000,
+  "fee_bps_per_fill": 60,
+  "venues": {
+    "coinbase": {
+      "sources": {
+        "BTC": [
+          {
+            "file": "coinbase-BTC-2017-01-01.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2017-01-01T00%3A00%3A00%2B00%3A00&end=2017-10-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "92e6ae9b3649f54663a9601b498a08c0cd67d5091a34aa9bc2c22606b6174ccc"
+          },
+          {
+            "file": "coinbase-BTC-2017-10-08.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2017-10-08T00%3A00%3A00%2B00%3A00&end=2018-07-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "e8411beb84f443c1802918e53fe46a731aa7560144b888011e070737088e0474"
+          },
+          {
+            "file": "coinbase-BTC-2018-07-15.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2018-07-15T00%3A00%3A00%2B00%3A00&end=2019-04-21T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "ab7d2aaeab375f019729381b0002d54f913a5758aa0fb32f8b3b0fba6cd904fe"
+          },
+          {
+            "file": "coinbase-BTC-2019-04-21.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2019-04-21T00%3A00%3A00%2B00%3A00&end=2020-01-26T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "9ffcc41301a6763fa864723ad9e352494c069ff2a50e7928a0ec490ae117d2cd"
+          },
+          {
+            "file": "coinbase-BTC-2020-01-26.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2020-01-26T00%3A00%3A00%2B00%3A00&end=2020-11-01T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "16ccd9595d09f89a889c089142f4b1816065ca65c6b10e6cf6b9c74ee19c8bce"
+          },
+          {
+            "file": "coinbase-BTC-2020-11-01.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2020-11-01T00%3A00%3A00%2B00%3A00&end=2021-08-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "24961e82f51e243ea27e1eafc706f4a88f7617e3c487c455c6537b4fc2af2e81"
+          },
+          {
+            "file": "coinbase-BTC-2021-08-08.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2021-08-08T00%3A00%3A00%2B00%3A00&end=2022-05-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "98c129536515a579b98320526ae24b61838b109ed8fe0408b4f883cd880d5385"
+          },
+          {
+            "file": "coinbase-BTC-2022-05-15.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2022-05-15T00%3A00%3A00%2B00%3A00&end=2023-02-19T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "8312d3b5fd305b0657a82f691eafbcbba0863c6b1d397efa2941f71e975a8199"
+          },
+          {
+            "file": "coinbase-BTC-2023-02-19.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2023-02-19T00%3A00%3A00%2B00%3A00&end=2023-11-26T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "7816c6304375ae4c748930a9779d6a9ffb2ddbd7275553f694705da231e99ce2"
+          },
+          {
+            "file": "coinbase-BTC-2023-11-26.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2023-11-26T00%3A00%3A00%2B00%3A00&end=2024-09-01T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "f0ab6652f30ce9d60172c902eb2d7562624922fcf7d78149928aca34cd1c39e2"
+          },
+          {
+            "file": "coinbase-BTC-2024-09-01.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2024-09-01T00%3A00%3A00%2B00%3A00&end=2025-06-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "065218b21dc450308fdf413d7ef505c9effb0fa72714ec60f5ddc86c28f18f33"
+          },
+          {
+            "file": "coinbase-BTC-2025-06-08.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2025-06-08T00%3A00%3A00%2B00%3A00&end=2026-03-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "a7e622fff792ce1d565cb2b02be6b66458a136d513ad254a59f42a649e722325"
+          },
+          {
+            "file": "coinbase-BTC-2026-03-15.json",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2026-03-15T00%3A00%3A00%2B00%3A00&end=2026-11-23T00%3A00%3A00%2B00%3A00",
+            "rows": 253,
+            "sha256": "cf14db51c339e2e7894dcfd4f4c654d2384e5781375637083c6e7c797a135bad"
+          }
+        ],
+        "ETH": [
+          {
+            "file": "coinbase-ETH-2017-01-01.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2017-01-01T00%3A00%3A00%2B00%3A00&end=2017-10-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "78033261c41b8b570cc1f60b34b985a5e04d2a6b2cb53b082900953988c41f2b"
+          },
+          {
+            "file": "coinbase-ETH-2017-10-08.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2017-10-08T00%3A00%3A00%2B00%3A00&end=2018-07-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "748abc2b599300dafae54c531c264dfe3b58de09a98bb9dd092ee615fd1df403"
+          },
+          {
+            "file": "coinbase-ETH-2018-07-15.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2018-07-15T00%3A00%3A00%2B00%3A00&end=2019-04-21T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "9956ff8dd46dff2ee872cf9e2b973efe259633a406dcbfab45111da61775c221"
+          },
+          {
+            "file": "coinbase-ETH-2019-04-21.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2019-04-21T00%3A00%3A00%2B00%3A00&end=2020-01-26T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "fbb120222d9de8b8d926d5edf67a98a3e6b3716229cfdd5ef0901a498e596544"
+          },
+          {
+            "file": "coinbase-ETH-2020-01-26.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2020-01-26T00%3A00%3A00%2B00%3A00&end=2020-11-01T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "d8c5fc0039b3af1a85a58deff59fea1c3c6b4a6d0542428e19018e1c5a06e6d6"
+          },
+          {
+            "file": "coinbase-ETH-2020-11-01.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2020-11-01T00%3A00%3A00%2B00%3A00&end=2021-08-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "596e24fa3801cec9f9373bd2f085f0fc12e27d98866dafb17fe6857bf5b82009"
+          },
+          {
+            "file": "coinbase-ETH-2021-08-08.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2021-08-08T00%3A00%3A00%2B00%3A00&end=2022-05-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "4b1eea0fc7df6409e72b42ba0e157119fc85a8451e42900be2cfb3eae513a003"
+          },
+          {
+            "file": "coinbase-ETH-2022-05-15.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2022-05-15T00%3A00%3A00%2B00%3A00&end=2023-02-19T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "da31eee4fd6bf82a8b6397560e63b73d062b7b0ffa3b42ccd0e497bdcddcff53"
+          },
+          {
+            "file": "coinbase-ETH-2023-02-19.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2023-02-19T00%3A00%3A00%2B00%3A00&end=2023-11-26T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "088b07f95359e9164cc07c29494885d8e13e91447d6f77a3658e070c36d49ab6"
+          },
+          {
+            "file": "coinbase-ETH-2023-11-26.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2023-11-26T00%3A00%3A00%2B00%3A00&end=2024-09-01T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "92b4747c5c65353bd1c828117f92ee1d58bba41cd1556f73737bbb6a9d578bf1"
+          },
+          {
+            "file": "coinbase-ETH-2024-09-01.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2024-09-01T00%3A00%3A00%2B00%3A00&end=2025-06-08T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "154b93ff7b8da59f40075255bb82f14db003181b509324e3b5a4c668154b5fab"
+          },
+          {
+            "file": "coinbase-ETH-2025-06-08.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2025-06-08T00%3A00%3A00%2B00%3A00&end=2026-03-15T00%3A00%3A00%2B00%3A00",
+            "rows": 280,
+            "sha256": "945e04ede89d4b53b4fb3adb6ab22aad4c87234da2672ae4af2a4f10903b43ed"
+          },
+          {
+            "file": "coinbase-ETH-2026-03-15.json",
+            "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2026-03-15T00%3A00%3A00%2B00%3A00&end=2026-11-23T00%3A00%3A00%2B00%3A00",
+            "rows": 253,
+            "sha256": "de4c60ea50b998429037fc42361620058ff908301c9cd0b17d6ebc0fb63a4c16"
+          }
+        ]
+      },
+      "windows": {
+        "development": {
+          "start": "2018-01-01",
+          "end_open": "2021-01-01",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1124.9848776402512,
+          "20": {
+            "breakout": {
+              "end_usd": 2378.7843468707633,
+              "net_usd": 1378.7843468707633,
+              "return_fraction": 1.3787843468707632,
+              "maximum_drawdown": 0.5664803002884107,
+              "funded_sleeved_days": 762,
+              "all_sleeve_days": 2192,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1559.9545966718117,
+                  "fees_usd": 31.081738710358433,
+                  "spread_impact_reserve_usd": 10.360579570119477,
+                  "fills": 8
+                },
+                "ETH": {
+                  "end_usd": 818.8297501989515,
+                  "fees_usd": 32.90553191590067,
+                  "spread_impact_reserve_usd": 10.968510638633557,
+                  "fills": 10
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1518.824409256015,
+              "net_usd": 518.8244092560151,
+              "return_fraction": 0.518824409256015,
+              "maximum_drawdown": 0.8819786815360955,
+              "funded_sleeved_days": 2192,
+              "all_sleeve_days": 2192,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1028.9847754549114,
+                  "fees_usd": 9.199888714829054,
+                  "spread_impact_reserve_usd": 3.0666295716096843,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 489.83963380110373,
+                  "fees_usd": 5.938930196761668,
+                  "spread_impact_reserve_usd": 1.979643398920556,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 2238.4513700741263,
+              "net_usd": 1238.4513700741263,
+              "return_fraction": 1.2384513700741264,
+              "maximum_drawdown": 0.5743278639301566,
+              "funded_sleeved_days": 762,
+              "all_sleeve_days": 2192,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1474.9868585742522,
+                  "fees_usd": 30.07677662635094,
+                  "spread_impact_reserve_usd": 45.115164939526416,
+                  "fills": 8
+                },
+                "ETH": {
+                  "end_usd": 763.4645114998742,
+                  "fees_usd": 31.740457167485175,
+                  "spread_impact_reserve_usd": 47.610685751227756,
+                  "fills": 10
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1497.706161073924,
+              "net_usd": 497.706161073924,
+              "return_fraction": 0.49770616107392396,
+              "maximum_drawdown": 0.8819786815360955,
+              "funded_sleeved_days": 2192,
+              "all_sleeve_days": 2192,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1014.6774231821793,
+                  "fees_usd": 9.136441206450924,
+                  "spread_impact_reserve_usd": 13.704661809676384,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 483.02873789174475,
+                  "fees_usd": 5.897972057473657,
+                  "spread_impact_reserve_usd": 8.846958086210485,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        },
+        "holdout_2021_2023": {
+          "start": "2021-01-01",
+          "end_open": "2024-01-01",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1124.864,
+          "20": {
+            "breakout": {
+              "end_usd": 2192.1256489660705,
+              "net_usd": 1192.1256489660705,
+              "return_fraction": 1.1921256489660705,
+              "maximum_drawdown": 0.5855423305036331,
+              "funded_sleeved_days": 922,
+              "all_sleeve_days": 2190,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 787.3319622586146,
+                  "fees_usd": 53.91473357170136,
+                  "spread_impact_reserve_usd": 17.971577857233786,
+                  "fills": 12
+                },
+                "ETH": {
+                  "end_usd": 1404.793686707456,
+                  "fees_usd": 70.35276472980948,
+                  "spread_impact_reserve_usd": 23.450921576603168,
+                  "fills": 10
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 2238.895384448339,
+              "net_usd": 1238.895384448339,
+              "return_fraction": 1.2388953844483388,
+              "maximum_drawdown": 0.7740374965433421,
+              "funded_sleeved_days": 2190,
+              "all_sleeve_days": 2190,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 717.7857511675148,
+                  "fees_usd": 7.317636551800445,
+                  "spread_impact_reserve_usd": 2.4392121839334813,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 1521.1096332808243,
+                  "fees_usd": 12.176450354905139,
+                  "spread_impact_reserve_usd": 4.058816784968379,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 2033.6977735595638,
+              "net_usd": 1033.6977735595638,
+              "return_fraction": 1.0336977735595636,
+              "maximum_drawdown": 0.5913050900906237,
+              "funded_sleeved_days": 922,
+              "all_sleeve_days": 2190,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 723.8893237326902,
+                  "fees_usd": 51.727855430958094,
+                  "spread_impact_reserve_usd": 77.59178314643712,
+                  "fills": 12
+                },
+                "ETH": {
+                  "end_usd": 1309.8084498268736,
+                  "fees_usd": 67.83471168505287,
+                  "spread_impact_reserve_usd": 101.75206752757929,
+                  "fills": 10
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 2207.7650259326506,
+              "net_usd": 1207.7650259326506,
+              "return_fraction": 1.2077650259326504,
+              "maximum_drawdown": 0.7740374965433421,
+              "funded_sleeved_days": 2190,
+              "all_sleeve_days": 2190,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 707.805415361515,
+                  "fees_usd": 7.267170092822512,
+                  "spread_impact_reserve_usd": 10.900755139233768,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 1499.9596105711355,
+                  "fees_usd": 12.092474835216137,
+                  "spread_impact_reserve_usd": 18.138712252824206,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        },
+        "holdout_2024_2026": {
+          "start": "2024-01-01",
+          "end_open": "2026-11-22",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1120.1598889654533,
+          "20": {
+            "breakout": {
+              "end_usd": 1354.4936549346917,
+              "net_usd": 354.4936549346917,
+              "return_fraction": 0.35449365493469176,
+              "maximum_drawdown": 0.28401972152728383,
+              "funded_sleeved_days": 786,
+              "all_sleeve_days": 2112,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 582.4400723587565,
+                  "fees_usd": 43.40878365941165,
+                  "spread_impact_reserve_usd": 14.469594553137215,
+                  "fills": 12
+                },
+                "ETH": {
+                  "end_usd": 772.053582575935,
+                  "fees_usd": 32.97603155040712,
+                  "spread_impact_reserve_usd": 10.992010516802376,
+                  "fills": 8
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1062.0635739408597,
+              "net_usd": 62.06357394085967,
+              "return_fraction": 0.062063573940859706,
+              "maximum_drawdown": 0.585924165991597,
+              "funded_sleeved_days": 2112,
+              "all_sleeve_days": 2112,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 699.1515672582758,
+                  "fees_usd": 7.204929794284887,
+                  "spread_impact_reserve_usd": 2.4016432647616286,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 362.9120066825839,
+                  "fees_usd": 5.171222774673847,
+                  "spread_impact_reserve_usd": 1.7237409248912823,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 1265.5087768714461,
+              "net_usd": 265.5087768714461,
+              "return_fraction": 0.26550877687144614,
+              "maximum_drawdown": 0.30300516104546127,
+              "funded_sleeved_days": 786,
+              "all_sleeve_days": 2112,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 535.5074737282283,
+                  "fees_usd": 41.54491229171811,
+                  "spread_impact_reserve_usd": 62.31736843757717,
+                  "fills": 12
+                },
+                "ETH": {
+                  "end_usd": 730.0013031432178,
+                  "fees_usd": 32.011519521014215,
+                  "spread_impact_reserve_usd": 48.017279281521326,
+                  "fills": 8
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1047.2962828682673,
+              "net_usd": 47.296282868267326,
+              "return_fraction": 0.04729628286826726,
+              "maximum_drawdown": 0.585924165991597,
+              "funded_sleeved_days": 2112,
+              "all_sleeve_days": 2112,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 689.4303274465647,
+                  "fees_usd": 7.15524062328982,
+                  "spread_impact_reserve_usd": 10.73286093493473,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 357.86595542170267,
+                  "fees_usd": 5.135559169331269,
+                  "spread_impact_reserve_usd": 7.703338753996904,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        },
+        "calendar_2024": {
+          "start": "2024-01-01",
+          "end_open": "2025-01-01",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1040.111758173309,
+          "20": {
+            "breakout": {
+              "end_usd": 1390.666925473245,
+              "net_usd": 390.6669254732451,
+              "return_fraction": 0.3906669254732451,
+              "maximum_drawdown": 0.24054917218402028,
+              "funded_sleeved_days": 336,
+              "all_sleeve_days": 732,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 748.53874354359,
+                  "fees_usd": 19.757108859583038,
+                  "spread_impact_reserve_usd": 6.585702953194346,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 642.1281819296549,
+                  "fees_usd": 14.79678591953383,
+                  "spread_impact_reserve_usd": 4.932261973177943,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1804.6377121819987,
+              "net_usd": 804.6377121819987,
+              "return_fraction": 0.8046377121819988,
+              "maximum_drawdown": 0.35467414475277237,
+              "funded_sleeved_days": 732,
+              "all_sleeve_days": 732,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1086.1783751336911,
+                  "fees_usd": 9.545817745144253,
+                  "spread_impact_reserve_usd": 3.181939248381418,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 718.4593370483077,
+                  "fees_usd": 7.321710659950402,
+                  "spread_impact_reserve_usd": 2.440570219983467,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 1342.1426605241913,
+              "net_usd": 342.14266052419134,
+              "return_fraction": 0.3421426605241913,
+              "maximum_drawdown": 0.24831358705481432,
+              "funded_sleeved_days": 336,
+              "all_sleeve_days": 732,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 717.747070314223,
+                  "fees_usd": 19.321092723341927,
+                  "spread_impact_reserve_usd": 28.98163908501289,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 624.3955902099683,
+                  "fees_usd": 14.586750572756472,
+                  "spread_impact_reserve_usd": 21.880125859134708,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 1779.545419187255,
+              "net_usd": 779.545419187255,
+              "return_fraction": 0.7795454191872551,
+              "maximum_drawdown": 0.35467414475277237,
+              "funded_sleeved_days": 732,
+              "all_sleeve_days": 732,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 1071.075783710809,
+                  "fees_usd": 9.479984519315671,
+                  "spread_impact_reserve_usd": 14.219976778973509,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 708.4696354764459,
+                  "fees_usd": 7.271216103674882,
+                  "spread_impact_reserve_usd": 10.906824155512323,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        },
+        "calendar_2025": {
+          "start": "2025-01-01",
+          "end_open": "2026-01-01",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1040.0,
+          "20": {
+            "breakout": {
+              "end_usd": 1037.6807079607659,
+              "net_usd": 37.68070796076586,
+              "return_fraction": 0.03768070796076595,
+              "maximum_drawdown": 0.24131596747614914,
+              "funded_sleeved_days": 314,
+              "all_sleeve_days": 730,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 403.4138777044746,
+                  "fees_usd": 16.783119151824852,
+                  "spread_impact_reserve_usd": 5.594373050608284,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 634.2668302562913,
+                  "fees_usd": 12.529378135589745,
+                  "spread_impact_reserve_usd": 4.1764593785299144,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 899.5366718564043,
+              "net_usd": -100.46332814359573,
+              "return_fraction": -0.10046332814359571,
+              "maximum_drawdown": 0.4285954230925616,
+              "funded_sleeved_days": 730,
+              "all_sleeve_days": 730,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 461.2282633691649,
+                  "fees_usd": 5.765877553020102,
+                  "spread_impact_reserve_usd": 1.921959184340034,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 438.3084084872394,
+                  "fees_usd": 5.627249398492327,
+                  "spread_impact_reserve_usd": 1.8757497994974424,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 1003.5704936048262,
+              "net_usd": 3.570493604826197,
+              "return_fraction": 0.003570493604826197,
+              "maximum_drawdown": 0.25186496681602455,
+              "funded_sleeved_days": 314,
+              "all_sleeve_days": 730,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 386.8191611241903,
+                  "fees_usd": 16.443572970974298,
+                  "spread_impact_reserve_usd": 24.66535945646145,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 616.7513324806358,
+                  "fees_usd": 12.350840447242662,
+                  "spread_impact_reserve_usd": 18.526260670863994,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 887.0292097894355,
+              "net_usd": -112.97079021056447,
+              "return_fraction": -0.11297079021056444,
+              "maximum_drawdown": 0.4285954230925616,
+              "funded_sleeved_days": 730,
+              "all_sleeve_days": 730,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 454.8151896293267,
+                  "fees_usd": 5.726112880240654,
+                  "spread_impact_reserve_usd": 8.58916932036098,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 432.21402016010876,
+                  "fees_usd": 5.588440781951001,
+                  "spread_impact_reserve_usd": 8.382661172926502,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        },
+        "calendar_2026": {
+          "start": "2026-01-01",
+          "end_open": "2026-11-22",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1035.5395060666815,
+          "20": {
+            "breakout": {
+              "end_usd": 940.9301720474966,
+              "net_usd": -59.069827952503374,
+              "return_fraction": -0.05906982795250337,
+              "maximum_drawdown": 0.1401188194032036,
+              "funded_sleeved_days": 136,
+              "all_sleeve_days": 650,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 474.5448645059212,
+                  "fees_usd": 5.846421511508548,
+                  "spread_impact_reserve_usd": 1.9488071705028494,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 466.38530754157546,
+                  "fees_usd": 5.797069352450006,
+                  "spread_impact_reserve_usd": 1.9323564508166684,
+                  "fills": 2
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 616.9434054153725,
+              "net_usd": -383.05659458462753,
+              "return_fraction": -0.3830565945846275,
+              "maximum_drawdown": 0.464967792497593,
+              "funded_sleeved_days": 650,
+              "all_sleeve_days": 650,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 337.9065107711322,
+                  "fees_usd": 5.019979855854582,
+                  "spread_impact_reserve_usd": 1.673326618618194,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 279.03689464424025,
+                  "fees_usd": 4.663913629280639,
+                  "spread_impact_reserve_usd": 1.5546378764268796,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 927.8471607565136,
+              "net_usd": -72.15283924348637,
+              "return_fraction": -0.07215283924348637,
+              "maximum_drawdown": 0.14618652934693122,
+              "funded_sleeved_days": 136,
+              "all_sleeve_days": 650,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 467.94663224082217,
+                  "fees_usd": 5.806101363153317,
+                  "spread_impact_reserve_usd": 8.709152044729976,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 459.9005285156915,
+                  "fees_usd": 5.7570895638124195,
+                  "spread_impact_reserve_usd": 8.635634345718628,
+                  "fills": 2
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 608.365215684903,
+              "net_usd": -391.634784315097,
+              "return_fraction": -0.391634784315097,
+              "maximum_drawdown": 0.4649677924975931,
+              "funded_sleeved_days": 650,
+              "all_sleeve_days": 650,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 333.2081443810998,
+                  "fees_usd": 4.98535930512455,
+                  "spread_impact_reserve_usd": 7.478038957686827,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 275.1570713038031,
+                  "fees_usd": 4.631748707699393,
+                  "spread_impact_reserve_usd": 6.94762306154909,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "kraken": {
+      "sources": {
+        "BTC": [
+          {
+            "file": "kraken-BTC.json",
+            "url": "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440&since=1733184000",
+            "rows": 720,
+            "sha256": "4700f8c8051457fd2d2dcdcc1767217719d681bb62c9c75d7e3735c0c1e3500b"
+          }
+        ],
+        "ETH": [
+          {
+            "file": "kraken-ETH.json",
+            "url": "https://api.kraken.com/0/public/OHLC?pair=ETHUSD&interval=1440&since=1733184000",
+            "rows": 720,
+            "sha256": "fa4111b1bb3aedfb0c925113ae5b16cd38de2d4f25b59c75fd34b2b3368c6cf6"
+          }
+        ]
+      },
+      "windows": {
+        "cross_venue_check": {
+          "start": "2025-04-01",
+          "end_open": "2026-11-22",
+          "cash_usd": 1000,
+          "cash_hurdle_usd": 1066.5961453136176,
+          "20": {
+            "breakout": {
+              "end_usd": 1030.7128259414017,
+              "net_usd": 30.71282594140166,
+              "return_fraction": 0.030712825941401567,
+              "maximum_drawdown": 0.28313560505908086,
+              "funded_sleeved_days": 380,
+              "all_sleeve_days": 1200,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 409.7215501950322,
+                  "fees_usd": 16.800996652539798,
+                  "spread_impact_reserve_usd": 5.600332217513267,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 620.9912757463695,
+                  "fees_usd": 14.72084130930316,
+                  "spread_impact_reserve_usd": 4.906947103101054,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 812.6153291908954,
+              "net_usd": -187.3846708091046,
+              "return_fraction": -0.1873846708091046,
+              "maximum_drawdown": 0.6170753220757557,
+              "funded_sleeved_days": 1200,
+              "all_sleeve_days": 1200,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 358.3006680773364,
+                  "fees_usd": 5.143331613755011,
+                  "spread_impact_reserve_usd": 1.7144438712516703,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 454.31466111355905,
+                  "fees_usd": 5.724061410345067,
+                  "spread_impact_reserve_usd": 1.9080204701150225,
+                  "fills": 2
+                }
+              }
+            }
+          },
+          "90": {
+            "breakout": {
+              "end_usd": 996.7097500214559,
+              "net_usd": -3.290249978544125,
+              "return_fraction": -0.003290249978544102,
+              "maximum_drawdown": 0.3019708699326571,
+              "funded_sleeved_days": 380,
+              "all_sleeve_days": 1200,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 392.8673630237567,
+                  "fees_usd": 16.468432618291345,
+                  "spread_impact_reserve_usd": 24.70264892743702,
+                  "fills": 6
+                },
+                "ETH": {
+                  "end_usd": 603.8423869976992,
+                  "fees_usd": 14.512739588411623,
+                  "spread_impact_reserve_usd": 21.769109382617433,
+                  "fills": 4
+                }
+              }
+            },
+            "buy_hold": {
+              "end_usd": 801.3164508651045,
+              "net_usd": -198.68354913489554,
+              "return_fraction": -0.1986835491348955,
+              "maximum_drawdown": 0.6170753220757557,
+              "funded_sleeved_days": 1200,
+              "all_sleeve_days": 1200,
+              "sleeves": {
+                "BTC": {
+                  "end_usd": 353.31873442776276,
+                  "fees_usd": 5.107860361246356,
+                  "spread_impact_reserve_usd": 7.661790541869534,
+                  "fills": 2
+                },
+                "ETH": {
+                  "end_usd": 447.9977164373417,
+                  "fees_usd": 5.684585124756481,
+                  "spread_impact_reserve_usd": 8.526877687134721,
+                  "fills": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
