@@ -1,0 +1,3761 @@
+{
+  "symbol": "NIFTYBEES",
+  "isin": "INF204KB14I2",
+  "capital_inr": 100000.0,
+  "cash_hurdle_annual": 0.06,
+  "months": 10,
+  "input_sessions": 1460,
+  "input_audit": [
+    {
+      "file": "history-2021-10-31.json",
+      "rows": 53,
+      "sha256": "7671f339b7cba5754354263f687e99751561a9669978a89b1e8703f7ac3a0aa8",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2022-02-01.json",
+      "rows": 51,
+      "sha256": "334d58565e8adb9b527a96b3410518889fa566f1daf74b8fcb6c092fa82498f7",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2022-05-02.json",
+      "rows": 60,
+      "sha256": "4a62ff78cd03b2934a6d54d5edee1cee8b57013c09f6bc5c331cac3a90b6a4f2",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2022-08-03.json",
+      "rows": 66,
+      "sha256": "65dbe73a66e95751d86a05b38cc3ec6e50cd54ebbf6b912f2cb519e5f6b7ac3e",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2022-11-04.json",
+      "rows": 62,
+      "sha256": "f7eaa96be9704e26281b290154a3fa6a635003ecb7e1f844c06b7e0b79485a12",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2023-02-05.json",
+      "rows": 46,
+      "sha256": "1412566b5555721f77ab49f806e695f7fc3638c6a86099e9481ec907b28c2571",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2023-08-07.json",
+      "rows": 1,
+      "sha256": "cfdb950b38fe4efa2b29d7916afb9d7108faaf117b5af31346e39027d95b7092",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2024-02-09.json",
+      "rows": 28,
+      "sha256": "065d9267be9cd977a78fdfc8cf4379c7a225bbd4d58bc878a351e354bde46e6a",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2024-05-10.json",
+      "rows": 59,
+      "sha256": "5a61d1932242f69fb72300f70b7b853ef4ad027c148da13a1a2b936e1d9b425e",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2024-08-11.json",
+      "rows": 62,
+      "sha256": "9e91ae92ab5ce71d582ca25af55ed8ad326dc4298711c61da9691352f5d7cd00",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2024-11-12.json",
+      "rows": 65,
+      "sha256": "50eb37b12f69e88c3727a0694fb1ee81b648d1995433aa9571e484e291c1e5c2",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2025-02-13.json",
+      "rows": 64,
+      "sha256": "1ec6b93c440708e11f8f56ab91c253510cdee9a54c4c2845b062b60393a7d3af",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2025-05-14.json",
+      "rows": 57,
+      "sha256": "14ae48ae6c0ee722a0908dae4df3bbc46b5cea09f24444c3d6c4d5cd1617f02c",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2025-08-15.json",
+      "rows": 66,
+      "sha256": "30f3fe7e0ae4c200cd4e7bb2f4dd4aee3aba0d275943852f5644b29f974d8bd3",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2025-11-16.json",
+      "rows": 61,
+      "sha256": "e5adc7466ce9ffbb9bc412d520158163d420127099f951ccb52be95321f74b75",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2026-02-17.json",
+      "rows": 64,
+      "sha256": "1b332a15696d53fe3a0f298ab55b0554b88a8b751c5667dcef97525f9ce824e7",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2026-05-18.json",
+      "rows": 58,
+      "sha256": "81aaf9b91b4bf3bdedda674c599e89591c06ab5a2e082ed16b737741c2063cde",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2026-08-19.json",
+      "rows": 65,
+      "sha256": "93a9ded34924a4cfa6df25d7a601f276b5e456c4b78eb7a76e04ee2c8d891cf6",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "history-2026-11-20.json",
+      "rows": 63,
+      "sha256": "127f7f3ac088efc9824677ef970146d16554eed096c7aab2795863f55d83a1f9",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    },
+    {
+      "file": "2021-01-01.zip",
+      "rows": 1,
+      "sha256": "1650987c006502130ce503e333b7cd1a0f698736131bd4e609f5fd5ffb3c2eab",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm01JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-04.zip",
+      "rows": 1,
+      "sha256": "c5d60b0b8275237f28324e15fe3ac6a92587066f957c76897e5e27e39b4c6320",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm04JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-05.zip",
+      "rows": 1,
+      "sha256": "e1f7fcb1974e0bee29b6b3e4275ae49e1d391866fad1863c2f166c0c184d63b8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm05JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-06.zip",
+      "rows": 1,
+      "sha256": "6cf9c56b51ebdd69bc81c7b102a0fbe4c537f56366e66a907e86505371d82a01",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm06JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-07.zip",
+      "rows": 1,
+      "sha256": "98da9f52f072f319a0f77c515584bfeb3e8b60442275962e2ea164ef8703360b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm07JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-08.zip",
+      "rows": 1,
+      "sha256": "1e358b34f2fc5526f5f799e6d1ef52539beddd6729caf5fd65518812f0ce127e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm08JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-11.zip",
+      "rows": 1,
+      "sha256": "38e73f57d6223598667c925422071c48f6c3ae612cfb32703b27b493a087703d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm11JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-12.zip",
+      "rows": 1,
+      "sha256": "df7f66f0ab35a6bd0022eca05ad750d472c85e065af008b7b42eceeb04da0784",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm12JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-13.zip",
+      "rows": 1,
+      "sha256": "9d678139e6ed2eb669c0a212dbcd2e12902906c66960544cd99eafeb9a3cfefa",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm13JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-14.zip",
+      "rows": 1,
+      "sha256": "be4b35c138ef2e7cd09357c2e3c1977488a2965f539e993608f29384d5d19d0c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm14JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-15.zip",
+      "rows": 1,
+      "sha256": "b974815a9302926415893a732d8efa039784df2c1822e46c143bfbc1cca6c9be",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm15JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-18.zip",
+      "rows": 1,
+      "sha256": "03f199becf02abd5c8e519c96715e8b22d586872dd4b6488c58f88da595e33a3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm18JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-19.zip",
+      "rows": 1,
+      "sha256": "5c78e55c23aae73558f76127efd4f98c8e974504dd9c2e0c490234b431ee77b2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm19JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-20.zip",
+      "rows": 1,
+      "sha256": "c260089eb14afeb2a860903f4a4cb94ccd69217203f04cf834ad7294f2417875",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm20JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-21.zip",
+      "rows": 1,
+      "sha256": "bb487426955c1bdbd03c676b8763f6e8f7d88da8ac0299fcf7099cb21e0f8b90",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm21JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-22.zip",
+      "rows": 1,
+      "sha256": "94c085d2eefc7b02a8d42f653ada1d0da23aedf70d44445ec27ffb6491ee6740",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm22JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-25.zip",
+      "rows": 1,
+      "sha256": "a90f2b2d629d6541121582762c0352f5fa1388fb017b65e8c115c385c1b2cabe",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm25JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-27.zip",
+      "rows": 1,
+      "sha256": "c4424fa1771dbc3db635fa89d71f621f1c6ce5687b0d86714d35b9fa4eb39b45",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm27JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-28.zip",
+      "rows": 1,
+      "sha256": "c0cb0926513baedc49d978d04819be0e4a378b6ba2c14c4614ec6bd3ba29623e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm28JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-01-29.zip",
+      "rows": 1,
+      "sha256": "8ef7c9e4d6f6de463ecd7c10add4167bb261a4ace018fbea4e29f04605ed38ad",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JAN/cm29JAN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-01.zip",
+      "rows": 1,
+      "sha256": "c5c33ded38d6407f5ce16d78ac6b721527aa5ba7626a274c79506f6d08ed8550",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm01FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-02.zip",
+      "rows": 1,
+      "sha256": "73838ac3003a00ec7b4c81012c96f4bd8885781d00137c43200d8cbdb09e7552",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm02FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-03.zip",
+      "rows": 1,
+      "sha256": "71052f4306ef6cc27f0f4c3e76bc5e0a9f3ada21bf91e789d41db89ad72075f0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm03FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-04.zip",
+      "rows": 1,
+      "sha256": "24b8133ac604243dce2188a6c1719e42f4c432e409d29f2244163e0f14937f9a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm04FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-05.zip",
+      "rows": 1,
+      "sha256": "034e8184648b83640d8d96c3c76e96230f2e4c3480ceb3a0d966a39d82f83633",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm05FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-08.zip",
+      "rows": 1,
+      "sha256": "9fc115d6181dfc3583d1f8bbf7b4d04a2daf319d0862944aa6fa549dd08eb4cc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm08FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-09.zip",
+      "rows": 1,
+      "sha256": "c7ede135f6b5d2bb68f7f54c241f1ee5fc1174fb5aa761d54785dcbc557850b2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm09FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-10.zip",
+      "rows": 1,
+      "sha256": "9dbac860dcfc6bad056f413d375691ac970eb0f93aa462a631e33375a0cd8355",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm10FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-11.zip",
+      "rows": 1,
+      "sha256": "3d297d8b17549b2ac103dcf58d4e085d6a1d73cb172083623beecbfcf6318322",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm11FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-12.zip",
+      "rows": 1,
+      "sha256": "b2baa5cf2b63213344455d4bb2c6941cea5aa39ccb77031b7b6c924168f8f2e9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm12FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-15.zip",
+      "rows": 1,
+      "sha256": "d4c5bcbec70dea34eeb4bff9ce70492022e390aefba2d2c0397a3a5188b8457b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm15FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-16.zip",
+      "rows": 1,
+      "sha256": "eb59a06b86f4db851a8c02e1fdf1172b7f324df5bdfa976e0804e69d1e7e2a82",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm16FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-17.zip",
+      "rows": 1,
+      "sha256": "c1efd73e84744d1c3c516bb57e4c5551d7fbf2bd039e510f025eff5e51687ef1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm17FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-18.zip",
+      "rows": 1,
+      "sha256": "aa609979287bc63a21270e7264d937f8028d9261592cfbe43a0d92063ebe318f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm18FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-19.zip",
+      "rows": 1,
+      "sha256": "bda4e54fc302efc833536725b355eb8027904cf7f97f86f981911175e6843360",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm19FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-22.zip",
+      "rows": 1,
+      "sha256": "aa0e62ed266ddd6bd3dfc5f61bfc0f504253601a6ec1d69602501b31af12183a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm22FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-23.zip",
+      "rows": 1,
+      "sha256": "940e7213ed8f181b6b160ff61b44f4e71d555226d19d55ec10fcc84a233eb4f9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm23FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-24.zip",
+      "rows": 1,
+      "sha256": "6ea1ecba808c0623658fec5a9f6ec16aecf451c04a5f8e16518296af3ef10179",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm24FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-25.zip",
+      "rows": 1,
+      "sha256": "e26fcdb9258b6624c0565ef1d13805bf50ac1a7cf0f784f945b18cc5e9d04d44",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm25FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-02-26.zip",
+      "rows": 1,
+      "sha256": "326de9e840c8c198db0acb22f353370c447f0aecd77964b9fa328e02bc3f13e8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/FEB/cm26FEB2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-01.zip",
+      "rows": 1,
+      "sha256": "ffed0dcdff42d38e7d8dd0dd3d225155504df02548d3910654d7db2cd0b24404",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm01MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-02.zip",
+      "rows": 1,
+      "sha256": "56952586d7cf76ab5d28798026849ba363eeb5a27a1ef28dc59b1ac92c81ca34",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm02MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-03.zip",
+      "rows": 1,
+      "sha256": "ba3ecbe3f4fce0e53cd59e7a096eadaf71dd63000376d0a43a7e51842fc87c5c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm03MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-04.zip",
+      "rows": 1,
+      "sha256": "846670863e87831138959fcf47bdc66580e67da44b24ca7d251b21a6e1da333c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm04MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-05.zip",
+      "rows": 1,
+      "sha256": "ecd365a8a16ec9655675c6df17459b4d123147e173b64f75f0e8f0d8996f279f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm05MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-08.zip",
+      "rows": 1,
+      "sha256": "c0b3f794e00de69133ca76f2f294635d23bf7fe36473c839a748286527729f6e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm08MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-09.zip",
+      "rows": 1,
+      "sha256": "cdb6e35de5b64c98d1d5ce818698ea54b2df45e6acd6b8a37fc0f3b99fd88853",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm09MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-10.zip",
+      "rows": 1,
+      "sha256": "4f6ae7c307587444252662aa6e9e74ea3cd85249ed5fcabbf90ce56c04e49e47",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm10MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-12.zip",
+      "rows": 1,
+      "sha256": "74e7b6e12ad115c1fc2adc9c7753c0d01b1cee77c5fdb3e29f2cff5933b13ed9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm12MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-15.zip",
+      "rows": 1,
+      "sha256": "cef6d79dbe2e823f64cc3a9dd6def2e29e2eb5dd0b6f3434b0455550f66ea367",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm15MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-16.zip",
+      "rows": 1,
+      "sha256": "9518c2836aa5a156949798438c5b4655e6dc038b19ab2a7958d10e93c94c8897",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm16MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-17.zip",
+      "rows": 1,
+      "sha256": "6af8a01e0536795d8825142a062c1a4ef93430c90929e167e287b1a0f2b5109d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm17MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-18.zip",
+      "rows": 1,
+      "sha256": "76cb81eb6b50857db83bd8745eb5351e088375030f627151de6842f67c881c97",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm18MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-19.zip",
+      "rows": 1,
+      "sha256": "e677244fa9e2355ee62199acd68249ea3cc4a7c018bedca8554dc68c37be8ded",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm19MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-22.zip",
+      "rows": 1,
+      "sha256": "7773ee77dcdfb2ac506f5405633ec55164079610180ff172a3f05489734e2939",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm22MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-23.zip",
+      "rows": 1,
+      "sha256": "e05fc570039575453b8d184ce1ec5bfac05c6deae4b791ed31dcf85413942868",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm23MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-24.zip",
+      "rows": 1,
+      "sha256": "9e452ce0c48843a471e8ba14161b51e84078fc29a10b4a6b73ead951592aef3d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm24MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-25.zip",
+      "rows": 1,
+      "sha256": "7d020a53a7ca04e57ed8ee66339faa4dfc0c4bc5889f8a0122df425305ba2225",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm25MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-26.zip",
+      "rows": 1,
+      "sha256": "44247a94485b5d034ed83562a643fb362782257cc1c5978aefc94c987edaac53",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm26MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-30.zip",
+      "rows": 1,
+      "sha256": "70440fd6727dc031d34fe01b90827c6a12262c69564f70873c8f03a37b2bfa27",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm30MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-03-31.zip",
+      "rows": 1,
+      "sha256": "797314c384df3fc90d1d34afaba423e3876e292df0e7a5a4d3f1a0968c7622e8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAR/cm31MAR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-01.zip",
+      "rows": 1,
+      "sha256": "3507c8e86dfe6a6b9c29e6b7e5ed9a0c573c06cd91ed3530755c52edfa63a6cf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm01APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-05.zip",
+      "rows": 1,
+      "sha256": "4934a93d485b798163f00fbbbebcc798edc8b4e92bc8f1d6cd0b700bb669c411",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm05APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-06.zip",
+      "rows": 1,
+      "sha256": "5988a64f027b11daf5fd0a63bd8764548398ffa4de39bf85a8b3911a3836ea6f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm06APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-07.zip",
+      "rows": 1,
+      "sha256": "86b42ce760921cb34be2a7413a23a0bec601f1eae7bde5c9562290bbf792b81d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm07APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-08.zip",
+      "rows": 1,
+      "sha256": "045ee1895e68bba420d50baacea39cdaea3566cbe282ae27087f25af9d5eca80",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm08APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-09.zip",
+      "rows": 1,
+      "sha256": "1135fbb2dba5898fe3ab3df1d31ba7a8d4115a6100ae582886822c05587fbdd0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm09APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-12.zip",
+      "rows": 1,
+      "sha256": "575bf006dd1873059adeac91c118119162669e4f253eff265eb9d0cd5c1fdb4e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm12APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-13.zip",
+      "rows": 1,
+      "sha256": "fec83995e5842363916ceedb81033a9afeb03c55a77690f6d670fe12187277ab",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm13APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-15.zip",
+      "rows": 1,
+      "sha256": "184a0eec7f5438c8f768bb6fd92f5679882eb08536e7f715623fb50e8f08cafc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm15APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-16.zip",
+      "rows": 1,
+      "sha256": "fdc77a3f6fbb657fa2ae097a289b160bcd772412f4b2cd034ec9e192d7637bd2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm16APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-19.zip",
+      "rows": 1,
+      "sha256": "24522e83d2b53b4fb296306427163ae29c33d70b8bd16d9072ab7fc0664f15a7",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm19APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-20.zip",
+      "rows": 1,
+      "sha256": "62d6629a3e4b0d0a9825fd1aa147362e6611f16c77328d03aad9b8f481b66c78",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm20APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-22.zip",
+      "rows": 1,
+      "sha256": "6e6f11a8d09dada461f18a79a6ee1bc1c8e579d3b4b908c3a25ef0d0238b903e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm22APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-23.zip",
+      "rows": 1,
+      "sha256": "842730ff2e3399da59e858114177c4a67dda8c40bf1fa292033eee1a95a2955c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm23APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-26.zip",
+      "rows": 1,
+      "sha256": "d1c6e995593355da6394c402b1ddcbb485c40c20b05b78fa70bc4100abfd2a90",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm26APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-27.zip",
+      "rows": 1,
+      "sha256": "7136dcd4a7312d9a36fb6446368d8f2aecbd05a1fa6a9bc6dd47ce2392e8e8f8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm27APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-28.zip",
+      "rows": 1,
+      "sha256": "5af348f86a30e8bf047e8840d6ae61f3e4d937376bb6762d845cd043a0bba059",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm28APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-29.zip",
+      "rows": 1,
+      "sha256": "42b6274f42be6635314029c79e3ea4d52b8f4c0888b0851c4b3b4c30629c6c24",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm29APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-04-30.zip",
+      "rows": 1,
+      "sha256": "f79db7a67734e44f46bc3e2966b23d62c1d5caa5f01d0664aa7c8f4db13f0329",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/APR/cm30APR2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-03.zip",
+      "rows": 1,
+      "sha256": "19b0ed1fca62b4e4f0149c31283d03d9080d9f612374ab498d1b4a08cbcceeff",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm03MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-04.zip",
+      "rows": 1,
+      "sha256": "765db808076a8b59328964d6e31d0ea546252857409618281d6deeee19407df1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm04MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-05.zip",
+      "rows": 1,
+      "sha256": "e3d2107d3033f87fc40fa11aacea1eb297551535c31e3d910e19c0d1d3291545",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm05MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-06.zip",
+      "rows": 1,
+      "sha256": "65433da1c01db2d5f85f4c129b0ec8ec31bfb4c80ff68850881d44cb350e35ab",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm06MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-07.zip",
+      "rows": 1,
+      "sha256": "ecddee480bce0a002638902b450f33390f2dd8cd0ce45d7972dc85ed88f6006a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm07MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-10.zip",
+      "rows": 1,
+      "sha256": "865d254bba618e66d445e26c8eb1b9a19e6ad5d9030b95f669e3934181170fbb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm10MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-11.zip",
+      "rows": 1,
+      "sha256": "bea5051ae9220d8b6f1bc3d9f4e4efcc0e7cb688ab936ccfcc19ae5da59ba1b9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm11MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-12.zip",
+      "rows": 1,
+      "sha256": "f2879b60cc40d4d192c08d669775e397c8ac9cd112143bf04afda4abc24e1fae",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm12MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-14.zip",
+      "rows": 1,
+      "sha256": "bc337d1965449f691414c0ad223ec7981306e299e0e48f649dd18b26f2137cd6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm14MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-17.zip",
+      "rows": 1,
+      "sha256": "bcec0370826ecdb2ef05d49ff2818eb42c826cf3ee5c92dd1928681b4e4e917c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm17MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-18.zip",
+      "rows": 1,
+      "sha256": "b3b9662e6c9cebe500e9cec6db2b2e27e5f4dd6952b2f7ffdcab20bb283be202",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm18MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-19.zip",
+      "rows": 1,
+      "sha256": "f926fa5e9bfec8241f161a778eeef3b6dd8a8439e3dac5732159646de3a6cb18",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm19MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-20.zip",
+      "rows": 1,
+      "sha256": "683dc6aa9ca7bb29646e0e5d195b9b1d8dfc788fb6b413f534a432a3bb3d1642",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm20MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-21.zip",
+      "rows": 1,
+      "sha256": "6c8a69dca3c5b9f0c62017fd08feabb4bd69e5ba8f789e50ddcf4c75539c6e80",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm21MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-24.zip",
+      "rows": 1,
+      "sha256": "9915f095f44d75432fa9be6a3e820fa58e9719400313808ac0a3ac8d417a791d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm24MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-25.zip",
+      "rows": 1,
+      "sha256": "1e0869e670704c0ab91280db222985027dfbd12ad4860cdfe63b35e0945ae5e2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm25MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-26.zip",
+      "rows": 1,
+      "sha256": "193a55b2de3ab4284fbc9485654b9eab4666c88d58b7ff588455d5c8e31c43ff",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm26MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-27.zip",
+      "rows": 1,
+      "sha256": "6aa6e743326009342355029962a25e04246260150f16263a338a48252eaf3f6a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm27MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-28.zip",
+      "rows": 1,
+      "sha256": "2fc84ce06e0060a4868cb3765b5871c62306047c5a0de1b62924119e7bb90512",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm28MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-05-31.zip",
+      "rows": 1,
+      "sha256": "8deaba936c84e196948296a63a7dc64f5c729fa7dff1c91fa1f95c6f3804e28b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm31MAY2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-01.zip",
+      "rows": 1,
+      "sha256": "95b68c8662f4644ad80ecbb366dfe78ac9cb2fbf129c90787960e8024485ba36",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm01JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-02.zip",
+      "rows": 1,
+      "sha256": "1f94fc20bb6c494d2a87364d280131515cec42875fd0e940703e195793b8afa0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm02JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-03.zip",
+      "rows": 1,
+      "sha256": "3c27f11b85647da88fec45cb375ed8e4da0bacfe2495d7e023c033b34a590c54",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm03JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-04.zip",
+      "rows": 1,
+      "sha256": "8435924dd5a664f580bf73addc623c9bcb8f5e23762fa2e8d7aff77ad4dc2e0d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm04JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-07.zip",
+      "rows": 1,
+      "sha256": "449a3d5c3659913afbbed5c0b88182b519953c4487f73dc4af853926d716fec1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm07JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-08.zip",
+      "rows": 1,
+      "sha256": "b275e82637589292e517697d3ad607e254734edad4ebd45f36033331831e2002",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm08JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-09.zip",
+      "rows": 1,
+      "sha256": "437228f2092b3a2c89191919e1e4110296f48e2f87485a3d8596572b2aef158d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm09JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-10.zip",
+      "rows": 1,
+      "sha256": "2842e57961fdccd12cd3d722f44204199d63280a4be0ebe1dd6a2c553b80535f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm10JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-11.zip",
+      "rows": 1,
+      "sha256": "906d47cf21cf9f637040a1d80451ded2317d454f9bc368b5e5eb653d438cde75",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm11JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-14.zip",
+      "rows": 1,
+      "sha256": "3cec326982f40cb8becc0a18dcd42731395838d64d686290920e55a23e31c9a3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm14JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-15.zip",
+      "rows": 1,
+      "sha256": "86e26840113d4c232310f1f6587038dbf33243533df81c97ce93e0230ddcb5af",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm15JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-16.zip",
+      "rows": 1,
+      "sha256": "431d31aa3bdfd4973003e195ccfab40bf79e8b851c7f269190b54b8aa00ca711",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm16JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-17.zip",
+      "rows": 1,
+      "sha256": "f30c3f46b79eb7e0bc45d1d4c1340e4f2fb9f0bfd4d91be961bf4e71340e31e1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm17JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-18.zip",
+      "rows": 1,
+      "sha256": "c28201e2acffbc64740a5fa9942e2e4c0f7d1c3b795c40668042970a7e138779",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm18JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-21.zip",
+      "rows": 1,
+      "sha256": "3138102875455664cda1fce04542f25be332bb5b0856ad188b18906e3fdb4a43",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm21JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-22.zip",
+      "rows": 1,
+      "sha256": "2b95d3abe5b8199bd02e42e47a580e8793664c1bd743409c4ac88daceeb4c495",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm22JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-23.zip",
+      "rows": 1,
+      "sha256": "112709de737f07eafe8d8454e1b266b927a27033d007dba233934c19ade5257e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm23JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-24.zip",
+      "rows": 1,
+      "sha256": "bcf8900f73abfecc18a162ecb720f2bf42e8755b33dcb7adac02ce9df1729144",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm24JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-25.zip",
+      "rows": 1,
+      "sha256": "1358428b39f7a80d0c9cf021bdbded00e1e5508bde2d15afef948b380392ab3f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm25JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-28.zip",
+      "rows": 1,
+      "sha256": "08f1e5e1a089da475fb8d06fa77e9564fdbc1e30d664e505f3c509e7f9294ff9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm28JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-29.zip",
+      "rows": 1,
+      "sha256": "952908fc8cafe56d2c6f5905bf2b1b5d5da9477f7a7ce6a6a4e4b07d80324f9b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm29JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-06-30.zip",
+      "rows": 1,
+      "sha256": "7e68a73d14449bfad0d879d91eccaa8db57b512a778013c0a4237687f905d841",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUN/cm30JUN2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-01.zip",
+      "rows": 1,
+      "sha256": "1d8b23686ab3cb4e884acc8f5e397a1d64441841a06d3a67dce3beb3a350cf25",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm01JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-02.zip",
+      "rows": 1,
+      "sha256": "0fce68211ead3f7bd8b0c78282548074ed9da6501ad446c137029ea05e85f7fc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm02JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-05.zip",
+      "rows": 1,
+      "sha256": "416366c64d95004e5c2851af3dcfc2a80c2c74441a6795e6186396ea9718e006",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm05JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-06.zip",
+      "rows": 1,
+      "sha256": "4f7f51cf699f6da41a99c7b764d49e809fd611c46d6b284cb83d813aed060d42",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm06JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-07.zip",
+      "rows": 1,
+      "sha256": "dced2c7e075b626e07adf7563acd27699919582110dd2e59c64d0efd3c664a60",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm07JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-08.zip",
+      "rows": 1,
+      "sha256": "daf4d9fe3456c34163d4cd514a5e274bb82015f003faacb41ffc591ed870334e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm08JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-09.zip",
+      "rows": 1,
+      "sha256": "9548e91da0a82e46b28b9a6c9d0f37f1f147a6dc127051cbf8a6c6b808c4a9be",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm09JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-12.zip",
+      "rows": 1,
+      "sha256": "4586d94e51fa7ca6c9128b59391e75ab13f5e9cc106da94e482c73185254e486",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm12JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-13.zip",
+      "rows": 1,
+      "sha256": "a9cd57cc17651cba3a6135e000d13597291322b38f8fc4236f8921224ee34300",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm13JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-14.zip",
+      "rows": 1,
+      "sha256": "d4022e64a1d52aa2b6d05f97d7c8dc6fddf0eec1d54d34929591b8e4e1ffccad",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm14JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-15.zip",
+      "rows": 1,
+      "sha256": "38edd1845ff6f497fcd01017c423f5a41c2a3d16586ac83e2c8351fa21ce5985",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm15JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-16.zip",
+      "rows": 1,
+      "sha256": "bc3b5efb45b390d758faf64b8e3a8502e28abe951c403c86c71035f553eff756",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm16JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-19.zip",
+      "rows": 1,
+      "sha256": "12e6c7f489de2845cfe2c89e3ac82fd87f8d0ad2bf245420701ddb6f3a912613",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm19JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-20.zip",
+      "rows": 1,
+      "sha256": "3c042023e2279e5161cf03a0708772fe940376fbb5d313abe1730267339d2ccc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm20JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-22.zip",
+      "rows": 1,
+      "sha256": "1ad2a446a18e3c9a772b12914f6ec12dea77aae67f6ed96c4583160e0f5fc5be",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm22JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-23.zip",
+      "rows": 1,
+      "sha256": "71b8ac34db617ff6073ef9c7ccb7dbd4fe0742db69da978eabab8c25a96adbb9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm23JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-26.zip",
+      "rows": 1,
+      "sha256": "49cee95036bcc20012030434ec3b2f0a85e0ca0972fd6fa70f50e6b782d3c645",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm26JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-27.zip",
+      "rows": 1,
+      "sha256": "eb737e1f15dc6031389656c253f63cff99ea30bb624439387c5f9108852d589e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm27JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-28.zip",
+      "rows": 1,
+      "sha256": "45df82bf52b6714a3f146a3959a9729491abcd7b21b956286290788a92c60186",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm28JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-29.zip",
+      "rows": 1,
+      "sha256": "e3bda6b8b9e09c8db13daeac62f5c975074f020987660638680d88f9a259d317",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm29JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-07-30.zip",
+      "rows": 1,
+      "sha256": "9f2c2a4e1ab2ddbcc5b591a425815cb3095b058a2c19c099cb6d57f12f3dc0cb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/JUL/cm30JUL2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-02.zip",
+      "rows": 1,
+      "sha256": "d158a1634a7eb19852fe313775ea1de3c2182251e92304b698b4b5406a126ede",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm02AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-03.zip",
+      "rows": 1,
+      "sha256": "ab69fecc1e7a4ea55fe05c754421d156be822af9e5e973fafedd396b6bacbfdc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm03AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-04.zip",
+      "rows": 1,
+      "sha256": "595c091981b9e64591fc432ffe1e0303cdda0937f2f85fe4b7260ce3ced80488",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm04AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-05.zip",
+      "rows": 1,
+      "sha256": "acaeedd024b16b1944cd7bf8645910b5edd3674be270a2100b803ef32d3030cc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm05AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-06.zip",
+      "rows": 1,
+      "sha256": "afca7d3307c67571c8b6f363c6bf5f1c7fb8b0bf1855dc170f959670be08f2a2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm06AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-09.zip",
+      "rows": 1,
+      "sha256": "da8f9f9aa0f03450ead96e90c92c7b8a76039348f1f1400c92580a2324a206c5",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm09AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-10.zip",
+      "rows": 1,
+      "sha256": "3ca3314e2ed31a3aa2a018f16f44e474d3f5a3ff1dc3547dd5b22216bbc6a208",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm10AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-11.zip",
+      "rows": 1,
+      "sha256": "4580cd9e2d0e2dd90469049a7cb958c299cbd5b35d0d3b715a2dbcfbec4a0cd5",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm11AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-08-12.zip",
+      "rows": 1,
+      "sha256": "d2ca38fac0232d44b482be4e240a9031ad123b5467ad9905d4fb64b69132bc0c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/AUG/cm12AUG2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-01.zip",
+      "rows": 1,
+      "sha256": "324f0425e28e7934568f962a352be6f2a748ed88e4d0d029379dbf8934b1ee56",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm01NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-02.zip",
+      "rows": 1,
+      "sha256": "5a36d8da880c9442b495d33480500aae72be06091ccbd6d1fb4b0ff5f012fcf9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm02NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-03.zip",
+      "rows": 1,
+      "sha256": "765cd44e71441a0ee8313bd56b7659facf8d10538a1b3b8604ca112af3379643",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm03NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-04.zip",
+      "rows": 1,
+      "sha256": "3c6b0e631b0ff18946537ba98dd78a4307a9fbc60d70c85e8e529e8acd1de1d8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm04NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-08.zip",
+      "rows": 1,
+      "sha256": "4dd530a1435d518fc0ac5448fe5c5d0cac4eef36daa36bb538329527ae1ead1b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm08NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-09.zip",
+      "rows": 1,
+      "sha256": "66021801fd6f149111c6f3cdf0153c0a307a777fd5c956f53dad18fe4962636b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm09NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-10.zip",
+      "rows": 1,
+      "sha256": "57b5eae345b2509c8db2e79c1c05edde1291b431adcb9642a9736609d9db0280",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm10NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-11.zip",
+      "rows": 1,
+      "sha256": "a4592d542c1e645ee9ec9502d1513e0c9f4739f91527fb9745cec20aec489c96",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm11NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-12.zip",
+      "rows": 1,
+      "sha256": "fd7561a6c7aa2af615db8add2fd46bd9d89a064f80f1d3a0f3800c1b0e8c3428",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm12NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-15.zip",
+      "rows": 1,
+      "sha256": "ae014509b5b4c934e0a343f98a1078f4dc9da40c10534d22d081b43690502d18",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm15NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-16.zip",
+      "rows": 1,
+      "sha256": "406cb233a5e6d1d159f672b1d8c2edda8c282aff4b7ab783e07882a7080fcb5b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm16NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-17.zip",
+      "rows": 1,
+      "sha256": "bbe2ef269e8a04af9988832701981fe916d282a6e8d000a9d8af1a1fc31d1501",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm17NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2021-11-18.zip",
+      "rows": 1,
+      "sha256": "52ae6a30a40dcb0d462f21077a7971eacbceca4e0a9774d56e703d534cec0fd4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/NOV/cm18NOV2021bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-11.zip",
+      "rows": 1,
+      "sha256": "25294d978bd0f9830c13b83b5aef1553d01511da8c1a199c44589d23f5bf2e96",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm11JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-12.zip",
+      "rows": 1,
+      "sha256": "79d5e4e2d997261ef180d93b279d6ca21bc81f3e048bc3b4321661adea54a6af",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm12JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-13.zip",
+      "rows": 1,
+      "sha256": "a92b561b5c0e843ad7dc679048e68b093842acf8314ae24a6f5ae2c6c6d655a8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm13JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-16.zip",
+      "rows": 1,
+      "sha256": "0e6647522a43a0401bb9480e178b94e3d2bf24805011de2dd108e4a54fcabcf3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm16JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-17.zip",
+      "rows": 1,
+      "sha256": "32dea44323d05991f662ece6addf4199d0fb549100792ed150061b16310d7ce0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm17JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-18.zip",
+      "rows": 1,
+      "sha256": "2cd7455f56918fa7ec569cc9d2217c3942728b09ba3fe3cfb7f5cd5692c2ac23",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm18JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-19.zip",
+      "rows": 1,
+      "sha256": "72da5349709673259bf37c5a6788aada3171eba7c5c750ce63403c450d208afc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm19JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-20.zip",
+      "rows": 1,
+      "sha256": "97a5127a56180c5a16ed11f530be3fd2ca9ab79edafcb23d18fff2a357e3577a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm20JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-23.zip",
+      "rows": 1,
+      "sha256": "ae83c92fc31f95b3cfdcd0546daed2d346e89555662d168fba42ec7147820e88",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm23JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-24.zip",
+      "rows": 1,
+      "sha256": "1f0f78c382d0fe7aaf915702b5acdd93969ede0a33bb78a993925d26a5aed33b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm24JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-25.zip",
+      "rows": 1,
+      "sha256": "a3e23e51a9bb39294dc26dcd18a3d9c160ce17948178b5a50a78001943c59513",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm25JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-27.zip",
+      "rows": 1,
+      "sha256": "911527e670ad0beb772b3780f3f9ae774b75e1631c31d3ecda9b1348361bbd6f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm27JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-30.zip",
+      "rows": 1,
+      "sha256": "bd27539b502a7cbde490869bb38e1f13f85717ba8f3ee2522db4fc1ee4c0afee",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm30JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-01-31.zip",
+      "rows": 1,
+      "sha256": "1b70f6059df69751d6545911469d5fb851c08caed34e68fc25f19ed93bcacecb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JAN/cm31JAN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-01.zip",
+      "rows": 1,
+      "sha256": "9997413effc2950c82991ab8ff7b11171a32dbe91b952807d8e48f38a6739fda",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm01FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-02.zip",
+      "rows": 1,
+      "sha256": "ad5a8ba5620bbd0c415f7fe45ef5674fb9dfc3386bac238862b768e6efc2119d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm02FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-03.zip",
+      "rows": 1,
+      "sha256": "df5ee1f621c3115989b13a4d3659a3b1fd80aa0d7e0199bd2b2990a1dc5abd9c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm03FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-06.zip",
+      "rows": 1,
+      "sha256": "94f56fadd1d71cd40e7e21bae8288ded86ef4b9958585bf9accf7c49778a97ff",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm06FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-07.zip",
+      "rows": 1,
+      "sha256": "6909be476f30518ebe84ba8428356494aed76bf9475a98aa6603760b2a202486",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm07FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-08.zip",
+      "rows": 1,
+      "sha256": "d9a548a3f91c851aa19a4569a165452de4f9ccad0c7987bc821bacbbde764741",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm08FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-09.zip",
+      "rows": 1,
+      "sha256": "a8e75f1b524185a7339efaf17eca7b7e05f8992ee3a4dea3df8a479fc3c0418c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm09FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-10.zip",
+      "rows": 1,
+      "sha256": "c84e9456b3bd70620c0ea0290e0950aa9e06e1f342a587ca259837fc52dab081",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm10FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-13.zip",
+      "rows": 1,
+      "sha256": "e9e4806b8f8c88e2d13fb58b0ea8e0e132be67ef944cdd41b7591e567da37ed6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm13FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-14.zip",
+      "rows": 1,
+      "sha256": "f82c11f62010954d86b69f1f8d8b9d83fbe3f8d9d5d5e51200ba1cfd075008d9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm14FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-15.zip",
+      "rows": 1,
+      "sha256": "57789c96f4ca28a47b1e3401b895d578457efa17e352734069606684477f19df",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm15FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-16.zip",
+      "rows": 1,
+      "sha256": "bd0b607d1f2a64f7de4b75d3756d2e4c85a7ff47ba3ce904da0ca62d83bcd992",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm16FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-17.zip",
+      "rows": 1,
+      "sha256": "35939588f54559bb71f070bbe9e64ee3adac265ec81bf279cdee30b09db6157f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm17FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-20.zip",
+      "rows": 1,
+      "sha256": "146d80fc9c7801fccc22e05b0f0695edda6fce90100724a5943497e9036af592",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm20FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-21.zip",
+      "rows": 1,
+      "sha256": "7699ff8e48a711cf59a3c59e49784367799d965bfa5732754d3a1a80a895f3fd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm21FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-22.zip",
+      "rows": 1,
+      "sha256": "b0f01e21d68969e20cb721dd44666feee19b350c30cf4870d45bf07b0925db2b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm22FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-23.zip",
+      "rows": 1,
+      "sha256": "f753ce71992d0ec39244522e9a9cb96ca193284eafae8283e38d260f9497e9e7",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm23FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-24.zip",
+      "rows": 1,
+      "sha256": "647421b5f488737e5a9e2c7190abf6505f6b49a20281ecbc74fe085a4edfa542",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm24FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-27.zip",
+      "rows": 1,
+      "sha256": "75349c3467d2bac2862d272153713e3265fb36920a215e2569d2333f17c74c6c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm27FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-02-28.zip",
+      "rows": 1,
+      "sha256": "06cefb1cd835b12bf5e8f5c36a14cd1b7b02e9a7209b1e96609ed36be5e79efd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/FEB/cm28FEB2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-01.zip",
+      "rows": 1,
+      "sha256": "58223186ed14412c00e83e053358966aa0db7e719e9bfaab4be62047d2a8e8b0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm01MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-02.zip",
+      "rows": 1,
+      "sha256": "252ad07aab3f24995a9776e9d73cab9d225f6db2c627319fae16613851bebbea",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm02MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-03.zip",
+      "rows": 1,
+      "sha256": "4045526b3e278af9ffd3b79e8b48c76bdf5dcf6b97a187d78645125a0b1498bf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm03MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-06.zip",
+      "rows": 1,
+      "sha256": "285a5aa1b81bd6f8ef7d9671a29b3658e808b2dc54aaed836dc674442c0a9873",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm06MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-08.zip",
+      "rows": 1,
+      "sha256": "e341efee0d575ad3733b3d620f61244dc59d8bd38f5b2cc3a1cf0f6f8ded46f8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm08MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-09.zip",
+      "rows": 1,
+      "sha256": "47933f0e289019eaac1e5a79b6ec7987c8f44d958eb0a40541b3beae9d92e961",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm09MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-10.zip",
+      "rows": 1,
+      "sha256": "7a1bc21af0c2b5805bbf66d64fbc2593d33fae34dba4addcca585bb9f39095ca",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm10MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-13.zip",
+      "rows": 1,
+      "sha256": "36fddd2d418acd47ef7ca0c4dcea44a595e5be2851d874563238867ef4519083",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm13MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-14.zip",
+      "rows": 1,
+      "sha256": "5b6f3d7ce9fa1d9dcbfd8bf8fc574958409b3d2cdd26f87337b16400727a315f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm14MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-15.zip",
+      "rows": 1,
+      "sha256": "2a4aa7c6f2d81ca71f3d2be09bd70fab01ab5411c01745ebf61d218d26b5cc5f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm15MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-16.zip",
+      "rows": 1,
+      "sha256": "068c9cdcaf975ff58b1437690c7c8e7a601df490ee781f4e9eb2415fb0140052",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm16MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-17.zip",
+      "rows": 1,
+      "sha256": "12bff4b4b1db324aa920d1199fae62b8237697015f12bf0eb9b9b99ff9fd2587",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm17MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-20.zip",
+      "rows": 1,
+      "sha256": "0100fe3a5eac1e53d3fe344628ca7679be2a455428148b44241af3d9487ccb5f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm20MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-21.zip",
+      "rows": 1,
+      "sha256": "27fc6cd0a3d45856a93ec6f1c1df2e674794ec3aae89e82b6a31fbff3cba198e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm21MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-22.zip",
+      "rows": 1,
+      "sha256": "81a64b58f7ba6352fc3ec10597ec25b40499edd83ae21dbd6c1115269da9869e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm22MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-23.zip",
+      "rows": 1,
+      "sha256": "e0434aa2b92c160e2ed4c071979888851a1a1ca66d55d1f94866594f8f0a0ef3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm23MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-24.zip",
+      "rows": 1,
+      "sha256": "9db2eaa6825f1096353997613fbe9e9a39ef18018cde68d6d3c698376f5aabe3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm24MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-27.zip",
+      "rows": 1,
+      "sha256": "3dbc307ed566898d914c504aa226a98a8309c69bac9031e8a734a6fa38bfd038",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm27MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-28.zip",
+      "rows": 1,
+      "sha256": "4794e2b06eadfa5b79348eacb87ebe93959a61151f1a3f53c26328bb62a1fcba",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm28MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-29.zip",
+      "rows": 1,
+      "sha256": "69af4bdac3c3fcaedc9387969b60ff2bcc9a2a80d64e8a604ea4bcac92471cae",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm29MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-03-31.zip",
+      "rows": 1,
+      "sha256": "adfaa4e4804d205e786f71fb6871f85d8031053778b639722418d08209b125d9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAR/cm31MAR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-03.zip",
+      "rows": 1,
+      "sha256": "06c43a1ef3692fbab90d839e0367ed9a087a2a6278ec29a73bc9a5f0c52a6938",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm03APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-05.zip",
+      "rows": 1,
+      "sha256": "341d9abbfe619521e05c5d84bfbb328ebac79b19fe8ae4e86eb4b0cb7d04247a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm05APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-06.zip",
+      "rows": 1,
+      "sha256": "ce7b71fe2c3b67787fb190cb635698d30b8a1d4d08dbf13f5322e1066fe2d7db",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm06APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-10.zip",
+      "rows": 1,
+      "sha256": "cc85874b2f7817b82dc542cbd0984d86fa31de9a8844b682c1f25a7da34a1be3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm10APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-11.zip",
+      "rows": 1,
+      "sha256": "029d0b5f02b11af90b34560531cfa36cc1eab7410b590bbae80a5650c70a5da1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm11APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-12.zip",
+      "rows": 1,
+      "sha256": "10620e96f43622793dad569efa47a9f98121f6d51e5bca474dbcfc48f3ac5161",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm12APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-13.zip",
+      "rows": 1,
+      "sha256": "c7e89901e5aad9048f227696b786009ed441c450e1ab95026832d627659ca339",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm13APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-17.zip",
+      "rows": 1,
+      "sha256": "5c7310a7a031b5b406e8deb0ffce28a6ff65bb8e2c49c3cc869b182e60308d39",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm17APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-18.zip",
+      "rows": 1,
+      "sha256": "a622a399c03a62553ae098d1d018eeb367c2eb7351f58781abb1f33ca43a5814",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm18APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-19.zip",
+      "rows": 1,
+      "sha256": "9363e83d772785d0ae00afbb80589ecefbb9ea6089ddaa15a9644c91cbd39cfa",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm19APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-20.zip",
+      "rows": 1,
+      "sha256": "5d4537d7eb31109adbf651937f55ffc0de43471822c8e835bc55741504f45f91",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm20APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-21.zip",
+      "rows": 1,
+      "sha256": "7c7d3127e1cac79b8db0a50d9b2c87af6ac75d1b6e456f6c4c2c48833fe99075",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm21APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-24.zip",
+      "rows": 1,
+      "sha256": "b959615b836c8213da0176d83d6c31b351863c44d0fc9fc0d6e4700bfed1bd56",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm24APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-25.zip",
+      "rows": 1,
+      "sha256": "86222de6bdfd2d739992727751d8af29998edea1b49ad1c0f7dbc37175c85a44",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm25APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-26.zip",
+      "rows": 1,
+      "sha256": "290cefa5af1f70a91ff1d25fa29c5402d32450b837e9bc8046fb2a66d9961312",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm26APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-27.zip",
+      "rows": 1,
+      "sha256": "7c3073a8ad6341affa25dab40a734f19bda7b587bbbc6f8cedd1464dee028530",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm27APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-04-28.zip",
+      "rows": 1,
+      "sha256": "d4d4dba1f056b704d98b6e78faf1b46910b1544262df3a30d2dee246d231a804",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/APR/cm28APR2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-02.zip",
+      "rows": 1,
+      "sha256": "382c1e28b26e905349a130d1ae68baeb0ff47b74253f63543211bbd45e1d2750",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm02MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-03.zip",
+      "rows": 1,
+      "sha256": "07c2c654d02e4d9509615246e2f03aa1af2795d01065e8a09bd362d3288c4fa2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm03MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-04.zip",
+      "rows": 1,
+      "sha256": "12a5df32a0033a784bf272308bf3ed89c7399884e35b8fa8ae0861aec1b34569",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm04MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-05.zip",
+      "rows": 1,
+      "sha256": "dfc73e77ea9abe6ee7e50e6a9c8f8caa93e4c1f12ff9759cb53f4f2a164e3729",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm05MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-08.zip",
+      "rows": 1,
+      "sha256": "19fd01d78f8bca81740841fc07328b8c620cb621e540d99ffaf096321ca23d53",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm08MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-09.zip",
+      "rows": 1,
+      "sha256": "a593be3309f1e4295533e47dd6b4029c7806c10a9d3b8f34d7f20c1ffabc8b4c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm09MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-10.zip",
+      "rows": 1,
+      "sha256": "492e94a7355e2c79e9c7cb928c2ee76fa76b81d6cf8b1271b5ab21ceea275ab7",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm10MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-11.zip",
+      "rows": 1,
+      "sha256": "130f94e1d7b6563a0b912c152835c59349d1521b8cc477b2447b21dccac462cb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm11MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-12.zip",
+      "rows": 1,
+      "sha256": "8f2898ab86da35053094f076214dd18953be82d9dcbf363e3d4e19937213642c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm12MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-15.zip",
+      "rows": 1,
+      "sha256": "01e904c3ff9920d2dd90ccd243f4e34ec173c9e985863278ae309a4ee459b32c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm15MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-16.zip",
+      "rows": 1,
+      "sha256": "7c32ffbac5874859c60677b29b2e21a3a6d284e2aacfa018bceb1cabc7cd25d2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm16MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-17.zip",
+      "rows": 1,
+      "sha256": "293ee2e0edbd825b82a9e33189fc5b6e0dd741bc636941b9ee85f4f32cdebcaa",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm17MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-18.zip",
+      "rows": 1,
+      "sha256": "0ecedbe9656a03343fb97833d2b68282a5b85d2e8196a00abc7613a525b8122e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm18MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-19.zip",
+      "rows": 1,
+      "sha256": "c83f44808fa77fef0845f15661c82ca434cde0b22d2e88b74daab06da880cd32",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm19MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-22.zip",
+      "rows": 1,
+      "sha256": "d30f158d975de07f3194c0addf7e5669787df800593d98c967bda7b4e1588c25",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm22MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-23.zip",
+      "rows": 1,
+      "sha256": "faf609f88bca80a6a840598c577bf31a56193c0d600e9b95cd69b43433c73fb7",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm23MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-24.zip",
+      "rows": 1,
+      "sha256": "cdbd6dc78172985e76cc7933ef6d7a8274612b7c9ebdffb641ac2ab34c6074ca",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm24MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-25.zip",
+      "rows": 1,
+      "sha256": "92660b1c64b278f407eb0bc363609dd95bf8b3bc7c1bfd8a655f3805aa245a6d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm25MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-26.zip",
+      "rows": 1,
+      "sha256": "c2fbfe39dc68b40e933f147f8b3b6aa25d5e308157a3ddd0caf7eede6798bded",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm26MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-29.zip",
+      "rows": 1,
+      "sha256": "45c0885f3521d1900d0cfb665d6284369351f8bdaeae1429bcfa4f402fcf12e1",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm29MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-30.zip",
+      "rows": 1,
+      "sha256": "ffa2819fa465c221224047cb8af1f5c646628aa9bee255856e96f1a88d74036e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm30MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-05-31.zip",
+      "rows": 1,
+      "sha256": "b6507d65479b2fafb8a4d74da9c3149a931a470434d23dcb1632001979f3278c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/MAY/cm31MAY2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-01.zip",
+      "rows": 1,
+      "sha256": "ad2e41a5f8eabafa7decaf33ccb13096bd6481987db13f44ef633eaf1e99cdbb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm01JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-02.zip",
+      "rows": 1,
+      "sha256": "33ec3c91c1bb578732ea905dcc09dcf35c7b5ee1069fb750e5e67eea09740be8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm02JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-05.zip",
+      "rows": 1,
+      "sha256": "3c37968fb5f94191ff892d6528c8694b42a2b40da6d726dc08a69eb858cccd9f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm05JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-07.zip",
+      "rows": 1,
+      "sha256": "ab0245cca742dc628be11ce7aa1aa5c2bf1f29596b54b9c859b67faaf3afec9d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm07JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-08.zip",
+      "rows": 1,
+      "sha256": "570e29615689304e19146771e1eb6b29485e40de2241f329c0bb59ad58fae5c4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm08JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-09.zip",
+      "rows": 1,
+      "sha256": "2c108b6dd3f06faf46f0a9706e83ee2757b1de91eda7470de6cdbe3e45e40f84",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm09JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-12.zip",
+      "rows": 1,
+      "sha256": "eb4126d80da2c081103550ab68a5372caf052c53e1ca712695a4b6713116af91",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm12JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-13.zip",
+      "rows": 1,
+      "sha256": "990ec1859ec024c2be3080fe05061af69d68255e08413ad0e9e654ee89c157da",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm13JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-14.zip",
+      "rows": 1,
+      "sha256": "041cfdd8818863b7d5c75b2ebc5f90a385a73230dd21188f97a843694ad5d6bf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm14JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-15.zip",
+      "rows": 1,
+      "sha256": "872d0bbc89f2575cbafd5f1fc082113228f5487ec4e0c3f8f613c34bb38479f4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm15JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-16.zip",
+      "rows": 1,
+      "sha256": "707daca7d6594ae68c70de844397026d3f7e65293218b48218b0957671fd672b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm16JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-19.zip",
+      "rows": 1,
+      "sha256": "33207bab5ab1d0ae88f1c18157b474783db9972cdf5ef6d4c1e513a80d43a732",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm19JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-20.zip",
+      "rows": 1,
+      "sha256": "0a96c3ae51a8af8454d35a0fec0b9e79b0490d69d4d5a3c637b34aa14056e959",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm20JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-21.zip",
+      "rows": 1,
+      "sha256": "ee3911a8780ee5ce769133270239e9f123f0bbf2dfb1b3a577ec6dff1986c7e2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm21JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-22.zip",
+      "rows": 1,
+      "sha256": "8db3eb79b2981edaaeab93e566413b47708254f2421e0bf991fdf98fba7e8920",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm22JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-23.zip",
+      "rows": 1,
+      "sha256": "698f1c085535a90582c36bbffe7f06f31c7538e09347547286ece5a768bfbab6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm23JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-26.zip",
+      "rows": 1,
+      "sha256": "7e5a867fa39df36d86a25833193110bd93b9dc1ec837454884b285a24601f24b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm26JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-27.zip",
+      "rows": 1,
+      "sha256": "66ed54b29632cbd7bc5f366bac0cf9052b714a6c883f215a0e5600454e16e953",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm27JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-28.zip",
+      "rows": 1,
+      "sha256": "d0ed857239f3e79e3bdb0f18f0c224846e69dea0119753c1fe4699beaef97fed",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm28JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-06-30.zip",
+      "rows": 1,
+      "sha256": "1acccdd8e92e6ff7ee57548bc83ccbe485edf4a097dcaa2db233f46b1e07d59d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUN/cm30JUN2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-03.zip",
+      "rows": 1,
+      "sha256": "b10a0017050d77de9fb6dec698f1f927af8bb7309c973821f85eb00b1a712b61",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm03JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-04.zip",
+      "rows": 1,
+      "sha256": "3b127cbc5e7dadd7da5f297c24225d689143eb525b00ccfa38a31f7e2695e0bd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm04JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-05.zip",
+      "rows": 1,
+      "sha256": "5b59c7c3d15f2add73f170d06d3b581a7d8d99ffdd02297a851cdea256232417",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm05JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-06.zip",
+      "rows": 1,
+      "sha256": "26938e24f8cbdf6982a955cfc9805d760b55911c9190b1913127cb6a46eb7e0d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm06JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-07.zip",
+      "rows": 1,
+      "sha256": "598411427ca798122e98e9b736f4d18980eea1e991ab646132cb5b0262ae5e0a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm07JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-10.zip",
+      "rows": 1,
+      "sha256": "e4ae3f02de52361cdc7b0fbc931a67cfec8f2adf9e42015c600d58ad39bc5027",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm10JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-11.zip",
+      "rows": 1,
+      "sha256": "d6f3769575f7d75a901fbc00afa494ffec2d03117c1c2e9879752f3911288109",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm11JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-12.zip",
+      "rows": 1,
+      "sha256": "bf7fc18527c9f2906009ea572aaf83fc11a0b95aa15a5e26bc0c20fbec6ecc7c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm12JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-13.zip",
+      "rows": 1,
+      "sha256": "a1d468d861c0710add90f97952cd79ab24107002f99b11d1ab85276529160911",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm13JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-14.zip",
+      "rows": 1,
+      "sha256": "12836dcbc036214b2fcbd51b6c84057560d0ad3cd4e93f9e062327854dcc0284",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm14JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-17.zip",
+      "rows": 1,
+      "sha256": "82561b2843b9331a0d79b1b940c58278cf20ad8d94f37183bd57ccb95ec753bb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm17JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-18.zip",
+      "rows": 1,
+      "sha256": "a7c19fe62c4d9519dd640c1a0587f703a5f185b21496fb1f945a358cf4d5b608",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm18JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-19.zip",
+      "rows": 1,
+      "sha256": "8d51be99af5217d92c710c87a96539f19bd6de015cce499c44f5c4159c01aeaf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm19JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-20.zip",
+      "rows": 1,
+      "sha256": "17599cfb64e33f60c53feb58055caf9406aaf2cc8c71d2298a9f3e871692969b",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm20JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-21.zip",
+      "rows": 1,
+      "sha256": "aac88ccbbd5bb41c3d9bd8bb880b8f4adf644083e94882af17393e4678d2d1dc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm21JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-24.zip",
+      "rows": 1,
+      "sha256": "49952ffbb9b28f3ee26e7fbbddc30938e44c039f33f410780c83c1c440e63f47",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm24JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-25.zip",
+      "rows": 1,
+      "sha256": "0552deeb5fdeb9cb8ee1b237c56837f54b158cb3c063ccbc657ed6dde0d54f4c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm25JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-26.zip",
+      "rows": 1,
+      "sha256": "92e9edc15875e938b539fa14a9660e783d96ea963bec37ed58376a8c7ee82256",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm26JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-27.zip",
+      "rows": 1,
+      "sha256": "be5e42a10d8326c66a5753e6e5ddcbc89d5df386e5a786ea3e9a04d1cd6f8192",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm27JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-28.zip",
+      "rows": 1,
+      "sha256": "c2a856c8e3e0baad8d8c34c1ffe836abc94e44e16d2f4503003c0c47223a7677",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm28JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-07-31.zip",
+      "rows": 1,
+      "sha256": "a837e7849d4c555ac9e9d7598c616d01b77d198721704a5c8e9a75dc22ed36e5",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/JUL/cm31JUL2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-01.zip",
+      "rows": 1,
+      "sha256": "1f35929c288ad1f3b43dcd11c3cf3122c536c485ae156d254bd96df0f95d639d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm01AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-02.zip",
+      "rows": 1,
+      "sha256": "1769f8f12e75ec0238b4e674047cd93cba34480477e17c2d67fd6a43188ca8c0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm02AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-03.zip",
+      "rows": 1,
+      "sha256": "93948052763681b281913c0620629ce3a91c271fb365e563c5073b414852f4fc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm03AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-04.zip",
+      "rows": 1,
+      "sha256": "8dcc247ab740eb5cf3da9161b31802dbc71d1cce0ee9cc188c989f79d5a408e3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm04AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-07.zip",
+      "rows": 1,
+      "sha256": "3857edac8aa2ecbbceec05f42d88cac9510f11fe58a7e3c0742cf863bce50e80",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm07AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-08.zip",
+      "rows": 1,
+      "sha256": "3ddf0961ddc7a665fc9c7045fb31517a19f7b21ed27c55c97f9121ba5c7c3475",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm08AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-09.zip",
+      "rows": 1,
+      "sha256": "adbc39f491862a41276d47f0d64f3b8577511e13bfb28e141b35c74b4cad3f32",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm09AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-10.zip",
+      "rows": 1,
+      "sha256": "731828b79a3015a33931b15aaad298970187b17853305c628246e95ae3882772",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm10AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-11.zip",
+      "rows": 1,
+      "sha256": "9ce534f5f99f2cb35792d05b1881fe4f85338e0426b074de9e41b996c8d63d13",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm11AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-14.zip",
+      "rows": 1,
+      "sha256": "691440bb61b403b1b3b3faa008442c7f70cbaa08b2d9836651cbba2a0e833ab3",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm14AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-16.zip",
+      "rows": 1,
+      "sha256": "c89d1f13e4ab4ba23769d9610e4568d4d31bc4517943cbfb703bc85fb8d028c4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm16AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-17.zip",
+      "rows": 1,
+      "sha256": "af479a72a5c8d65e215e40a5aa3c6cf79d62a122192dad7c801ef5110897cf1f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm17AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-18.zip",
+      "rows": 1,
+      "sha256": "e2c712a447729d4bf8804a8545871aadbf10f7c4eb33ba81a0221ad2442388fd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm18AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-21.zip",
+      "rows": 1,
+      "sha256": "b80b08cd1c322f185b3e45e3001fcf61bd438299f379e7b9679eb215663b713a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm21AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-22.zip",
+      "rows": 1,
+      "sha256": "cde916a3aa46d02d4a64a3ecd929b52a00abb2d632f3e56685db57499c1fb662",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm22AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-23.zip",
+      "rows": 1,
+      "sha256": "dd80a57131cdb5403f5074ddd6783727303e5e029509f8adc56744f6905f181f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm23AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-24.zip",
+      "rows": 1,
+      "sha256": "e72115c94ffe0cab4365b0f2cd81e6fe8859ae6074b669023f93c7e7d896828a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm24AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-25.zip",
+      "rows": 1,
+      "sha256": "c184c7dbcf22298092cbc23b6cbb6588b004051716a2c1c03d1e41a279d00b82",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm25AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-28.zip",
+      "rows": 1,
+      "sha256": "a01b27da21f92c9a61b44de9664c17b35423e0e99248b95d35511550be335e80",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm28AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-29.zip",
+      "rows": 1,
+      "sha256": "c4444b800ee2c555f322db882a355bc628fbeecbfa114ecfdc62ac1b1d99e5e4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm29AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-30.zip",
+      "rows": 1,
+      "sha256": "594bf14d0bb887e7f504869c32d6054c63991ddc24ddbaf1a69de81e11c52785",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm30AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-08-31.zip",
+      "rows": 1,
+      "sha256": "230f1672003fee6de2bd90a5e1cfa4bece2b5875dd91b527c07479f6283e2791",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/AUG/cm31AUG2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-01.zip",
+      "rows": 1,
+      "sha256": "024558033285dd4388d8625a05bf99f26b1c298433450427fc8f3df58aac9632",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm01SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-04.zip",
+      "rows": 1,
+      "sha256": "d23109f5e4d0f03296cb63434da0498e78ac578a829a6426d7564e09083cd1e9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm04SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-05.zip",
+      "rows": 1,
+      "sha256": "cc837a2ac70a3117ebd0d278ca80840f4e2361d1e5e0284a3bcd40037ef5fb51",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm05SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-06.zip",
+      "rows": 1,
+      "sha256": "a8eaa90504b1a054dd386d968fc922bda3ec2ff187f679de1b87f79c66b952bd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm06SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-07.zip",
+      "rows": 1,
+      "sha256": "a5601869aaa7c500b2e67d7423c6cdefeb56fcebc8dabaa79e88c45c513a858e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm07SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-08.zip",
+      "rows": 1,
+      "sha256": "7ffa5714f0578bbdb590300122b23781a43bae491d8cc41ad0b463408e68285e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm08SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-11.zip",
+      "rows": 1,
+      "sha256": "c6537ae270ddd4b6b933192ea9cc90b92f0a6fa913c5f591d6501f7fa51cab2c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm11SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-12.zip",
+      "rows": 1,
+      "sha256": "e88b3925caf7b1ac50e59114842705cf23a96142d2e58e929c535983665282d8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm12SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-13.zip",
+      "rows": 1,
+      "sha256": "4c01b288e1565c5702680161dbfc7e294d8065741061e3e2327d414d9897ae24",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm13SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-14.zip",
+      "rows": 1,
+      "sha256": "6f9f053f191a3db62bcf8f21d1a14d1f9f4561d7a8435bfef9749e15dd5d8854",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm14SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-15.zip",
+      "rows": 1,
+      "sha256": "b36ec59b510c1fedb4f2c470152c1f7688183d9e7e808987eee3650cc34d2236",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm15SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-18.zip",
+      "rows": 1,
+      "sha256": "9b5aeb015352532a4d1cf0114361935e4673c8d2dc0771fd8873ecc27a8c34f0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm18SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-20.zip",
+      "rows": 1,
+      "sha256": "775ba805dcb9b215ab11e59b5d0c62568dbcdaba8378545280dec98243811903",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm20SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-21.zip",
+      "rows": 1,
+      "sha256": "37746a75823606f6e90f13e6a1d2c77da20fdb76da8dd283ab8e760104d557c6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm21SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-22.zip",
+      "rows": 1,
+      "sha256": "1673cad312856bbe071a1b870eb514c195f7ba72b0cc879c4fddd460cff70edf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm22SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-25.zip",
+      "rows": 1,
+      "sha256": "a4ed5ca27fd61560cd3c47247c8f759c8e689f4dcaf0e9055ac120ae6da64334",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm25SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-26.zip",
+      "rows": 1,
+      "sha256": "302dff02f6b172c6af53e64b1be4a2c1c5db4a081696908738f418127923db9c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm26SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-27.zip",
+      "rows": 1,
+      "sha256": "a0ec1e2e13bee80a873de995b396546a8747396cfa52040ac3fedad41569dbe8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm27SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-28.zip",
+      "rows": 1,
+      "sha256": "840b6dbf348faa156fa2f84b326126cf008a7826ea2416803fa610e258effd31",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm28SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-09-29.zip",
+      "rows": 1,
+      "sha256": "93a73164dd27a671b30e1080b36d05982a78193497c92a4cf867f14ed14fad81",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/SEP/cm29SEP2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-03.zip",
+      "rows": 1,
+      "sha256": "62b64e1510cb453a4c96a52d5ea24932a41e520ab61321506c21f7e5a2d1e502",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm03OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-04.zip",
+      "rows": 1,
+      "sha256": "ec9906e370d65a93549b5643431b9802bf9b01a65f7cf0e1dc4459c2e1527eb5",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm04OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-05.zip",
+      "rows": 1,
+      "sha256": "27d06fa69207f1043f7eba5f9eecedff93594cf72fbe4012ac7abe6d6b940697",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm05OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-06.zip",
+      "rows": 1,
+      "sha256": "32eebc43693a2da291d785bb3c2dad897d7383cedc00e86f02bed6f543bd378a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm06OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-09.zip",
+      "rows": 1,
+      "sha256": "d981343cc11fafcf93bba98951e13f5d8d94634ef71f651be171ebb231b6da66",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm09OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-10.zip",
+      "rows": 1,
+      "sha256": "b33abf833663d3a270739b8f50b87566fa2f8e24b7ba6dfa5ae1662c1e49f098",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm10OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-11.zip",
+      "rows": 1,
+      "sha256": "84b8156e1a76ff9995001b7cfd79b70b10467575d3e3666fe00c272b655ccb6a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm11OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-12.zip",
+      "rows": 1,
+      "sha256": "1d878f8f24de5b15e34cb89466f90fa918652c82f1be09b69928a86eb763b5ed",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm12OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-13.zip",
+      "rows": 1,
+      "sha256": "acba759b0f79f0ec6af590ba84bf26a2bced2f72504fa2317795387f1c17afbf",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm13OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-16.zip",
+      "rows": 1,
+      "sha256": "8bbaf6433e8200eef1acb2941ca43d9fed758ec20831981445554d65cea7ef59",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm16OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-17.zip",
+      "rows": 1,
+      "sha256": "29ea6a6c548bf6a96725d3555e5d88173a1f7c7c1577bc375f55c3f0e3212347",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm17OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-18.zip",
+      "rows": 1,
+      "sha256": "f0c306df7d65825cc011021969faaaf09967daf03090748150befb435f017ba9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm18OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-19.zip",
+      "rows": 1,
+      "sha256": "83e7a3e21767e0c6a4cae248ba620a9812fad434f770dae704ffecd27f914f70",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm19OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-20.zip",
+      "rows": 1,
+      "sha256": "ea374e687d36b59f16ce9c56e997cd680c89874a8587a4afb0bf2eb09d8383d6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm20OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-23.zip",
+      "rows": 1,
+      "sha256": "3ca6672b978c34506cd34c7abed6b65b9ef53d1c8b66c6cae83e1a1e6b92d960",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm23OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-25.zip",
+      "rows": 1,
+      "sha256": "07d0cd9736f334a49bd830214f3f67c600ef659cd036f9cce9651449f64c5e95",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm25OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-26.zip",
+      "rows": 1,
+      "sha256": "bc0fb4185d9d42f3d1ccd87f98d74668c6c0bf832f807b7128d82d3b78f59333",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm26OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-27.zip",
+      "rows": 1,
+      "sha256": "f59fb8343037c52ee4b647190ad48a4e5b7c5ecaef1c6abfc9c07bf11e793f80",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm27OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-30.zip",
+      "rows": 1,
+      "sha256": "40f0f88b5c2deb4b637c9a6692d3c023b9ca6943df3ec0de063dd20095e62de8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm30OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-10-31.zip",
+      "rows": 1,
+      "sha256": "2ea418cbe61e695f533e090e53af9c75dce61af442d20ef85209ba0fea7f4480",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/OCT/cm31OCT2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-01.zip",
+      "rows": 1,
+      "sha256": "c4f5f0b1d3b343d0e70dc14198f5d3b916eed554ff9e0c2a7d772b3cd19f1dae",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm01NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-02.zip",
+      "rows": 1,
+      "sha256": "2eafd55f8e75166be534f3f2401496a622d9b06668f2598ecd45fe84b7dd2c10",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm02NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-03.zip",
+      "rows": 1,
+      "sha256": "cde504a921f8a45b1ba815502c3b52ed8877252ef1d12c2df202cf50242810f5",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm03NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-06.zip",
+      "rows": 1,
+      "sha256": "0932b9018bf34ca9bfcd131c0c096f65682c4a45e4d3cb8534ba2e128079a623",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm06NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-07.zip",
+      "rows": 1,
+      "sha256": "2e764df2091997c0a08f4fc048d9c6ae11ca8b42ab347f8676065b59c45449ce",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm07NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-08.zip",
+      "rows": 1,
+      "sha256": "e0a2b97b2ff443a7cedd013b01c0635ee5abb6b4216755fe6906553147c1373d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm08NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-09.zip",
+      "rows": 1,
+      "sha256": "3d3ba282856195031088b0a5273641a92eed2ced15b883aa2044ce52c8c87dd4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm09NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-10.zip",
+      "rows": 1,
+      "sha256": "f2711ce0fceb182c46e973f4c486e4fdc1aacdf84ef936889fdcf626a5864e5e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm10NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-12.zip",
+      "rows": 1,
+      "sha256": "7c05eba479acae04f461a76ec12b02d0b9dd00e62622de6078ced0c87debddbe",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm12NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-13.zip",
+      "rows": 1,
+      "sha256": "a89354754300535a1013365963b1b33be91d1de5b1aba5f4a993d721d6ebf1e0",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm13NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-15.zip",
+      "rows": 1,
+      "sha256": "db521460353b891222380e348d7744b645e22390b8ae7b44afd30923b0200e8d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm15NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-16.zip",
+      "rows": 1,
+      "sha256": "ccaf378bf8f75f09d665f867e7bbec2e2730d3ab4b46db551a26de339e28246e",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm16NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-17.zip",
+      "rows": 1,
+      "sha256": "a86e5cc0988eefc0f6064f097e01eb68dda2968c503103dd289d9ec60f4983bc",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm17NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-20.zip",
+      "rows": 1,
+      "sha256": "bc3ca0464afb0e9f2b9b318887aafaecac08aa5a11d9376243d2092e0cdcdd73",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm20NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-21.zip",
+      "rows": 1,
+      "sha256": "7a8e24b300505b3b4073f074f9f4655e7eebbad6dd233dfaec1296e229e2ff97",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm21NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-22.zip",
+      "rows": 1,
+      "sha256": "c33d6e00939db921681ec04172d42205971a84cb204ed0ce082e2b9be16dd5b2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm22NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-23.zip",
+      "rows": 1,
+      "sha256": "d193191a619207fb349a56afb918bbb744429b4210dc1ab587c54c3c7ad01e9f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm23NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-24.zip",
+      "rows": 1,
+      "sha256": "fe648a0934a1d57368d730b86d9ee6012e2318092c5f721f82ad1e5c0d8f55d4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm24NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-28.zip",
+      "rows": 1,
+      "sha256": "3e7af41d50c5596ed285e2bc71e6e596ebce0e45db8297664d93d091c4bb9d03",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm28NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-29.zip",
+      "rows": 1,
+      "sha256": "cacaca72cbd95e1341bdb092b46b14c22ab58702624826a257db85d32a96f79f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm29NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-11-30.zip",
+      "rows": 1,
+      "sha256": "ecb736a7fe507028d9259e63f3f420077f1074d42cff108c33648c9dfbe35e9c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/NOV/cm30NOV2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-01.zip",
+      "rows": 1,
+      "sha256": "7e24a0d837d720f81f9bfd272592919102c19a0f81ccb261294c507f7dff12eb",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm01DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-04.zip",
+      "rows": 1,
+      "sha256": "e3c3991d631bd477606c72ab769f3d61c9f203156d101164f8057cb53dbc5819",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm04DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-05.zip",
+      "rows": 1,
+      "sha256": "ac52db9e596362fefcab57fe11fbcdafd8c337fbd09042335022ced82abf6b08",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm05DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-06.zip",
+      "rows": 1,
+      "sha256": "8894928de0a1eeba58c48759b6a2ee9369b5d7ec7cc418d1ecd88e23b27f1ebd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm06DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-07.zip",
+      "rows": 1,
+      "sha256": "b2a2140a5875da1792a4ebf2b7df3dcf57aa051a26ed7e00a3215933a88b586a",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm07DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-08.zip",
+      "rows": 1,
+      "sha256": "e0957321b4ecbd31c0c2bcfbc8287fd1876ede0dc9d85e632eba6677c03be8b2",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm08DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-11.zip",
+      "rows": 1,
+      "sha256": "4d445b487bae2fcf4a5d19450d380ad6d0910c5df666ced01d55a2060a08e4b8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm11DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-12.zip",
+      "rows": 1,
+      "sha256": "18feac9260a7465978d27a4a20712c23468913432c760d366d0a99a247f8a550",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm12DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-13.zip",
+      "rows": 1,
+      "sha256": "d64c8a8d9d20c8425f382dfb860f3ed5e1d0af9fac3fd6954e2fe17ef6450ac9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm13DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-14.zip",
+      "rows": 1,
+      "sha256": "9437466082f665da167324d408bed9adcaf4e3dd0666b5348fdaf2b4b01a0b0f",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm14DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-15.zip",
+      "rows": 1,
+      "sha256": "074fb358da46748c851641e4e3d4f4896e31cb42ce87689f53fd6f3c3bf792b8",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm15DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-18.zip",
+      "rows": 1,
+      "sha256": "ab11b47bb08cc8828b6f4508a4abdb621bb5ce0a081f6372823c01a5ce292c47",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm18DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-19.zip",
+      "rows": 1,
+      "sha256": "91779a4030d0ba33f6456689544beeae24a1d707eb7f26500f807838cc688e8c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm19DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-20.zip",
+      "rows": 1,
+      "sha256": "efb2cc90b73b3c2b6eee3baf8b011c822bb530a29b5840d86a0e4fa4f9757fbd",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm20DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-21.zip",
+      "rows": 1,
+      "sha256": "0eda18a369cfa8c751e5859f737ae7f63e47a8434d2ba37bff2aff4c111f3e35",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm21DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-22.zip",
+      "rows": 1,
+      "sha256": "9464b35e5724a44aacedc13cf8d14e515e607fe8b889d8366a51154014c32d04",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm22DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-26.zip",
+      "rows": 1,
+      "sha256": "39502d2033a536decdabcfdceb17f075a404f9ea07b17ecb175c03a8414f6421",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm26DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-27.zip",
+      "rows": 1,
+      "sha256": "7c0f70771f9cbf060e7de0f43ca64e7e8e88202871d17b1298c994a34395328d",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm27DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-28.zip",
+      "rows": 1,
+      "sha256": "04818bb9af5c6dd054042dcf2bca709c69acd18b4c25a6d7218add727bc7be5c",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm28DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2023-12-29.zip",
+      "rows": 1,
+      "sha256": "f0397bf822e6a07b718b9598b16f5237f5cdd9fede94e00f7c0178ef5d7f7105",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm29DEC2023bhav.csv.zip"
+    },
+    {
+      "file": "2024-01-20.zip",
+      "rows": 1,
+      "sha256": "6ad700407b7d962b8613bcdf59e578e31d716ecdcf400b884bd2cdbcdedfa0f9",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm20JAN2024bhav.csv.zip"
+    },
+    {
+      "file": "2024-03-02.zip",
+      "rows": 1,
+      "sha256": "31e7a2b63c44fec3b3b8fef9aaca38542e793553aa591ef14103611c719beed6",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/MAR/cm02MAR2024bhav.csv.zip"
+    },
+    {
+      "file": "2024-05-18.zip",
+      "rows": 1,
+      "sha256": "58938ca228f7f9e27b587e908fdf3a63d7adf7a69e3ed8e300e74ef113f05db4",
+      "source": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/MAY/cm18MAY2024bhav.csv.zip"
+    },
+    {
+      "file": "2025-02-01.zip",
+      "rows": 1,
+      "sha256": "a0ed7f8fb660762f47607945c6f98909a22eb538ced9e215860eaeebb12fa959",
+      "source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250201_F_0000.csv.zip"
+    },
+    {
+      "file": "2026-02-01.zip",
+      "rows": 1,
+      "sha256": "af5502e5c696c95895b92a6c6e00907c87064547c408e9cd9fe03649d565ac47",
+      "source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260201_F_0000.csv.zip"
+    },
+    {
+      "file": "2026-11-08.zip",
+      "rows": 1,
+      "sha256": "d49e1ed2aca12d887cc4164902bebb968a891b58edabb5f5a5c84e3b0fedcf73",
+      "source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261108_F_0000.csv.zip"
+    },
+    {
+      "file": "actions.json",
+      "rows": 0,
+      "sha256": "ee99671c0275c7eebce98a1276a6a76cc5961c98c2869ce46104eab1dd2f0bb3",
+      "source": "https://mcp.nseindia.in/bhavcopy/cm/mcp"
+    }
+  ],
+  "corporate_actions": {
+    "symbol": "NIFTYBEES",
+    "from": "2021-01-01",
+    "to": "2026-11-20",
+    "count": 0,
+    "actions": []
+  },
+  "price_series_sha256": "60caa703f569d9fe5aceef661e1266a5de30ef9e42f29c3acb0ead470d05ad3f",
+  "periods": {
+    "development": {
+      "first_session": "2022-01-03",
+      "last_session": "2022-12-30",
+      "sessions": 248,
+      "cost_cases_bps_per_side": {
+        "5": {
+          "trend": {
+            "pnl_inr": 409.2277759233839,
+            "return_pct": 0.409227775923382,
+            "annualized_pct": 0.41405551492983417,
+            "drawdown_pct": 13.424032319006917,
+            "exposure_pct": 83.10249307479225,
+            "fees_inr": 76.3563190766287,
+            "execution_reserve_inr": 194.66590499998736,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2021-12-31",
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 525,
+                "fee_inr": 18.703213138102498,
+                "execution_reserve_inr": 49.8749999999994,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2022-05-31",
+                "execution_day": "2022-06-01",
+                "buy": false,
+                "units": 525,
+                "fee_inr": 19.822465022516894,
+                "execution_reserve_inr": 47.29987499999524,
+                "realized_gain_inr_before_haircut": -5285.950553160612
+              },
+              {
+                "signal_day": "2022-07-29",
+                "execution_day": "2022-08-01",
+                "buy": true,
+                "units": 507,
+                "fee_inr": 17.733042316213446,
+                "execution_reserve_inr": 47.2878899999948,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 507,
+                "fee_inr": 20.097598599795855,
+                "execution_reserve_inr": 50.203139999997916,
+                "realized_gain_inr_before_haircut": 5695.178329083996
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 4080.1697794360807,
+            "return_pct": 4.0801697794360825,
+            "annualized_pct": 4.129183453500729,
+            "drawdown_pct": 15.707579686828977,
+            "exposure_pct": 100.0,
+            "fees_inr": 38.96972056392661,
+            "execution_reserve_inr": 101.86049999999724,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 525,
+                "fee_inr": 18.703213138102498,
+                "execution_reserve_inr": 49.8749999999994,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 525,
+                "fee_inr": 20.26650742582411,
+                "execution_reserve_inr": 51.98549999999784,
+                "realized_gain_inr_before_haircut": 4080.1697794360807
+              }
+            ]
+          }
+        },
+        "15": {
+          "trend": {
+            "pnl_inr": -1.8886958192888414,
+            "return_pct": -0.001888695819285413,
+            "annualized_pct": -0.001910930945425715,
+            "drawdown_pct": 13.436904318990317,
+            "exposure_pct": 83.10249307479225,
+            "fees_inr": 76.29472081927341,
+            "execution_reserve_inr": 582.8439750000064,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2021-12-31",
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 525,
+                "fee_inr": 18.7219070043075,
+                "execution_reserve_inr": 149.62500000001313,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2022-05-31",
+                "execution_day": "2022-06-01",
+                "buy": false,
+                "units": 525,
+                "fee_inr": 19.817980315140694,
+                "execution_reserve_inr": 141.89962500000064,
+                "realized_gain_inr_before_haircut": -5480.31451231947
+              },
+              {
+                "signal_day": "2022-07-29",
+                "execution_day": "2022-08-01",
+                "buy": true,
+                "units": 505,
+                "fee_inr": 17.680743748919074,
+                "execution_reserve_inr": 141.30404999999882,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 505,
+                "fee_inr": 20.074089750906147,
+                "execution_reserve_inr": 150.01529999999377,
+                "realized_gain_inr_before_haircut": 5478.425816500181
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 3876.43501454177,
+            "return_pct": 3.876435014541779,
+            "annualized_pct": 3.9229554541936107,
+            "drawdown_pct": 15.722641328566967,
+            "exposure_pct": 100.0,
+            "fees_inr": 38.98348545821983,
+            "execution_reserve_inr": 305.58150000000666,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 525,
+                "fee_inr": 18.7219070043075,
+                "execution_reserve_inr": 149.62500000001313,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 525,
+                "fee_inr": 20.26157845391233,
+                "execution_reserve_inr": 155.95649999999353,
+                "realized_gain_inr_before_haircut": 3876.43501454177
+              }
+            ]
+          }
+        },
+        "30": {
+          "trend": {
+            "pnl_inr": -594.4122249604698,
+            "return_pct": -0.5944122249604722,
+            "annualized_pct": -0.6013890683667311,
+            "drawdown_pct": 13.43158749100326,
+            "exposure_pct": 83.10249307479225,
+            "fees_inr": 76.20232496048894,
+            "execution_reserve_inr": 1162.269899999983,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2021-12-31",
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 524,
+                "fee_inr": 18.714233617322396,
+                "execution_reserve_inr": 298.6799999999964,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2022-05-31",
+                "execution_day": "2022-06-01",
+                "buy": false,
+                "units": 524,
+                "fee_inr": 19.802736581211477,
+                "execution_reserve_inr": 283.2586800000013,
+                "realized_gain_inr_before_haircut": -5760.895650198538
+              },
+              {
+                "signal_day": "2022-07-29",
+                "execution_day": "2022-08-01",
+                "buy": true,
+                "units": 503,
+                "fee_inr": 17.63709751812561,
+                "execution_reserve_inr": 281.48885999998333,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 503,
+                "fee_inr": 20.048257243829454,
+                "execution_reserve_inr": 298.8423600000019,
+                "realized_gain_inr_before_haircut": 5166.483425238068
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 3564.002061739011,
+            "return_pct": 3.5640020617390133,
+            "annualized_pct": 3.6067083103613173,
+            "drawdown_pct": 15.716420060820946,
+            "exposure_pct": 100.0,
+            "fees_inr": 38.95905826099364,
+            "execution_reserve_inr": 609.9988799999984,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2022-01-03",
+                "buy": true,
+                "units": 524,
+                "fee_inr": 18.714233617322396,
+                "execution_reserve_inr": 298.6799999999964,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2022-12-30",
+                "buy": false,
+                "units": 524,
+                "fee_inr": 20.244824643671244,
+                "execution_reserve_inr": 311.31888000000197,
+                "realized_gain_inr_before_haircut": 3564.002061739011
+              }
+            ]
+          }
+        }
+      },
+      "idle_cash": {
+        "pnl_inr": 0.0,
+        "return_pct": 0.0,
+        "annualized_pct": 0.0,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 0.0,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "cash_hurdle": {
+        "pnl_inr": 5928.15538343339,
+        "return_pct": 5.928155383433387,
+        "annualized_pct": 6.000000000001382,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 5928.1553834334,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "trend_with_cash_interest": {
+        "pnl_inr": 1397.8727044351836,
+        "return_pct": 1.397872704435188,
+        "annualized_pct": 1.4144455001252831,
+        "drawdown_pct": 13.420719117873436,
+        "exposure_pct": 83.10249307479225,
+        "fees_inr": 76.57812026909427,
+        "execution_reserve_inr": 195.6273549999873,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 932.3281797042639,
+        "completed_round_trips": 2,
+        "execution_events": [
+          {
+            "signal_day": "2021-12-31",
+            "execution_day": "2022-01-03",
+            "buy": true,
+            "units": 525,
+            "fee_inr": 18.703213138102498,
+            "execution_reserve_inr": 49.8749999999994,
+            "realized_gain_inr_before_haircut": null
+          },
+          {
+            "signal_day": "2022-05-31",
+            "execution_day": "2022-06-01",
+            "buy": false,
+            "units": 525,
+            "fee_inr": 19.822465022516894,
+            "execution_reserve_inr": 47.29987499999524,
+            "realized_gain_inr_before_haircut": -5285.950553160612
+          },
+          {
+            "signal_day": "2022-07-29",
+            "execution_day": "2022-08-01",
+            "buy": true,
+            "units": 512,
+            "fee_inr": 17.90792439033784,
+            "execution_reserve_inr": 47.75423999999475,
+            "realized_gain_inr_before_haircut": null
+          },
+          {
+            "signal_day": null,
+            "execution_day": "2022-12-30",
+            "buy": false,
+            "units": 512,
+            "fee_inr": 20.144517718137035,
+            "execution_reserve_inr": 50.698239999997895,
+            "realized_gain_inr_before_haircut": 5751.495077891537
+          }
+        ]
+      },
+      "positive_gain_haircut": {
+        "trend": {
+          "pnl_inr": -1014.5668063476187,
+          "return_pct": -1.0145668063476165,
+          "annualized_pct": -1.026449641458027,
+          "drawdown_pct": 13.424032319006917,
+          "exposure_pct": 83.10249307479225,
+          "fees_inr": 76.3563190766287,
+          "execution_reserve_inr": 194.66590499998736,
+          "gain_haircut_inr": 1423.794582270999,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 2,
+          "execution_events": [
+            {
+              "signal_day": "2021-12-31",
+              "execution_day": "2022-01-03",
+              "buy": true,
+              "units": 525,
+              "fee_inr": 18.703213138102498,
+              "execution_reserve_inr": 49.8749999999994,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": "2022-05-31",
+              "execution_day": "2022-06-01",
+              "buy": false,
+              "units": 525,
+              "fee_inr": 19.822465022516894,
+              "execution_reserve_inr": 47.29987499999524,
+              "realized_gain_inr_before_haircut": -5285.950553160612
+            },
+            {
+              "signal_day": "2022-07-29",
+              "execution_day": "2022-08-01",
+              "buy": true,
+              "units": 507,
+              "fee_inr": 17.733042316213446,
+              "execution_reserve_inr": 47.2878899999948,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": null,
+              "execution_day": "2022-12-30",
+              "buy": false,
+              "units": 507,
+              "fee_inr": 20.097598599795855,
+              "execution_reserve_inr": 50.203139999997916,
+              "realized_gain_inr_before_haircut": 5695.178329083996
+            }
+          ]
+        },
+        "buy_hold": {
+          "pnl_inr": 3060.1273345770605,
+          "return_pct": 3.0601273345770563,
+          "annualized_pct": 3.0967059432554622,
+          "drawdown_pct": 15.707579686828977,
+          "exposure_pct": 100.0,
+          "fees_inr": 38.96972056392661,
+          "execution_reserve_inr": 101.86049999999724,
+          "gain_haircut_inr": 1020.0424448590202,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 1,
+          "execution_events": [
+            {
+              "signal_day": null,
+              "execution_day": "2022-01-03",
+              "buy": true,
+              "units": 525,
+              "fee_inr": 18.703213138102498,
+              "execution_reserve_inr": 49.8749999999994,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": null,
+              "execution_day": "2022-12-30",
+              "buy": false,
+              "units": 525,
+              "fee_inr": 20.26650742582411,
+              "execution_reserve_inr": 51.98549999999784,
+              "realized_gain_inr_before_haircut": 4080.1697794360807
+            }
+          ]
+        }
+      }
+    },
+    "holdout": {
+      "first_session": "2023-01-02",
+      "last_session": "2024-12-31",
+      "sessions": 495,
+      "cost_cases_bps_per_side": {
+        "5": {
+          "trend": {
+            "pnl_inr": 26790.658773115138,
+            "return_pct": 26.790658773115126,
+            "annualized_pct": 12.628859402939652,
+            "drawdown_pct": 10.493356982464697,
+            "exposure_pct": 91.4951989026063,
+            "fees_inr": 77.75923188490101,
+            "execution_reserve_inr": 208.5119949999804,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2022-12-30",
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 497,
+                "fee_inr": 18.729843888598786,
+                "execution_reserve_inr": 49.94601499999757,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2023-02-28",
+                "execution_day": "2023-03-01",
+                "buy": false,
+                "units": 497,
+                "fee_inr": 19.858930398292504,
+                "execution_reserve_inr": 47.684665000000194,
+                "realized_gain_inr_before_haircut": -4658.919454286894
+              },
+              {
+                "signal_day": "2023-04-28",
+                "execution_day": "2023-05-02",
+                "buy": true,
+                "units": 479,
+                "fee_inr": 17.82786526306258,
+                "execution_reserve_inr": 47.54074999999216,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 479,
+                "fee_inr": 21.342592334947145,
+                "execution_reserve_inr": 63.34056499999048,
+                "realized_gain_inr_before_haircut": 31449.57822740203
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 31393.59518663236,
+            "return_pct": 31.39359518663236,
+            "annualized_pct": 14.659247679855403,
+            "drawdown_pct": 10.505084221382821,
+            "exposure_pct": 100.0,
+            "fees_inr": 40.298003367656676,
+            "execution_reserve_inr": 115.66680999998769,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 497,
+                "fee_inr": 18.729843888598786,
+                "execution_reserve_inr": 49.94601499999757,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 497,
+                "fee_inr": 21.568159479057893,
+                "execution_reserve_inr": 65.72079499999012,
+                "realized_gain_inr_before_haircut": 31393.59518663236
+              }
+            ]
+          }
+        },
+        "15": {
+          "trend": {
+            "pnl_inr": 26318.119127345606,
+            "return_pct": 26.318119127345607,
+            "annualized_pct": 12.418351815370809,
+            "drawdown_pct": 10.49947222884915,
+            "exposure_pct": 91.4951989026063,
+            "fees_inr": 77.68866265437315,
+            "execution_reserve_inr": 624.2522100000098,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2022-12-30",
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 496,
+                "fee_inr": 18.710840902683703,
+                "execution_reserve_inr": 149.53656000000683,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2023-02-28",
+                "execution_day": "2023-03-01",
+                "buy": false,
+                "units": 496,
+                "fee_inr": 19.84532588897417,
+                "execution_reserve_inr": 142.76616000000058,
+                "realized_gain_inr_before_haircut": -4844.45888679169
+              },
+              {
+                "signal_day": "2023-04-28",
+                "execution_day": "2023-05-02",
+                "buy": true,
+                "units": 478,
+                "fee_inr": 17.80842809312991,
+                "execution_reserve_inr": 142.3245000000037,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 478,
+                "fee_inr": 21.324067769585373,
+                "execution_reserve_inr": 189.62498999999866,
+                "realized_gain_inr_before_haircut": 31162.578014137296
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 31099.517509863595,
+            "return_pct": 31.099517509863595,
+            "annualized_pct": 14.530599882736063,
+            "drawdown_pct": 10.497728702998543,
+            "exposure_pct": 100.0,
+            "fees_inr": 40.260250136395726,
+            "execution_reserve_inr": 346.30224000000544,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 496,
+                "fee_inr": 18.710840902683703,
+                "execution_reserve_inr": 149.53656000000683,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 496,
+                "fee_inr": 21.54940923371202,
+                "execution_reserve_inr": 196.7656799999986,
+                "realized_gain_inr_before_haircut": 31099.517509863595
+              }
+            ]
+          }
+        },
+        "30": {
+          "trend": {
+            "pnl_inr": 25575.09091203696,
+            "return_pct": 25.575090912036956,
+            "annualized_pct": 12.086550339908374,
+            "drawdown_pct": 10.501406089024046,
+            "exposure_pct": 91.4951989026063,
+            "fees_inr": 77.58112796306747,
+            "execution_reserve_inr": 1244.5479599999778,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 2,
+            "execution_events": [
+              {
+                "signal_day": "2022-12-30",
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 495,
+                "fee_inr": 18.701085157684673,
+                "execution_reserve_inr": 298.4701499999855,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2023-02-28",
+                "execution_day": "2023-03-01",
+                "buy": false,
+                "units": 495,
+                "fee_inr": 19.829488075050254,
+                "execution_reserve_inr": 284.95665000000116,
+                "realized_gain_inr_before_haircut": -5126.457373232726
+              },
+              {
+                "signal_day": "2023-04-28",
+                "execution_day": "2023-05-02",
+                "buy": true,
+                "units": 476,
+                "fee_inr": 17.760476873908438,
+                "execution_reserve_inr": 283.45799999999383,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 476,
+                "fee_inr": 21.290077856424112,
+                "execution_reserve_inr": 377.66315999999733,
+                "realized_gain_inr_before_haircut": 30701.548285269688
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 30691.163233878207,
+            "return_pct": 30.691163233878214,
+            "annualized_pct": 14.351721386790107,
+            "drawdown_pct": 10.493931283854463,
+            "exposure_pct": 100.0,
+            "fees_inr": 40.228666121823196,
+            "execution_reserve_inr": 691.2080999999828,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2023-01-02",
+                "buy": true,
+                "units": 495,
+                "fee_inr": 18.701085157684673,
+                "execution_reserve_inr": 298.4701499999855,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2024-12-31",
+                "buy": false,
+                "units": 495,
+                "fee_inr": 21.52758096413852,
+                "execution_reserve_inr": 392.7379499999972,
+                "realized_gain_inr_before_haircut": 30691.163233878207
+              }
+            ]
+          }
+        }
+      },
+      "idle_cash": {
+        "pnl_inr": 0.0,
+        "return_pct": 0.0,
+        "annualized_pct": 0.0,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 0.0,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "cash_hurdle": {
+        "pnl_inr": 12333.11576498,
+        "return_pct": 12.333115764979997,
+        "annualized_pct": 6.000000000001338,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 12333.11576497998,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "trend_with_cash_interest": {
+        "pnl_inr": 28082.377168014922,
+        "return_pct": 28.082377168014915,
+        "annualized_pct": 13.202306435798118,
+        "drawdown_pct": 10.494900839378618,
+        "exposure_pct": 91.4951989026063,
+        "fees_inr": 78.00798405189487,
+        "execution_reserve_inr": 209.66941999998022,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 963.2745720668528,
+        "completed_round_trips": 2,
+        "execution_events": [
+          {
+            "signal_day": "2022-12-30",
+            "execution_day": "2023-01-02",
+            "buy": true,
+            "units": 497,
+            "fee_inr": 18.729843888598786,
+            "execution_reserve_inr": 49.94601499999757,
+            "realized_gain_inr_before_haircut": null
+          },
+          {
+            "signal_day": "2023-02-28",
+            "execution_day": "2023-03-01",
+            "buy": false,
+            "units": 497,
+            "fee_inr": 19.858930398292504,
+            "execution_reserve_inr": 47.684665000000194,
+            "realized_gain_inr_before_haircut": -4658.919454286894
+          },
+          {
+            "signal_day": "2023-04-28",
+            "execution_day": "2023-05-02",
+            "buy": true,
+            "units": 484,
+            "fee_inr": 18.013959890025657,
+            "execution_reserve_inr": 48.03699999999208,
+            "realized_gain_inr_before_haircut": null
+          },
+          {
+            "signal_day": null,
+            "execution_day": "2024-12-31",
+            "buy": false,
+            "units": 484,
+            "fee_inr": 21.40524987497791,
+            "execution_reserve_inr": 64.00173999999038,
+            "realized_gain_inr_before_haircut": 31778.022050235013
+          }
+        ]
+      },
+      "positive_gain_haircut": {
+        "trend": {
+          "pnl_inr": 18928.264216264623,
+          "return_pct": 18.928264216264612,
+          "annualized_pct": 9.073687042989187,
+          "drawdown_pct": 15.080259305012177,
+          "exposure_pct": 91.4951989026063,
+          "fees_inr": 77.75923188490101,
+          "execution_reserve_inr": 208.5119949999804,
+          "gain_haircut_inr": 7862.394556850508,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 2,
+          "execution_events": [
+            {
+              "signal_day": "2022-12-30",
+              "execution_day": "2023-01-02",
+              "buy": true,
+              "units": 497,
+              "fee_inr": 18.729843888598786,
+              "execution_reserve_inr": 49.94601499999757,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": "2023-02-28",
+              "execution_day": "2023-03-01",
+              "buy": false,
+              "units": 497,
+              "fee_inr": 19.858930398292504,
+              "execution_reserve_inr": 47.684665000000194,
+              "realized_gain_inr_before_haircut": -4658.919454286894
+            },
+            {
+              "signal_day": "2023-04-28",
+              "execution_day": "2023-05-02",
+              "buy": true,
+              "units": 479,
+              "fee_inr": 17.82786526306258,
+              "execution_reserve_inr": 47.54074999999216,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": null,
+              "execution_day": "2024-12-31",
+              "buy": false,
+              "units": 479,
+              "fee_inr": 21.342592334947145,
+              "execution_reserve_inr": 63.34056499999048,
+              "realized_gain_inr_before_haircut": 31449.57822740203
+            }
+          ]
+        },
+        "buy_hold": {
+          "pnl_inr": 23545.19638997427,
+          "return_pct": 23.545196389974276,
+          "annualized_pct": 11.175067831550622,
+          "drawdown_pct": 14.883519288878066,
+          "exposure_pct": 100.0,
+          "fees_inr": 40.298003367656676,
+          "execution_reserve_inr": 115.66680999998769,
+          "gain_haircut_inr": 7848.39879665809,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 1,
+          "execution_events": [
+            {
+              "signal_day": null,
+              "execution_day": "2023-01-02",
+              "buy": true,
+              "units": 497,
+              "fee_inr": 18.729843888598786,
+              "execution_reserve_inr": 49.94601499999757,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": null,
+              "execution_day": "2024-12-31",
+              "buy": false,
+              "units": 497,
+              "fee_inr": 21.568159479057893,
+              "execution_reserve_inr": 65.72079499999012,
+              "realized_gain_inr_before_haircut": 31393.59518663236
+            }
+          ]
+        }
+      }
+    },
+    "confirmation": {
+      "first_session": "2025-01-01",
+      "last_session": "2026-11-20",
+      "sessions": 469,
+      "cost_cases_bps_per_side": {
+        "5": {
+          "trend": {
+            "pnl_inr": -5835.622209341396,
+            "return_pct": -5.835622209341396,
+            "annualized_pct": -3.1417168080886126,
+            "drawdown_pct": 14.797698280762683,
+            "exposure_pct": 48.54651162790697,
+            "fees_inr": 38.49632934138866,
+            "execution_reserve_inr": 96.88587999999572,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": "2025-04-30",
+                "execution_day": "2025-05-02",
+                "buy": true,
+                "units": 364,
+                "fee_inr": 18.70058812573224,
+                "execution_reserve_inr": 49.868000000000166,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2026-03-30",
+                "execution_day": "2026-04-01",
+                "buy": false,
+                "units": 364,
+                "fee_inr": 19.795741215656424,
+                "execution_reserve_inr": 47.01787999999556,
+                "realized_gain_inr_before_haircut": -5835.622209341396
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 11071.146304032634,
+            "return_pct": 11.07114630403263,
+            "annualized_pct": 5.732644840653367,
+            "drawdown_pct": 14.79455825470799,
+            "exposure_pct": 100.0,
+            "fees_inr": 39.29063096737386,
+            "execution_reserve_inr": 105.3130649999917,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2025-01-01",
+                "buy": true,
+                "units": 377,
+                "fee_inr": 18.69481122350883,
+                "execution_reserve_inr": 49.852594999992505,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2026-11-20",
+                "buy": false,
+                "units": 377,
+                "fee_inr": 20.59581974386503,
+                "execution_reserve_inr": 55.46046999999919,
+                "realized_gain_inr_before_haircut": 11071.146304032634
+              }
+            ]
+          }
+        },
+        "15": {
+          "trend": {
+            "pnl_inr": -6029.408202613689,
+            "return_pct": -6.029408202613684,
+            "annualized_pct": -3.247589533598849,
+            "drawdown_pct": 14.811315319818409,
+            "exposure_pct": 48.54651162790697,
+            "fees_inr": 38.510562613692386,
+            "execution_reserve_inr": 290.65763999998717,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": "2025-04-30",
+                "execution_day": "2025-05-02",
+                "buy": true,
+                "units": 364,
+                "fee_inr": 18.71927936823672,
+                "execution_reserve_inr": 149.6040000000005,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2026-03-30",
+                "execution_day": "2026-04-01",
+                "buy": false,
+                "units": 364,
+                "fee_inr": 19.791283245455666,
+                "execution_reserve_inr": 141.05363999998667,
+                "realized_gain_inr_before_haircut": -6029.408202613689
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 10860.506747013103,
+            "return_pct": 10.86050674701311,
+            "annualized_pct": 5.626146490085904,
+            "drawdown_pct": 14.807695678881505,
+            "exposure_pct": 100.0,
+            "fees_inr": 39.304057986894776,
+            "execution_reserve_inr": 315.9391949999965,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2025-01-01",
+                "buy": true,
+                "units": 377,
+                "fee_inr": 18.7134966919981,
+                "execution_reserve_inr": 149.55778499999894,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2026-11-20",
+                "buy": false,
+                "units": 377,
+                "fee_inr": 20.590561294896673,
+                "execution_reserve_inr": 166.38140999999757,
+                "realized_gain_inr_before_haircut": 10860.506747013103
+              }
+            ]
+          }
+        },
+        "30": {
+          "trend": {
+            "pnl_inr": -6302.7664584767335,
+            "return_pct": -6.302766458476738,
+            "annualized_pct": -3.397109937777365,
+            "drawdown_pct": 14.794140257007227,
+            "exposure_pct": 48.54651162790697,
+            "fees_inr": 38.46819847675745,
+            "execution_reserve_inr": 579.7182599999744,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": "2025-04-30",
+                "execution_day": "2025-05-02",
+                "buy": true,
+                "units": 363,
+                "fee_inr": 18.695812615971477,
+                "execution_reserve_inr": 298.38599999998036,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": "2026-03-30",
+                "execution_day": "2026-04-01",
+                "buy": false,
+                "units": 363,
+                "fee_inr": 19.772385860785974,
+                "execution_reserve_inr": 281.33225999999405,
+                "realized_gain_inr_before_haircut": -6302.7664584767335
+              }
+            ]
+          },
+          "buy_hold": {
+            "pnl_inr": 10516.537100047528,
+            "return_pct": 10.516537100047518,
+            "annualized_pct": 5.452032802498308,
+            "drawdown_pct": 14.792367382549598,
+            "exposure_pct": 100.0,
+            "fees_inr": 39.26057995247275,
+            "execution_reserve_inr": 630.202319999993,
+            "gain_haircut_inr": 0.0,
+            "cash_interest_inr": 0.0,
+            "completed_round_trips": 1,
+            "execution_events": [
+              {
+                "signal_day": null,
+                "execution_day": "2025-01-01",
+                "buy": true,
+                "units": 376,
+                "fee_inr": 18.691812627106707,
+                "execution_reserve_inr": 298.3221599999979,
+                "realized_gain_inr_before_haircut": null
+              },
+              {
+                "signal_day": null,
+                "execution_day": "2026-11-20",
+                "buy": false,
+                "units": 376,
+                "fee_inr": 20.56876732536605,
+                "execution_reserve_inr": 331.88015999999516,
+                "realized_gain_inr_before_haircut": 10516.537100047528
+              }
+            ]
+          }
+        }
+      },
+      "idle_cash": {
+        "pnl_inr": 0.0,
+        "return_pct": 0.0,
+        "annualized_pct": 0.0,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 0.0,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "cash_hurdle": {
+        "pnl_inr": 11600.76561322478,
+        "return_pct": 11.600765613224784,
+        "annualized_pct": 6.000000000001382,
+        "drawdown_pct": 0.0,
+        "exposure_pct": 0.0,
+        "fees_inr": 0.0,
+        "execution_reserve_inr": 0.0,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 11600.765613224712,
+        "completed_round_trips": 0,
+        "execution_events": []
+      },
+      "trend_with_cash_interest": {
+        "pnl_inr": -350.0658023977594,
+        "return_pct": -0.35006580239775875,
+        "annualized_pct": -0.18599811359184537,
+        "drawdown_pct": 14.790060401902338,
+        "exposure_pct": 48.54651162790697,
+        "fees_inr": 38.9416433671846,
+        "execution_reserve_inr": 98.74906999999564,
+        "gain_haircut_inr": 0.0,
+        "cash_interest_inr": 5597.484910969425,
+        "completed_round_trips": 1,
+        "execution_events": [
+          {
+            "signal_day": "2025-04-30",
+            "execution_day": "2025-05-02",
+            "buy": true,
+            "units": 371,
+            "fee_inr": 19.06021482045786,
+            "execution_reserve_inr": 50.82700000000017,
+            "realized_gain_inr_before_haircut": null
+          },
+          {
+            "signal_day": "2026-03-30",
+            "execution_day": "2026-04-01",
+            "buy": false,
+            "units": 371,
+            "fee_inr": 19.881428546726738,
+            "execution_reserve_inr": 47.92206999999547,
+            "realized_gain_inr_before_haircut": -5947.550713367193
+          }
+        ]
+      },
+      "positive_gain_haircut": {
+        "trend": {
+          "pnl_inr": -5835.622209341396,
+          "return_pct": -5.835622209341396,
+          "annualized_pct": -3.1417168080886126,
+          "drawdown_pct": 14.797698280762683,
+          "exposure_pct": 48.54651162790697,
+          "fees_inr": 38.49632934138866,
+          "execution_reserve_inr": 96.88587999999572,
+          "gain_haircut_inr": 0.0,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 1,
+          "execution_events": [
+            {
+              "signal_day": "2025-04-30",
+              "execution_day": "2025-05-02",
+              "buy": true,
+              "units": 364,
+              "fee_inr": 18.70058812573224,
+              "execution_reserve_inr": 49.868000000000166,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": "2026-03-30",
+              "execution_day": "2026-04-01",
+              "buy": false,
+              "units": 364,
+              "fee_inr": 19.795741215656424,
+              "execution_reserve_inr": 47.01787999999556,
+              "realized_gain_inr_before_haircut": -5835.622209341396
+            }
+          ]
+        },
+        "buy_hold": {
+          "pnl_inr": 8303.359728024472,
+          "return_pct": 8.303359728024473,
+          "annualized_pct": 4.325611027103049,
+          "drawdown_pct": 14.79455825470799,
+          "exposure_pct": 100.0,
+          "fees_inr": 39.29063096737386,
+          "execution_reserve_inr": 105.3130649999917,
+          "gain_haircut_inr": 2767.7865760081586,
+          "cash_interest_inr": 0.0,
+          "completed_round_trips": 1,
+          "execution_events": [
+            {
+              "signal_day": null,
+              "execution_day": "2025-01-01",
+              "buy": true,
+              "units": 377,
+              "fee_inr": 18.69481122350883,
+              "execution_reserve_inr": 49.852594999992505,
+              "realized_gain_inr_before_haircut": null
+            },
+            {
+              "signal_day": null,
+              "execution_day": "2026-11-20",
+              "buy": false,
+              "units": 377,
+              "fee_inr": 20.59581974386503,
+              "execution_reserve_inr": 55.46046999999919,
+              "realized_gain_inr_before_haircut": 11071.146304032634
+            }
+          ]
+        }
+      }
+    }
+  }
+}
