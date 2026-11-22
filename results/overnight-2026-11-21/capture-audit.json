@@ -1,0 +1,423 @@
+{
+  "files": [
+    {
+      "file": "2026-11-21-NVDAUSDT.csv.gz",
+      "sha256": "d67606ccc55056a15c8307dc14ad73634f5db63daa25fd383c72552385baee14",
+      "rows": 1162474,
+      "max_gap_between_quotes_s": 96.017,
+      "restart_gap_s": 96.017,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 616220,
+          "sha256": "af27120ca4fca9d84315d47e3bf391bf84037f22fdf2366b8f4bf6b5d73b274c",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:05.577000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:09.521000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 546254,
+          "sha256": "9c2ad5a86515e53bc5f83a7555757b55da21198cacd4137256828258c834f7fd",
+          "clock_overlap_rows_removed": 14,
+          "first_receipt_utc": "2026-11-21T14:44:45.538000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:59.656000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-TSLAUSDT.csv.gz",
+      "sha256": "af93973359aada1cbcc3c463bc1c52004dcff05b776f8cd89ab9c798d69092aa",
+      "rows": 305809,
+      "max_gap_between_quotes_s": 99.885,
+      "restart_gap_s": 99.885,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 129215,
+          "sha256": "0cafaf5acd5bb2d88818b482c3f87378ae67404bec41d8b04455de02870d6aa8",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:05.493000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:07.381000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 176594,
+          "sha256": "fb7d66e31171b123c7274ecf74ceea1fc89b9cca73c7cfd23b025d3accefeacd",
+          "clock_overlap_rows_removed": 8,
+          "first_receipt_utc": "2026-11-21T14:44:47.266000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:59.921000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-XYZ-AAPL.csv.gz",
+      "sha256": "fe12266109ee1c0ef902d7c949fa569c3c1034ae535b007041b5ed6d8b2ba40f",
+      "rows": 34957,
+      "max_gap_between_quotes_s": 101.794,
+      "restart_gap_s": 101.794,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 13803,
+          "sha256": "f9eda3397a5aea2cd930406a6ed0ec3f658a70d79c7bea8d71a1bbde7155dd05",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:06.496000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:04.154000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 21154,
+          "sha256": "e7f68e29dd1566865f409bf68462408b293e01ded885f7637730834f3a3f611e",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T14:44:45.948000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:59.455000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-XYZ-MSFT.csv.gz",
+      "sha256": "662a6a58811de1d405ed2235c54944e6c8db0af0a5f04c271c499a5790f0b17e",
+      "rows": 42183,
+      "max_gap_between_quotes_s": 105.541,
+      "restart_gap_s": 105.541,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 15043,
+          "sha256": "5d0e6c35cdb3ac999fcdcffd1b6541ffde719ac36df217931d5686eb77994741",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:18.491000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:07.393000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 27140,
+          "sha256": "e1ed1965d188fd74998152afe1633d66894f2c844c905df7352e1698eecc06ff",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T14:44:52.934000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:52.435000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-XYZ-NVDA.csv.gz",
+      "sha256": "b8e018cee1170c2e2c149f8349b8a11e7ff57d967d679722faac6ddd1439c278",
+      "rows": 111956,
+      "max_gap_between_quotes_s": 96.034,
+      "restart_gap_s": 96.034,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 52826,
+          "sha256": "d7b4eddf13d1f395eb40ed44596c96703a6ae89c446a27bfc4f8663a8e3da807",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:05.172000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:09.071000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 59130,
+          "sha256": "2d77db1fde17d497361f66d4bbabf3d81a5a7de622f57ac58fa81010d05bd666",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T14:44:45.105000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:59.998000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-XYZ-TSLA.csv.gz",
+      "sha256": "6d7ef8b45b402e4c22f326dc51460271f85045797ddf20720b82cd88d317927c",
+      "rows": 42695,
+      "max_gap_between_quotes_s": 113.538,
+      "restart_gap_s": 113.538,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 17370,
+          "sha256": "62ce353ead641cc18151194b6951696954118a2d34e4fae1484b746fc460bf47",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:05.168000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:00.182000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 25325,
+          "sha256": "f36fb4f9cdaf5d4b455e762847f70a14a68c59701da6dac38a8e04e709752916",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T14:44:53.720000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:59.586000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-21-XYZ-XYZ100.csv.gz",
+      "sha256": "e1508e4d9ff308f7ef8e98584b77b516fb0e2ac58b47d2f76951b725bd730b20",
+      "rows": 80581,
+      "max_gap_between_quotes_s": 95.771,
+      "restart_gap_s": 95.771,
+      "segments": [
+        {
+          "capture": "overnight-through-0600",
+          "rows": 27588,
+          "sha256": "a02d6f6bec76cb7947315c4415bf2cfd8cdf0e2c9eaa19da5c5755aa831c52a8",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T11:40:06.495000+00:00",
+          "last_receipt_utc": "2026-11-21T14:43:09.071000+00:00"
+        },
+        {
+          "capture": "overnight-reconnected",
+          "rows": 52993,
+          "sha256": "4b5bec7837e928ff3f24a3e6ae54f543fd69edca3160d543dca7a36ec59ca177",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-21T14:44:44.842000+00:00",
+          "last_receipt_utc": "2026-11-21T23:59:58.580000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-NVDAUSDT.csv.gz",
+      "sha256": "975683d97d9552f11ec196fb7effaa4cfeb38264b2103219deaa5866be0112f0",
+      "rows": 441518,
+      "max_gap_between_quotes_s": 5.735,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 441518,
+          "sha256": "2524ff2f1f8fa9ec5f714bf5295f1a3758827bc3c3005598130d32b25abb5474",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:00.113000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:59.066000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-TSLAUSDT.csv.gz",
+      "sha256": "118d22ee6c3a44bd65a7f264206da8ab7eee318de7982bb8c308080f74cd8d9c",
+      "rows": 84425,
+      "max_gap_between_quotes_s": 29.107,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 84425,
+          "sha256": "e93890cf3bbc938e8272d3b6be5117ef8e56d2b2af9bd6c3f562995d3bcac81e",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:00.071000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:58.554000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-XYZ-AAPL.csv.gz",
+      "sha256": "3fa07daf58af6ae201734e2273f605577fa5baeca0bc4186f86d88d294106d20",
+      "rows": 14401,
+      "max_gap_between_quotes_s": 24.739,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 14401,
+          "sha256": "df8346a066db70d6622e9fe2e4253eb2fbacb0ee8e90d17356ed855e7e70943d",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:02.098000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:57.331000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-XYZ-MSFT.csv.gz",
+      "sha256": "bc4f9cd3941e2435af1894de617678fc6271fa4ad1d62b6fa08e7e5c4f92b4bf",
+      "rows": 14357,
+      "max_gap_between_quotes_s": 122.742,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 14357,
+          "sha256": "bbe50f84b5c8eccf7c9f1212435b384496c2901b2d19fbb0d41122a5b3e582c8",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:03.517000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:59.173000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-XYZ-NVDA.csv.gz",
+      "sha256": "c0e7ff1a3f9582739ba12ae96a842fff0ce679c111430fcab217f48c7a8e8d3f",
+      "rows": 35658,
+      "max_gap_between_quotes_s": 15.891,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 35658,
+          "sha256": "0785d3ade13c7ae926f294e2d5d8fe16dbcbfec837b8190c36588ebc497e1269",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:02.098000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:59.173000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-XYZ-TSLA.csv.gz",
+      "sha256": "37b638c72a6e047b0d700cc90c6b572f85834e09a7e73aa04bef9d7e028c9174",
+      "rows": 20825,
+      "max_gap_between_quotes_s": 118.328,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 20825,
+          "sha256": "bdf3098020733b29292e3ce2bd0c968f4a1d72689a8ac695f4f86767a086fb49",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:02.090000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:58.658000+00:00"
+        }
+      ]
+    },
+    {
+      "file": "2026-11-22-XYZ-XYZ100.csv.gz",
+      "sha256": "cd4f78e145091b07b50f528f5b9ab839da889c65bd7fa15d883a33a7a1db5b36",
+      "rows": 42085,
+      "max_gap_between_quotes_s": 11.888,
+      "restart_gap_s": null,
+      "segments": [
+        {
+          "capture": "overnight-reconnected",
+          "rows": 42085,
+          "sha256": "c0552c627a9ae5d1d424d8c2858ddde1a6bc3457a48311b5d9cc7a0f3de7f009",
+          "clock_overlap_rows_removed": 0,
+          "first_receipt_utc": "2026-11-22T00:00:03.962000+00:00",
+          "last_receipt_utc": "2026-11-22T04:59:58.822000+00:00"
+        }
+      ]
+    }
+  ],
+  "feed_disconnects": [
+    "2026-11-21T17:34:50.596Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+    "2026-11-21T20:33:32.814Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+    "2026-11-21T23:34:13.316Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+    "2026-11-22T02:37:04.411Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms."
+  ],
+  "initial_disconnect": "api.hyperliquid.xyz closed the feed (1000)",
+  "clock_overlap_excluded_utc": [
+    "2026-11-21T16:50:21.471000+00:00",
+    "2026-11-21T16:50:21.533000+00:00"
+  ],
+  "capture_deadline_utc": "2026-11-22T05:00:00+00:00",
+  "trades": {
+    "files": [
+      {
+        "file": "2026-11-21-XYZ-NVDA.csv.gz",
+        "rows": 15450,
+        "sha256": "1e7d7961af122d47e5e8c6f025e07ca0e366ec7bd23bec095095de50a40b7aa4",
+        "first_receipt_utc": "2026-11-21T16:46:38.842000+00:00",
+        "last_receipt_utc": "2026-11-21T23:59:58.299000+00:00"
+      },
+      {
+        "file": "2026-11-21-XYZ-TSLA.csv.gz",
+        "rows": 3420,
+        "sha256": "518f34921c2a1ff37bed93b0f09fa664af1fe511d36a25b8908847362f52f7d4",
+        "first_receipt_utc": "2026-11-21T16:46:39.073000+00:00",
+        "last_receipt_utc": "2026-11-21T23:59:56.343000+00:00"
+      },
+      {
+        "file": "2026-11-22-XYZ-NVDA.csv.gz",
+        "rows": 10665,
+        "sha256": "ab3c2a7a3bfd52b09b226f37b37285ab850bff4fe4c84f23615d890465eeb48f",
+        "first_receipt_utc": "2026-11-22T00:00:03.190000+00:00",
+        "last_receipt_utc": "2026-11-22T04:59:59.159000+00:00"
+      },
+      {
+        "file": "2026-11-22-XYZ-TSLA.csv.gz",
+        "rows": 2753,
+        "sha256": "163f952da425315f78e647a8238e8ac8687002eb7c2ff400152add40b7b01f1a",
+        "first_receipt_utc": "2026-11-22T00:00:23.746000+00:00",
+        "last_receipt_utc": "2026-11-22T04:59:31.397000+00:00"
+      }
+    ],
+    "disconnects": [
+      "2026-11-21T19:46:07.348Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+      "2026-11-21T22:39:13.781Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+      "2026-11-22T01:37:06.930Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+      "2026-11-22T04:25:03.534Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms."
+    ]
+  },
+  "context": {
+    "files": [
+      {
+        "file": "2026-11-21-XYZ-NVDA.csv.gz",
+        "rows": 4934,
+        "sha256": "ca0a69043cf221d7fcf6ad651dd77fc42cca78088640ede9c430cb39dd3b4a8a",
+        "first_receipt_utc": "2026-11-21T22:36:01.857000+00:00",
+        "last_receipt_utc": "2026-11-21T23:59:59.730000+00:00"
+      },
+      {
+        "file": "2026-11-21-XYZ-TSLA.csv.gz",
+        "rows": 4934,
+        "sha256": "30dfb2e7d1e796bf5930f0eefe3b54ff51d8f030dba02a00a55d7e145fa9a8d1",
+        "first_receipt_utc": "2026-11-21T22:36:01.875000+00:00",
+        "last_receipt_utc": "2026-11-21T23:59:59.730000+00:00"
+      },
+      {
+        "file": "2026-11-22-XYZ-NVDA.csv.gz",
+        "rows": 17565,
+        "sha256": "15c3dd1a5b84c334c220c319b689d96886c58976670c3eeef2a94ab9ecbd85f5",
+        "first_receipt_utc": "2026-11-22T00:00:02.222000+00:00",
+        "last_receipt_utc": "2026-11-22T04:59:58.881000+00:00"
+      },
+      {
+        "file": "2026-11-22-XYZ-TSLA.csv.gz",
+        "rows": 17565,
+        "sha256": "7efc7a1cabd2873ea30bdf9f8318af317947facf5a2f17a009f4b746807069a1",
+        "first_receipt_utc": "2026-11-22T00:00:02.216000+00:00",
+        "last_receipt_utc": "2026-11-22T04:59:58.880000+00:00"
+      }
+    ],
+    "disconnects": [
+      "2026-11-21T23:24:05.947Z api.hyperliquid.xyz closed (1006). Reconnecting in 1000 ms.",
+      "2026-11-22T02:10:52.022Z api.hyperliquid.xyz closed (1000). Reconnecting in 1000 ms.",
+      "2026-11-22T03:44:53.153Z api.hyperliquid.xyz closed (1006). Reconnecting in 1000 ms."
+    ]
+  },
+  "activity": {
+    "2026-11-21": {
+      "NVDA": {
+        "valid_quotes": 111292,
+        "open_mid": 129.335,
+        "close_mid": 130.70499999999998,
+        "low_mid": 127.935,
+        "high_mid": 131.525,
+        "mid_changes": 23922
+      },
+      "TSLA": {
+        "valid_quotes": 42296,
+        "open_mid": 351.28999999999996,
+        "close_mid": 355.40999999999997,
+        "low_mid": 351.20500000000004,
+        "high_mid": 355.495,
+        "mid_changes": 20249
+      }
+    },
+    "2026-11-22": {
+      "NVDA": {
+        "valid_quotes": 35264,
+        "open_mid": 130.675,
+        "close_mid": 129.755,
+        "low_mid": 129.345,
+        "high_mid": 131.10500000000002,
+        "mid_changes": 7026
+      },
+      "TSLA": {
+        "valid_quotes": 20460,
+        "open_mid": 355.355,
+        "close_mid": 354.225,
+        "low_mid": 353.525,
+        "high_mid": 355.87,
+        "mid_changes": 9233
+      }
+    }
+  }
+}

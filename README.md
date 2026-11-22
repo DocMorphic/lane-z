@@ -2,7 +2,7 @@
 
 Millisecond-scale paper research for Trade[XYZ] NVDA and TSLA equity perpetuals on Hyperliquid.
 
-**Result as of November 21, 2026.** Same-stock Binance quotes improved short-horizon prediction and produced a small positive paper result under the fastest execution assumption. The validation sample was too small to qualify, and slower inputs or orders erased the gains. The strategy selected by the study is to stay flat.
+**Result as of November 22, 2026.** No strategy has qualified. The original Binance-input signal produced a small positive paper result in a fast historical replay. The latest fresh weekend run generated five paper order attempts and zero fills. The Hyperliquid-only model stayed flat when its entry gate included the same costs charged in the replay. [Overnight report](docs/overnight-2026-11-21.md)
 
 ## The strategy
 

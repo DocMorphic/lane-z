@@ -1,0 +1,226 @@
+{
+  "2026-11-21": {
+    "date": "2026-11-21",
+    "utc_window": [
+      "17:00",
+      "23:58"
+    ],
+    "maker_entry_fee_bps": 0.3,
+    "ioc_exit_fee_bps": 0.9,
+    "ioc_exit_reserve_bps": 0.5,
+    "max_trade_age_ms": 2000,
+    "max_quote_age_ms": 2000,
+    "symbols": {
+      "NVDA": {
+        "quote_file": {
+          "file": "2026-11-21-XYZ-NVDA.csv.gz",
+          "bytes": 1551676,
+          "sha256": "b8e018cee1170c2e2c149f8349b8a11e7ff57d967d679722faac6ddd1439c278"
+        },
+        "trade_file": {
+          "file": "2026-11-21-XYZ-NVDA.csv.gz",
+          "bytes": 304398,
+          "sha256": "1e7d7961af122d47e5e8c6f025e07ca0e366ec7bd23bec095095de50a40b7aa4",
+          "trade_rows": 15450,
+          "usable_trade_rows": 15361,
+          "discarded_by_age": 89,
+          "duplicates": 0
+        },
+        "distinct_timely_prints": 14914,
+        "prints_at_prior_maker_touch": 10325,
+        "distinct_times_at_prior_maker_touch": 7502,
+        "horizons_ms": {
+          "500": {
+            "prints": 10324,
+            "entry_notional_usd": 5960508.139560001,
+            "prior_spread_median_bps": 0.7650231419493482,
+            "midpoint_markout_weighted_bps": 0.018717313589300906,
+            "ioc_exit_proxy_weighted_bps": -2.1007592802257995
+          },
+          "5000": {
+            "prints": 8656,
+            "entry_notional_usd": 5236668.58879,
+            "prior_spread_median_bps": 0.7650231419493482,
+            "midpoint_markout_weighted_bps": -0.8006893560106556,
+            "ioc_exit_proxy_weighted_bps": -2.896836236288599
+          },
+          "15500": {
+            "prints": 8502,
+            "entry_notional_usd": 4897386.90558,
+            "prior_spread_median_bps": 0.7650231419493482,
+            "midpoint_markout_weighted_bps": -1.3891435945663997,
+            "ioc_exit_proxy_weighted_bps": -3.490733262074425
+          },
+          "60500": {
+            "prints": 8966,
+            "entry_notional_usd": 5240931.70964,
+            "prior_spread_median_bps": 0.7650816724700148,
+            "midpoint_markout_weighted_bps": -2.0539074436327094,
+            "ioc_exit_proxy_weighted_bps": -4.144126501249175
+          }
+        }
+      },
+      "TSLA": {
+        "quote_file": {
+          "file": "2026-11-21-XYZ-TSLA.csv.gz",
+          "bytes": 538087,
+          "sha256": "6d7ef8b45b402e4c22f326dc51460271f85045797ddf20720b82cd88d317927c"
+        },
+        "trade_file": {
+          "file": "2026-11-21-XYZ-TSLA.csv.gz",
+          "bytes": 69828,
+          "sha256": "518f34921c2a1ff37bed93b0f09fa664af1fe511d36a25b8908847362f52f7d4",
+          "trade_rows": 3420,
+          "usable_trade_rows": 3331,
+          "discarded_by_age": 89,
+          "duplicates": 0
+        },
+        "distinct_timely_prints": 3270,
+        "prints_at_prior_maker_touch": 1734,
+        "distinct_times_at_prior_maker_touch": 1515,
+        "horizons_ms": {
+          "500": {
+            "prints": 1734,
+            "entry_notional_usd": 428852.56343,
+            "prior_spread_median_bps": 0.8445232667833413,
+            "midpoint_markout_weighted_bps": 0.07350416597223822,
+            "ioc_exit_proxy_weighted_bps": -2.081238623372941
+          },
+          "5000": {
+            "prints": 1160,
+            "entry_notional_usd": 283587.15425,
+            "prior_spread_median_bps": 0.8446540437804664,
+            "midpoint_markout_weighted_bps": -0.003598188369010489,
+            "ioc_exit_proxy_weighted_bps": -2.0695846242514127
+          },
+          "15500": {
+            "prints": 1079,
+            "entry_notional_usd": 259099.11108,
+            "prior_spread_median_bps": 0.8446778258001088,
+            "midpoint_markout_weighted_bps": -0.23829336867528614,
+            "ioc_exit_proxy_weighted_bps": -2.353570136061667
+          },
+          "60500": {
+            "prints": 1224,
+            "entry_notional_usd": 259148.71314999997,
+            "prior_spread_median_bps": 0.8447253938540472,
+            "midpoint_markout_weighted_bps": -0.15808567791852782,
+            "ioc_exit_proxy_weighted_bps": -2.2964158767037572
+          }
+        }
+      }
+    }
+  },
+  "2026-11-22": {
+    "date": "2026-11-22",
+    "utc_window": [
+      "00:02",
+      "04:57"
+    ],
+    "maker_entry_fee_bps": 0.3,
+    "ioc_exit_fee_bps": 0.9,
+    "ioc_exit_reserve_bps": 0.5,
+    "max_trade_age_ms": 2000,
+    "max_quote_age_ms": 2000,
+    "symbols": {
+      "NVDA": {
+        "quote_file": {
+          "file": "2026-11-22-XYZ-NVDA.csv.gz",
+          "bytes": 487534,
+          "sha256": "c0e7ff1a3f9582739ba12ae96a842fff0ce679c111430fcab217f48c7a8e8d3f"
+        },
+        "trade_file": {
+          "file": "2026-11-22-XYZ-NVDA.csv.gz",
+          "bytes": 210592,
+          "sha256": "ab3c2a7a3bfd52b09b226f37b37285ab850bff4fe4c84f23615d890465eeb48f",
+          "trade_rows": 10665,
+          "usable_trade_rows": 10605,
+          "discarded_by_age": 60,
+          "duplicates": 0
+        },
+        "distinct_timely_prints": 10462,
+        "prints_at_prior_maker_touch": 8276,
+        "distinct_times_at_prior_maker_touch": 5817,
+        "horizons_ms": {
+          "500": {
+            "prints": 8274,
+            "entry_notional_usd": 4603630.606140001,
+            "prior_spread_median_bps": 0.7702083413556363,
+            "midpoint_markout_weighted_bps": -0.0683572547241118,
+            "ioc_exit_proxy_weighted_bps": -2.1956458561463785
+          },
+          "5000": {
+            "prints": 7335,
+            "entry_notional_usd": 4145901.7112800004,
+            "prior_spread_median_bps": 0.770327003812418,
+            "midpoint_markout_weighted_bps": -0.2281519717233637,
+            "ioc_exit_proxy_weighted_bps": -2.3471293452428563
+          },
+          "15500": {
+            "prints": 7202,
+            "entry_notional_usd": 4037789.78129,
+            "prior_spread_median_bps": 0.7703863487531993,
+            "midpoint_markout_weighted_bps": -0.17597627377542668,
+            "ioc_exit_proxy_weighted_bps": -2.292493342956927
+          },
+          "60500": {
+            "prints": 7263,
+            "entry_notional_usd": 3987989.4811899997,
+            "prior_spread_median_bps": 0.770327003812418,
+            "midpoint_markout_weighted_bps": -0.4142821985344927,
+            "ioc_exit_proxy_weighted_bps": -2.5297413945977594
+          }
+        }
+      },
+      "TSLA": {
+        "quote_file": {
+          "file": "2026-11-22-XYZ-TSLA.csv.gz",
+          "bytes": 249378,
+          "sha256": "37b638c72a6e047b0d700cc90c6b572f85834e09a7e73aa04bef9d7e028c9174"
+        },
+        "trade_file": {
+          "file": "2026-11-22-XYZ-TSLA.csv.gz",
+          "bytes": 54427,
+          "sha256": "163f952da425315f78e647a8238e8ac8687002eb7c2ff400152add40b7b01f1a",
+          "trade_rows": 2753,
+          "usable_trade_rows": 2693,
+          "discarded_by_age": 60,
+          "duplicates": 0
+        },
+        "distinct_timely_prints": 2675,
+        "prints_at_prior_maker_touch": 1435,
+        "distinct_times_at_prior_maker_touch": 1190,
+        "horizons_ms": {
+          "500": {
+            "prints": 1435,
+            "entry_notional_usd": 667296.44155,
+            "prior_spread_median_bps": 0.8438937256493823,
+            "midpoint_markout_weighted_bps": -0.37717929293230984,
+            "ioc_exit_proxy_weighted_bps": -2.445941411208197
+          },
+          "5000": {
+            "prints": 1123,
+            "entry_notional_usd": 549295.5445699999,
+            "prior_spread_median_bps": 0.8441786844874489,
+            "midpoint_markout_weighted_bps": -0.6573380278966212,
+            "ioc_exit_proxy_weighted_bps": -2.707878125069024
+          },
+          "15500": {
+            "prints": 1012,
+            "entry_notional_usd": 513626.26695,
+            "prior_spread_median_bps": 0.8454395581177572,
+            "midpoint_markout_weighted_bps": -0.6053752894035038,
+            "ioc_exit_proxy_weighted_bps": -2.6659047851895017
+          },
+          "60500": {
+            "prints": 1102,
+            "entry_notional_usd": 535923.6216899999,
+            "prior_spread_median_bps": 0.844202439744283,
+            "midpoint_markout_weighted_bps": -1.3404680647117704,
+            "ioc_exit_proxy_weighted_bps": -3.482289821676408
+          }
+        }
+      }
+    }
+  }
+}
