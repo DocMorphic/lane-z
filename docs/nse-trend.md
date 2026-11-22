@@ -28,6 +28,8 @@ Trend P&L at 30 bps per side was +₹25,575.09 on the first holdout and −₹6,
 
 ## Data verification and reproduction
 
+[Replay and source audit](../results/follow-up/nse-trend.json)
+
 The study assembled 1,460 exchange sessions from 19 anonymous historical pages and 409 dated Bhavcopy ZIPs. The raw file archive fills gaps in the history endpoint, including the 2023 interval omitted from the queried pages and seven special weekend sessions absent from those pages. Every adjacent prior close in the assembled series matched exactly. The exchange’s venue-specific report lists December 2019 as the latest NIFTYBEES corporate action, before the warm-up sample. The replay records file SHA-256 hashes and the canonical price-series digest. [NSE corporate actions](https://www.nseindia.in/companies-listing/corporate-filings-actions?symbol=NIFTYBEES&tabIndex=equity)
 
 ```sh

@@ -2,7 +2,13 @@
 
 Millisecond-scale paper research for Trade[XYZ] NVDA and TSLA equity perpetuals on Hyperliquid.
 
-**Result as of November 22, 2026.** No strategy has qualified. The original Binance-input signal produced a small positive paper result in a fast historical replay. The latest fresh weekend run generated five paper order attempts and zero fills. The Hyperliquid-only model stayed flat when its entry gate included the same costs charged in the replay. [Overnight report](docs/overnight-2026-11-21.md)
+**Result as of November 22, 2026.** A fully funded Hyperliquid BTC and ETH spot–perpetual hedge earned positive paper P&L in three separate held-out windows. Profits were small and usually fell short of an illustrative 4% annual cash hurdle. The original millisecond strategies remain unqualified. [Funding carry](docs/spot-carry.md) · [Overnight report](docs/overnight-2026-11-21.md)
+
+## Longer-horizon paper tests
+
+The simplest funding-carry rule held equal spot and short perpetual quantities. It used observed hourly funding rates, four-hour price proxies, full short collateral, and simulated trading costs. The higher-cost scenario with a 25% haircut to positive funding earned 9.03, 2.85, and 14.44 USDC in the three windows, each on 2,000 USDC of starting capital. A forced-exit stress lost money. There were no live orders. [Funding results, risks, and reproduction](docs/spot-carry.md)
+
+Separate tests retired [equity-perp relative strength](docs/relative-strength.md), [NSE ETF timing](docs/nse-trend.md), and [dated BTC futures carry](docs/dated-futures-carry.md) after their holdout or execution-stress results. A [BTC/ETH spot breakout](docs/crypto-breakout.md) reduced drawdown relative to buy-and-hold. Its separate 2026 run lost money.
 
 ## The strategy
 

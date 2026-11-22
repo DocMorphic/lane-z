@@ -1,0 +1,813 @@
+{
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "input_audit": {
+    "spot-meta.json": {
+      "sha256": "b60d85ba8b51af1f4b07abb355234456e7f7656bb8dc4ea03a0aefe74af5f1f6",
+      "bytes": 143576,
+      "rows_or_fields": 2
+    },
+    "perp-meta.json": {
+      "sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "bytes": 17743,
+      "rows_or_fields": 3
+    },
+    "BTC-spot-candles.json": {
+      "sha256": "aa16100bf946bdc3b8994c6f03f77e4ef000876261c4428a1a7d945740c01a18",
+      "bytes": 104543,
+      "rows_or_fields": 733
+    },
+    "BTC-perp-candles.json": {
+      "sha256": "342d2057f1041fdfe5e5fc108a02e06f92d7df7658fdd37446f9ebde1e3d6e6f",
+      "bytes": 105275,
+      "rows_or_fields": 733
+    },
+    "BTC-funding-2025-08-01.json": {
+      "sha256": "ae0aebdd1c3a10f0c44d34b731e55cf411269cb2676d483d43715b43e3e78346",
+      "bytes": 42499,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-08-21.json": {
+      "sha256": "6af0cce9ba849c7347c5bb002b30f997797e7892fd3efc4e9939d87b651f6ea8",
+      "bytes": 42149,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-09-10.json": {
+      "sha256": "d1a38998bd4485159ac975e51b39922831b6e63948a14ad257472f4165d422ce",
+      "bytes": 42208,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-09-30.json": {
+      "sha256": "bbc61c22dc47ba236fee104c43bd48d662916562062f48ec26219cbc05895d9f",
+      "bytes": 42466,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-10-20.json": {
+      "sha256": "2e8eac5b93c8e85d450d40c77818f52c59e121c51300a2692e3e5b8dd625e296",
+      "bytes": 42237,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-11-09.json": {
+      "sha256": "442546d1b4448de2c00f09f684207964b89c57154a0073b26b81f8202bbaa428",
+      "bytes": 42403,
+      "rows_or_fields": 480
+    },
+    "BTC-funding-2025-11-29.json": {
+      "sha256": "e046fbb8659fe02dba4ed20c08247fbfd6bec7657e41381ffd9cafe32c9fea0f",
+      "bytes": 4323,
+      "rows_or_fields": 48
+    },
+    "BTC-funding-close.json": {
+      "sha256": "9c53bfe26421d7e132f88d5361e9ce4a5d679e7d1e61cdc6a820dea17dd43b3d",
+      "bytes": 92,
+      "rows_or_fields": 1
+    },
+    "ETH-spot-candles.json": {
+      "sha256": "7e329d7f5f4f42421dedaea3e0997060efad9c7a7602088d17ec9ae14c5e632e",
+      "bytes": 98825,
+      "rows_or_fields": 733
+    },
+    "ETH-perp-candles.json": {
+      "sha256": "77d70fb882f0d90f296c2b218ee4ebfcda014ab86172dc017e85a733320ba53a",
+      "bytes": 100070,
+      "rows_or_fields": 733
+    },
+    "ETH-funding-2025-08-01.json": {
+      "sha256": "83ac914f15254d0c537fa0407508c0b68cd1769b04d88791365a6de7f219b074",
+      "bytes": 42726,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-08-21.json": {
+      "sha256": "e524b85c683364356b0dd4c3c534a0f8eaaff81f2e01b5aeb9dff72c7006ba3d",
+      "bytes": 42786,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-09-10.json": {
+      "sha256": "e6f591d043f385540a1a82cde794e72ced04dff686c76f694e34cf2f1bfb731b",
+      "bytes": 42433,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-09-30.json": {
+      "sha256": "4378c23c0509edf8039be16b1b50d5e1cb8f256ed33112c44b1901deb3da8ae9",
+      "bytes": 42623,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-10-20.json": {
+      "sha256": "7cd0429511c132fc3a87bbac1e1292353b38c9a2b4542d5dbd8ce99915d4b657",
+      "bytes": 42697,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-11-09.json": {
+      "sha256": "976dc6acb61bdfb8ec6e30673b9e2349b94ad5e8d76f541eecebdbf3ecbfa3dd",
+      "bytes": 42355,
+      "rows_or_fields": 480
+    },
+    "ETH-funding-2025-11-29.json": {
+      "sha256": "52a9cba307c69ea598b348a8a16f914761f26f6ad223f810e66b04cfdfc48bf9",
+      "bytes": 4309,
+      "rows_or_fields": 48
+    },
+    "ETH-funding-close.json": {
+      "sha256": "d4480f900e4b884507a511c71c5ec9f8e67377da137dcc9d0d6524d3f6b1f0ed",
+      "bytes": 89,
+      "rows_or_fields": 1
+    }
+  },
+  "assumptions": {
+    "initial_sleeve_capital_usdc": 1000.0,
+    "spot_deployment_share": 0.45,
+    "funding_lookback_days": 28,
+    "entry_trailing_funding_bps": 50,
+    "exit_trailing_funding_bps": 0,
+    "spot_taker_fee_bps": 7.0,
+    "perp_taker_fee_bps": 4.5,
+    "paper_price_reference": "next_four_hour_bar_open",
+    "short_maintenance_rate": 0.05,
+    "scenarios": {
+      "base": {
+        "execution_bps": 2,
+        "adverse_oracle": false,
+        "positive_funding_credit": 1
+      },
+      "high_cost": {
+        "execution_bps": 10,
+        "adverse_oracle": true,
+        "positive_funding_credit": 1
+      },
+      "funding_stress": {
+        "execution_bps": 10,
+        "adverse_oracle": true,
+        "positive_funding_credit": 0.75
+      }
+    }
+  },
+  "periods": {
+    "older_confirmation": {
+      "start_utc": "2025-09-01",
+      "end_utc": "2025-12-01",
+      "calendar_days": 91.0,
+      "idle_cash_usdc": 0,
+      "illustrative_4pct_cash_hurdle_usdc": 19.652557428353923,
+      "base": {
+        "funding_filter": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2016.833260828965,
+          "net_usdc": 16.833260828964967,
+          "return_pct": 0.8416630414482483,
+          "max_drawdown_pct": 0.09555173804225632,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 18.878577722148275,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162107511833758,
+          "execution_reserve_usdc": 0.631556141999978,
+          "minimum_short_margin_headroom_usdc": 454.4173392386783,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1010.6106110235867,
+              "net_usdc": 10.61061102358667,
+              "return_pct": 1.0610611023586671,
+              "max_drawdown_pct": 0.15004825984598244,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 11.17449762028485,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449288066981861,
+              "execution_reserve_usdc": 0.3286077900000004,
+              "minimum_short_margin_headroom_usdc": 454.4173392386783,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 91.782644,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.40516318,
+                  "entry_perp_notional_usdc": 446.74528307,
+                  "initial_short_collateral_usdc": 553.0810989366383,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 11.17449762028485,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449288066981861,
+                  "execution_reserve_usdc": 0.3286077900000004,
+                  "net_usdc": 10.610611023586664,
+                  "short_minimum_margin_headroom_usdc": 454.4173392386783,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1006.2226498053783,
+              "net_usdc": 6.222649805378296,
+              "return_pct": 0.6222649805378296,
+              "max_drawdown_pct": 0.15126037785364613,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 7.7040801018634255,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8712819444851896,
+              "execution_reserve_usdc": 0.3029483519999776,
+              "minimum_short_margin_headroom_usdc": 487.3035276565072,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 101.631984,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.42850764800005,
+                  "entry_perp_notional_usdc": 450.7872645120001,
+                  "initial_short_collateral_usdc": 548.0524167726988,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 7.7040801018634255,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8712819444851896,
+                  "execution_reserve_usdc": 0.3029483519999776,
+                  "net_usdc": 6.222649805378259,
+                  "short_minimum_margin_headroom_usdc": 487.3035276565072,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        },
+        "always_on": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2016.833260828965,
+          "net_usdc": 16.833260828964967,
+          "return_pct": 0.8416630414482483,
+          "max_drawdown_pct": 0.09555173804225632,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 18.878577722148275,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162107511833758,
+          "execution_reserve_usdc": 0.631556141999978,
+          "minimum_short_margin_headroom_usdc": 454.4173392386783,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1010.6106110235867,
+              "net_usdc": 10.61061102358667,
+              "return_pct": 1.0610611023586671,
+              "max_drawdown_pct": 0.15004825984598244,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 11.17449762028485,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449288066981861,
+              "execution_reserve_usdc": 0.3286077900000004,
+              "minimum_short_margin_headroom_usdc": 454.4173392386783,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.40516318,
+                  "entry_perp_notional_usdc": 446.74528307,
+                  "initial_short_collateral_usdc": 553.0810989366383,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 11.17449762028485,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449288066981861,
+                  "execution_reserve_usdc": 0.3286077900000004,
+                  "net_usdc": 10.610611023586664,
+                  "short_minimum_margin_headroom_usdc": 454.4173392386783,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1006.2226498053783,
+              "net_usdc": 6.222649805378296,
+              "return_pct": 0.6222649805378296,
+              "max_drawdown_pct": 0.15126037785364613,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 7.7040801018634255,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8712819444851896,
+              "execution_reserve_usdc": 0.3029483519999776,
+              "minimum_short_margin_headroom_usdc": 487.3035276565072,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.42850764800005,
+                  "entry_perp_notional_usdc": 450.7872645120001,
+                  "initial_short_collateral_usdc": 548.0524167726988,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 7.7040801018634255,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8712819444851896,
+                  "execution_reserve_usdc": 0.3029483519999776,
+                  "net_usdc": 6.222649805378259,
+                  "short_minimum_margin_headroom_usdc": 487.3035276565072,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        }
+      },
+      "high_cost": {
+        "funding_filter": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2014.0182820658936,
+          "net_usdc": 14.018282065893573,
+          "return_pct": 0.7009141032946786,
+          "max_drawdown_pct": 0.14141797773778536,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 18.589866989251743,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162542133582873,
+          "execution_reserve_usdc": 3.157780709999876,
+          "minimum_short_margin_headroom_usdc": 453.6583903272392,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1009.1492733733137,
+              "net_usdc": 9.14927337331369,
+              "return_pct": 0.914927337331369,
+              "max_drawdown_pct": 0.1503183297655729,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 11.027605304866222,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449429815525738,
+              "execution_reserve_usdc": 1.6430389499999416,
+              "minimum_short_margin_headroom_usdc": 453.6583903272392,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 91.782644,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.76221589999994,
+                  "entry_perp_notional_usdc": 446.38781535,
+                  "initial_short_collateral_usdc": 552.72395696513,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 11.027605304866222,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449429815525738,
+                  "execution_reserve_usdc": 1.6430389499999416,
+                  "net_usdc": 9.149273373313708,
+                  "short_minimum_margin_headroom_usdc": 453.6583903272392,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1004.8690086925799,
+              "net_usdc": 4.869008692579882,
+              "return_pct": 0.48690086925798826,
+              "max_drawdown_pct": 0.1829930758756518,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 7.56226168438552,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8713112318057136,
+              "execution_reserve_usdc": 1.5147417599999344,
+              "minimum_short_margin_headroom_usdc": 486.56527950150627,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 101.631984,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.78957824,
+                  "entry_perp_notional_usdc": 450.42656256000004,
+                  "initial_short_collateral_usdc": 547.6912555701142,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 7.56226168438552,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8713112318057136,
+                  "execution_reserve_usdc": 1.5147417599999344,
+                  "net_usdc": 4.869008692579872,
+                  "short_minimum_margin_headroom_usdc": 486.56527950150627,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        },
+        "always_on": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2014.0182820658936,
+          "net_usdc": 14.018282065893573,
+          "return_pct": 0.7009141032946786,
+          "max_drawdown_pct": 0.14141797773778536,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 18.589866989251743,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162542133582873,
+          "execution_reserve_usdc": 3.157780709999876,
+          "minimum_short_margin_headroom_usdc": 453.6583903272392,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1009.1492733733137,
+              "net_usdc": 9.14927337331369,
+              "return_pct": 0.914927337331369,
+              "max_drawdown_pct": 0.1503183297655729,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 11.027605304866222,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449429815525738,
+              "execution_reserve_usdc": 1.6430389499999416,
+              "minimum_short_margin_headroom_usdc": 453.6583903272392,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.76221589999994,
+                  "entry_perp_notional_usdc": 446.38781535,
+                  "initial_short_collateral_usdc": 552.72395696513,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 11.027605304866222,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449429815525738,
+                  "execution_reserve_usdc": 1.6430389499999416,
+                  "net_usdc": 9.149273373313708,
+                  "short_minimum_margin_headroom_usdc": 453.6583903272392,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1004.8690086925799,
+              "net_usdc": 4.869008692579882,
+              "return_pct": 0.48690086925798826,
+              "max_drawdown_pct": 0.1829930758756518,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 7.56226168438552,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8713112318057136,
+              "execution_reserve_usdc": 1.5147417599999344,
+              "minimum_short_margin_headroom_usdc": 486.56527950150627,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.78957824,
+                  "entry_perp_notional_usdc": 450.42656256000004,
+                  "initial_short_collateral_usdc": 547.6912555701142,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 7.56226168438552,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8713112318057136,
+                  "execution_reserve_usdc": 1.5147417599999344,
+                  "net_usdc": 4.869008692579872,
+                  "short_minimum_margin_headroom_usdc": 486.56527950150627,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        }
+      },
+      "funding_stress": {
+        "funding_filter": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2009.0280765215434,
+          "net_usdc": 9.028076521543426,
+          "return_pct": 0.4514038260771713,
+          "max_drawdown_pct": 0.14141797773778536,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 13.59966144490166,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162542133582873,
+          "execution_reserve_usdc": 3.157780709999876,
+          "minimum_short_margin_headroom_usdc": 452.425865185995,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1006.3139421460853,
+              "net_usdc": 6.31394214608531,
+              "return_pct": 0.631394214608531,
+              "max_drawdown_pct": 0.15172515627206526,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 8.192274077637835,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449429815525738,
+              "execution_reserve_usdc": 1.6430389499999416,
+              "minimum_short_margin_headroom_usdc": 452.425865185995,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 91.782644,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.76221589999994,
+                  "entry_perp_notional_usdc": 446.38781535,
+                  "initial_short_collateral_usdc": 552.72395696513,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 8.192274077637835,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449429815525738,
+                  "execution_reserve_usdc": 1.6430389499999416,
+                  "net_usdc": 6.31394214608532,
+                  "short_minimum_margin_headroom_usdc": 452.425865185995,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1002.7141343754582,
+              "net_usdc": 2.7141343754582294,
+              "return_pct": 0.2714134375458229,
+              "max_drawdown_pct": 0.18490339892964586,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 5.407387367263825,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8713112318057136,
+              "execution_reserve_usdc": 1.5147417599999344,
+              "minimum_short_margin_headroom_usdc": 486.2677217576376,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": 101.631984,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.78957824,
+                  "entry_perp_notional_usdc": 450.42656256000004,
+                  "initial_short_collateral_usdc": 547.6912555701142,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 5.407387367263825,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8713112318057136,
+                  "execution_reserve_usdc": 1.5147417599999344,
+                  "net_usdc": 2.714134375458176,
+                  "short_minimum_margin_headroom_usdc": 486.2677217576376,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        },
+        "always_on": {
+          "starting_capital_usdc": 2000.0,
+          "ending_capital_usdc": 2009.0280765215434,
+          "net_usdc": 9.028076521543426,
+          "return_pct": 0.4514038260771713,
+          "max_drawdown_pct": 0.14141797773778536,
+          "round_trips": 2,
+          "profitable_round_trips": 2,
+          "active_sleeve_days": 181.66666666666666,
+          "net_funding_usdc": 13.59966144490166,
+          "basis_pnl_before_costs_usdc": 0.40245,
+          "fees_usdc": 1.8162542133582873,
+          "execution_reserve_usdc": 3.157780709999876,
+          "minimum_short_margin_headroom_usdc": 452.425865185995,
+          "complete": true,
+          "sleeves": {
+            "BTC": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1006.3139421460853,
+              "net_usdc": 6.31394214608531,
+              "return_pct": 0.631394214608531,
+              "max_drawdown_pct": 0.15172515627206526,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 8.192274077637835,
+              "basis_pnl_before_costs_usdc": 0.70965,
+              "fees_usdc": 0.9449429815525738,
+              "execution_reserve_usdc": 1.6430389499999416,
+              "minimum_short_margin_headroom_usdc": 452.425865185995,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.00415,
+                  "entry_spot_notional_usdc": 446.76221589999994,
+                  "entry_perp_notional_usdc": 446.38781535,
+                  "initial_short_collateral_usdc": 552.72395696513,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+                  "maximum_exit_proportion_of_bar_volume": 1.4070869306443122e-05,
+                  "basis_pnl_before_costs_usdc": 0.70965,
+                  "net_funding_usdc": 8.192274077637835,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.9449429815525738,
+                  "execution_reserve_usdc": 1.6430389499999416,
+                  "net_usdc": 6.31394214608532,
+                  "short_minimum_margin_headroom_usdc": 452.425865185995,
+                  "margin_breach_utc": null
+                }
+              ]
+            },
+            "ETH": {
+              "starting_capital_usdc": 1000.0,
+              "ending_capital_usdc": 1002.7141343754582,
+              "net_usdc": 2.7141343754582294,
+              "return_pct": 0.2714134375458229,
+              "max_drawdown_pct": 0.18490339892964586,
+              "round_trips": 1,
+              "profitable_round_trips": 1,
+              "active_sleeve_days": 90.83333333333333,
+              "net_funding_usdc": 5.407387367263825,
+              "basis_pnl_before_costs_usdc": -0.30720000000000003,
+              "fees_usdc": 0.8713112318057136,
+              "execution_reserve_usdc": 1.5147417599999344,
+              "minimum_short_margin_headroom_usdc": 486.2677217576376,
+              "complete": true,
+              "round_trip_ledger": [
+                {
+                  "signal_utc": "2025-09-01T00:00:00+00:00",
+                  "entry_utc": "2025-09-01T04:00:00+00:00",
+                  "exit_utc": "2025-12-01T00:00:00+00:00",
+                  "entry_trailing_funding_bps": null,
+                  "holding_days": 90.83333333333333,
+                  "quantity": 0.1024,
+                  "entry_spot_notional_usdc": 451.78957824,
+                  "entry_perp_notional_usdc": 450.42656256000004,
+                  "initial_short_collateral_usdc": 547.6912555701142,
+                  "initial_full_funding_satisfied": true,
+                  "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+                  "maximum_exit_proportion_of_bar_volume": 4.3972801791479434e-05,
+                  "basis_pnl_before_costs_usdc": -0.30720000000000003,
+                  "net_funding_usdc": 5.407387367263825,
+                  "funding_events": 2179,
+                  "fees_usdc": 0.8713112318057136,
+                  "execution_reserve_usdc": 1.5147417599999344,
+                  "net_usdc": 2.714134375458176,
+                  "short_minimum_margin_headroom_usdc": 486.2677217576376,
+                  "margin_breach_utc": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "october_2025_incident_counterfactual": {
+    "policy": "always_on",
+    "scenario": "funding_stress",
+    "hypothetical_exit_utc": "2025-10-11T00:00:00+00:00",
+    "net_before_additional_exit_charge_usdc": 4.054564285954995,
+    "extra_charge_scope": "perpetual_buyback_leg_only",
+    "exit_charge_sensitivity": {
+      "50": {
+        "extra_cost_usdc": 4.30049174555,
+        "net_usdc": -0.24592745959500473
+      },
+      "100": {
+        "extra_cost_usdc": 8.6009834911,
+        "net_usdc": -4.546419205145004
+      }
+    },
+    "round_trip_ledger": [
+      {
+        "asset": "BTC",
+        "exit_perp_notional_usdc": 468.29317534999996,
+        "signal_utc": "2025-09-01T00:00:00+00:00",
+        "entry_utc": "2025-09-01T04:00:00+00:00",
+        "exit_utc": "2025-10-11T00:00:00+00:00",
+        "entry_trailing_funding_bps": null,
+        "holding_days": 39.833333333333336,
+        "quantity": 0.00415,
+        "entry_spot_notional_usdc": 446.76221589999994,
+        "entry_perp_notional_usdc": 446.38781535,
+        "initial_short_collateral_usdc": 552.72395696513,
+        "initial_full_funding_satisfied": true,
+        "maximum_entry_proportion_of_bar_volume": 1.2521087472437768e-05,
+        "maximum_exit_proportion_of_bar_volume": 1.1114865763355723e-05,
+        "basis_pnl_before_costs_usdc": 1.5023,
+        "net_funding_usdc": 4.200403743566026,
+        "funding_events": 955,
+        "fees_usdc": 1.0523971275475739,
+        "execution_reserve_usdc": 1.8297847999999255,
+        "net_usdc": 2.820521816018527,
+        "short_minimum_margin_headroom_usdc": 452.425865185995,
+        "margin_breach_utc": null
+      },
+      {
+        "asset": "ETH",
+        "exit_perp_notional_usdc": 391.80517376,
+        "signal_utc": "2025-09-01T00:00:00+00:00",
+        "entry_utc": "2025-09-01T04:00:00+00:00",
+        "exit_utc": "2025-10-11T00:00:00+00:00",
+        "entry_trailing_funding_bps": null,
+        "holding_days": 39.833333333333336,
+        "quantity": 0.1024,
+        "entry_spot_notional_usdc": 451.78957824,
+        "entry_perp_notional_usdc": 450.42656256000004,
+        "initial_short_collateral_usdc": 547.6912555701142,
+        "initial_full_funding_satisfied": true,
+        "maximum_entry_proportion_of_bar_volume": 1.251985371871383e-05,
+        "maximum_exit_proportion_of_bar_volume": 1.1242292168114251e-05,
+        "basis_pnl_before_costs_usdc": 1.105919999999972,
+        "net_funding_usdc": 2.7850221576781684,
+        "funding_events": 956,
+        "fees_usdc": 0.9702897677417136,
+        "execution_reserve_usdc": 1.686609919999959,
+        "net_usdc": 1.234042469936468,
+        "short_minimum_margin_headroom_usdc": 486.2677217576376,
+        "margin_breach_utc": null
+      }
+    ]
+  }
+}

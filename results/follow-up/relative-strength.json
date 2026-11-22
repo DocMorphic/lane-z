@@ -1,0 +1,2651 @@
+{
+  "scenario_parameters": {
+    "base": {
+      "delay_hours": 1,
+      "slip_bps": 5,
+      "standard_fee": false,
+      "leg_usd": 200
+    },
+    "cost_stress": {
+      "delay_hours": 1,
+      "slip_bps": 15,
+      "standard_fee": true,
+      "leg_usd": 200
+    },
+    "timing_stress": {
+      "delay_hours": 2,
+      "slip_bps": 5,
+      "standard_fee": false,
+      "leg_usd": 200
+    },
+    "small_cost_stress": {
+      "delay_hours": 1,
+      "slip_bps": 15,
+      "standard_fee": true,
+      "leg_usd": 25
+    }
+  },
+  "source": "https://api.hyperliquid.xyz/info",
+  "universe_metadata": {
+    "file": "xyz-meta.json",
+    "request": {
+      "type": "meta",
+      "dex": "xyz"
+    },
+    "sha256": "ed225216e76cd741f4ae3c871cf29188fa0b70e31c48546964874b6a0b779960"
+  },
+  "source_audit": {
+    "xyz:AAPL": {
+      "candles": {
+        "file": "xyz-AAPL-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:AAPL",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "116d889c7f25f654bfd81961da94737a72d03c4f12714990b1df64108de078d4",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-AAPL-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "4fa262e0b4778eab0287fd5d2613f4298d2f36715f00c41fbc7106579ba14d94",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "cac75f3b0ef16fae88707874fd03fb9973c75efe7c30b9275ae6deeb5a7df95b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "6830001339f51c584766d0d43cd359dd4489ab2a1a2141ff0cb7a63666fccc98",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "46224e36c8ea7af3265724e4c9c9cc99bd020d2eec446593cef12c5576f78072",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "8c7059dfbf0ecf2799ce829aca4b0864e54f016e0eb6d5126be8cc68f977be3f",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "9f4da54d7ff6d7e43047bc3e3b72c16d0ca06bbdbf3336a1a3355ebacf858552",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "42029b319f3d8aae7295ebdc9fcc8c0d15d64d98f2a0a8cf4e0568aa8a31f76a",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "34e74e6f2a991c90a6e769a18b947b4a04ed17265a9d46948e949cb657eafc79",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "941fe04297513957bb0f0e72f07e4183575bf9b375a31337bf92a4588db94cb3",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AAPL-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AAPL",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "f6acbd10a8954720630b5fd42e4d4f5e1be30e5c2d9c8a19198728a495f9528c",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:AMD": {
+      "candles": {
+        "file": "xyz-AMD-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:AMD",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "ab4222e6fd8d00a446805e94be9be4c61794a8339efe4ef634d654dcbe302ec3",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-AMD-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "516ad7230e6de4650a9b9fd47d6dff3976a82877f961af84e2aa177b619bb692",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "0b65ae1e27354130bd017728a1a22065a9122820ee636421e4539a219d26b49f",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "041698f6b7ca848a706a285ed8a6249b01a8566d4354c6d585280bfc3b2a65bc",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "b54936b94f92d92fba672535665be632811c2b6862a6771f30ea784187349d13",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "353c0b202d1af46bcdad5a7efc306b41ee78ab046d83e7a8ca6bea41e02dee63",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "c4aeb8438d28d1a1b0b4f66c8833d89b2e15ea95f3c16bc2c38a9e1fc47cc5b9",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "11e08e2d08c3d6b5fb4ebc568f26af73a883a24b330075cb5b26313f996573dc",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "32208def6c397288ee4b1e514251c7779ec2f9788e811c0d942993137d4f3d99",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "77070761002d598cbcad70528e875a9f8356d4d986f82ad8b8cc9feca7f1599a",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMD-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMD",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "d3bf83b7d18b5cc260072090a401d36800bbcfbb3708534d738086623f989feb",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:AMZN": {
+      "candles": {
+        "file": "xyz-AMZN-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:AMZN",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "42fd001382cec212110acc896b4c7a80ca2bfcc4a33d8d95d0a13d03cd21aa9e",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-AMZN-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "00431e79b7083346233b08a340d306373caa740a854970e7ac4eb36016886ebf",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "6af03f5b685077ccf76c2fdced3e79237921d7628c979e8f15bc1bf13eb0456c",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "3f0e2ec34920764dca8729feb4f2d814aa5cbbd44ea71313d39cdfdf4d459105",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "3bb724a86e46b4a18514bc75735da9ebaa50b7b5bfe7cbc88494e80554a2b98e",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "e66ecc5dc3e27b84359fadca9424092e104995bc43eafa356dd3b0d47e8032a6",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "0482e01b9d326d234632be46c68d8e45bf45cc949fdf5be8d2245551b89b64a7",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "914f5d74c26b8ba3551c23618fe15f94f8130fe8ed7ebe6b7fa372f5ebc535d9",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "8533d3ce9bdae6954fbc892e480b166ec899d45cfc56712c9b72112be86e592b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "567b448ccd151f91e25ffe16ab9f1497064716e00a44c6d36e9c9d8a596a78e7",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AMZN-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AMZN",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "9caed542d0896c60d73156a7ce6647e64592361d5bc4c62059629a640536d998",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:AVGO": {
+      "candles": {
+        "file": "xyz-AVGO-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:AVGO",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "bcf04edc859a7d10eb32186fa7a4413a1f1176e6b193afbff6f2675624ab045a",
+        "candles": 4090,
+        "zero_volume_bars": 9
+      },
+      "funding": [
+        {
+          "file": "xyz-AVGO-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "9d069daeeef17be455c1e3f961f984b583089d5db0d7169a3d6b63466205e87f",
+          "rows": 81
+        },
+        {
+          "file": "xyz-AVGO-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "465fd53df337be9c95e88bfeda7023b3b22c4f094d06f8cf434b93c7bebb598c",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "5049c5965c5eebc32341ec6f78374e74fa9683ebb5e58ab4102aacb1ca1dd7de",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "9d648308a9627918310f434f213a81c4b977b168b6b642109cfbd5bdf952bdea",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "bcfb2eb55b8c965f516bdf90f354c308ef7081ce6dd5fabc5fcf771f24b911df",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "4428831bd31986fd6eb025a796fcf9061238dead23de465ea584ec586448330d",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "d88440cf213a70783441937aaeb54ae3334499e08b142129c4c0968d1f705754",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "c6009ce7e3cd71e661cfecfca4e666973252e66781aa8661e33105e179e3c4f7",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "e02ab5d4a1618b2f7b9b1d3f500b6b31586483d066a0b41e07228b335807fcdb",
+          "rows": 480
+        },
+        {
+          "file": "xyz-AVGO-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:AVGO",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "552f4758c631eed6af89dd1b0f56f552aa49f138d5ee5b66b9388bf31b87219d",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:GOOGL": {
+      "candles": {
+        "file": "xyz-GOOGL-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:GOOGL",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "92f502926dff5a35f5cb09724f2056605e6b55427e96145461a9b7ed17065204",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-GOOGL-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "7f10d4e2f53ddc54096b98c23c8a7218899122fc1e3b90c07ca00705ec5992b7",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "2172222f57878873da0a2e78bf427bd0a405040effab75a25820325ef32c7d6b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "95a3c41da15d3e008e5254166144bb714ab0a98c116b773fb8cd9bb2bf1c5532",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "cd6f2bcbd67e2ba97f99494ac483f96e044cc90f774cc2e24665ff202a95d507",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "7c2b6d336878a164bf9878744ed709d4290924e7f4f90ea427d4beba79dcfee3",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "7b0310dc8dabe1bc37c857abfa286804185d358b1df07528474ed667b82ae9c1",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "fd91acafe855ceb7c95dfeee987b52188a92b701a620f4ceb4def88bdabc649b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "ff08de41a9bd0e0ea5ec1365e0eafa5d5534de948559b9c19f0e603d2feaf988",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "6ddcafe05f6acd9a53f9de4ea17941f94c81379028466780e675818263f7b396",
+          "rows": 480
+        },
+        {
+          "file": "xyz-GOOGL-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:GOOGL",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "ccc45549e1589c3aef01bb69d85ac49433f37aa9b6afccbbdc012a9befd7fa20",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:META": {
+      "candles": {
+        "file": "xyz-META-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:META",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "6a406603b07265e176d47659fce9faf6c425270c8850dbe48550aa52c8186cec",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-META-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "f0956cd6462b136d2145d365d551c3b29f16cffb2cba92b2a0c96c43c6f5414e",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "5de7df36012c621d14363d8d1843e9d68899a8e7bbf76685686accb9cd1edfd3",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "b09cfadf7de997cae3f2a93f7feb8d84050048b683a2ffea0c3eb54e2f6f2ed1",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "84c59c4ce82c8bddab93a2e4d4171ab6f15e290cc68fff84f9badf2ae3fc8705",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "74f58a8f4c13e0606a0da7e0d86b5edd2ebb4979c2a266745d1621ff777146bb",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "d163175b85ee968452e65df0116aba8ce0d63fd12132cd52eced183d0d2f7815",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "48301d216d75aa6a21c646cdee9ebe6938d4eeb1131afd09776dbf2385e35ecb",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "f06e089c1595c2b768bcd9a11f13b3ce5ace247f26c12f98f8dde1aa9bd9cb77",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "161b28e82bcc3d3f4799a8a82eed88f556fac70b48eda07fc16be9a9dcfeac17",
+          "rows": 480
+        },
+        {
+          "file": "xyz-META-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:META",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "25342a09091bdecd95c5b3645d71fcdf1118cb7444d3799500e77929be4732e7",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:MSFT": {
+      "candles": {
+        "file": "xyz-MSFT-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:MSFT",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "538f49898da76bbff471f1f692708c7bf25739c8fc06807ec25023e4a9a4f016",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-MSFT-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "5d449cd0bb6fff39490c5629267c1976fbda9df14a9428db8e2d62ad93177be1",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "2099dfbcff37281089419b7f2baea0926d358d02212b028f721e257754c323c8",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "f0043ff52287c3edd09dbebf3bd6b8386e97fad93ccbe8a31d3f8cd8fde4a151",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "660d318c86a45e8b967d4186d2226283f6d8a6e86807726dec16a884f542b5d6",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "eeb7ab2f370fbc88d2527490644420f95b4fdac5c1be96a0a4715ae78c6d3e69",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "85e309434a33508c2d6e11afd549d1a7bf5e191b2f12f2e41cc781a42484cf5b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "84819bb8e726bb2916ce73507681f6de38596fa62c226d9d60b1d06440d7e2e0",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "e50557c2a7e74b17120f42d29202ab773594bd526be8b8e40e58685f22600863",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "1d1a14bc256bafabf554c6f256deaf7ab479419319b36f04821f7687f7a7f2d9",
+          "rows": 480
+        },
+        {
+          "file": "xyz-MSFT-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:MSFT",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "a8ae6c57e654daecf00f5eded70e7970ed44024bf40f5eabead08b8e2cc284c2",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:NFLX": {
+      "candles": {
+        "file": "xyz-NFLX-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:NFLX",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "2553ff3c2eeb8a2e41dfb0e7b9a44a4cd9d15be33bf439b6b3a4b0f5c9b59462",
+        "candles": 4656,
+        "zero_volume_bars": 40
+      },
+      "funding": [
+        {
+          "file": "xyz-NFLX-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "65cbd82d97440b7089aa9bcea13199bfd92998764c097a88ebb5281c0cce36ad",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "79de8d8cdd41a8fba683ebb476b9101c3baf40d6f5961a625f1a7d63aa0c0c66",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "ca88da2aec5adf7452d53587dac42a1b7b24414dfa53e421924ffb3c5acd37fa",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "fddd87bafaf7888432288fd8336b6824b5673ad8d3e46ba553a004c6727d504b",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "5c98b496543d853760b310511f5f8bd3c370cd1f09d82da89dce9a833a9a15e1",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "ae26a7dd9c88893c084f0941a195b5a54b13a5041644182fb60c890f4659ca17",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "cad7d5b8bf20ffe478c519d820f6861cfd8e99118c15098578c05c8cd4ee1502",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "85d943beed1c70c4d7615f3277233271e37e960a5b5ae6fb15e9b532354dc46c",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "03bdb5a05722c79fa13ec72bec0cddc5314bb706b60921dcbb4266d4917b9007",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NFLX-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NFLX",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "921b9e31f3a883a952f22414bb90f76320510904f10d3e6ea911b23e387a385a",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:NVDA": {
+      "candles": {
+        "file": "xyz-NVDA-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:NVDA",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "cd147a9cf6c43e60d3674f10aca6ee52646012f869c1b029b74356ac92bcc5da",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-NVDA-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "c872afe97c5a59a409698ab4a05a3a87cf6194bb8754fad9ee88c4ae51327f08",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "b7bcb7d44e75ed4eecdeb2e5f0831838f8ffe088a5ec5a048954a087b730d63a",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "2c341e7c7dc958a786ed03bdd58a1f2e23959cd21abb7668ab5689aeede2cb88",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "88401f53767e49913abdb38396f10d004b520cf8fb945c8f4d0f336ab0c8ae6f",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "402654a12c92b1511ef595ec4c38e67f7226f2d09dd19ab4d217a3fb31013198",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "0380e7e518f1e5ad0c1ba8d849ff838a0ce4c7eb0d8e3eafa68b29a97ed5121c",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "97271b973065903e269b8a6cb9c998cd6a875e7dea597e5b857e5e4f1780896f",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "86757da6d021d78dbfb5869e03d2f68f711e5c463a31ac1cfcd106e4eca0d3df",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "cb71f3c43d710d4ebeb143a4acc3703079491163b37af3c8317793aed767e3fb",
+          "rows": 480
+        },
+        {
+          "file": "xyz-NVDA-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:NVDA",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "01957d1789dad6f7399de48bab12f8c5365d0418ba3f763d9b59c070f7745ed4",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    },
+    "xyz:TSLA": {
+      "candles": {
+        "file": "xyz-TSLA-candles.json",
+        "request": {
+          "type": "candleSnapshot",
+          "req": {
+            "coin": "xyz:TSLA",
+            "interval": "1h",
+            "startTime": 1778457600000,
+            "endTime": 1795219199999
+          }
+        },
+        "sha256": "f4092fbead95529678eef8450b243277a4df6a8bab989b7e4d0a23e16a756de9",
+        "candles": 4656,
+        "zero_volume_bars": 0
+      },
+      "funding": [
+        {
+          "file": "xyz-TSLA-funding-00.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1779062400000,
+            "endTime": 1780790399999
+          },
+          "sha256": "3001bad2ffe5c2c8f7d38c1fa5e0a856bc812cbc2b217bdf047b7e67c79f8c27",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-01.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1780790400000,
+            "endTime": 1782518399999
+          },
+          "sha256": "46acd3539704f0e1e3e581ecf72814d15f8bd9e90546452a99754a53b1307cc4",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-02.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1782518400000,
+            "endTime": 1784246399999
+          },
+          "sha256": "753b6190542e8c7ce0b744374375aabe165c5b17e180f01c70d2806b39031e50",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-03.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1784246400000,
+            "endTime": 1785974399999
+          },
+          "sha256": "e727ef0f846d77409c7416ef617296bf2aa87c2d2f27d9d1901fa1652e0912e7",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-04.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1785974400000,
+            "endTime": 1787702399999
+          },
+          "sha256": "6e8319973398ac58e06bbc70c31254dff47368854bab4230a50ac864d3861f20",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-05.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1787702400000,
+            "endTime": 1789430399999
+          },
+          "sha256": "558e6c1c60e17d0c983f45824526e9009ab5ed8ea66c249203fb182688a3e562",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-06.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1789430400000,
+            "endTime": 1791158399999
+          },
+          "sha256": "59d51517c4e5b1ce07b8fc5dd1541f821e62ddc64fbb8c92682fbdf788b463d0",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-07.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1791158400000,
+            "endTime": 1792886399999
+          },
+          "sha256": "8bfa0540b5b0d48227e6c1dff2376f085f15bdc381298d0ab38a0e2d870e7e03",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-08.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1792886400000,
+            "endTime": 1794614399999
+          },
+          "sha256": "371e7509952b05a4dd786626a0cd315533770db16936710def8a3aca85321ff1",
+          "rows": 480
+        },
+        {
+          "file": "xyz-TSLA-funding-09.json",
+          "request": {
+            "type": "fundingHistory",
+            "coin": "xyz:TSLA",
+            "startTime": 1794614400000,
+            "endTime": 1795219199999
+          },
+          "sha256": "2e0f3c670f77820d94c33693e766e50b116f6e143714446eb7e77287256728b0",
+          "rows": 168
+        }
+      ],
+      "growth_mode_now": "enabled",
+      "growth_mode_last_change": null,
+      "base_taker_fee_bps": 9
+    }
+  },
+  "periods": {
+    "development": {
+      "dates": [
+        "2026-05-18",
+        "2026-08-28"
+      ],
+      "skipped_decisions": [
+        {
+          "date": "2026-05-25",
+          "eligible": 7
+        }
+      ],
+      "results": {
+        "base": {
+          "relative_strength": {
+            "cycles": 59,
+            "positive_cycles": 18,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -546.5105480404163,
+            "return_pct_on_starting_collateral": -36.434036536027754,
+            "marked_max_drawdown_usd": 561.5195900008782,
+            "minimum_hourly_collateral_equity_usd": 953.4894519595837,
+            "gross_usd": -353.7399430000001,
+            "funding_usd": 5.060162226758153,
+            "fees_usd": 127.17697866567435,
+            "allowance_usd": 70.6537886015,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": -29.42897114026812,
+              "2026-W22": -25.071590125051294,
+              "2026-W23": -28.664334522806147,
+              "2026-W24": -83.44905681396712,
+              "2026-W25": -14.418461261403445,
+              "2026-W26": -51.63382719529422,
+              "2026-W27": -86.81919925878024,
+              "2026-W28": -43.445149884537386,
+              "2026-W29": -32.02424046481205,
+              "2026-W30": -31.600292206754627,
+              "2026-W31": 1.3325524673776155,
+              "2026-W32": -41.03243100430914,
+              "2026-W33": -3.0901760500676723,
+              "2026-W34": -11.559602275728851,
+              "2026-W35": -65.60576830401357
+            }
+          },
+          "inverted": {
+            "cycles": 59,
+            "positive_cycles": 32,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": 149.0383260658521,
+            "return_pct_on_starting_collateral": 9.93588840439014,
+            "marked_max_drawdown_usd": 88.1217382147865,
+            "minimum_hourly_collateral_equity_usd": 1481.6154188592411,
+            "gross_usd": 353.7399430000001,
+            "funding_usd": -6.871168032922328,
+            "fees_usd": 127.17666029972565,
+            "allowance_usd": 70.6537886015,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": 2.332755378494584,
+              "2026-W22": 4.689009430516544,
+              "2026-W23": 1.816994929444502,
+              "2026-W24": 56.65614877966046,
+              "2026-W25": -12.470971170664589,
+              "2026-W26": 24.80417175823471,
+              "2026-W27": 59.95827959302544,
+              "2026-W28": 16.406220378431108,
+              "2026-W29": 5.171325438971354,
+              "2026-W30": 4.75768952922356,
+              "2026-W31": -28.566879501378782,
+              "2026-W32": 13.989114905812869,
+              "2026-W33": -23.80713922488852,
+              "2026-W34": -15.268618373148199,
+              "2026-W35": 38.57022421411705
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 59,
+            "positive_cycles": 25,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -239.90416788524018,
+            "return_pct_on_starting_collateral": -15.993611192349345,
+            "marked_max_drawdown_usd": 330.8081499956255,
+            "minimum_hourly_collateral_equity_usd": 1203.92903598267,
+            "gross_usd": -23.697433000000096,
+            "funding_usd": -18.37611613719526,
+            "fees_usd": 127.17683014654486,
+            "allowance_usd": 70.6537886015,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": 8.204422076297968,
+              "2026-W22": 17.45906593767114,
+              "2026-W23": -70.94181303210385,
+              "2026-W24": -37.49089673930989,
+              "2026-W25": -30.593275772621023,
+              "2026-W26": -48.86124274809726,
+              "2026-W27": -32.36521114038724,
+              "2026-W28": 5.286712913459679,
+              "2026-W29": -28.0729932071462,
+              "2026-W30": -54.492373216349456,
+              "2026-W31": 60.59012927863485,
+              "2026-W32": -3.873958442841589,
+              "2026-W33": -20.1435276596785,
+              "2026-W34": -32.23436998014455,
+              "2026-W35": 27.62516384737571
+            }
+          }
+        },
+        "cost_stress": {
+          "relative_strength": {
+            "cycles": 59,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -687.818443609365,
+            "return_pct_on_starting_collateral": -45.854562907291,
+            "marked_max_drawdown_usd": 701.6302159802138,
+            "minimum_hourly_collateral_equity_usd": 812.181556390635,
+            "gross_usd": -353.7399430000001,
+            "funding_usd": 5.060162226758153,
+            "fees_usd": 127.17729703162306,
+            "allowance_usd": 211.96136580450002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": -39.06148878676412,
+              "2026-W22": -32.31190266773129,
+              "2026-W23": -38.18842909856315,
+              "2026-W24": -92.97523678398511,
+              "2026-W25": -23.973298011343445,
+              "2026-W26": -61.16661120281183,
+              "2026-W27": -96.35435765340866,
+              "2026-W28": -53.06352600908089,
+              "2026-W29": -41.56364877682436,
+              "2026-W30": -41.14162645433022,
+              "2026-W31": -8.350258543229979,
+              "2026-W32": -50.65468543971084,
+              "2026-W33": -12.66505417065067,
+              "2026-W34": -21.110548649332454,
+              "2026-W35": -75.23777136159798
+            }
+          },
+          "inverted": {
+            "cycles": 59,
+            "positive_cycles": 26,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": 7.731067228800775,
+            "return_pct_on_starting_collateral": 0.5154044819200517,
+            "marked_max_drawdown_usd": 136.911437627232,
+            "minimum_hourly_collateral_equity_usd": 1466.939828957519,
+            "gross_usd": 353.7399430000001,
+            "funding_usd": -6.871168032922328,
+            "fees_usd": 127.17634193377695,
+            "allowance_usd": 211.96136580450002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": -7.299732335009419,
+              "2026-W22": -2.551274986803456,
+              "2026-W23": -7.707071854798501,
+              "2026-W24": 47.13009498967847,
+              "2026-W25": -22.025805316724586,
+              "2026-W26": 15.271457589752307,
+              "2026-W27": 50.42325403565384,
+              "2026-W28": 6.787899372974607,
+              "2026-W29": -4.368049135016346,
+              "2026-W30": -4.7836105272008425,
+              "2026-W31": -38.24971681077118,
+              "2026-W32": 4.366910451214569,
+              "2026-W33": -33.38203609630552,
+              "2026-W34": -24.819567367544593,
+              "2026-W35": 28.938315219701444
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 59,
+            "positive_cycles": 22,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -381.21176641593,
+            "return_pct_on_starting_collateral": -25.414117761062002,
+            "marked_max_drawdown_usd": 432.35493230274534,
+            "minimum_hourly_collateral_equity_usd": 1086.7081881864492,
+            "gross_usd": -23.697433000000096,
+            "funding_usd": -18.37611613719526,
+            "fees_usd": 127.17685147423455,
+            "allowance_usd": 211.96136580450002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": -1.4280600489980366,
+              "2026-W22": 10.218793236083139,
+              "2026-W23": -80.46594408885684,
+              "2026-W24": -47.0170338612639,
+              "2026-W25": -40.14812545561502,
+              "2026-W26": -58.39402233459166,
+              "2026-W27": -41.90031922890364,
+              "2026-W28": -4.331618080961818,
+              "2026-W29": -37.612396311331906,
+              "2026-W30": -64.03372601972185,
+              "2026-W31": 50.90737266161526,
+              "2026-W32": -13.496178681027889,
+              "2026-W33": -29.718420178263504,
+              "2026-W34": -41.78533352893414,
+              "2026-W35": 17.99324550484191
+            }
+          }
+        },
+        "timing_stress": {
+          "relative_strength": {
+            "cycles": 59,
+            "positive_cycles": 16,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -527.8123266206209,
+            "return_pct_on_starting_collateral": -35.187488441374725,
+            "marked_max_drawdown_usd": 538.6710242707878,
+            "minimum_hourly_collateral_equity_usd": 972.1876733793791,
+            "gross_usd": -334.83277599999997,
+            "funding_usd": 4.988941889728122,
+            "fees_usd": 127.26551328334921,
+            "allowance_usd": 70.702979227,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": -32.207130456416024,
+              "2026-W22": -27.55898120772955,
+              "2026-W23": -24.500679767405572,
+              "2026-W24": -77.56061517383975,
+              "2026-W25": -17.133587187050722,
+              "2026-W26": -47.09625821678219,
+              "2026-W27": -87.10759377444896,
+              "2026-W28": -31.823215916594908,
+              "2026-W29": -24.2841494181421,
+              "2026-W30": -38.126836187188,
+              "2026-W31": -0.6207538857958292,
+              "2026-W32": -38.79670771452196,
+              "2026-W33": -2.2552542906432436,
+              "2026-W34": -17.135146422865873,
+              "2026-W35": -61.60541700119634
+            }
+          },
+          "inverted": {
+            "cycles": 59,
+            "positive_cycles": 30,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": 130.02926353006515,
+            "return_pct_on_starting_collateral": 8.66861756867101,
+            "marked_max_drawdown_usd": 76.32362275223076,
+            "minimum_hourly_collateral_equity_usd": 1485.7692716824645,
+            "gross_usd": 334.83277599999997,
+            "funding_usd": -6.835321309084031,
+            "fees_usd": 127.26521193385081,
+            "allowance_usd": 70.702979227,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": 5.010764097347787,
+              "2026-W22": 7.192057049567366,
+              "2026-W23": -2.363256180488222,
+              "2026-W24": 50.55156115089297,
+              "2026-W25": -9.835636399112593,
+              "2026-W26": 20.28740691087813,
+              "2026-W27": 60.28912068733002,
+              "2026-W28": 4.77663428007558,
+              "2026-W29": -2.5685138251503803,
+              "2026-W30": 11.315903390544108,
+              "2026-W31": -26.660517232766228,
+              "2026-W32": 11.735084130908689,
+              "2026-W33": -24.65021450701035,
+              "2026-W34": -9.622741878254356,
+              "2026-W35": 34.57161185530258
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 59,
+            "positive_cycles": 27,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -229.955158617166,
+            "return_pct_on_starting_collateral": -15.330343907811068,
+            "marked_max_drawdown_usd": 334.08282205503644,
+            "minimum_hourly_collateral_equity_usd": 1201.484111701881,
+            "gross_usd": -13.60388200000012,
+            "funding_usd": -18.38292865981892,
+            "fees_usd": 127.2653687303469,
+            "allowance_usd": 70.702979227,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 16.931506849315067,
+            "weekly_net_usd": {
+              "2026-W21": 7.900086545233648,
+              "2026-W22": 15.049268049781679,
+              "2026-W23": -68.58894602364637,
+              "2026-W24": -38.491026165220624,
+              "2026-W25": -27.833956507651813,
+              "2026-W26": -50.70036472148827,
+              "2026-W27": -39.0078963052042,
+              "2026-W28": 7.923188126283629,
+              "2026-W29": -25.98591164691967,
+              "2026-W30": -54.83273558892487,
+              "2026-W31": 64.48862836813915,
+              "2026-W32": -3.0549086971061996,
+              "2026-W33": -16.09163988095133,
+              "2026-W34": -29.864358174550212,
+              "2026-W35": 29.135414005059513
+            }
+          }
+        },
+        "small_cost_stress": {
+          "relative_strength": {
+            "cycles": 59,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -85.22617261116312,
+            "return_pct_on_starting_collateral": -45.45395872595367,
+            "marked_max_drawdown_usd": 86.94025525070582,
+            "minimum_hourly_collateral_equity_usd": 102.27382738883688,
+            "gross_usd": -43.93192800000001,
+            "funding_usd": 0.6195358345397042,
+            "fees_usd": 15.717704734702801,
+            "allowance_usd": 26.196075711000002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 2.1164383561643834,
+            "weekly_net_usd": {
+              "2026-W21": -4.8397279063218885,
+              "2026-W22": -4.003389790748932,
+              "2026-W23": -4.739553307485231,
+              "2026-W24": -11.53229720848393,
+              "2026-W25": -2.940404099928215,
+              "2026-W26": -7.570531655689825,
+              "2026-W27": -11.932345718596295,
+              "2026-W28": -6.440069061041052,
+              "2026-W29": -5.220844989253646,
+              "2026-W30": -5.0584804098164895,
+              "2026-W31": -1.0366853864915595,
+              "2026-W32": -6.306566683376169,
+              "2026-W33": -1.527006389176679,
+              "2026-W34": -2.673668125112902,
+              "2026-W35": -9.404601879640296
+            }
+          },
+          "inverted": {
+            "cycles": 59,
+            "positive_cycles": 28,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": 1.1751635712673871,
+            "return_pct_on_starting_collateral": 0.6267539046759398,
+            "marked_max_drawdown_usd": 16.777311690482385,
+            "minimum_hourly_collateral_equity_usd": 183.37150688481304,
+            "gross_usd": 43.93192800000001,
+            "funding_usd": -0.8431025992354214,
+            "fees_usd": 15.7175861184972,
+            "allowance_usd": 26.196075711000002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 2.1164383561643834,
+            "weekly_net_usd": {
+              "2026-W21": -0.9157611941428709,
+              "2026-W22": -0.32420848481456943,
+              "2026-W23": -0.9653664147116767,
+              "2026-W24": 5.855403780165059,
+              "2026-W25": -2.7324853661933517,
+              "2026-W26": 1.8854590475605977,
+              "2026-W27": 6.311756846103209,
+              "2026-W28": 0.7569426187499875,
+              "2026-W29": -0.4482904106544667,
+              "2026-W30": -0.619292031193887,
+              "2026-W31": -4.7550698397571445,
+              "2026-W32": 0.5513643388793903,
+              "2026-W33": -4.167461092068,
+              "2026-W34": -2.9599384818167778,
+              "2026-W35": 3.7021102551618865
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 59,
+            "positive_cycles": 22,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -47.07230856496402,
+            "return_pct_on_starting_collateral": -25.105231234647473,
+            "marked_max_drawdown_usd": 53.50931715036359,
+            "minimum_hourly_collateral_equity_usd": 136.32933192431233,
+            "gross_usd": -2.893922000000012,
+            "funding_usd": -2.2646615205693172,
+            "fees_usd": 15.7176493333947,
+            "allowance_usd": 26.196075711000002,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 2.1164383561643834,
+            "weekly_net_usd": {
+              "2026-W21": -0.18179291268759978,
+              "2026-W22": 1.2373169564219513,
+              "2026-W23": -9.996394299756272,
+              "2026-W24": -5.882874292486766,
+              "2026-W25": -5.027155677145316,
+              "2026-W26": -7.218013180291064,
+              "2026-W27": -5.153493232291757,
+              "2026-W28": -0.6917049249453571,
+              "2026-W29": -4.615444342577971,
+              "2026-W30": -7.884275720851641,
+              "2026-W31": 6.359483505640583,
+              "2026-W32": -1.6763895647522595,
+              "2026-W33": -3.651605682910724,
+              "2026-W34": -5.045258406646761,
+              "2026-W35": 2.355293210316926
+            }
+          }
+        }
+      }
+    },
+    "test": {
+      "dates": [
+        "2026-08-31",
+        "2026-10-09"
+      ],
+      "skipped_decisions": [],
+      "results": {
+        "base": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 8,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -142.3364055308088,
+            "return_pct_on_starting_collateral": -9.489093702053921,
+            "marked_max_drawdown_usd": 146.78014445372978,
+            "minimum_hourly_collateral_equity_usd": 1355.422423392594,
+            "gross_usd": -62.34836600000009,
+            "funding_usd": 0.5454449811559895,
+            "fees_usd": 51.7715357779647,
+            "allowance_usd": 28.761948734,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -48.05518941829598,
+              "2026-W37": -2.6577904039522506,
+              "2026-W38": -15.624087853989709,
+              "2026-W39": 1.5180857137750863,
+              "2026-W40": -32.846785133686815,
+              "2026-W41": -44.67063843465914
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 11,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -19.22621957302382,
+            "return_pct_on_starting_collateral": -1.2817479715349211,
+            "marked_max_drawdown_usd": 80.87224443626508,
+            "minimum_hourly_collateral_equity_usd": 1442.208228156346,
+            "gross_usd": 62.34836600000009,
+            "funding_usd": -1.0411571745886172,
+            "fees_usd": 51.771479664435304,
+            "allowance_usd": 28.761948734,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": 21.165114382004006,
+              "2026-W37": -24.304501877897756,
+              "2026-W38": -11.26287562190273,
+              "2026-W39": -28.53279786594416,
+              "2026-W40": 5.893859388469835,
+              "2026-W41": 17.81498202224698
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -54.7754812937575,
+            "return_pct_on_starting_collateral": -3.651698752917167,
+            "marked_max_drawdown_usd": 72.7704105168558,
+            "minimum_hourly_collateral_equity_usd": 1436.1169223552156,
+            "gross_usd": 31.51185999999999,
+            "funding_usd": -5.753899018894511,
+            "fees_usd": 51.771493540863,
+            "allowance_usd": 28.761948734,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -10.677619486394507,
+              "2026-W37": 7.742903817915639,
+              "2026-W38": -19.956990049713927,
+              "2026-W39": -16.110126851311847,
+              "2026-W40": -3.955245652303585,
+              "2026-W41": -11.818403071949287
+            }
+          }
+        },
+        "cost_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -199.8603591123382,
+            "return_pct_on_starting_collateral": -13.324023940822546,
+            "marked_max_drawdown_usd": 200.9096032545206,
+            "minimum_hourly_collateral_equity_usd": 1299.0903967454794,
+            "gross_usd": -62.34836600000009,
+            "funding_usd": 0.5454449811559895,
+            "fees_usd": 51.771591891494104,
+            "allowance_usd": 86.285846202,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -57.63217091084899,
+              "2026-W37": -12.255528095330245,
+              "2026-W38": -25.19659544923411,
+              "2026-W39": -8.096184590590514,
+              "2026-W40": -42.44365482650202,
+              "2026-W41": -54.23622523983234
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -76.75006092749443,
+            "return_pct_on_starting_collateral": -5.116670728499629,
+            "marked_max_drawdown_usd": 113.98029516755531,
+            "minimum_hourly_collateral_equity_usd": 1400.7111959599638,
+            "gross_usd": 62.34836600000009,
+            "funding_usd": -1.0411571745886172,
+            "fees_usd": 51.7714235509059,
+            "allowance_usd": 86.285846202,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": 11.588195414557006,
+              "2026-W37": -33.90225902651976,
+              "2026-W38": -20.835378582658333,
+              "2026-W39": -38.14709506557857,
+              "2026-W40": -3.702975126714966,
+              "2026-W41": 8.249451459420179
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -112.29935040108353,
+            "return_pct_on_starting_collateral": -7.486623360072236,
+            "marked_max_drawdown_usd": 123.59722000591931,
+            "minimum_hourly_collateral_equity_usd": 1379.7839021863883,
+            "gross_usd": 31.51185999999999,
+            "funding_usd": -5.753899018894511,
+            "fees_usd": 51.771465180189004,
+            "allowance_usd": 86.285846202,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -20.254566598929514,
+              "2026-W37": -1.854823830002358,
+              "2026-W38": -29.529500518067934,
+              "2026-W39": -25.724411785908245,
+              "2026-W40": -13.552088166976384,
+              "2026-W41": -21.383959501199087
+            }
+          }
+        },
+        "timing_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -122.12017361883198,
+            "return_pct_on_starting_collateral": -8.141344907922132,
+            "marked_max_drawdown_usd": 129.99034405790817,
+            "minimum_hourly_collateral_equity_usd": 1373.375442758289,
+            "gross_usd": -42.13808499999989,
+            "funding_usd": 0.5398604795061525,
+            "fees_usd": 51.764116906838254,
+            "allowance_usd": 28.7578321915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -43.845538550210286,
+              "2026-W37": -0.1262889178443123,
+              "2026-W38": -12.412888250063752,
+              "2026-W39": -0.2746967536098026,
+              "2026-W40": -23.230436361441622,
+              "2026-W41": -42.230324785662226
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 8,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -39.40401996799978,
+            "return_pct_on_starting_collateral": -2.6269346645333185,
+            "marked_max_drawdown_usd": 86.30974735950745,
+            "minimum_hourly_collateral_equity_usd": 1435.8108390548557,
+            "gross_usd": 42.13808499999989,
+            "funding_usd": -1.0201937939379013,
+            "fees_usd": 51.764078982561756,
+            "allowance_usd": 28.7578321915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": 16.99350078081529,
+              "2026-W37": -26.838937866580906,
+              "2026-W38": -14.470264200870158,
+              "2026-W39": -26.757275468779618,
+              "2026-W40": -3.7432186454064227,
+              "2026-W41": 15.412175432822044
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 12,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -56.88853161228677,
+            "return_pct_on_starting_collateral": -3.792568774152451,
+            "marked_max_drawdown_usd": 71.43312803607645,
+            "minimum_hourly_collateral_equity_usd": 1437.120991009129,
+            "gross_usd": 29.376368999999862,
+            "funding_usd": -5.742983695452671,
+            "fees_usd": 51.76408472533395,
+            "allowance_usd": 28.7578321915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W36": -13.292198769581775,
+              "2026-W37": 8.341963470431976,
+              "2026-W38": -14.873578644381999,
+              "2026-W39": -19.290183034444254,
+              "2026-W40": -5.372361915439313,
+              "2026-W41": -12.402172718871405
+            }
+          }
+        },
+        "small_cost_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -24.590896033186098,
+            "return_pct_on_starting_collateral": -13.115144551032587,
+            "marked_max_drawdown_usd": 24.75040160792387,
+            "minimum_hourly_collateral_equity_usd": 162.74959839207614,
+            "gross_usd": -7.6207360000000115,
+            "funding_usd": 0.06910579400751439,
+            "fees_usd": 6.389731115193601,
+            "allowance_usd": 10.649534712000001,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W36": -7.083504181105892,
+              "2026-W37": -1.5222889097054797,
+              "2026-W38": -3.087766840681043,
+              "2026-W39": -1.0044857113952437,
+              "2026-W40": -5.262589968074941,
+              "2026-W41": -6.6302604222235
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -9.548622128097175,
+            "return_pct_on_starting_collateral": -5.092598468318494,
+            "marked_max_drawdown_usd": 14.06907109221879,
+            "minimum_hourly_collateral_equity_usd": 175.20920197613322,
+            "gross_usd": 7.6207360000000115,
+            "funding_usd": -0.1301128768907868,
+            "fees_usd": 6.3897105392064,
+            "allowance_usd": 10.649534712000001,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W36": 1.3931152983678043,
+              "2026-W37": -4.127214314392007,
+              "2026-W38": -2.6033725739056877,
+              "2026-W39": -4.7331697209638595,
+              "2026-W40": -0.4578767585945396,
+              "2026-W41": 0.9798959413911124
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 9,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -13.759103403441364,
+            "return_pct_on_starting_collateral": -7.3381884818353935,
+            "marked_max_drawdown_usd": 15.143904114575943,
+            "minimum_hourly_collateral_equity_usd": 172.76981618474724,
+            "gross_usd": 3.9873059999999994,
+            "funding_usd": -0.7071592471044643,
+            "fees_usd": 6.3897154443369,
+            "allowance_usd": 10.649534712000001,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W36": -2.442440792548041,
+              "2026-W37": -0.19696789682175259,
+              "2026-W38": -3.6813300268385367,
+              "2026-W39": -3.1990862458626816,
+              "2026-W40": -1.708745539270581,
+              "2026-W41": -2.5305329020997736
+            }
+          }
+        }
+      }
+    },
+    "confirmation": {
+      "dates": [
+        "2026-10-12",
+        "2026-11-20"
+      ],
+      "skipped_decisions": [],
+      "results": {
+        "base": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 10,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -64.95242110446537,
+            "return_pct_on_starting_collateral": -4.330161406964359,
+            "marked_max_drawdown_usd": 116.84418857696929,
+            "minimum_hourly_collateral_equity_usd": 1408.9345475217224,
+            "gross_usd": 13.44248499999977,
+            "funding_usd": 1.6139357318166103,
+            "fees_usd": 51.43425330578175,
+            "allowance_usd": 28.5745885305,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": 6.621574397673659,
+              "2026-W43": -13.799751049298283,
+              "2026-W44": -25.277921410861264,
+              "2026-W45": -18.210751540760675,
+              "2026-W46": -27.06549587419372,
+              "2026-W47": 12.779924372974905
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 8,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -95.57953096983368,
+            "return_pct_on_starting_collateral": -6.371968731322246,
+            "marked_max_drawdown_usd": 101.4529239694371,
+            "minimum_hourly_collateral_equity_usd": 1404.4204690301663,
+            "gross_usd": -13.44248499999977,
+            "funding_usd": -2.1281920353156707,
+            "fees_usd": 51.434265404018255,
+            "allowance_usd": 28.5745885305,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -33.31501343987519,
+              "2026-W43": -12.98232771711702,
+              "2026-W44": -1.4979728144109927,
+              "2026-W45": -8.748333905460306,
+              "2026-W46": 0.20049129850287173,
+              "2026-W47": -39.236374391473056
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 7,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -327.7281884793382,
+            "return_pct_on_starting_collateral": -21.848545898622547,
+            "marked_max_drawdown_usd": 335.6299465180794,
+            "minimum_hourly_collateral_equity_usd": 1172.2718115206617,
+            "gross_usd": -242.0099730000002,
+            "funding_usd": -5.7092586894501025,
+            "fees_usd": 51.43436825938785,
+            "allowance_usd": 28.5745885305,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -71.76498519580022,
+              "2026-W43": -29.70300876940469,
+              "2026-W44": -55.422242684876046,
+              "2026-W45": -40.260755846946026,
+              "2026-W46": -2.7098124903187752,
+              "2026-W47": -127.86738349199241
+            }
+          }
+        },
+        "cost_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 8,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -122.10158606722891,
+            "return_pct_on_starting_collateral": -8.140105737815261,
+            "marked_max_drawdown_usd": 162.1682602077254,
+            "minimum_hourly_collateral_equity_usd": 1357.6533171327148,
+            "gross_usd": 13.44248499999977,
+            "funding_usd": 1.6139357318166103,
+            "fees_usd": 51.43424120754525,
+            "allowance_usd": 85.7237655915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -2.880577874439738,
+              "2026-W43": -23.33661822743788,
+              "2026-W44": -34.812727876673556,
+              "2026-W45": -27.800009213165886,
+              "2026-W46": -36.62925160377193,
+              "2026-W47": 3.357598728260104
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -152.72872012907024,
+            "return_pct_on_starting_collateral": -10.181914675271349,
+            "marked_max_drawdown_usd": 155.01484842191005,
+            "minimum_hourly_collateral_equity_usd": 1347.2712798709297,
+            "gross_usd": -13.44248499999977,
+            "funding_usd": -2.1281920353156707,
+            "fees_usd": 51.43427750225475,
+            "allowance_usd": 85.7237655915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -42.817201315761785,
+              "2026-W43": -22.519193402977418,
+              "2026-W44": -11.032757274598694,
+              "2026-W45": -18.337582725055114,
+              "2026-W46": -9.363238967918928,
+              "2026-W47": -48.65874644275826
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -384.87758334931385,
+            "return_pct_on_starting_collateral": -25.658505556620923,
+            "marked_max_drawdown_usd": 389.19100467207465,
+            "minimum_hourly_collateral_equity_usd": 1115.122416650686,
+            "gross_usd": -242.0099730000002,
+            "funding_usd": -5.7092586894501025,
+            "fees_usd": 51.43458606836355,
+            "allowance_usd": 85.7237655915,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -81.26720714279962,
+              "2026-W43": -39.239889223869085,
+              "2026-W44": -64.95707497279174,
+              "2026-W45": -49.85003217678323,
+              "2026-W46": -12.273544988038566,
+              "2026-W47": -137.28983484503163
+            }
+          }
+        },
+        "timing_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 10,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -63.93925169982681,
+            "return_pct_on_starting_collateral": -4.262616779988454,
+            "marked_max_drawdown_usd": 113.72059088535968,
+            "minimum_hourly_collateral_equity_usd": 1414.1916413058545,
+            "gross_usd": 14.337135000000012,
+            "funding_usd": 1.6175285462624185,
+            "fees_usd": 51.360371782589255,
+            "allowance_usd": 28.533543463500003,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": 10.39040184900131,
+              "2026-W43": -13.608841930291455,
+              "2026-W44": -27.582921752522736,
+              "2026-W45": -14.156953293449899,
+              "2026-W46": -27.107027959258847,
+              "2026-W47": 8.126091386694808
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 7,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -96.3671284876919,
+            "return_pct_on_starting_collateral": -6.424475232512793,
+            "marked_max_drawdown_usd": 105.82231767400549,
+            "minimum_hourly_collateral_equity_usd": 1400.264993110718,
+            "gross_usd": -14.337135000000012,
+            "funding_usd": -2.1360653381811585,
+            "fees_usd": 51.360384686010754,
+            "allowance_usd": 28.533543463500003,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -37.04426394515524,
+              "2026-W43": -13.162523205451006,
+              "2026-W44": 0.8830131926943317,
+              "2026-W45": -12.696236675501424,
+              "2026-W46": 0.19439481124460656,
+              "2026-W47": -34.54151266552319
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 7,
+            "starting_collateral_usd": 1500.0,
+            "tallied_net_usd": -334.78214521744223,
+            "return_pct_on_starting_collateral": -22.318809681162815,
+            "marked_max_drawdown_usd": 343.103825476731,
+            "minimum_hourly_collateral_equity_usd": 1165.2178547825579,
+            "gross_usd": -249.17806500000012,
+            "funding_usd": -5.7100463895128275,
+            "fees_usd": 51.36049036442925,
+            "allowance_usd": 28.533543463500003,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 6.575342465753424,
+            "weekly_net_usd": {
+              "2026-W42": -76.84689265909869,
+              "2026-W43": -32.53433801566149,
+              "2026-W44": -61.28645389088195,
+              "2026-W45": -36.088338760464545,
+              "2026-W46": -2.288602192152389,
+              "2026-W47": -125.73751969918312
+            }
+          }
+        },
+        "small_cost_stress": {
+          "relative_strength": {
+            "cycles": 24,
+            "positive_cycles": 8,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -14.305366370556763,
+            "return_pct_on_starting_collateral": -7.629528730963607,
+            "marked_max_drawdown_usd": 19.69086291857737,
+            "minimum_hourly_collateral_equity_usd": 170.29279004483593,
+            "gross_usd": 2.4216919999999718,
+            "funding_usd": 0.2003543697590697,
+            "fees_usd": 6.3477777343158,
+            "allowance_usd": 10.579635006,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W42": -0.35099964472211376,
+              "2026-W43": -2.8981467484464796,
+              "2026-W44": -4.296959344059759,
+              "2026-W45": -3.4600056100085914,
+              "2026-W46": -4.088929308650762,
+              "2026-W47": 0.7896742853309463
+            }
+          },
+          "inverted": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -19.612880125516256,
+            "return_pct_on_starting_collateral": -10.46020273360867,
+            "marked_max_drawdown_usd": 19.92103996687116,
+            "minimum_hourly_collateral_equity_usd": 167.88711987448374,
+            "gross_usd": -2.4216919999999718,
+            "funding_usd": -0.2637688466320845,
+            "fees_usd": 6.3477842728842,
+            "allowance_usd": 10.579635006,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W42": -5.288200492949748,
+              "2026-W43": -2.7800091474703525,
+              "2026-W44": -1.3869441967373848,
+              "2026-W45": -2.244161069204799,
+              "2026-W46": -1.5492419149704018,
+              "2026-W47": -6.364323304183571
+            }
+          },
+          "selected_equal_long": {
+            "cycles": 24,
+            "positive_cycles": 6,
+            "starting_collateral_usd": 187.5,
+            "tallied_net_usd": -47.3598754895718,
+            "return_pct_on_starting_collateral": -25.25860026110496,
+            "marked_max_drawdown_usd": 47.91548573846784,
+            "minimum_hourly_collateral_equity_usd": 140.1401245104282,
+            "gross_usd": -29.727606000000026,
+            "funding_usd": -0.70481334770367,
+            "fees_usd": 6.3478211358681005,
+            "allowance_usd": 10.579635006,
+            "idle_cash_usd": 0,
+            "cash_hurdle_4pct_usd": 0.821917808219178,
+            "weekly_net_usd": {
+              "2026-W42": -10.048359569110055,
+              "2026-W43": -4.8674643029728575,
+              "2026-W44": -8.05811224181391,
+              "2026-W45": -6.156153113698063,
+              "2026-W46": -1.5048945821899302,
+              "2026-W47": -16.724891679786978
+            }
+          }
+        }
+      }
+    }
+  },
+  "quote_capacity_sample": [
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:META",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.343,
+      "fresh_at_500ms": true,
+      "available_top_size": 15.376,
+      "adverse_touch_vs_candle_open_bps": 3.2729277199772255,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-META.csv.gz",
+      "sha256": "522902f1eb257ce7b05d05b99a5b27a4c35a80e334a6376f2c3ad17283403537"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:NVDA",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.908,
+      "fresh_at_500ms": true,
+      "available_top_size": 117.416,
+      "adverse_touch_vs_candle_open_bps": 0.4552282969916277,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-NVDA.csv.gz",
+      "sha256": "f6009f16731e0a46e135c928f2bd5ec2ca1d1639b1fc32202455017986cc2cf4"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:AAPL",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.613,
+      "fresh_at_500ms": true,
+      "available_top_size": 24.051,
+      "adverse_touch_vs_candle_open_bps": 0.9205842641479833,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-AAPL.csv.gz",
+      "sha256": "f13a549db6eedbe849ea7d8855549d7b66ca4f55f77afe017ef0dbfa8e7f9785"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:AMD",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 0.434,
+      "fresh_at_500ms": true,
+      "available_top_size": 0.43,
+      "adverse_touch_vs_candle_open_bps": -1.5250876925421153,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-AMD.csv.gz",
+      "sha256": "f4c72273852d100047945ca5b1e439c9ad9cf10420c65899d05105fa649fbc91"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:GOOGL",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 0.594,
+      "fresh_at_500ms": true,
+      "available_top_size": 12.069,
+      "adverse_touch_vs_candle_open_bps": -0.0,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-GOOGL.csv.gz",
+      "sha256": "ad37dda4ac06950467666f826ff2e185e17a1c44fd219b7c0874b081e8a6b2b1"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:AMZN",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 0.782,
+      "fresh_at_500ms": true,
+      "available_top_size": 0.713,
+      "adverse_touch_vs_candle_open_bps": -1.9636335074424416,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-AMZN.csv.gz",
+      "sha256": "3fd464cb57dacee44f4079da160227f8e7fa8e2ff25a836d3c1af438e5eca14d"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:META",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.35,
+      "fresh_at_500ms": true,
+      "available_top_size": 1.722,
+      "adverse_touch_vs_candle_open_bps": -1.8948528905116113,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-META.csv.gz",
+      "sha256": "522902f1eb257ce7b05d05b99a5b27a4c35a80e334a6376f2c3ad17283403537"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:MSFT",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.392,
+      "fresh_at_500ms": true,
+      "available_top_size": 0.366,
+      "adverse_touch_vs_candle_open_bps": -1.797447624374282,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-MSFT.csv.gz",
+      "sha256": "5485ee9f83054ec0c17b57e726d88a20563f51c38b4e07b239a10662a0822f75"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:NVDA",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.911,
+      "fresh_at_500ms": true,
+      "available_top_size": 4.484,
+      "adverse_touch_vs_candle_open_bps": -0.0,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-NVDA.csv.gz",
+      "sha256": "f6009f16731e0a46e135c928f2bd5ec2ca1d1639b1fc32202455017986cc2cf4"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:GOOGL",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.591,
+      "fresh_at_500ms": true,
+      "available_top_size": 2.389,
+      "adverse_touch_vs_candle_open_bps": 0.894507722584148,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-GOOGL.csv.gz",
+      "sha256": "ad37dda4ac06950467666f826ff2e185e17a1c44fd219b7c0874b081e8a6b2b1"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:AMZN",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.766,
+      "fresh_at_500ms": true,
+      "available_top_size": 6.43,
+      "adverse_touch_vs_candle_open_bps": 3.1418136119087947,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-AMZN.csv.gz",
+      "sha256": "3fd464cb57dacee44f4079da160227f8e7fa8e2ff25a836d3c1af438e5eca14d"
+    },
+    {
+      "utc_day": "2026-09-01",
+      "coin": "xyz:AAPL",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.635,
+      "fresh_at_500ms": true,
+      "available_top_size": 24.051,
+      "adverse_touch_vs_candle_open_bps": 0.9205842641479833,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/09/01/XYZ-AAPL.csv.gz",
+      "sha256": "f13a549db6eedbe849ea7d8855549d7b66ca4f55f77afe017ef0dbfa8e7f9785"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:AMD",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.326,
+      "fresh_at_500ms": true,
+      "available_top_size": 1.638,
+      "adverse_touch_vs_candle_open_bps": 1.8023332022520933,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-AMD.csv.gz",
+      "sha256": "2e3c4d3e26ee592cd617ff4cf2482c70c11d97bac5c6ec4bb8acb65f6ca40e98"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:NVDA",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.871,
+      "fresh_at_500ms": true,
+      "available_top_size": 4.997,
+      "adverse_touch_vs_candle_open_bps": 0.4344803614864112,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-NVDA.csv.gz",
+      "sha256": "4c1c108c9dc2bb73af87da92e063f6e16f67ed303ab944ebd33e992c1fd9b5ca"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:MSFT",
+      "side": 1,
+      "event": "entry",
+      "position_delta": 0.389,
+      "fresh_at_500ms": true,
+      "available_top_size": 12.902,
+      "adverse_touch_vs_candle_open_bps": 0.19497738262375108,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-MSFT.csv.gz",
+      "sha256": "a64982c471cc27d6dc8f3ea947ee5fc0cd5f17142e9ae9252e9c2e155398fd1f"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:META",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 0.274,
+      "fresh_at_500ms": true,
+      "available_top_size": 1.374,
+      "adverse_touch_vs_candle_open_bps": 2.7468754292003794,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-META.csv.gz",
+      "sha256": "910ac5e2a19ea77dd5ca98f8924298d2f5db5093f5fa286a8d3b29db479ad50c"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:TSLA",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 0.559,
+      "fresh_at_500ms": true,
+      "available_top_size": 7.945,
+      "adverse_touch_vs_candle_open_bps": 0.8437631838009718,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-TSLA.csv.gz",
+      "sha256": "4eb95b1d08a19e728d59028748f00d65c16e364f77ad8de104efbe6b14acf219"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:NFLX",
+      "side": -1,
+      "event": "entry",
+      "position_delta": 2.936,
+      "fresh_at_500ms": true,
+      "available_top_size": 14.845,
+      "adverse_touch_vs_candle_open_bps": 4.551928696238106,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-NFLX.csv.gz",
+      "sha256": "2f598eff72138aa3498505a2e43d85367e52cbdf337c2df543c740337299e7d7"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:NVDA",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.865,
+      "fresh_at_500ms": true,
+      "available_top_size": 59.957,
+      "adverse_touch_vs_candle_open_bps": -0.0,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-NVDA.csv.gz",
+      "sha256": "4c1c108c9dc2bb73af87da92e063f6e16f67ed303ab944ebd33e992c1fd9b5ca"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:GOOGL",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.568,
+      "fresh_at_500ms": true,
+      "available_top_size": 2.965,
+      "adverse_touch_vs_candle_open_bps": 1.1856770215801227,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-GOOGL.csv.gz",
+      "sha256": "81ccdeced0c8cc0124dfd3bb0be7f6c5396092ba4c6af79111ed68a59d578ffd"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:MSFT",
+      "side": -1,
+      "event": "exit",
+      "position_delta": 0.385,
+      "fresh_at_500ms": true,
+      "available_top_size": 0.09,
+      "adverse_touch_vs_candle_open_bps": -0.0,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-MSFT.csv.gz",
+      "sha256": "a64982c471cc27d6dc8f3ea947ee5fc0cd5f17142e9ae9252e9c2e155398fd1f"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:TSLA",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.57,
+      "fresh_at_500ms": true,
+      "available_top_size": 2.813,
+      "adverse_touch_vs_candle_open_bps": -0.2812543945995838,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-TSLA.csv.gz",
+      "sha256": "4eb95b1d08a19e728d59028748f00d65c16e364f77ad8de104efbe6b14acf219"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:META",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.271,
+      "fresh_at_500ms": true,
+      "available_top_size": 9.173,
+      "adverse_touch_vs_candle_open_bps": -1.3734377146001897,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-META.csv.gz",
+      "sha256": "910ac5e2a19ea77dd5ca98f8924298d2f5db5093f5fa286a8d3b29db479ad50c"
+    },
+    {
+      "utc_day": "2026-10-01",
+      "coin": "xyz:AMD",
+      "side": 1,
+      "event": "exit",
+      "position_delta": 0.331,
+      "fresh_at_500ms": true,
+      "available_top_size": 1.638,
+      "adverse_touch_vs_candle_open_bps": 1.8023332022520933,
+      "url": "https://datasets.tardis.dev/v1/hyperliquid/book_ticker/2026/10/01/XYZ-AMD.csv.gz",
+      "sha256": "2e3c4d3e26ee592cd617ff4cf2482c70c11d97bac5c6ec4bb8acb65f6ca40e98"
+    }
+  ],
+  "quote_capacity_summary": {
+    "observed": 24,
+    "fresh": 24,
+    "size_supported_200": 20,
+    "median_adverse_bps": 0.44485432923901946,
+    "max_adverse_bps": 4.551928696238106
+  },
+  "independently_reconstructed_ledger_legs": 7704
+}
