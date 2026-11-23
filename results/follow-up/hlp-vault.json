@@ -1,0 +1,373 @@
+{
+  "source_sha256": "14c6c0c7ddb49ee1de8cb2f649c75d9a416970d9e31c0d838ca0c58b8deffc6d",
+  "source_snapshot_at": "2026-11-23T10:42:40.587000+00:00",
+  "paper_capital_usdc": 2000.0,
+  "annual_cash_rate": 0.04,
+  "cost_scenarios": {
+    "base": {
+      "side_bps": 10,
+      "redemption_haircut_bps": 0,
+      "fixed_usdc": 1
+    },
+    "stress": {
+      "side_bps": 25,
+      "redemption_haircut_bps": 50,
+      "fixed_usdc": 1
+    }
+  },
+  "screen_pass": false,
+  "windows": [
+    {
+      "label": "2025 Q1",
+      "first_mark_utc": "2025-01-01T23:59:20.998000+00:00",
+      "last_mark_utc": "2025-03-26T23:50:38.972000+00:00",
+      "days": 83.9939580324074,
+      "marks": 8,
+      "cash_pnl_usdc": 18.132680032874937,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 53.76476611084263,
+            "sampled_max_drawdown_pct": 0.7767145402447606,
+            "excess_vs_cash_usdc": 35.63208607796769
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 48.63098235719963,
+            "sampled_max_drawdown_pct": 0.9121748985180811,
+            "excess_vs_cash_usdc": 30.49830232432469
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 45.122418778495785,
+            "sampled_max_drawdown_pct": 1.1048653199376979,
+            "excess_vs_cash_usdc": 26.989738745620848
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 37.35593915965592,
+            "sampled_max_drawdown_pct": 1.2227505783717119,
+            "excess_vs_cash_usdc": 19.22325912678098
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 32.26315249269146,
+            "sampled_max_drawdown_pct": 1.2568613360297132,
+            "excess_vs_cash_usdc": 14.130472459816524
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 28.78260740717883,
+            "sampled_max_drawdown_pct": 1.2650332734732483,
+            "excess_vs_cash_usdc": 10.649927374303893
+          }
+        }
+      }
+    },
+    {
+      "label": "2025 Q2",
+      "first_mark_utc": "2025-03-26T23:50:38.972000+00:00",
+      "last_mark_utc": "2025-06-25T23:59:27.139000+00:00",
+      "days": 91.00611304398149,
+      "marks": 8,
+      "cash_pnl_usdc": 19.653884080147677,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 48.61321627754705,
+            "sampled_max_drawdown_pct": 0.14874090350638358,
+            "excess_vs_cash_usdc": 28.959332197399377
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 43.89036622554636,
+            "sampled_max_drawdown_pct": 0.1488534748121495,
+            "excess_vs_cash_usdc": 24.236482145398682
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 40.25128429896381,
+            "sampled_max_drawdown_pct": 0.14894056933039135,
+            "excess_vs_cash_usdc": 20.597400218816134
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 32.2455282884157,
+            "sampled_max_drawdown_pct": 0.7975641980981218,
+            "excess_vs_cash_usdc": 12.591644208268022
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 27.560393711441066,
+            "sampled_max_drawdown_pct": 0.7976769386840332,
+            "excess_vs_cash_usdc": 7.906509631293389
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 23.950372564262352,
+            "sampled_max_drawdown_pct": 0.7977641641714883,
+            "excess_vs_cash_usdc": 4.2964884841146755
+          }
+        }
+      }
+    },
+    {
+      "label": "2025 Q3",
+      "first_mark_utc": "2025-06-25T23:59:27.139000+00:00",
+      "last_mark_utc": "2025-10-01T23:56:56.853000+00:00",
+      "days": 97.99826057870371,
+      "marks": 8,
+      "cash_pnl_usdc": 21.171889473563965,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 53.5958238127123,
+            "sampled_max_drawdown_pct": 0.1486227017704178,
+            "excess_vs_cash_usdc": 32.42393433914833
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 52.76335429481696,
+            "sampled_max_drawdown_pct": 0.14864241042721327,
+            "excess_vs_cash_usdc": 31.591464821253
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 52.572078562621755,
+            "sampled_max_drawdown_pct": 0.1486469411241309,
+            "excess_vs_cash_usdc": 31.40018908905779
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 37.18834599159686,
+            "sampled_max_drawdown_pct": 0.7974458186151945,
+            "excess_vs_cash_usdc": 16.016456518032896
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 36.3625243627871,
+            "sampled_max_drawdown_pct": 0.7974655569090605,
+            "excess_vs_cash_usdc": 15.190634889223134
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 36.1727761097668,
+            "sampled_max_drawdown_pct": 0.7974700944190616,
+            "excess_vs_cash_usdc": 15.000886636202836
+          }
+        }
+      }
+    },
+    {
+      "label": "2025 Q4",
+      "first_mark_utc": "2025-10-01T23:56:56.853000+00:00",
+      "last_mark_utc": "2026-01-07T23:21:41.981000+00:00",
+      "days": 97.97552231481481,
+      "marks": 8,
+      "cash_pnl_usdc": 21.166951114738097,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 176.13136410326206,
+            "sampled_max_drawdown_pct": 0.8268408235663993,
+            "excess_vs_cash_usdc": 154.96441298852397
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 156.77911802651897,
+            "sampled_max_drawdown_pct": 0.8523235168130805,
+            "excess_vs_cash_usdc": 135.6121669117809
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 140.7330724522194,
+            "sampled_max_drawdown_pct": 0.879358643211503,
+            "excess_vs_cash_usdc": 119.5661213374813
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 158.74534873412267,
+            "sampled_max_drawdown_pct": 1.471235206431587,
+            "excess_vs_cash_usdc": 137.5783976193846
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 139.54764475495904,
+            "sampled_max_drawdown_pct": 1.4965555911408357,
+            "excess_vs_cash_usdc": 118.38069364022094
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 123.62973880492427,
+            "sampled_max_drawdown_pct": 1.523417806404903,
+            "excess_vs_cash_usdc": 102.46278769018618
+          }
+        }
+      }
+    },
+    {
+      "label": "2026 Q1",
+      "first_mark_utc": "2026-01-07T23:21:41.981000+00:00",
+      "last_mark_utc": "2026-04-01T23:56:40.940000+00:00",
+      "days": 84.02429350694445,
+      "marks": 7,
+      "cash_pnl_usdc": 18.139258486805865,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 145.243777435413,
+            "sampled_max_drawdown_pct": 0.14654643663981615,
+            "excess_vs_cash_usdc": 127.10451894860714
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 138.54077169154834,
+            "sampled_max_drawdown_pct": 0.14669226280787928,
+            "excess_vs_cash_usdc": 120.40151320474249
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 132.55533946187325,
+            "sampled_max_drawdown_pct": 0.14682325232080462,
+            "excess_vs_cash_usdc": 114.41608097506739
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 128.10442244946262,
+            "sampled_max_drawdown_pct": 0.7953664312813635,
+            "excess_vs_cash_usdc": 109.96516396265676
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 121.45494519855174,
+            "sampled_max_drawdown_pct": 0.7955124767369037,
+            "excess_vs_cash_usdc": 103.31568671174588
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 115.51731110290393,
+            "sampled_max_drawdown_pct": 0.7956436632265307,
+            "excess_vs_cash_usdc": 97.37805261609807
+          }
+        }
+      }
+    },
+    {
+      "label": "2026 Q2",
+      "first_mark_utc": "2026-04-01T23:56:40.940000+00:00",
+      "last_mark_utc": "2026-06-24T23:44:48.450000+00:00",
+      "days": 83.99175358796296,
+      "marks": 7,
+      "cash_pnl_usdc": 18.13220198494303,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": -12.86054687742353,
+            "sampled_max_drawdown_pct": 0.643027343871172,
+            "excess_vs_cash_usdc": -30.99274886236656
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": -13.268641283645138,
+            "sampled_max_drawdown_pct": 0.6634320641822566,
+            "excess_vs_cash_usdc": -31.40084326858817
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": -13.719996455471573,
+            "sampled_max_drawdown_pct": 0.6859998227735753,
+            "excess_vs_cash_usdc": -31.852198440414604
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": -28.73732108494596,
+            "sampled_max_drawdown_pct": 1.4368660542472989,
+            "excess_vs_cash_usdc": -46.86952306988899
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": -29.142156553403765,
+            "sampled_max_drawdown_pct": 1.4571078276701899,
+            "excess_vs_cash_usdc": -47.274358538346796
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": -29.589907318034648,
+            "sampled_max_drawdown_pct": 1.4794953659017285,
+            "excess_vs_cash_usdc": -47.72210930297768
+          }
+        }
+      }
+    },
+    {
+      "label": "2026 Q3",
+      "first_mark_utc": "2026-06-24T23:44:48.450000+00:00",
+      "last_mark_utc": "2026-09-30T23:52:41.698000+00:00",
+      "days": 98.00547740740741,
+      "marks": 8,
+      "cash_pnl_usdc": 21.17345684683647,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 11.168492467006445,
+            "sampled_max_drawdown_pct": 0.1496479297702913,
+            "excess_vs_cash_usdc": -10.004964379830025
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 11.359511701320343,
+            "sampled_max_drawdown_pct": 0.1496432170390638,
+            "excess_vs_cash_usdc": -9.813945145516126
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 11.5824146324519,
+            "sampled_max_drawdown_pct": 0.14963771882019472,
+            "excess_vs_cash_usdc": -9.591042214384569
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": -4.900171515398597,
+            "sampled_max_drawdown_pct": 0.7984725883112942,
+            "excess_vs_cash_usdc": -26.073628362235066
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": -4.7106777119327035,
+            "sampled_max_drawdown_pct": 0.7984678684932467,
+            "excess_vs_cash_usdc": -25.884134558769173
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": -4.489554826714311,
+            "sampled_max_drawdown_pct": 0.7984623620063802,
+            "excess_vs_cash_usdc": -25.66301167355078
+          }
+        }
+      }
+    },
+    {
+      "label": "2026 Q4",
+      "first_mark_utc": "2026-09-30T23:52:41.698000+00:00",
+      "last_mark_utc": "2026-11-22T22:10:32.841000+00:00",
+      "days": 52.92906415509259,
+      "marks": 5,
+      "cash_pnl_usdc": 11.407288620169709,
+      "cases": {
+        "base": {
+          "flow_at_end": {
+            "net_pnl_usdc": 25.95536744328615,
+            "sampled_max_drawdown_pct": 0.1492857423525895,
+            "excess_vs_cash_usdc": 14.548078823116441
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 27.731127202696598,
+            "sampled_max_drawdown_pct": 0.14924260226526487,
+            "excess_vs_cash_usdc": 16.32383858252689
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 29.81660966863319,
+            "sampled_max_drawdown_pct": 0.14919203414252014,
+            "excess_vs_cash_usdc": 18.409321048463482
+          }
+        },
+        "stress": {
+          "flow_at_end": {
+            "net_pnl_usdc": 9.768619251614837,
+            "sampled_max_drawdown_pct": 0.7981098562508504,
+            "excess_vs_cash_usdc": -1.638669368554872
+          },
+          "flow_at_midpoint": {
+            "net_pnl_usdc": 11.530198246842701,
+            "sampled_max_drawdown_pct": 0.7980666512912182,
+            "excess_vs_cash_usdc": 0.12290962667299254
+          },
+          "flow_at_start": {
+            "net_pnl_usdc": 13.599026582117858,
+            "sampled_max_drawdown_pct": 0.7980160071261788,
+            "excess_vs_cash_usdc": 2.1917379619481494
+          }
+        }
+      }
+    }
+  ]
+}
