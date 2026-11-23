@@ -1,0 +1,4180 @@
+{
+  "data": {
+    "sessions": 2486,
+    "distributions": 40,
+    "amount_differences": [
+      {
+        "ex_date": "2018-12-24",
+        "issuer_amount": "0.4206",
+        "exchange_amount": "0.42061"
+      }
+    ],
+    "issuer_market_price_check": {
+      "day": "2026-11-20",
+      "open_matches": true,
+      "close_matches": true
+    },
+    "sources": {
+      "nasdaq-qqq-historical.json": {
+        "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2017-01-01&todate=2026-11-20&limit=5000",
+        "sha256": "20ed5ffb8698274216c7019d0630631cefa930d966cbbb37cdf402fd9671a3d7"
+      },
+      "nasdaq-qqq-dividends.json": {
+        "url": "https://api.nasdaq.com/api/quote/QQQ/dividends?assetclass=etf",
+        "sha256": "6ed68a3e308ada901b0fe41e99cea5835cf68e23895b0fc4b527b0b3d190b68c"
+      },
+      "invesco-qqq-distribution.json": {
+        "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/distribution?idType=cusip&productType=ETF",
+        "sha256": "8cac48440d684d73a51016d1b98323b2ffd85a378bd82f987c43c807f0ae1aa2"
+      },
+      "invesco-qqq-prices.json": {
+        "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/prices?idType=cusip&variationType=priceListing&productType=ETF",
+        "sha256": "74607c1975ff7284e83c9c0c58c368439696957e818e90c2467f1f87d3cbdbce"
+      }
+    }
+  },
+  "vintages": [
+    {
+      "start": "2018-01-02",
+      "end": "2019-12-31",
+      "sessions": 503,
+      "cash_zero_pnl_usd": 0,
+      "cash_4_percent_pnl_usd": 8130.968220495305,
+      "scenarios": [
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 22100.118887431585,
+            "return": 0.22100118887431575,
+            "annualized_return": 0.10536812732381629,
+            "maximum_drawdown": 0.13783443709061638,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1314.50979,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 65.84260599998348,
+            "sell_fees_usd": 10.188296568450001,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 626,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 627,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 572,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 573,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 24074.55702952514,
+            "return": 0.24074557029525145,
+            "annualized_return": 0.11430023733632533,
+            "maximum_drawdown": 0.13518003573914517,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1325.05804,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1754.608259688641,
+            "spread_and_slippage_usd": 66.48193399998328,
+            "sell_fees_usd": 10.2873361635,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 634,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 635,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 581,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 582,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 38052.92972191385,
+            "return": 0.38052929721913853,
+            "annualized_return": 0.17561001384390806,
+            "maximum_drawdown": 0.2276631781294498,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1921.17072,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 23.938273000002255,
+            "sell_fees_usd": 4.132725086160001,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": null
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2019-01-02",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 150.99,
+                "decision_day": null
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 191.51,
+                "decision_day": null
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 648,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 5,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 21791.60955737671,
+            "return": 0.21791609557376712,
+            "annualized_return": 0.10396598645455124,
+            "maximum_drawdown": 0.13841852126590481,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1312.50198,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 328.6361549999708,
+            "sell_fees_usd": 10.16626762335,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 625,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 626,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 570,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 571,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 23767.37132268306,
+            "return": 0.2376737132268305,
+            "annualized_return": 0.11291524467106195,
+            "maximum_drawdown": 0.1358689818637111,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1323.5136599999998,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1752.2817303924032,
+            "spread_and_slippage_usd": 332.04242499997054,
+            "sell_fees_usd": 10.271642709450001,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 633,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 634,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 580,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 581,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 37942.252278280066,
+            "return": 0.37942252278280075,
+            "annualized_return": 0.1751370560518586,
+            "maximum_drawdown": 0.22774009467057876,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1920.7130700000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 119.48609499999279,
+            "sell_fees_usd": 4.12469671995,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": null
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2019-01-02",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 150.99,
+                "decision_day": null
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 191.51,
+                "decision_day": null
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 647,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 21098.43682152468,
+            "return": 0.2109843682152468,
+            "annualized_return": 0.10080912313009494,
+            "maximum_drawdown": 0.14142854181132336,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1309.84021,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 983.1355199999826,
+            "sell_fees_usd": 10.12786847535,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 640,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 623,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 624,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 568,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 569,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 23037.461098293803,
+            "return": 0.2303746109829381,
+            "annualized_return": 0.10961744903299797,
+            "maximum_drawdown": 0.13768824537241375,
+            "exposure": 0.7967032967032966,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1320.3343,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1745.9906254864156,
+            "spread_and_slippage_usd": 993.2718599999823,
+            "sell_fees_usd": 10.2319671927,
+            "trade_count": 10,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-12-29"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "exit",
+                "shares": 640,
+                "reference": 170.08,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-01",
+                "kind": "enter",
+                "shares": 632,
+                "reference": 174.41,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-03",
+                "kind": "exit",
+                "shares": 633,
+                "reference": 173.52,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-01",
+                "kind": "enter",
+                "shares": 577,
+                "reference": 190.3,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 578,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 37680.31833504015,
+            "return": 0.3768031833504015,
+            "annualized_return": 0.17401698018493272,
+            "maximum_drawdown": 0.22759564379620456,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1918.83878,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 358.4898749999968,
+            "sell_fees_usd": 4.12056995985,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": null
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2019-01-02",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 150.99,
+                "decision_day": null
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 191.51,
+                "decision_day": null
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 647,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 22084.03128206964,
+            "return": 0.22084031282069638,
+            "annualized_return": 0.10529505458968447,
+            "maximum_drawdown": 0.14041543581664218,
+            "exposure": 0.7939560439560439,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1314.77406,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 65.94010200002018,
+            "sell_fees_usd": 10.202675930369999,
+            "trade_count": 11,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-11-30"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-02",
+                "kind": "exit",
+                "shares": 642,
+                "reference": 171.53,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-04",
+                "kind": "enter",
+                "shares": 628,
+                "reference": 175.37,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-04",
+                "kind": "exit",
+                "shares": 629,
+                "reference": 171.98,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-02",
+                "kind": "enter",
+                "shares": 571,
+                "reference": 189.19,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 573,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 24092.14980126133,
+            "return": 0.2409214980126133,
+            "annualized_return": 0.11437950521967388,
+            "maximum_drawdown": 0.13780682287481938,
+            "exposure": 0.7939560439560439,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1325.7064599999999,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1789.1717802236544,
+            "spread_and_slippage_usd": 66.57709300002048,
+            "sell_fees_usd": 10.30134596238,
+            "trade_count": 11,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-11-30"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-02",
+                "kind": "exit",
+                "shares": 642,
+                "reference": 171.53,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-04",
+                "kind": "enter",
+                "shares": 636,
+                "reference": 175.37,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-04",
+                "kind": "exit",
+                "shares": 637,
+                "reference": 171.98,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-02",
+                "kind": "enter",
+                "shares": 581,
+                "reference": 189.19,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 582,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 38052.92972191385,
+            "return": 0.38052929721913853,
+            "annualized_return": 0.17561001384390806,
+            "maximum_drawdown": 0.2276631781294498,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1921.17072,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 23.938273000002255,
+            "sell_fees_usd": 4.132725086160001,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": null
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2019-01-02",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 150.99,
+                "decision_day": null
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 191.51,
+                "decision_day": null
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 648,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 21091.724362338486,
+            "return": 0.21091724362338482,
+            "annualized_return": 0.10077850913670705,
+            "maximum_drawdown": 0.14281348826054008,
+            "exposure": 0.7939560439560439,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1310.48863,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 984.5919450000166,
+            "sell_fees_usd": 10.1423226615,
+            "trade_count": 11,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-11-30"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-02",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 171.53,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-04",
+                "kind": "enter",
+                "shares": 625,
+                "reference": 175.37,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-04",
+                "kind": "exit",
+                "shares": 626,
+                "reference": 171.98,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-02",
+                "kind": "enter",
+                "shares": 568,
+                "reference": 189.19,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 569,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 23052.674545536094,
+            "return": 0.230526745455361,
+            "annualized_return": 0.10968628398540758,
+            "maximum_drawdown": 0.14031765924836226,
+            "exposure": 0.7939560439560439,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1320.98272,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1780.4033017386814,
+            "spread_and_slippage_usd": 994.7054700000167,
+            "sell_fees_usd": 10.24600620255,
+            "trade_count": 11,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": "2017-11-30"
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-02",
+                "kind": "exit",
+                "shares": 641,
+                "reference": 171.53,
+                "decision_day": "2018-10-31"
+              },
+              {
+                "day": "2019-03-04",
+                "kind": "enter",
+                "shares": 634,
+                "reference": 175.37,
+                "decision_day": "2019-02-28"
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-06-04",
+                "kind": "exit",
+                "shares": 635,
+                "reference": 171.98,
+                "decision_day": "2019-05-31"
+              },
+              {
+                "day": "2019-07-02",
+                "kind": "enter",
+                "shares": 577,
+                "reference": 189.19,
+                "decision_day": "2019-06-28"
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 578,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 37680.31833504015,
+            "return": 0.3768031833504015,
+            "annualized_return": 0.17401698018493272,
+            "maximum_drawdown": 0.22759564379620456,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1918.83878,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 358.4898749999968,
+            "sell_fees_usd": 4.12056995985,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2018-01-02",
+                "kind": "enter",
+                "shares": 638,
+                "reference": 156.5,
+                "decision_day": null
+              },
+              {
+                "day": "2018-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 160.52,
+                "decision_day": null
+              },
+              {
+                "day": "2018-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 176.87,
+                "decision_day": null
+              },
+              {
+                "day": "2018-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 170.08,
+                "decision_day": null
+              },
+              {
+                "day": "2019-01-02",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 150.99,
+                "decision_day": null
+              },
+              {
+                "day": "2019-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 190.76,
+                "decision_day": null
+              },
+              {
+                "day": "2019-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 191.51,
+                "decision_day": null
+              },
+              {
+                "day": "2019-11-01",
+                "kind": "reinvest",
+                "shares": 2,
+                "reference": 197.93,
+                "decision_day": null
+              },
+              {
+                "day": "2019-12-31",
+                "kind": "terminal",
+                "shares": 647,
+                "reference": 212.61,
+                "decision_day": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "start": "2020-01-02",
+      "end": "2021-12-31",
+      "sessions": 505,
+      "cash_zero_pnl_usd": 0,
+      "cash_4_percent_pnl_usd": 8142.579997071797,
+      "scenarios": [
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 61503.588907452155,
+            "return": 0.6150358890745216,
+            "annualized_return": 0.2714675127307242,
+            "maximum_drawdown": 0.28538798984984837,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1408.65125,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 43.43556299999676,
+            "sell_fees_usd": 7.41677954787,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 402,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 405,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 61980.845251420484,
+            "return": 0.6198084525142049,
+            "annualized_return": 0.2733486377820744,
+            "maximum_drawdown": 0.2853849031044047,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1411.7218699999999,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 290.9488972748015,
+            "spread_and_slippage_usd": 43.49680199999676,
+            "sell_fees_usd": 7.42871385432,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 403,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 406,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 87484.8774299685,
+            "return": 0.8748487742996851,
+            "annualized_return": 0.3701368631760025,
+            "maximum_drawdown": 0.28538798984984837,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1607.8533100000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 28.80675599999023,
+            "sell_fees_usd": 5.6091240315,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": null
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 214.54,
+                "decision_day": null
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 470,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 5,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 61143.787126992946,
+            "return": 0.6114378712699295,
+            "annualized_return": 0.270047505087456,
+            "maximum_drawdown": 0.28549123101281915,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1405.58063,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 216.87161999997213,
+            "sell_fees_usd": 7.401883007100001,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 401,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 404,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 61780.08965459312,
+            "return": 0.6178008965459312,
+            "annualized_return": 0.2725576889764849,
+            "maximum_drawdown": 0.28548969308108896,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1410.9197199999999,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 288.95166666466463,
+            "spread_and_slippage_usd": 217.495989999972,
+            "sell_fees_usd": 7.425742071600001,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 403,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 406,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 87270.46084484254,
+            "return": 0.8727046084484253,
+            "annualized_return": 0.36935155024835487,
+            "maximum_drawdown": 0.28549123101281915,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1606.62046,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 144.08273499997733,
+            "sell_fees_usd": 5.606880157500001,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": null
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-05-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 339.23,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 470,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 60554.432836159016,
+            "return": 0.6055443283615902,
+            "annualized_return": 0.2677181142569567,
+            "maximum_drawdown": 0.2851939783392785,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1402.14732,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 649.0974599999925,
+            "sell_fees_usd": 7.377023841,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 465,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 400,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 403,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 61188.15303580498,
+            "return": 0.6118815303580498,
+            "annualized_return": 0.27022268675273264,
+            "maximum_drawdown": 0.2851879821114892,
+            "exposure": 0.9588477366255144,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1407.48641,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 287.61805483941345,
+            "spread_and_slippage_usd": 650.9705699999924,
+            "sell_fees_usd": 7.400859034500001,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": "2019-12-31"
+              },
+              {
+                "day": "2020-04-01",
+                "kind": "exit",
+                "shares": 465,
+                "reference": 184.81,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "enter",
+                "shares": 402,
+                "reference": 214.54,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 405,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 86937.7916845275,
+            "return": 0.8693779168452751,
+            "annualized_return": 0.36813224197783434,
+            "maximum_drawdown": 0.2851939783392785,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1605.6964400000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 432.3134849999988,
+            "sell_fees_usd": 5.6012704725,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": null
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 214.54,
+                "decision_day": null
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-05-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 339.23,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 470,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 60802.76627716349,
+            "return": 0.608027662771635,
+            "annualized_return": 0.26870015794135926,
+            "maximum_drawdown": 0.28538798984984837,
+            "exposure": 0.9561042524005487,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1402.51001,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 43.04583299999183,
+            "sell_fees_usd": 7.347899836530001,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-11-29"
+              },
+              {
+                "day": "2020-04-02",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 181.59,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-04",
+                "kind": "enter",
+                "shares": 400,
+                "reference": 211.61,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 403,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 61477.67383355019,
+            "return": 0.6147767383355018,
+            "annualized_return": 0.27136528808234317,
+            "maximum_drawdown": 0.2853849031044047,
+            "exposure": 0.9561042524005487,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1408.26301,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 300.5006849996166,
+            "spread_and_slippage_usd": 43.16809299999181,
+            "sell_fees_usd": 7.37176844943,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": "2019-11-29"
+              },
+              {
+                "day": "2020-04-02",
+                "kind": "exit",
+                "shares": 466,
+                "reference": 181.59,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-04",
+                "kind": "enter",
+                "shares": 402,
+                "reference": 211.61,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 405,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 87484.8774299685,
+            "return": 0.8748487742996851,
+            "annualized_return": 0.3701368631760025,
+            "maximum_drawdown": 0.28538798984984837,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1607.8533100000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 28.80675599999023,
+            "sell_fees_usd": 5.6091240315,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 466,
+                "reference": 214.4,
+                "decision_day": null
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 214.54,
+                "decision_day": null
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 470,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 60019.99903537726,
+            "return": 0.6001999903537727,
+            "annualized_return": 0.26560210227300773,
+            "maximum_drawdown": 0.2851939783392785,
+            "exposure": 0.9561042524005487,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1398.27455,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 644.2152599999979,
+            "sell_fees_usd": 7.320254622750001,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": "2019-11-29"
+              },
+              {
+                "day": "2020-04-02",
+                "kind": "exit",
+                "shares": 465,
+                "reference": 181.59,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-04",
+                "kind": "enter",
+                "shares": 399,
+                "reference": 211.61,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-11-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 271.73,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 402,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 60536.20379110862,
+            "return": 0.6053620379110862,
+            "annualized_return": 0.267645996981313,
+            "maximum_drawdown": 0.2851879821114892,
+            "exposure": 0.9561042524005487,
+            "entries": 2,
+            "distribution_cash_earned_usd": 1402.14732,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 303.0221533281301,
+            "spread_and_slippage_usd": 645.0935099999979,
+            "sell_fees_usd": 7.3321722195,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": "2019-11-29"
+              },
+              {
+                "day": "2020-04-02",
+                "kind": "exit",
+                "shares": 465,
+                "reference": 181.59,
+                "decision_day": "2020-03-31"
+              },
+              {
+                "day": "2020-05-04",
+                "kind": "enter",
+                "shares": 400,
+                "reference": 211.61,
+                "decision_day": "2020-04-30"
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-08-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 366.28,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 403,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 86937.7916845275,
+            "return": 0.8693779168452751,
+            "annualized_return": 0.36813224197783434,
+            "maximum_drawdown": 0.2851939783392785,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1605.6964400000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 432.3134849999988,
+            "sell_fees_usd": 5.6012704725,
+            "trade_count": 7,
+            "executions": [
+              {
+                "day": "2020-01-02",
+                "kind": "enter",
+                "shares": 465,
+                "reference": 214.4,
+                "decision_day": null
+              },
+              {
+                "day": "2020-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 214.54,
+                "decision_day": null
+              },
+              {
+                "day": "2020-08-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.05,
+                "decision_day": null
+              },
+              {
+                "day": "2021-01-04",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 315.11,
+                "decision_day": null
+              },
+              {
+                "day": "2021-05-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 339.23,
+                "decision_day": null
+              },
+              {
+                "day": "2021-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 386.56,
+                "decision_day": null
+              },
+              {
+                "day": "2021-12-31",
+                "kind": "terminal",
+                "shares": 470,
+                "reference": 397.85,
+                "decision_day": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "start": "2022-01-03",
+      "end": "2023-12-29",
+      "sessions": 501,
+      "cash_zero_pnl_usd": 0,
+      "cash_4_percent_pnl_usd": 8096.140371096139,
+      "scenarios": [
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 27826.49305480461,
+            "return": 0.278264930548046,
+            "annualized_return": 0.1316571222621994,
+            "maximum_drawdown": 0.15047563452846502,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 787.1314,
+            "ending_receivables_usd": 67.12624,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 40.98495400000644,
+            "sell_fees_usd": 6.553391195339999,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 310,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 311,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 32865.86869718676,
+            "return": 0.3286586869718675,
+            "annualized_return": 0.153917701387847,
+            "maximum_drawdown": 0.1504698011536385,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 818.09691,
+            "ending_receivables_usd": 69.71632,
+            "modeled_cash_interest_usd": 3658.6753198395227,
+            "spread_and_slippage_usd": 41.832729000006736,
+            "sell_fees_usd": 6.700803652619999,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 322,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 382.31,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 323,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 4022.592874525697,
+            "return": 0.04022592874525688,
+            "annualized_return": 0.020067250017686833,
+            "maximum_drawdown": 0.34774771070808386,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1176.7105900000001,
+            "ending_receivables_usd": 54.60752,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 20.43476949999507,
+            "sell_fees_usd": 3.1079459743199997,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": null
+              },
+              {
+                "day": "2022-05-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 312.83,
+                "decision_day": null
+              },
+              {
+                "day": "2022-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 281.495,
+                "decision_day": null
+              },
+              {
+                "day": "2023-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 382.31,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 253,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 5,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 27634.3897904233,
+            "return": 0.27634389790423297,
+            "annualized_return": 0.13079999961087818,
+            "maximum_drawdown": 0.15053531917531848,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 786.6591700000001,
+            "ending_receivables_usd": 67.12624,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 204.93860999997935,
+            "sell_fees_usd": 6.5507695767000005,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 309,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 322.09,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 311,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 32725.186006274947,
+            "return": 0.3272518600627494,
+            "annualized_return": 0.1533020024230216,
+            "maximum_drawdown": 0.15053050699814574,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 817.5613599999999,
+            "ending_receivables_usd": 69.71632,
+            "modeled_cash_interest_usd": 3655.251119338124,
+            "spread_and_slippage_usd": 209.14834999997873,
+            "sell_fees_usd": 6.698123063100001,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 322,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 323,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 3951.7032423283963,
+            "return": 0.03951703242328386,
+            "annualized_return": 0.01971697471320577,
+            "maximum_drawdown": 0.34769122060152136,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1175.52778,
+            "ending_receivables_usd": 54.60752,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 102.16783499998957,
+            "sell_fees_usd": 3.1067026716,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": null
+              },
+              {
+                "day": "2022-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 313.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-01-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 382.31,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 253,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 27107.941456641478,
+            "return": 0.2710794145664148,
+            "annualized_return": 0.1284478161765883,
+            "maximum_drawdown": 0.15068473813956218,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 784.12334,
+            "ending_receivables_usd": 66.9104,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 613.7599349999875,
+            "sell_fees_usd": 6.5319483585,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 308,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 322.09,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 310,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 32182.3835194266,
+            "return": 0.32182383519426594,
+            "annualized_return": 0.1509233822985241,
+            "maximum_drawdown": 0.15068248250420968,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 815.02553,
+            "ending_receivables_usd": 69.50048,
+            "modeled_cash_interest_usd": 3647.316298844379,
+            "spread_and_slippage_usd": 626.3891549999871,
+            "sell_fees_usd": 6.6791544176999995,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-12-31"
+              },
+              {
+                "day": "2022-02-01",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 364.43,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-01",
+                "kind": "enter",
+                "shares": 321,
+                "reference": 294.41,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 322,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 3777.4710155851935,
+            "return": 0.037774710155851876,
+            "annualized_return": 0.018855565611363367,
+            "maximum_drawdown": 0.3480394540302415,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1174.9922299999998,
+            "ending_receivables_usd": 54.60752,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 306.4576199999975,
+            "sell_fees_usd": 3.1035944148000003,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": null
+              },
+              {
+                "day": "2022-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 313.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-01-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 253,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 24139.195344145148,
+            "return": 0.24139195344145148,
+            "annualized_return": 0.11509192093784715,
+            "maximum_drawdown": 0.15047563452846502,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 764.30893,
+            "ending_receivables_usd": 65.18368,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 40.880782999988924,
+            "sell_fees_usd": 6.48280285488,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-11-30"
+              },
+              {
+                "day": "2022-02-02",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 369.76,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-02",
+                "kind": "enter",
+                "shares": 301,
+                "reference": 307.57,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 302,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 29070.652767875697,
+            "return": 0.29070652767875704,
+            "annualized_return": 0.1371928840379133,
+            "maximum_drawdown": 0.1504698011536385,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 795.27444,
+            "ending_receivables_usd": 67.77376,
+            "modeled_cash_interest_usd": 3708.692893187938,
+            "spread_and_slippage_usd": 41.74434999998891,
+            "sell_fees_usd": 6.63021531216,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-11-30"
+              },
+              {
+                "day": "2022-02-02",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 369.76,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-02",
+                "kind": "enter",
+                "shares": 313,
+                "reference": 307.57,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 382.31,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 314,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 4022.592874525697,
+            "return": 0.04022592874525688,
+            "annualized_return": 0.020067250017686833,
+            "maximum_drawdown": 0.34774771070808386,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1176.7105900000001,
+            "ending_receivables_usd": 54.60752,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 20.43476949999507,
+            "sell_fees_usd": 3.1079459743199997,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": null
+              },
+              {
+                "day": "2022-05-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 312.83,
+                "decision_day": null
+              },
+              {
+                "day": "2022-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 281.495,
+                "decision_day": null
+              },
+              {
+                "day": "2023-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 382.31,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 253,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 23448.461521148376,
+            "return": 0.23448461521148367,
+            "annualized_return": 0.11196176856824569,
+            "maximum_drawdown": 0.15068473813956218,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 761.3008699999999,
+            "ending_receivables_usd": 64.96784,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 612.1578900000045,
+            "sell_fees_usd": 6.4614588516,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-11-30"
+              },
+              {
+                "day": "2022-02-02",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 369.76,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-02",
+                "kind": "enter",
+                "shares": 299,
+                "reference": 307.57,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 322.09,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 301,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 28389.430005298433,
+            "return": 0.2838943000529843,
+            "annualized_return": 0.13416514933761192,
+            "maximum_drawdown": 0.15068248250420968,
+            "exposure": 0.496551724137931,
+            "entries": 2,
+            "distribution_cash_earned_usd": 791.73083,
+            "ending_receivables_usd": 67.55792,
+            "modeled_cash_interest_usd": 3700.1933502093093,
+            "spread_and_slippage_usd": 625.0655100000042,
+            "sell_fees_usd": 6.6086649108,
+            "trade_count": 6,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": "2021-11-30"
+              },
+              {
+                "day": "2022-02-02",
+                "kind": "exit",
+                "shares": 250,
+                "reference": 369.76,
+                "decision_day": "2022-01-31"
+              },
+              {
+                "day": "2023-02-02",
+                "kind": "enter",
+                "shares": 311,
+                "reference": 307.57,
+                "decision_day": "2023-01-31"
+              },
+              {
+                "day": "2023-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 322.09,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 313,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 3777.4710155851935,
+            "return": 0.037774710155851876,
+            "annualized_return": 0.018855565611363367,
+            "maximum_drawdown": 0.3480394540302415,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1174.9922299999998,
+            "ending_receivables_usd": 54.60752,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 306.4576199999975,
+            "sell_fees_usd": 3.1035944148000003,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2022-01-03",
+                "kind": "enter",
+                "shares": 250,
+                "reference": 399.05,
+                "decision_day": null
+              },
+              {
+                "day": "2022-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 313.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-01-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 268.65,
+                "decision_day": null
+              },
+              {
+                "day": "2023-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 351.72,
+                "decision_day": null
+              },
+              {
+                "day": "2023-12-29",
+                "kind": "terminal",
+                "shares": 253,
+                "reference": 409.52,
+                "decision_day": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "start": "2024-01-02",
+      "end": "2026-11-20",
+      "sessions": 726,
+      "cash_zero_pnl_usd": 0,
+      "cash_4_percent_pnl_usd": 11971.212920994856,
+      "scenarios": [
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 19267.25881853694,
+            "return": 0.19267258818536948,
+            "annualized_return": 0.06302290666608723,
+            "maximum_drawdown": 0.19908034016490284,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1813.5619499999998,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 71.34885899998994,
+            "sell_fees_usd": 10.964272463100002,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 224,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 225,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 195,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-10-09",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 752.55,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 196,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 20523.602560807994,
+            "return": 0.20523602560807985,
+            "annualized_return": 0.06689373408776556,
+            "maximum_drawdown": 0.19824290124152333,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1821.0306500000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1229.956803601302,
+            "spread_and_slippage_usd": 71.58492599998988,
+            "sell_fees_usd": 10.999966793310001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 225,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2025-11-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 635.11,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 226,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 197,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 197,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 52080.58367901217,
+            "return": 0.5208058367901216,
+            "annualized_return": 0.1565255140809827,
+            "maximum_drawdown": 0.22685394756049837,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1965.55467,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 25.2863239999989,
+            "sell_fees_usd": 4.54466698785,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": null
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 483.41,
+                "decision_day": null
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 249,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 5,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 19056.532743735603,
+            "return": 0.190565327437356,
+            "annualized_return": 0.062371049757996566,
+            "maximum_drawdown": 0.19884094812213216,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1812.29398,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 355.51702999994717,
+            "sell_fees_usd": 10.924206264450001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 223,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2025-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 558.83,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 224,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 195,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 195,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 20232.607915089073,
+            "return": 0.20232607915089074,
+            "annualized_return": 0.06599952586219082,
+            "maximum_drawdown": 0.1988896574069573,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1819.5597100000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1225.4577464555214,
+            "spread_and_slippage_usd": 357.9239749999468,
+            "sell_fees_usd": 10.995566366550001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 225,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-01-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 620.06,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 226,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 197,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 197,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 51965.01647106078,
+            "return": 0.5196501647106078,
+            "annualized_return": 0.15622059420911727,
+            "maximum_drawdown": 0.2269465757788247,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1964.87781,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 126.43848999999494,
+            "sell_fees_usd": 4.542848939250001,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": null
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 483.41,
+                "decision_day": null
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 249,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 1,
+          "trend": {
+            "net_pnl_usd": 18395.80565952639,
+            "return": 0.18395805659526387,
+            "annualized_return": 0.06032226775335414,
+            "maximum_drawdown": 0.1995477468573058,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1808.50821,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 1064.6474999999937,
+            "sell_fees_usd": 10.895050473600001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 223,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 224,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 194,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 194,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 19491.255999051835,
+            "return": 0.19491255999051837,
+            "annualized_return": 0.06371499195663155,
+            "maximum_drawdown": 0.19970435326166525,
+            "exposure": 0.912630579297246,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1815.97691,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1218.528014998403,
+            "spread_and_slippage_usd": 1070.2300049999935,
+            "sell_fees_usd": 10.9489209465,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-12-29"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-01",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 467.3,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-02",
+                "kind": "enter",
+                "shares": 224,
+                "reference": 517.24,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2025-11-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 635.11,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-01",
+                "kind": "exit",
+                "shares": 225,
+                "reference": 581.48,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-01",
+                "kind": "enter",
+                "shares": 196,
+                "reference": 669.16,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 196,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 51371.9187511823,
+            "return": 0.513719187511823,
+            "annualized_return": 0.15465333960619598,
+            "maximum_drawdown": 0.2271171337688701,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1962.02783,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 379.820774999985,
+            "sell_fees_usd": 4.538303817750001,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": null
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-11-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 635.11,
+                "decision_day": null
+              },
+              {
+                "day": "2026-10-09",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 752.55,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 249,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 1,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 15049.8107971282,
+            "return": 0.15049810797128194,
+            "annualized_return": 0.04983067323750223,
+            "maximum_drawdown": 0.1990205928078782,
+            "exposure": 0.9107312440645774,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1793.5805200000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 70.06151200000517,
+            "sell_fees_usd": 10.70821087182,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-11-30"
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-02",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 466.12,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-03",
+                "kind": "enter",
+                "shares": 220,
+                "reference": 523.56,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2025-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 558.83,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-02",
+                "kind": "exit",
+                "shares": 221,
+                "reference": 573.97,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-04",
+                "kind": "enter",
+                "shares": 188,
+                "reference": 674.66,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-10-09",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 752.55,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 189,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 16205.796145112414,
+            "return": 0.16205796145112417,
+            "annualized_return": 0.053477608259735465,
+            "maximum_drawdown": 0.1991039697376641,
+            "exposure": 0.9107312440645774,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1800.84625,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1242.1028070896873,
+            "spread_and_slippage_usd": 70.54376300000519,
+            "sell_fees_usd": 10.7791489773,
+            "trade_count": 9,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-11-30"
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-02",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 466.12,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-03",
+                "kind": "enter",
+                "shares": 222,
+                "reference": 523.56,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-01-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 620.06,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-02",
+                "kind": "exit",
+                "shares": 223,
+                "reference": 573.97,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-04",
+                "kind": "enter",
+                "shares": 190,
+                "reference": 674.66,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-10-09",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 752.55,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 191,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 52080.58367901217,
+            "return": 0.5208058367901216,
+            "annualized_return": 0.1565255140809827,
+            "maximum_drawdown": 0.22685394756049837,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1965.55467,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 25.2863239999989,
+            "sell_fees_usd": 4.54466698785,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": null
+              },
+              {
+                "day": "2024-08-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 471.76,
+                "decision_day": null
+              },
+              {
+                "day": "2025-05-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 483.41,
+                "decision_day": null
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 249,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          }
+        },
+        {
+          "allowance_bps_per_side": 15,
+          "lag_sessions_after_signal": 2,
+          "trend": {
+            "net_pnl_usd": 14256.491174362221,
+            "return": 0.1425649117436223,
+            "annualized_return": 0.04731401652617473,
+            "maximum_drawdown": 0.19936219295753754,
+            "exposure": 0.9107312440645774,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1789.11789,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 1046.9899499999965,
+            "sell_fees_usd": 10.656765637800001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-11-30"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-02",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 466.12,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-03",
+                "kind": "enter",
+                "shares": 220,
+                "reference": 523.56,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-03-30",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 567.38,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-02",
+                "kind": "exit",
+                "shares": 221,
+                "reference": 573.97,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-04",
+                "kind": "enter",
+                "shares": 187,
+                "reference": 674.66,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 187,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "trend_with_cash_yield": {
+            "net_pnl_usd": 15357.786296089485,
+            "return": 0.15357786296089482,
+            "annualized_return": 0.05080461302979167,
+            "maximum_drawdown": 0.19951496561906823,
+            "exposure": 0.9107312440645774,
+            "entries": 3,
+            "distribution_cash_earned_usd": 1795.7925100000002,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 1234.9387922380658,
+            "spread_and_slippage_usd": 1052.5645949999964,
+            "sell_fees_usd": 10.710411148650001,
+            "trade_count": 8,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": "2023-11-30"
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-04-02",
+                "kind": "exit",
+                "shares": 247,
+                "reference": 466.12,
+                "decision_day": "2025-03-31"
+              },
+              {
+                "day": "2025-06-03",
+                "kind": "enter",
+                "shares": 221,
+                "reference": 523.56,
+                "decision_day": "2025-05-30"
+              },
+              {
+                "day": "2026-01-02",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 620.06,
+                "decision_day": null
+              },
+              {
+                "day": "2026-04-02",
+                "kind": "exit",
+                "shares": 222,
+                "reference": 573.97,
+                "decision_day": "2026-03-31"
+              },
+              {
+                "day": "2026-05-04",
+                "kind": "enter",
+                "shares": 189,
+                "reference": 674.66,
+                "decision_day": "2026-04-30"
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 189,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          },
+          "buy_hold": {
+            "net_pnl_usd": 51371.9187511823,
+            "return": 0.513719187511823,
+            "annualized_return": 0.15465333960619598,
+            "maximum_drawdown": 0.2271171337688701,
+            "exposure": 1.0,
+            "entries": 1,
+            "distribution_cash_earned_usd": 1962.02783,
+            "ending_receivables_usd": 0,
+            "modeled_cash_interest_usd": 0.0,
+            "spread_and_slippage_usd": 379.820774999985,
+            "sell_fees_usd": 4.538303817750001,
+            "trade_count": 5,
+            "executions": [
+              {
+                "day": "2024-01-02",
+                "kind": "enter",
+                "shares": 246,
+                "reference": 405.84,
+                "decision_day": null
+              },
+              {
+                "day": "2024-11-01",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 485.5,
+                "decision_day": null
+              },
+              {
+                "day": "2025-11-03",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 635.11,
+                "decision_day": null
+              },
+              {
+                "day": "2026-10-09",
+                "kind": "reinvest",
+                "shares": 1,
+                "reference": 752.55,
+                "decision_day": null
+              },
+              {
+                "day": "2026-11-20",
+                "kind": "terminal",
+                "shares": 249,
+                "reference": 608.45,
+                "decision_day": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
