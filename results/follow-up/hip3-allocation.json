@@ -1,0 +1,3806 @@
+{
+  "vintages": [
+    {
+      "start": "2026-01-05T16:00:00+00:00",
+      "end": "2026-04-06T16:00:00+00:00",
+      "cash_pnl_usd": 981.952007886644,
+      "passive_etfs": {
+        "pnl_usd": 127.44957620168861,
+        "maximum_drawdown": 0.10487989476307724,
+        "qqq_distributions_usd": 41.03792
+      },
+      "base": {
+        "gated": {
+          "pnl_usd": -4984.226198600503,
+          "maximum_drawdown": 0.09036293977679122,
+          "mean_gross_exposure": 0.29580893917363127,
+          "peak_gross_exposure": 0.7049356046080177,
+          "funding_paid_usd": {
+            "equity": -80.50148294815845,
+            "gold": 264.7890550396226
+          },
+          "fees_usd": 252.70736863388487,
+          "slippage_usd": 84.23538787500001,
+          "approved_sleeve_weeks": {
+            "equity": 8,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-01-05T16:00:00+00:00",
+              "market": "gold",
+              "change": 7.8628,
+              "price": 4451.3
+            },
+            {
+              "hour": "2026-01-12T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.8628,
+              "price": 4624.8
+            },
+            {
+              "hour": "2026-01-26T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.3742,
+              "price": 25738.0
+            },
+            {
+              "hour": "2026-02-02T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.3742,
+              "price": 25694.0
+            },
+            {
+              "hour": "2026-02-16T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.4348,
+              "price": 24599.0
+            },
+            {
+              "hour": "2026-02-23T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.0033000000000000806,
+              "price": 24680.0
+            },
+            {
+              "hour": "2026-03-02T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.007500000000000062,
+              "price": 24878.0
+            },
+            {
+              "hour": "2026-03-09T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.010399999999999965,
+              "price": 24612.0
+            },
+            {
+              "hour": "2026-03-09T16:00:00+00:00",
+              "market": "gold",
+              "change": 6.9222,
+              "price": 5100.2
+            },
+            {
+              "hour": "2026-03-16T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.0129999999999999,
+              "price": 24655.0
+            },
+            {
+              "hour": "2026-03-16T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.1072999999999995,
+              "price": 4985.6
+            },
+            {
+              "hour": "2026-03-23T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.0295,
+              "price": 4365.3
+            },
+            {
+              "hour": "2026-03-23T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.04469999999999996,
+              "price": 24158.0
+            },
+            {
+              "hour": "2026-03-30T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.03729999999999989,
+              "price": 23185.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.414,
+              "price": 24140.0
+            }
+          ],
+          "decisions": {
+            "2026-01-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05662444138928572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.03447412125,
+                "active": true
+              }
+            },
+            "2026-01-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.051583443514285725,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.31963539371785715,
+                "active": false
+              }
+            },
+            "2026-01-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05436855303214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11126495435357145,
+                "active": false
+              }
+            },
+            "2026-01-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.038313196167857146,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.10427371453928572,
+                "active": false
+              }
+            },
+            "2026-02-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.10259798406428573,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.23713410123214287,
+                "active": false
+              }
+            },
+            "2026-02-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05665597290000001,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11991722072142857,
+                "active": false
+              }
+            },
+            "2026-02-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.036906138375,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11327710095,
+                "active": false
+              }
+            },
+            "2026-02-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030318254571428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.09744503706428571,
+                "active": false
+              }
+            },
+            "2026-03-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.005708147871428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1570963626,
+                "active": false
+              }
+            },
+            "2026-03-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04408386440357143,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.031104961328571427,
+                "active": true
+              }
+            },
+            "2026-03-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.032844761871428575,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.02100681631071429,
+                "active": true
+              }
+            },
+            "2026-03-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.041392065825,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.103600350075,
+                "active": false
+              }
+            },
+            "2026-03-30T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030208862196428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07072266874285715,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": -758.545241378888,
+          "maximum_drawdown": 0.12429679454792741,
+          "mean_gross_exposure": 0.7004013131574534,
+          "peak_gross_exposure": 0.7113314134012807,
+          "funding_paid_usd": {
+            "equity": 79.01315666421237,
+            "gold": 908.1927138996632
+          },
+          "fees_usd": 146.55123948717358,
+          "slippage_usd": 48.850451328,
+          "approved_sleeve_weeks": {
+            "equity": 8,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-01-05T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.3745,
+              "price": 25462.0
+            },
+            {
+              "hour": "2026-01-05T16:00:00+00:00",
+              "market": "gold",
+              "change": 7.8628,
+              "price": 4451.3
+            },
+            {
+              "hour": "2026-01-12T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.18989999999999974,
+              "price": 4624.8
+            },
+            {
+              "hour": "2026-01-12T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.004899999999999904,
+              "price": 25724.0
+            },
+            {
+              "hour": "2026-01-19T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.12009999999999987,
+              "price": 4675.6
+            },
+            {
+              "hour": "2026-01-19T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.023700000000000054,
+              "price": 25167.0
+            },
+            {
+              "hour": "2026-01-26T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.35360000000000014,
+              "price": 5092.2
+            },
+            {
+              "hour": "2026-01-26T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.021199999999999886,
+              "price": 25738.0
+            },
+            {
+              "hour": "2026-02-02T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.04799999999999982,
+              "price": 25694.0
+            },
+            {
+              "hour": "2026-02-02T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.4559999999999995,
+              "price": 4619.4
+            },
+            {
+              "hour": "2026-02-09T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.4905999999999997,
+              "price": 5062.0
+            },
+            {
+              "hour": "2026-02-09T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.06259999999999999,
+              "price": 25204.0
+            },
+            {
+              "hour": "2026-02-16T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.00509999999999966,
+              "price": 4983.0
+            },
+            {
+              "hour": "2026-02-16T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.013399999999999856,
+              "price": 24599.0
+            },
+            {
+              "hour": "2026-02-23T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.18949999999999978,
+              "price": 5199.7
+            },
+            {
+              "hour": "2026-02-23T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.018299999999999983,
+              "price": 24680.0
+            },
+            {
+              "hour": "2026-03-02T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.08579999999999988,
+              "price": 5313.8
+            },
+            {
+              "hour": "2026-03-02T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.0020000000000000018,
+              "price": 24878.0
+            },
+            {
+              "hour": "2026-03-09T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.00990000000000002,
+              "price": 24612.0
+            },
+            {
+              "hour": "2026-03-09T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.1642999999999999,
+              "price": 5100.2
+            },
+            {
+              "hour": "2026-03-16T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.012599999999999945,
+              "price": 24655.0
+            },
+            {
+              "hour": "2026-03-16T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.11240000000000006,
+              "price": 4985.6
+            },
+            {
+              "hour": "2026-03-23T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.04559999999999986,
+              "price": 24158.0
+            },
+            {
+              "hour": "2026-03-23T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.6016000000000004,
+              "price": 4365.3
+            },
+            {
+              "hour": "2026-03-30T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.3108000000000004,
+              "price": 4548.2
+            },
+            {
+              "hour": "2026-03-30T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.05929999999999991,
+              "price": 23185.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.4638,
+              "price": 24140.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.4619,
+              "price": 4667.1
+            }
+          ],
+          "decisions": {
+            "2026-01-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05662444138928572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.03447412125,
+                "active": true
+              }
+            },
+            "2026-01-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.051583443514285725,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.31963539371785715,
+                "active": false
+              }
+            },
+            "2026-01-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05436855303214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11126495435357145,
+                "active": false
+              }
+            },
+            "2026-01-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.038313196167857146,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.10427371453928572,
+                "active": false
+              }
+            },
+            "2026-02-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.10259798406428573,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.23713410123214287,
+                "active": false
+              }
+            },
+            "2026-02-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05665597290000001,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11991722072142857,
+                "active": false
+              }
+            },
+            "2026-02-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.036906138375,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11327710095,
+                "active": false
+              }
+            },
+            "2026-02-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030318254571428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.09744503706428571,
+                "active": false
+              }
+            },
+            "2026-03-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.005708147871428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1570963626,
+                "active": false
+              }
+            },
+            "2026-03-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04408386440357143,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.031104961328571427,
+                "active": true
+              }
+            },
+            "2026-03-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.032844761871428575,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.02100681631071429,
+                "active": true
+              }
+            },
+            "2026-03-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.041392065825,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.103600350075,
+                "active": false
+              }
+            },
+            "2026-03-30T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030208862196428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07072266874285715,
+                "active": false
+              }
+            }
+          }
+        }
+      },
+      "stress": {
+        "gated": {
+          "pnl_usd": -5329.411106154934,
+          "maximum_drawdown": 0.09051010821766303,
+          "mean_gross_exposure": 0.29512783652956653,
+          "peak_gross_exposure": 0.7029861229422556,
+          "funding_paid_usd": {
+            "equity": -14.559247068815425,
+            "gold": 309.4720534175996
+          },
+          "fees_usd": 252.6410481011775,
+          "slippage_usd": 421.058601705,
+          "approved_sleeve_weeks": {
+            "equity": 8,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-01-05T20:00:00+00:00",
+              "market": "gold",
+              "change": 7.8763,
+              "price": 4443.7
+            },
+            {
+              "hour": "2026-01-12T20:00:00+00:00",
+              "market": "gold",
+              "change": -7.8763,
+              "price": 4614.2
+            },
+            {
+              "hour": "2026-01-26T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.3726,
+              "price": 25736.0
+            },
+            {
+              "hour": "2026-02-02T20:00:00+00:00",
+              "market": "equity",
+              "change": -1.3726,
+              "price": 25729.0
+            },
+            {
+              "hour": "2026-02-16T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.4332,
+              "price": 24583.0
+            },
+            {
+              "hour": "2026-02-23T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0032000000000000917,
+              "price": 24641.0
+            },
+            {
+              "hour": "2026-03-02T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.014999999999999902,
+              "price": 25042.0
+            },
+            {
+              "hour": "2026-03-09T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.0034000000000000696,
+              "price": 24957.0
+            },
+            {
+              "hour": "2026-03-09T20:00:00+00:00",
+              "market": "gold",
+              "change": 6.887,
+              "price": 5140.0
+            },
+            {
+              "hour": "2026-03-16T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0024000000000001798,
+              "price": 24655.0
+            },
+            {
+              "hour": "2026-03-16T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.08250000000000046,
+              "price": 5009.3
+            },
+            {
+              "hour": "2026-03-23T20:00:00+00:00",
+              "market": "gold",
+              "change": -6.9695,
+              "price": 4402.3
+            },
+            {
+              "hour": "2026-03-23T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.04399999999999982,
+              "price": 24179.0
+            },
+            {
+              "hour": "2026-03-30T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.04699999999999993,
+              "price": 22946.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.419,
+              "price": 24140.0
+            }
+          ],
+          "decisions": {
+            "2026-01-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05662444138928572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.03447412125,
+                "active": true
+              }
+            },
+            "2026-01-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.051583443514285725,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.31963539371785715,
+                "active": false
+              }
+            },
+            "2026-01-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05436855303214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11126495435357145,
+                "active": false
+              }
+            },
+            "2026-01-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.038313196167857146,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.10427371453928572,
+                "active": false
+              }
+            },
+            "2026-02-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.10259798406428573,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.23713410123214287,
+                "active": false
+              }
+            },
+            "2026-02-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05665597290000001,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11991722072142857,
+                "active": false
+              }
+            },
+            "2026-02-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.036906138375,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11327710095,
+                "active": false
+              }
+            },
+            "2026-02-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030318254571428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.09744503706428571,
+                "active": false
+              }
+            },
+            "2026-03-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.005708147871428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1570963626,
+                "active": false
+              }
+            },
+            "2026-03-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04408386440357143,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.031104961328571427,
+                "active": true
+              }
+            },
+            "2026-03-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.032844761871428575,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.02100681631071429,
+                "active": true
+              }
+            },
+            "2026-03-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.041392065825,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.103600350075,
+                "active": false
+              }
+            },
+            "2026-03-30T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030208862196428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07072266874285715,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": -1098.133307528362,
+          "maximum_drawdown": 0.12644217256456292,
+          "mean_gross_exposure": 0.6988973297084065,
+          "peak_gross_exposure": 0.7127548749594215,
+          "funding_paid_usd": {
+            "equity": 171.17358725362047,
+            "gold": 1057.9880150359088
+          },
+          "fees_usd": 144.599783559012,
+          "slippage_usd": 241.00080167999994,
+          "approved_sleeve_weeks": {
+            "equity": 8,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-01-05T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.3794,
+              "price": 25372.0
+            },
+            {
+              "hour": "2026-01-05T20:00:00+00:00",
+              "market": "gold",
+              "change": 7.8763,
+              "price": 4443.7
+            },
+            {
+              "hour": "2026-01-12T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.17499999999999982,
+              "price": 4614.2
+            },
+            {
+              "hour": "2026-01-12T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0038000000000000256,
+              "price": 25832.0
+            },
+            {
+              "hour": "2026-01-19T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.12959999999999994,
+              "price": 4670.5
+            },
+            {
+              "hour": "2026-01-19T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.024700000000000166,
+              "price": 25253.0
+            },
+            {
+              "hour": "2026-01-26T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.31039999999999957,
+              "price": 5027.0
+            },
+            {
+              "hour": "2026-01-26T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.017999999999999794,
+              "price": 25736.0
+            },
+            {
+              "hour": "2026-02-02T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.03709999999999991,
+              "price": 25729.0
+            },
+            {
+              "hour": "2026-02-02T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.32010000000000005,
+              "price": 4687.5
+            },
+            {
+              "hour": "2026-02-09T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.4311000000000007,
+              "price": 5078.0
+            },
+            {
+              "hour": "2026-02-09T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.05459999999999998,
+              "price": 25288.0
+            },
+            {
+              "hour": "2026-02-16T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.01629999999999998,
+              "price": 24583.0
+            },
+            {
+              "hour": "2026-02-23T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.19979999999999976,
+              "price": 5218.4
+            },
+            {
+              "hour": "2026-02-23T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.01980000000000004,
+              "price": 24641.0
+            },
+            {
+              "hour": "2026-03-02T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.060900000000000176,
+              "price": 5325.0
+            },
+            {
+              "hour": "2026-03-02T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.006899999999999906,
+              "price": 25042.0
+            },
+            {
+              "hour": "2026-03-09T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.014100000000000001,
+              "price": 24957.0
+            },
+            {
+              "hour": "2026-03-09T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.15510000000000002,
+              "price": 5140.0
+            },
+            {
+              "hour": "2026-03-16T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0013000000000000789,
+              "price": 24655.0
+            },
+            {
+              "hour": "2026-03-16T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.09020000000000028,
+              "price": 5009.3
+            },
+            {
+              "hour": "2026-03-23T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.04499999999999993,
+              "price": 24179.0
+            },
+            {
+              "hour": "2026-03-23T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.5800000000000001,
+              "price": 4402.3
+            },
+            {
+              "hour": "2026-03-30T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.2641,
+              "price": 4516.0
+            },
+            {
+              "hour": "2026-03-30T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.061799999999999855,
+              "price": 22946.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.4664,
+              "price": 24140.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.4508,
+              "price": 4667.1
+            }
+          ],
+          "decisions": {
+            "2026-01-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05662444138928572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.03447412125,
+                "active": true
+              }
+            },
+            "2026-01-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.051583443514285725,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.31963539371785715,
+                "active": false
+              }
+            },
+            "2026-01-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05436855303214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11126495435357145,
+                "active": false
+              }
+            },
+            "2026-01-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.038313196167857146,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.10427371453928572,
+                "active": false
+              }
+            },
+            "2026-02-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.10259798406428573,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.23713410123214287,
+                "active": false
+              }
+            },
+            "2026-02-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05665597290000001,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.11991722072142857,
+                "active": false
+              }
+            },
+            "2026-02-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.036906138375,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11327710095,
+                "active": false
+              }
+            },
+            "2026-02-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030318254571428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.09744503706428571,
+                "active": false
+              }
+            },
+            "2026-03-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.005708147871428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1570963626,
+                "active": false
+              }
+            },
+            "2026-03-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04408386440357143,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.031104961328571427,
+                "active": true
+              }
+            },
+            "2026-03-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.032844761871428575,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.02100681631071429,
+                "active": true
+              }
+            },
+            "2026-03-23T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.041392065825,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.103600350075,
+                "active": false
+              }
+            },
+            "2026-03-30T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.030208862196428574,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07072266874285715,
+                "active": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-04-06T16:00:00+00:00",
+      "end": "2026-07-06T16:00:00+00:00",
+      "cash_pnl_usd": 981.952007886644,
+      "passive_etfs": {
+        "pnl_usd": 4304.365668496728,
+        "maximum_drawdown": 0.0566610186188663,
+        "qqq_distributions_usd": 47.99591
+      },
+      "base": {
+        "gated": {
+          "pnl_usd": 7108.40413197325,
+          "maximum_drawdown": 0.015553965005115855,
+          "mean_gross_exposure": 0.21697792973126312,
+          "peak_gross_exposure": 0.7095166831914334,
+          "funding_paid_usd": {
+            "equity": -85.23508934127226,
+            "gold": 46.248142984246556
+          },
+          "fees_usd": 133.48178408874148,
+          "slippage_usd": 44.494580295000006,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.4498,
+              "price": 24140.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "gold",
+              "change": 7.4993,
+              "price": 4667.1
+            },
+            {
+              "hour": "2026-04-13T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03249999999999997,
+              "price": 25137.0
+            },
+            {
+              "hour": "2026-04-13T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.0602999999999998,
+              "price": 4713.0
+            },
+            {
+              "hour": "2026-04-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03810000000000002,
+              "price": 26498.0
+            },
+            {
+              "hour": "2026-04-20T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.052400000000000446,
+              "price": 4801.3
+            },
+            {
+              "hour": "2026-04-27T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.612,
+              "price": 4671.7
+            },
+            {
+              "hour": "2026-04-27T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03729999999999989,
+              "price": 27221.0
+            },
+            {
+              "hour": "2026-05-04T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.012800000000000145,
+              "price": 27613.0
+            },
+            {
+              "hour": "2026-05-11T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.3291,
+              "price": 29362.0
+            }
+          ],
+          "decisions": {
+            "2026-04-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.055119705310714286,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.05803847545714286,
+                "active": true
+              }
+            },
+            "2026-04-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.10698188153571428,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.025415300325,
+                "active": true
+              }
+            },
+            "2026-04-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04321647913928571,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.0004960721142857174,
+                "active": true
+              }
+            },
+            "2026-04-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.002899375371428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.091644183525,
+                "active": false
+              }
+            },
+            "2026-05-04T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.02380547138571429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11213752095,
+                "active": false
+              }
+            },
+            "2026-05-11T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.045353958664285716,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08006373399642858,
+                "active": false
+              }
+            },
+            "2026-05-18T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.048898229871428577,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09108252294642857,
+                "active": false
+              }
+            },
+            "2026-05-25T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055043973332142865,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07925751245357143,
+                "active": false
+              }
+            },
+            "2026-06-01T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055103430814285724,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06432971364642857,
+                "active": false
+              }
+            },
+            "2026-06-08T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.060557056832142866,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.05816713216071429,
+                "active": false
+              }
+            },
+            "2026-06-15T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06218592573214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07825788060000001,
+                "active": false
+              }
+            },
+            "2026-06-22T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.07985958011785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.0719677746857143,
+                "active": false
+              }
+            },
+            "2026-06-29T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06712556151428571,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.12771554302500002,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": 2478.4023459861055,
+          "maximum_drawdown": 0.0697993235062323,
+          "mean_gross_exposure": 0.7000357028881321,
+          "peak_gross_exposure": 0.7118355987128988,
+          "funding_paid_usd": {
+            "equity": 255.43519173064567,
+            "gold": 657.905900636387
+          },
+          "fees_usd": 140.72885962679518,
+          "slippage_usd": 46.90994202,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.4498,
+              "price": 24140.0
+            },
+            {
+              "hour": "2026-04-06T16:00:00+00:00",
+              "market": "gold",
+              "change": 7.4993,
+              "price": 4667.1
+            },
+            {
+              "hour": "2026-04-13T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03249999999999997,
+              "price": 25137.0
+            },
+            {
+              "hour": "2026-04-13T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.0602999999999998,
+              "price": 4713.0
+            },
+            {
+              "hour": "2026-04-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03810000000000002,
+              "price": 26498.0
+            },
+            {
+              "hour": "2026-04-20T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.052400000000000446,
+              "price": 4801.3
+            },
+            {
+              "hour": "2026-04-27T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03729999999999989,
+              "price": 27221.0
+            },
+            {
+              "hour": "2026-04-27T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.20690000000000008,
+              "price": 4671.7
+            },
+            {
+              "hour": "2026-05-04T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.028000000000000025,
+              "price": 27613.0
+            },
+            {
+              "hour": "2026-05-04T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.20279999999999898,
+              "price": 4523.1
+            },
+            {
+              "hour": "2026-05-11T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.07039999999999935,
+              "price": 4735.1
+            },
+            {
+              "hour": "2026-05-11T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.03170000000000006,
+              "price": 29362.0
+            },
+            {
+              "hour": "2026-05-18T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.006199999999999983,
+              "price": 28906.0
+            },
+            {
+              "hour": "2026-05-18T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.1612000000000009,
+              "price": 4546.8
+            },
+            {
+              "hour": "2026-05-25T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.025100000000000122,
+              "price": 29851.0
+            },
+            {
+              "hour": "2026-05-25T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.058099999999999596,
+              "price": 4570.1
+            },
+            {
+              "hour": "2026-06-01T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.025799999999999823,
+              "price": 30449.0
+            },
+            {
+              "hour": "2026-06-01T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.16359999999999886,
+              "price": 4475.9
+            },
+            {
+              "hour": "2026-06-08T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.009299999999999864,
+              "price": 29571.0
+            },
+            {
+              "hour": "2026-06-08T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.07460000000000022,
+              "price": 4341.1
+            },
+            {
+              "hour": "2026-06-15T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.025900000000000034,
+              "price": 30579.0
+            },
+            {
+              "hour": "2026-06-15T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.0705000000000009,
+              "price": 4358.3
+            },
+            {
+              "hour": "2026-06-22T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.009899999999999798,
+              "price": 30262.0
+            },
+            {
+              "hour": "2026-06-22T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.18590000000000018,
+              "price": 4186.0
+            },
+            {
+              "hour": "2026-06-29T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.0006999999999999229,
+              "price": 29568.0
+            },
+            {
+              "hour": "2026-06-29T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.13400000000000034,
+              "price": 4030.1
+            },
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1993,
+              "price": 29835.0
+            },
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "gold",
+              "change": -8.7992,
+              "price": 4148.9
+            }
+          ],
+          "decisions": {
+            "2026-04-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.055119705310714286,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.05803847545714286,
+                "active": true
+              }
+            },
+            "2026-04-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.10698188153571428,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.025415300325,
+                "active": true
+              }
+            },
+            "2026-04-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04321647913928571,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.0004960721142857174,
+                "active": true
+              }
+            },
+            "2026-04-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.002899375371428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.091644183525,
+                "active": false
+              }
+            },
+            "2026-05-04T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.02380547138571429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11213752095,
+                "active": false
+              }
+            },
+            "2026-05-11T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.045353958664285716,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08006373399642858,
+                "active": false
+              }
+            },
+            "2026-05-18T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.048898229871428577,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09108252294642857,
+                "active": false
+              }
+            },
+            "2026-05-25T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055043973332142865,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07925751245357143,
+                "active": false
+              }
+            },
+            "2026-06-01T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055103430814285724,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06432971364642857,
+                "active": false
+              }
+            },
+            "2026-06-08T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.060557056832142866,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.05816713216071429,
+                "active": false
+              }
+            },
+            "2026-06-15T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06218592573214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07825788060000001,
+                "active": false
+              }
+            },
+            "2026-06-22T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.07985958011785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.0719677746857143,
+                "active": false
+              }
+            },
+            "2026-06-29T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06712556151428571,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.12771554302500002,
+                "active": false
+              }
+            }
+          }
+        }
+      },
+      "stress": {
+        "gated": {
+          "pnl_usd": 6934.440674463607,
+          "maximum_drawdown": 0.015642045932447557,
+          "mean_gross_exposure": 0.21686559278481593,
+          "peak_gross_exposure": 0.7079732872209681,
+          "funding_paid_usd": {
+            "equity": -47.72152269729061,
+            "gold": 68.68390140785498
+          },
+          "fees_usd": 133.30384024084648,
+          "slippage_usd": 222.189516585,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-04-06T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.4478,
+              "price": 24174.0
+            },
+            {
+              "hour": "2026-04-06T20:00:00+00:00",
+              "market": "gold",
+              "change": 7.5141,
+              "price": 4657.9
+            },
+            {
+              "hour": "2026-04-13T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.03699999999999992,
+              "price": 25368.0
+            },
+            {
+              "hour": "2026-04-13T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.033800000000000274,
+              "price": 4741.8
+            },
+            {
+              "hour": "2026-04-20T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.034499999999999975,
+              "price": 26581.0
+            },
+            {
+              "hour": "2026-04-20T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.051599999999999646,
+              "price": 4814.1
+            },
+            {
+              "hour": "2026-04-27T20:00:00+00:00",
+              "market": "gold",
+              "change": -7.5995,
+              "price": 4684.0
+            },
+            {
+              "hour": "2026-04-27T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.037000000000000144,
+              "price": 27293.0
+            },
+            {
+              "hour": "2026-05-04T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.012299999999999978,
+              "price": 27653.0
+            },
+            {
+              "hour": "2026-05-11T20:00:00+00:00",
+              "market": "equity",
+              "change": -1.327,
+              "price": 29327.0
+            }
+          ],
+          "decisions": {
+            "2026-04-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.055119705310714286,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.05803847545714286,
+                "active": true
+              }
+            },
+            "2026-04-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.10698188153571428,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.025415300325,
+                "active": true
+              }
+            },
+            "2026-04-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04321647913928571,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.0004960721142857174,
+                "active": true
+              }
+            },
+            "2026-04-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.002899375371428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.091644183525,
+                "active": false
+              }
+            },
+            "2026-05-04T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.02380547138571429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11213752095,
+                "active": false
+              }
+            },
+            "2026-05-11T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.045353958664285716,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08006373399642858,
+                "active": false
+              }
+            },
+            "2026-05-18T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.048898229871428577,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09108252294642857,
+                "active": false
+              }
+            },
+            "2026-05-25T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055043973332142865,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07925751245357143,
+                "active": false
+              }
+            },
+            "2026-06-01T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055103430814285724,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06432971364642857,
+                "active": false
+              }
+            },
+            "2026-06-08T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.060557056832142866,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.05816713216071429,
+                "active": false
+              }
+            },
+            "2026-06-15T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06218592573214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07825788060000001,
+                "active": false
+              }
+            },
+            "2026-06-22T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.07985958011785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.0719677746857143,
+                "active": false
+              }
+            },
+            "2026-06-29T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06712556151428571,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.12771554302500002,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": 2149.614349263109,
+          "maximum_drawdown": 0.07033558313500243,
+          "mean_gross_exposure": 0.6985929285316705,
+          "peak_gross_exposure": 0.7118122239871338,
+          "funding_paid_usd": {
+            "equity": 341.197007601101,
+            "gold": 742.782920384636
+          },
+          "fees_usd": 141.02822661614547,
+          "slippage_usd": 235.055166135,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 3
+          },
+          "scheduled_weeks": 13,
+          "orders": [
+            {
+              "hour": "2026-04-06T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.4478,
+              "price": 24174.0
+            },
+            {
+              "hour": "2026-04-06T20:00:00+00:00",
+              "market": "gold",
+              "change": 7.5141,
+              "price": 4657.9
+            },
+            {
+              "hour": "2026-04-13T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.03699999999999992,
+              "price": 25368.0
+            },
+            {
+              "hour": "2026-04-13T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.033800000000000274,
+              "price": 4741.8
+            },
+            {
+              "hour": "2026-04-20T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.034499999999999975,
+              "price": 26581.0
+            },
+            {
+              "hour": "2026-04-20T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.051599999999999646,
+              "price": 4814.1
+            },
+            {
+              "hour": "2026-04-27T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.037000000000000144,
+              "price": 27293.0
+            },
+            {
+              "hour": "2026-04-27T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.20450000000000035,
+              "price": 4684.0
+            },
+            {
+              "hour": "2026-05-04T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.02859999999999996,
+              "price": 27653.0
+            },
+            {
+              "hour": "2026-05-04T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.21560000000000024,
+              "price": 4519.8
+            },
+            {
+              "hour": "2026-05-11T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.08530000000000015,
+              "price": 4737.4
+            },
+            {
+              "hour": "2026-05-11T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.029099999999999904,
+              "price": 29327.0
+            },
+            {
+              "hour": "2026-05-18T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.00890000000000013,
+              "price": 29010.0
+            },
+            {
+              "hour": "2026-05-18T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.15729999999999933,
+              "price": 4562.9
+            },
+            {
+              "hour": "2026-05-25T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.026899999999999924,
+              "price": 29958.0
+            },
+            {
+              "hour": "2026-05-25T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.07670000000000066,
+              "price": 4569.4
+            },
+            {
+              "hour": "2026-06-01T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.02400000000000002,
+              "price": 30513.0
+            },
+            {
+              "hour": "2026-06-01T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.14969999999999928,
+              "price": 4482.2
+            },
+            {
+              "hour": "2026-06-08T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.0129999999999999,
+              "price": 29422.0
+            },
+            {
+              "hour": "2026-06-08T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.07629999999999981,
+              "price": 4328.1
+            },
+            {
+              "hour": "2026-06-15T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.03189999999999982,
+              "price": 30560.0
+            },
+            {
+              "hour": "2026-06-15T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.11460000000000115,
+              "price": 4320.4
+            },
+            {
+              "hour": "2026-06-22T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.009000000000000119,
+              "price": 30368.0
+            },
+            {
+              "hour": "2026-06-22T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.13759999999999906,
+              "price": 4193.4
+            },
+            {
+              "hour": "2026-06-29T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0040000000000000036,
+              "price": 29773.0
+            },
+            {
+              "hour": "2026-06-29T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.16990000000000016,
+              "price": 4018.6
+            },
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1899,
+              "price": 29835.0
+            },
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "gold",
+              "change": -8.8164,
+              "price": 4148.9
+            }
+          ],
+          "decisions": {
+            "2026-04-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.055119705310714286,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.05803847545714286,
+                "active": true
+              }
+            },
+            "2026-04-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.10698188153571428,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": -0.025415300325,
+                "active": true
+              }
+            },
+            "2026-04-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.04321647913928571,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.0004960721142857174,
+                "active": true
+              }
+            },
+            "2026-04-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.002899375371428572,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.091644183525,
+                "active": false
+              }
+            },
+            "2026-05-04T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": -0.02380547138571429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.11213752095,
+                "active": false
+              }
+            },
+            "2026-05-11T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.045353958664285716,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08006373399642858,
+                "active": false
+              }
+            },
+            "2026-05-18T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.048898229871428577,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09108252294642857,
+                "active": false
+              }
+            },
+            "2026-05-25T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055043973332142865,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07925751245357143,
+                "active": false
+              }
+            },
+            "2026-06-01T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.055103430814285724,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06432971364642857,
+                "active": false
+              }
+            },
+            "2026-06-08T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.060557056832142866,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.05816713216071429,
+                "active": false
+              }
+            },
+            "2026-06-15T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06218592573214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07825788060000001,
+                "active": false
+              }
+            },
+            "2026-06-22T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.07985958011785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.0719677746857143,
+                "active": false
+              }
+            },
+            "2026-06-29T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06712556151428571,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.12771554302500002,
+                "active": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "start": "2026-07-06T16:00:00+00:00",
+      "end": "2026-11-20T16:00:00+00:00",
+      "cash_pnl_usd": 1481.986422335879,
+      "passive_etfs": {
+        "pnl_usd": -10604.863032471083,
+        "maximum_drawdown": 0.14005172802818144,
+        "qqq_distributions_usd": 36.06864
+      },
+      "base": {
+        "gated": {
+          "pnl_usd": -1302.1943496831373,
+          "maximum_drawdown": 0.03053936941040103,
+          "mean_gross_exposure": 0.0997930999261642,
+          "peak_gross_exposure": 0.3594224237898125,
+          "funding_paid_usd": {
+            "equity": 139.559143731418,
+            "gold": 44.7307997438871
+          },
+          "fees_usd": 252.22813241408105,
+          "slippage_usd": 84.07597379399999,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 1
+          },
+          "scheduled_weeks": 20,
+          "orders": [
+            {
+              "hour": "2026-08-03T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.2213,
+              "price": 28657.0
+            },
+            {
+              "hour": "2026-08-10T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.02950000000000008,
+              "price": 29741.0
+            },
+            {
+              "hour": "2026-08-17T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.010599999999999943,
+              "price": 30142.0
+            },
+            {
+              "hour": "2026-08-24T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1812,
+              "price": 29095.0
+            },
+            {
+              "hour": "2026-08-31T16:00:00+00:00",
+              "market": "gold",
+              "change": 7.9393,
+              "price": 4426.8
+            },
+            {
+              "hour": "2026-09-07T16:00:00+00:00",
+              "market": "gold",
+              "change": -7.9393,
+              "price": 4412.8
+            },
+            {
+              "hour": "2026-09-28T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.1589,
+              "price": 30254.0
+            },
+            {
+              "hour": "2026-10-05T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1589,
+              "price": 30975.0
+            },
+            {
+              "hour": "2026-11-16T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.2856,
+              "price": 27467.0
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.2856,
+              "price": 25856.0
+            }
+          ],
+          "decisions": {
+            "2026-07-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05809601798571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.117618206775,
+                "active": false
+              }
+            },
+            "2026-07-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04508904805714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07786456374642858,
+                "active": false
+              }
+            },
+            "2026-07-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05309233300714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.10710904593214286,
+                "active": false
+              }
+            },
+            "2026-07-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05787123791785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08446203797142857,
+                "active": false
+              }
+            },
+            "2026-08-03T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.023754545100000003,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1295853777857143,
+                "active": false
+              }
+            },
+            "2026-08-10T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.008467549007142859,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07702444178571428,
+                "active": false
+              }
+            },
+            "2026-08-17T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.03750019141071429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06041254827857143,
+                "active": false
+              }
+            },
+            "2026-08-24T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04576403005714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07438727417142857,
+                "active": false
+              }
+            },
+            "2026-08-31T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05239727791071429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.019965608571428574,
+                "active": true
+              }
+            },
+            "2026-09-07T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06076219688571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06708868691785715,
+                "active": false
+              }
+            },
+            "2026-09-14T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04036461235714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09326265323571428,
+                "active": false
+              }
+            },
+            "2026-09-21T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05131425426428572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.093484386075,
+                "active": false
+              }
+            },
+            "2026-09-28T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.024157895892857145,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06727644628928572,
+                "active": false
+              }
+            },
+            "2026-10-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04967291990357143,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06615788903571429,
+                "active": false
+              }
+            },
+            "2026-10-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.044671118571428574,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.060562827782142864,
+                "active": false
+              }
+            },
+            "2026-10-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06512137736785714,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06650123968928573,
+                "active": false
+              }
+            },
+            "2026-10-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05175929573571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08004496536428572,
+                "active": false
+              }
+            },
+            "2026-11-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05176625635714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09267956813571429,
+                "active": false
+              }
+            },
+            "2026-11-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06097307658214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06384197445,
+                "active": false
+              }
+            },
+            "2026-11-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.0006361298357142875,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.058583016246428574,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": -11169.668512062286,
+          "maximum_drawdown": 0.13714480365924175,
+          "mean_gross_exposure": 0.6995228905595761,
+          "peak_gross_exposure": 0.7124116294186092,
+          "funding_paid_usd": {
+            "equity": 587.1695383334528,
+            "gold": 1000.1502485005867
+          },
+          "fees_usd": 137.1056483903508,
+          "slippage_usd": 45.701036838,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 1
+          },
+          "scheduled_weeks": 20,
+          "orders": [
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "equity",
+              "change": 1.1731,
+              "price": 29835.0
+            },
+            {
+              "hour": "2026-07-06T16:00:00+00:00",
+              "market": "gold",
+              "change": 8.4359,
+              "price": 4148.9
+            },
+            {
+              "hour": "2026-07-13T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.0042999999999999705,
+              "price": 29418.0
+            },
+            {
+              "hour": "2026-07-13T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.12040000000000006,
+              "price": 4018.8
+            },
+            {
+              "hour": "2026-07-20T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.05990000000000073,
+              "price": 4015.1
+            },
+            {
+              "hour": "2026-07-20T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.012799999999999923,
+              "price": 28869.0
+            },
+            {
+              "hour": "2026-07-27T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.19189999999999863,
+              "price": 4080.4
+            },
+            {
+              "hour": "2026-07-27T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.03170000000000006,
+              "price": 27928.0
+            },
+            {
+              "hour": "2026-08-03T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.025500000000000078,
+              "price": 28657.0
+            },
+            {
+              "hour": "2026-08-03T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.12249999999999872,
+              "price": 4039.5
+            },
+            {
+              "hour": "2026-08-10T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.30269999999999975,
+              "price": 4358.9
+            },
+            {
+              "hour": "2026-08-10T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.0029000000000001247,
+              "price": 29741.0
+            },
+            {
+              "hour": "2026-08-17T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.04969999999999963,
+              "price": 4427.7
+            },
+            {
+              "hour": "2026-08-17T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.0046000000000001595,
+              "price": 30142.0
+            },
+            {
+              "hour": "2026-08-24T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.3517000000000001,
+              "price": 4651.0
+            },
+            {
+              "hour": "2026-08-24T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.0484,
+              "price": 29095.0
+            },
+            {
+              "hour": "2026-08-31T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.028100000000000014,
+              "price": 29346.0
+            },
+            {
+              "hour": "2026-08-31T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.27449999999999974,
+              "price": 4426.8
+            },
+            {
+              "hour": "2026-09-07T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.008299999999999974,
+              "price": 29566.0
+            },
+            {
+              "hour": "2026-09-07T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.03050000000000086,
+              "price": 4412.8
+            },
+            {
+              "hour": "2026-09-14T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.0018000000000000238,
+              "price": 29160.0
+            },
+            {
+              "hour": "2026-09-14T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.0995999999999988,
+              "price": 4292.1
+            },
+            {
+              "hour": "2026-09-21T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.025499999999999856,
+              "price": 30313.0
+            },
+            {
+              "hour": "2026-09-21T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.035800000000000054,
+              "price": 4347.6
+            },
+            {
+              "hour": "2026-09-28T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.020199999999999996,
+              "price": 30254.0
+            },
+            {
+              "hour": "2026-09-28T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.2737999999999996,
+              "price": 4126.0
+            },
+            {
+              "hour": "2026-10-05T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.017200000000000104,
+              "price": 30975.0
+            },
+            {
+              "hour": "2026-10-05T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.04780000000000051,
+              "price": 4137.8
+            },
+            {
+              "hour": "2026-10-12T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.06760000000000055,
+              "price": 4167.6
+            },
+            {
+              "hour": "2026-10-12T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.007600000000000051,
+              "price": 30743.0
+            },
+            {
+              "hour": "2026-10-19T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.06869999999999976,
+              "price": 4141.1
+            },
+            {
+              "hour": "2026-10-19T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.021300000000000097,
+              "price": 29744.0
+            },
+            {
+              "hour": "2026-10-26T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.002100000000000213,
+              "price": 29311.0
+            },
+            {
+              "hour": "2026-10-26T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.11439999999999984,
+              "price": 4018.3
+            },
+            {
+              "hour": "2026-11-02T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.011400000000000077,
+              "price": 28604.0
+            },
+            {
+              "hour": "2026-11-09T16:00:00+00:00",
+              "market": "gold",
+              "change": -0.2983999999999991,
+              "price": 4124.9
+            },
+            {
+              "hour": "2026-11-09T16:00:00+00:00",
+              "market": "equity",
+              "change": 0.0363,
+              "price": 27881.0
+            },
+            {
+              "hour": "2026-11-16T16:00:00+00:00",
+              "market": "equity",
+              "change": -0.016199999999999992,
+              "price": 27467.0
+            },
+            {
+              "hour": "2026-11-16T16:00:00+00:00",
+              "market": "gold",
+              "change": 0.31489999999999974,
+              "price": 3860.3
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1917,
+              "price": 25856.0
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "gold",
+              "change": -8.4795,
+              "price": 3551.9
+            }
+          ],
+          "decisions": {
+            "2026-07-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05809601798571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.117618206775,
+                "active": false
+              }
+            },
+            "2026-07-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04508904805714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07786456374642858,
+                "active": false
+              }
+            },
+            "2026-07-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05309233300714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.10710904593214286,
+                "active": false
+              }
+            },
+            "2026-07-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05787123791785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08446203797142857,
+                "active": false
+              }
+            },
+            "2026-08-03T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.023754545100000003,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1295853777857143,
+                "active": false
+              }
+            },
+            "2026-08-10T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.008467549007142859,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07702444178571428,
+                "active": false
+              }
+            },
+            "2026-08-17T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.03750019141071429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06041254827857143,
+                "active": false
+              }
+            },
+            "2026-08-24T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04576403005714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07438727417142857,
+                "active": false
+              }
+            },
+            "2026-08-31T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05239727791071429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.019965608571428574,
+                "active": true
+              }
+            },
+            "2026-09-07T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06076219688571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06708868691785715,
+                "active": false
+              }
+            },
+            "2026-09-14T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04036461235714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09326265323571428,
+                "active": false
+              }
+            },
+            "2026-09-21T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05131425426428572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.093484386075,
+                "active": false
+              }
+            },
+            "2026-09-28T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.024157895892857145,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06727644628928572,
+                "active": false
+              }
+            },
+            "2026-10-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04967291990357143,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06615788903571429,
+                "active": false
+              }
+            },
+            "2026-10-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.044671118571428574,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.060562827782142864,
+                "active": false
+              }
+            },
+            "2026-10-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06512137736785714,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06650123968928573,
+                "active": false
+              }
+            },
+            "2026-10-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05175929573571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08004496536428572,
+                "active": false
+              }
+            },
+            "2026-11-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05176625635714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09267956813571429,
+                "active": false
+              }
+            },
+            "2026-11-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06097307658214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06384197445,
+                "active": false
+              }
+            },
+            "2026-11-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.0006361298357142875,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.058583016246428574,
+                "active": false
+              }
+            }
+          }
+        }
+      },
+      "stress": {
+        "gated": {
+          "pnl_usd": -1822.6996045287524,
+          "maximum_drawdown": 0.033836926561926495,
+          "mean_gross_exposure": 0.09942369748458627,
+          "peak_gross_exposure": 0.35872284059659326,
+          "funding_paid_usd": {
+            "equity": 159.60069318680456,
+            "gold": 49.070092714084076
+          },
+          "fees_usd": 251.03828398795198,
+          "slippage_usd": 418.39501464,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 1
+          },
+          "scheduled_weeks": 20,
+          "orders": [
+            {
+              "hour": "2026-08-03T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.2167,
+              "price": 28765.0
+            },
+            {
+              "hour": "2026-08-10T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0242,
+              "price": 29627.0
+            },
+            {
+              "hour": "2026-08-17T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.009599999999999831,
+              "price": 29988.0
+            },
+            {
+              "hour": "2026-08-24T20:00:00+00:00",
+              "market": "equity",
+              "change": -1.1829,
+              "price": 29016.0
+            },
+            {
+              "hour": "2026-08-31T20:00:00+00:00",
+              "market": "gold",
+              "change": 7.8644,
+              "price": 4454.1
+            },
+            {
+              "hour": "2026-09-07T20:00:00+00:00",
+              "market": "gold",
+              "change": -7.8644,
+              "price": 4410.3
+            },
+            {
+              "hour": "2026-09-28T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.15,
+              "price": 30289.0
+            },
+            {
+              "hour": "2026-10-05T20:00:00+00:00",
+              "market": "equity",
+              "change": -1.15,
+              "price": 31076.0
+            },
+            {
+              "hour": "2026-11-16T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.2857,
+              "price": 27283.0
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.2857,
+              "price": 25856.0
+            }
+          ],
+          "decisions": {
+            "2026-07-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05809601798571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.117618206775,
+                "active": false
+              }
+            },
+            "2026-07-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04508904805714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07786456374642858,
+                "active": false
+              }
+            },
+            "2026-07-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05309233300714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.10710904593214286,
+                "active": false
+              }
+            },
+            "2026-07-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05787123791785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08446203797142857,
+                "active": false
+              }
+            },
+            "2026-08-03T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.023754545100000003,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1295853777857143,
+                "active": false
+              }
+            },
+            "2026-08-10T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.008467549007142859,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07702444178571428,
+                "active": false
+              }
+            },
+            "2026-08-17T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.03750019141071429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06041254827857143,
+                "active": false
+              }
+            },
+            "2026-08-24T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04576403005714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07438727417142857,
+                "active": false
+              }
+            },
+            "2026-08-31T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05239727791071429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.019965608571428574,
+                "active": true
+              }
+            },
+            "2026-09-07T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06076219688571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06708868691785715,
+                "active": false
+              }
+            },
+            "2026-09-14T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04036461235714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09326265323571428,
+                "active": false
+              }
+            },
+            "2026-09-21T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05131425426428572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.093484386075,
+                "active": false
+              }
+            },
+            "2026-09-28T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.024157895892857145,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06727644628928572,
+                "active": false
+              }
+            },
+            "2026-10-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04967291990357143,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06615788903571429,
+                "active": false
+              }
+            },
+            "2026-10-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.044671118571428574,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.060562827782142864,
+                "active": false
+              }
+            },
+            "2026-10-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06512137736785714,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06650123968928573,
+                "active": false
+              }
+            },
+            "2026-10-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05175929573571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08004496536428572,
+                "active": false
+              }
+            },
+            "2026-11-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05176625635714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09267956813571429,
+                "active": false
+              }
+            },
+            "2026-11-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06097307658214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06384197445,
+                "active": false
+              }
+            },
+            "2026-11-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.0006361298357142875,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.058583016246428574,
+                "active": false
+              }
+            }
+          }
+        },
+        "always_on": {
+          "pnl_usd": -11516.64379719249,
+          "maximum_drawdown": 0.13903652861226934,
+          "mean_gross_exposure": 0.6988161795181653,
+          "peak_gross_exposure": 0.7116552544733236,
+          "funding_paid_usd": {
+            "equity": 672.2540736520244,
+            "gold": 1106.9410288291192
+          },
+          "fees_usd": 137.76692153128204,
+          "slippage_usd": 229.59045318,
+          "approved_sleeve_weeks": {
+            "equity": 5,
+            "gold": 1
+          },
+          "scheduled_weeks": 20,
+          "orders": [
+            {
+              "hour": "2026-07-06T20:00:00+00:00",
+              "market": "equity",
+              "change": 1.1778,
+              "price": 29716.0
+            },
+            {
+              "hour": "2026-07-06T20:00:00+00:00",
+              "market": "gold",
+              "change": 8.4013,
+              "price": 4166.0
+            },
+            {
+              "hour": "2026-07-13T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.008000000000000007,
+              "price": 29280.0
+            },
+            {
+              "hour": "2026-07-13T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.15169999999999995,
+              "price": 4004.9
+            },
+            {
+              "hour": "2026-07-20T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.08580000000000076,
+              "price": 4010.0
+            },
+            {
+              "hour": "2026-07-20T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.017000000000000126,
+              "price": 28608.0
+            },
+            {
+              "hour": "2026-07-27T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.16610000000000014,
+              "price": 4085.0
+            },
+            {
+              "hour": "2026-07-27T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.02190000000000003,
+              "price": 28055.0
+            },
+            {
+              "hour": "2026-08-03T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.023800000000000043,
+              "price": 28765.0
+            },
+            {
+              "hour": "2026-08-03T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.10229999999999961,
+              "price": 4056.2
+            },
+            {
+              "hour": "2026-08-10T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.3368000000000002,
+              "price": 4387.9
+            },
+            {
+              "hour": "2026-08-10T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.009800000000000031,
+              "price": 29627.0
+            },
+            {
+              "hour": "2026-08-17T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.01019999999999932,
+              "price": 4420.0
+            },
+            {
+              "hour": "2026-08-17T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.007300000000000084,
+              "price": 29988.0
+            },
+            {
+              "hour": "2026-08-24T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.3564999999999996,
+              "price": 4653.4
+            },
+            {
+              "hour": "2026-08-24T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.04739999999999989,
+              "price": 29016.0
+            },
+            {
+              "hour": "2026-08-31T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.031099999999999905,
+              "price": 29462.0
+            },
+            {
+              "hour": "2026-08-31T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.26209999999999933,
+              "price": 4454.1
+            },
+            {
+              "hour": "2026-09-07T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.008899999999999908,
+              "price": 29598.0
+            },
+            {
+              "hour": "2026-09-07T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.056400000000000006,
+              "price": 4410.3
+            },
+            {
+              "hour": "2026-09-14T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.0008000000000001339,
+              "price": 29134.0
+            },
+            {
+              "hour": "2026-09-14T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.09549999999999947,
+              "price": 4287.5
+            },
+            {
+              "hour": "2026-09-21T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.030100000000000016,
+              "price": 30482.0
+            },
+            {
+              "hour": "2026-09-21T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.050400000000001555,
+              "price": 4345.8
+            },
+            {
+              "hour": "2026-09-28T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.016799999999999926,
+              "price": 30289.0
+            },
+            {
+              "hour": "2026-09-28T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.2576999999999998,
+              "price": 4125.7
+            },
+            {
+              "hour": "2026-10-05T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.018299999999999983,
+              "price": 31076.0
+            },
+            {
+              "hour": "2026-10-05T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.04800000000000004,
+              "price": 4141.6
+            },
+            {
+              "hour": "2026-10-12T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.08360000000000056,
+              "price": 4171.2
+            },
+            {
+              "hour": "2026-10-12T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.011400000000000077,
+              "price": 30679.0
+            },
+            {
+              "hour": "2026-10-19T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.08200000000000074,
+              "price": 4143.3
+            },
+            {
+              "hour": "2026-10-19T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.024799999999999933,
+              "price": 29533.0
+            },
+            {
+              "hour": "2026-10-26T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.007500000000000062,
+              "price": 29289.0
+            },
+            {
+              "hour": "2026-10-26T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.13780000000000037,
+              "price": 4015.8
+            },
+            {
+              "hour": "2026-11-02T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.026099999999999568,
+              "price": 3947.3
+            },
+            {
+              "hour": "2026-11-02T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.02069999999999994,
+              "price": 28196.0
+            },
+            {
+              "hour": "2026-11-09T20:00:00+00:00",
+              "market": "gold",
+              "change": -0.2881,
+              "price": 4138.3
+            },
+            {
+              "hour": "2026-11-09T20:00:00+00:00",
+              "market": "equity",
+              "change": 0.026700000000000168,
+              "price": 27916.0
+            },
+            {
+              "hour": "2026-11-16T20:00:00+00:00",
+              "market": "equity",
+              "change": -0.01100000000000012,
+              "price": 27283.0
+            },
+            {
+              "hour": "2026-11-16T20:00:00+00:00",
+              "market": "gold",
+              "change": 0.2989999999999995,
+              "price": 3865.4
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "equity",
+              "change": -1.1939,
+              "price": 25856.0
+            },
+            {
+              "hour": "2026-11-20T16:00:00+00:00",
+              "market": "gold",
+              "change": -8.427,
+              "price": 3551.9
+            }
+          ],
+          "decisions": {
+            "2026-07-06T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05809601798571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.117618206775,
+                "active": false
+              }
+            },
+            "2026-07-13T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04508904805714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07786456374642858,
+                "active": false
+              }
+            },
+            "2026-07-20T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05309233300714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.10710904593214286,
+                "active": false
+              }
+            },
+            "2026-07-27T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05787123791785715,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08446203797142857,
+                "active": false
+              }
+            },
+            "2026-08-03T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.023754545100000003,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.1295853777857143,
+                "active": false
+              }
+            },
+            "2026-08-10T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.008467549007142859,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.07702444178571428,
+                "active": false
+              }
+            },
+            "2026-08-17T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.03750019141071429,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06041254827857143,
+                "active": false
+              }
+            },
+            "2026-08-24T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04576403005714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.07438727417142857,
+                "active": false
+              }
+            },
+            "2026-08-31T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05239727791071429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.019965608571428574,
+                "active": true
+              }
+            },
+            "2026-09-07T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06076219688571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06708868691785715,
+                "active": false
+              }
+            },
+            "2026-09-14T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04036461235714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09326265323571428,
+                "active": false
+              }
+            },
+            "2026-09-21T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05131425426428572,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.093484386075,
+                "active": false
+              }
+            },
+            "2026-09-28T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.024157895892857145,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.06727644628928572,
+                "active": false
+              }
+            },
+            "2026-10-05T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.04967291990357143,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06615788903571429,
+                "active": false
+              }
+            },
+            "2026-10-12T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.044671118571428574,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.060562827782142864,
+                "active": false
+              }
+            },
+            "2026-10-19T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06512137736785714,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06650123968928573,
+                "active": false
+              }
+            },
+            "2026-10-26T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05175929573571429,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.08004496536428572,
+                "active": false
+              }
+            },
+            "2026-11-02T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.05176625635714286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.09267956813571429,
+                "active": false
+              }
+            },
+            "2026-11-09T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.06097307658214286,
+                "active": false
+              },
+              "gold": {
+                "funding_annualized": 0.06384197445,
+                "active": false
+              }
+            },
+            "2026-11-16T16:00:00+00:00": {
+              "equity": {
+                "funding_annualized": 0.0006361298357142875,
+                "active": true
+              },
+              "gold": {
+                "funding_annualized": 0.058583016246428574,
+                "active": false
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "data": {
+    "xyz-meta.json": "6310de5de4dabe930199a3031dc75647b8d288c496dd334ad7250ded4f20de17",
+    "equity-4h.json": "b09c83b788ee4d07def8f2fc60573f31124ee620257a2db65a77eacad83f24b3",
+    "equity-funding-2025-12-28.json": "7d193818b65f42029808241b924e577bfc9ff5610253b4a7e447eaeb2dcdc6bc",
+    "equity-funding-2026-01-17.json": "294c48dc6387b23c28c8565933f70e125a7450143c891f24dc2789d8d6afac65",
+    "equity-funding-2026-02-06.json": "ae3c148f49520629f1a79fc632cf36c073c981e3df14d1695481b4e4119b32ee",
+    "equity-funding-2026-02-26.json": "58a425c143afbdf4d1ad606b82b0bafed42a8d25f2ead642cf514f2692237ebe",
+    "equity-funding-2026-03-18.json": "00476b52a397b2fc0ad198f891ddec5586373f707d937dc20f6386e659aa7dcf",
+    "equity-funding-2026-04-07.json": "e3799eb9689c0a0ae607b3af651df2688fd81287a9ae21a7fb845a1ad6b64f7c",
+    "equity-funding-2026-04-27.json": "e00e3f453748f2e455249c463384767177f188316293817e7a7b5f2eb4e9b896",
+    "equity-funding-2026-05-17.json": "1f30c6fdb245e751ab9d5514bff4f312884b3263dcfbdfc7066e3f2c0bf22613",
+    "equity-funding-2026-06-06.json": "3003ac74c0ebfad88a09b4268d714c0fb596a1c3bd7a1254ec2f3f8608a9ba16",
+    "equity-funding-2026-06-26.json": "987e8d6de7f4784e2b4169e471ef030c36bfd0c66202f5671f0f6d4b754fc3f9",
+    "equity-funding-2026-07-16.json": "464b42aea255d65e797a79cc353e0c73bb43065c78b7b2c8f7e21823b8ff9f94",
+    "equity-funding-2026-08-05.json": "bb27ed0811b176a44073d27e1cd81d3edf83374f6fdd2a698d11c3f457d3d598",
+    "equity-funding-2026-08-25.json": "fd6aea5953e79d2492534438c3f4879e9fd314af79ae590b2c84a526f7277f5c",
+    "equity-funding-2026-09-14.json": "2a6ff66ff6732bec8c2bf94a3308fe5ed6b65b7301719bf28d509dcf74995d8f",
+    "equity-funding-2026-10-04.json": "02f21b29286b092f036b539d55256eeca45b84821e7c8a54c92ecc746431e641",
+    "equity-funding-2026-10-24.json": "c7540f4104694b279c4749bf140f0de38cc55c8ab8054d1d7a8c4b48bf4f3290",
+    "equity-funding-2026-11-13.json": "6ed3807a9564ea808f0ef8c1bc6c3de04b829d29c18c3f37d07f88ae1fa0b9cc",
+    "gold-4h.json": "4afe6913d860a8167ef0f42537d8a5ea3e25fa3c147bc521d60a525d2c7da85c",
+    "gold-funding-2025-12-28.json": "59a5fc953aaaa4ff8bbdb59f51f7297485405dd54723bda485e1040655dc76a7",
+    "gold-funding-2026-01-17.json": "111a9034439e6a86efb1e8f6bbf3c237517b262de0ed9b2ea280e47bc519c23f",
+    "gold-funding-2026-02-06.json": "81c1452f6aeffad04b4a0f8ccbd355ade985e15ff3ebade7668db9c5d9ac2fc0",
+    "gold-funding-2026-02-26.json": "1839bc1c5fc7674558d0c4b1b66725a551ea8d76972d69877dc71cb0eec52b9c",
+    "gold-funding-2026-03-18.json": "05d4761644fb19326df0fc3a4edb9015d151c6f0b6bc7586fc38141c2582e9f5",
+    "gold-funding-2026-04-07.json": "321e36ad0fb1392126ebdaa4869695316d171931c874723e5fa7890d36e1856c",
+    "gold-funding-2026-04-27.json": "75ad61b021f62a3d6ac596b640cc73e6b8604b9e8f71c4a15472d7aa95208c02",
+    "gold-funding-2026-05-17.json": "0f4fa204812e4447ed83861fd7a5c544de0e1cdf84cf74d175f38dfe58340dc1",
+    "gold-funding-2026-06-06.json": "05862b865be5d15cc2be241633107808c4bd11b866944c64572c7738d20c1152",
+    "gold-funding-2026-06-26.json": "2c5139d9460280cf2777943422e5d7e5f8dce6756da670ba59eb0aefe7038931",
+    "gold-funding-2026-07-16.json": "cf802f8ae1caac27a3f503fc5f855112a5f95ed809cbe70e0edcbf1368161682",
+    "gold-funding-2026-08-05.json": "750f9a38c9c7319c4a594762c8494533162b7f5fb6e58fab94e6d4e18ced74b3",
+    "gold-funding-2026-08-25.json": "ddc74144a1bce19cf6d0059570b1ebfb55f948903f7431c938ccb822df9f57dd",
+    "gold-funding-2026-09-14.json": "bfa4c329aae3cabb64aa86382ab2497e766481453b8dc3d7955338dfa43b91f9",
+    "gold-funding-2026-10-04.json": "315e66a71cc3782179c5fd86663b2d2d41f362145700fbe0feea3c54eadbfee9",
+    "gold-funding-2026-10-24.json": "33f0701f618de49a47971923d8c423b6a30f9704b978609e88a8d2706c29ac33",
+    "gold-funding-2026-11-13.json": "5b8aa0120f7f67450fbabc533d7585155998de726c19cf0e245ce87ee593b4b3",
+    "nasdaq-gld-historical.json": "5a4ee2b5c56e71e771b3d1fa57a6f351c9ea1f0c30e979c4454772a3565cbcdf"
+  },
+  "qqq_data": {
+    "sessions": 2486,
+    "distributions": 40,
+    "amount_differences": [
+      {
+        "ex_date": "2018-12-24",
+        "issuer_amount": "0.4206",
+        "exchange_amount": "0.42061"
+      }
+    ],
+    "issuer_market_price_check": {
+      "day": "2026-11-20",
+      "open_matches": true,
+      "close_matches": true
+    },
+    "sources": {
+      "nasdaq-qqq-historical.json": {
+        "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2017-01-01&todate=2026-11-20&limit=5000",
+        "sha256": "20ed5ffb8698274216c7019d0630631cefa930d966cbbb37cdf402fd9671a3d7"
+      },
+      "nasdaq-qqq-dividends.json": {
+        "url": "https://api.nasdaq.com/api/quote/QQQ/dividends?assetclass=etf",
+        "sha256": "6ed68a3e308ada901b0fe41e99cea5835cf68e23895b0fc4b527b0b3d190b68c"
+      },
+      "invesco-qqq-distribution.json": {
+        "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/distribution?idType=cusip&productType=ETF",
+        "sha256": "8cac48440d684d73a51016d1b98323b2ffd85a378bd82f987c43c807f0ae1aa2"
+      },
+      "invesco-qqq-prices.json": {
+        "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/prices?idType=cusip&variationType=priceListing&productType=ETF",
+        "sha256": "74607c1975ff7284e83c9c0c58c368439696957e818e90c2467f1f87d3cbdbce"
+      }
+    }
+  },
+  "coverage": {
+    "equity": {
+      "candles": 1967,
+      "funding_hours": 7865
+    },
+    "gold": {
+      "candles": 1967,
+      "funding_hours": 7865
+    }
+  }
+}
