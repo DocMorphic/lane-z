@@ -1,0 +1,248 @@
+{
+  "2026-05-17/2026-07-19": {
+    "entry_block": {
+      "number": 35387475,
+      "time": 1779062399,
+      "hash": "0xc8f3e734d822dd8603bbca58939291f4a92bbc5266a65ac468ee46173c44cad5",
+      "utc": "2026-05-17T23:59:59+00:00"
+    },
+    "exit_block": {
+      "number": 40920592,
+      "time": 1784505599,
+      "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e",
+      "utc": "2026-07-19T23:59:59+00:00"
+    },
+    "scenarios": {
+      "base_instant": {
+        "entry_deposit_usdc_microunits": "1999000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1993691557753941297091",
+          "gross_usdc_microunits": "2025121530",
+          "fee_usdc_microunits": "6075364",
+          "net_usdc_microunits": "2019046166"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1993692789793569517943",
+          "gross_usdc_microunits": "2025122781",
+          "fee_usdc_microunits": "6075368",
+          "net_usdc_microunits": "2019047413"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "583967648547",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457584003982944779755",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "stress_instant": {
+        "entry_deposit_usdc_microunits": "1996001500",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1990701020417310385146",
+          "gross_usdc_microunits": "2022083847",
+          "fee_usdc_microunits": "6066251",
+          "net_usdc_microunits": "2016017596"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1990702250608879163666",
+          "gross_usdc_microunits": "2022085097",
+          "fee_usdc_microunits": "6066255",
+          "net_usdc_microunits": "2016018842"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "583967648547",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457584003982944779755",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "full_2000_diagnostic": {
+        "entry_deposit_usdc_microunits": "2000000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1994688902205043819001",
+          "gross_usdc_microunits": "2026134597",
+          "fee_usdc_microunits": "6078403",
+          "net_usdc_microunits": "2020056194"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1994690134861000017952",
+          "gross_usdc_microunits": "2026135849",
+          "fee_usdc_microunits": "6078407",
+          "net_usdc_microunits": "2020057442"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "583967648547",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457584003982944779755",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      }
+    }
+  },
+  "2026-07-19/2026-09-20": {
+    "entry_block": {
+      "number": 40920592,
+      "time": 1784505599,
+      "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e",
+      "utc": "2026-07-19T23:59:59+00:00"
+    },
+    "exit_block": {
+      "number": 46453895,
+      "time": 1789948799,
+      "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648",
+      "utc": "2026-09-20T23:59:59+00:00"
+    },
+    "scenarios": {
+      "base_instant": {
+        "entry_deposit_usdc_microunits": "1999000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1967975434748285493799",
+          "gross_usdc_microunits": "2027408600",
+          "fee_usdc_microunits": "6082225",
+          "net_usdc_microunits": "2021326375"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1967976813511799985035",
+          "gross_usdc_microunits": "2027410020",
+          "fee_usdc_microunits": "6082230",
+          "net_usdc_microunits": "2021327790"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "486836352173",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583999380356731489",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "stress_instant": {
+        "entry_deposit_usdc_microunits": "1996001500",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1965023471596163065558",
+          "gross_usdc_microunits": "2024367487",
+          "fee_usdc_microunits": "6073102",
+          "net_usdc_microunits": "2018294385"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1965024848291532285058",
+          "gross_usdc_microunits": "2024368905",
+          "fee_usdc_microunits": "6073106",
+          "net_usdc_microunits": "2018295799"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "486836352173",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583999380356731489",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "full_2000_diagnostic": {
+        "entry_deposit_usdc_microunits": "2000000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1968959914705638312955",
+          "gross_usdc_microunits": "2028422811",
+          "fee_usdc_microunits": "6085268",
+          "net_usdc_microunits": "2022337543"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1968961294158879424748",
+          "gross_usdc_microunits": "2028424233",
+          "fee_usdc_microunits": "6085272",
+          "net_usdc_microunits": "2022338961"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "486836352173",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583999380356731489",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      }
+    }
+  },
+  "2026-09-20/2026-11-22": {
+    "entry_block": {
+      "number": 46453895,
+      "time": 1789948799,
+      "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648",
+      "utc": "2026-09-20T23:59:59+00:00"
+    },
+    "exit_block": {
+      "number": 51987233,
+      "time": 1795391999,
+      "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03",
+      "utc": "2026-11-22T23:59:59+00:00"
+    },
+    "scenarios": {
+      "base_instant": {
+        "entry_deposit_usdc_microunits": "1999000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1940399627883871709968",
+          "gross_usdc_microunits": "2028781408",
+          "fee_usdc_microunits": "6086344",
+          "net_usdc_microunits": "2022695064"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1940399922345175694039",
+          "gross_usdc_microunits": "2028781716",
+          "fee_usdc_microunits": "6086345",
+          "net_usdc_microunits": "2022695371"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "96870270250",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583995802955840935",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "stress_instant": {
+        "entry_deposit_usdc_microunits": "1996001500",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1937489028442045902403",
+          "gross_usdc_microunits": "2025738236",
+          "fee_usdc_microunits": "6077214",
+          "net_usdc_microunits": "2019661022"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1937489322461657930498",
+          "gross_usdc_microunits": "2025738543",
+          "fee_usdc_microunits": "6077215",
+          "net_usdc_microunits": "2019661328"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "96870270250",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583995802955840935",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      },
+      "full_2000_diagnostic": {
+        "entry_deposit_usdc_microunits": "2000000000",
+        "actual_onchain_deposit_shares": {
+          "shares_wei": "1941370313040391905921",
+          "gross_usdc_microunits": "2029796306",
+          "fee_usdc_microunits": "6089388",
+          "net_usdc_microunits": "2023706918"
+        },
+        "displayed_pps_paper_shares": {
+          "shares_wei": "1941370607649000194137",
+          "gross_usdc_microunits": "2029796614",
+          "fee_usdc_microunits": "6089389",
+          "net_usdc_microunits": "2023707225"
+        },
+        "exit_liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+        "exit_usdc_reserve_microunits": "96870270250",
+        "exit_usdc_allowance_microunits": "115792089237316195423570985008687907853269984665640564039457583995802955840935",
+        "matched_providers": [
+          "drpc",
+          "hyperliquid-publicnode"
+        ]
+      }
+    }
+  }
+}

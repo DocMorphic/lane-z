@@ -1,0 +1,218 @@
+{
+  "2026-05-17": {
+    "block": {
+      "number": 35387475,
+      "time": 1779062399,
+      "hash": "0xc8f3e734d822dd8603bbca58939291f4a92bbc5266a65ac468ee46173c44cad5",
+      "utc": "2026-05-17T23:59:59+00:00"
+    },
+    "next_block": {
+      "number": 35387476,
+      "time": 1779062400,
+      "hash": "0x604dfba185eccbd9edc648e5c87ef1bdc92a128807e7d2c241fecc800defec2a",
+      "utc": "2026-05-18T00:00:00+00:00"
+    },
+    "providers_verified": [
+      "drpc",
+      "hyperliquid-publicnode"
+    ],
+    "state": {
+      "nav_wei": 7860755537288854182481766,
+      "supply_wei": 7839880916588461970847513,
+      "provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "asset": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "asset_decimals": 6,
+      "reserve": {
+        "provider_balance": 393038726740,
+        "provider_allowance_to_redeem_pipe": 115792089237316195423570985008687907853269984665640564039457584007528862459324,
+        "redemption_pipe_balance": 0
+      },
+      "redemption_fee_bps": 30,
+      "redemption_quote_share_units": 1994688902205043819001,
+      "redemption_quote_usdc_units": 1994000000,
+      "deposit_2000_share_units": 1994688902205043819001,
+      "redeem_paused": false,
+      "deposit_paused": false,
+      "max_supply_share_units": 10000000000000000000000000,
+      "max_withdraw_share_units": 1000000000000000000000000,
+      "min_redeem_share_units": 1000000000000000,
+      "max_redeem_zero_owner_share_units": 0,
+      "proxy_implementations": {
+        "share": "0x8ef9eae50cf62171330d7a498fb618fe1e718a8c",
+        "nav": "0x28536b960e9cf6cbd6ad013c631af444ec08b2c2",
+        "redemption": "0x3fac21fdd343486280b04447aede477f689881c7",
+        "deposit": "0x84f36fea2e631380c7d4dc52eb42da66941d40cf"
+      }
+    },
+    "issuer_timestamp_ms": 1779062399999,
+    "issuer_pps_usdc": "1.002662",
+    "onchain_pps_usdc": "1.002662619614058607372926941977660676312662842881528911",
+    "difference_bps": "0.006179690250626561363071280857121469277212874616880000",
+    "reserve_usdc": "393038.72674",
+    "historical_spendable_token_balance_usdc": "393038.72674",
+    "historical_preview_redeem_usdc": "1994",
+    "historical_preview_deposit_shares": "1994.688902205043819001"
+  },
+  "2026-07-19": {
+    "block": {
+      "number": 40920592,
+      "time": 1784505599,
+      "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e",
+      "utc": "2026-07-19T23:59:59+00:00"
+    },
+    "next_block": {
+      "number": 40920593,
+      "time": 1784505600,
+      "hash": "0x49f3d6a8bd9924cba6906502987ab46d54ecc45e3eb44b5c574f55a8e8348795",
+      "utc": "2026-07-20T00:00:00+00:00"
+    },
+    "providers_verified": [
+      "drpc",
+      "hyperliquid-publicnode"
+    ],
+    "state": {
+      "nav_wei": 11679352970952880000000000,
+      "supply_wei": 11498088914752213014844506,
+      "provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "asset": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "asset_decimals": 6,
+      "reserve": {
+        "provider_balance": 583967648547,
+        "provider_allowance_to_redeem_pipe": 115792089237316195423570985008687907853269984665640564039457584003982944779755,
+        "redemption_pipe_balance": 0
+      },
+      "redemption_fee_bps": 30,
+      "redemption_quote_share_units": 1968959914705638312955,
+      "redemption_quote_usdc_units": 1994000000,
+      "deposit_2000_share_units": 1968959914705638312955,
+      "redeem_paused": false,
+      "deposit_paused": false,
+      "max_supply_share_units": 20000000000000000000000000,
+      "max_withdraw_share_units": 2000000000000000000000000,
+      "min_redeem_share_units": 1000000000000000,
+      "max_redeem_zero_owner_share_units": 0,
+      "proxy_implementations": {
+        "share": "0x8ef9eae50cf62171330d7a498fb618fe1e718a8c",
+        "nav": "0x28536b960e9cf6cbd6ad013c631af444ec08b2c2",
+        "redemption": "0x3fac21fdd343486280b04447aede477f689881c7",
+        "deposit": "0x84f36fea2e631380c7d4dc52eb42da66941d40cf"
+      }
+    },
+    "issuer_timestamp_ms": 1784505599999,
+    "issuer_pps_usdc": "1.015764",
+    "onchain_pps_usdc": "1.015764711644219640784162512761373697692548882047748122",
+    "difference_bps": "0.007005999618423021120188955049575418590165114614440000",
+    "reserve_usdc": "583967.648547",
+    "historical_spendable_token_balance_usdc": "583967.648547",
+    "historical_preview_redeem_usdc": "1994",
+    "historical_preview_deposit_shares": "1968.959914705638312955"
+  },
+  "2026-09-20": {
+    "block": {
+      "number": 46453895,
+      "time": 1789948799,
+      "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648",
+      "utc": "2026-09-20T23:59:59+00:00"
+    },
+    "next_block": {
+      "number": 46453896,
+      "time": 1789948800,
+      "hash": "0x4a5af5754ba3a0fbce467f9de07996f423e5a868bf513f2c0946f21ce0153daa",
+      "utc": "2026-09-21T00:00:00+00:00"
+    },
+    "providers_verified": [
+      "drpc",
+      "hyperliquid-publicnode"
+    ],
+    "state": {
+      "nav_wei": 9736727043476841000000000,
+      "supply_wei": 9451296414191742191574325,
+      "provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "asset": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "asset_decimals": 6,
+      "reserve": {
+        "provider_balance": 486836352173,
+        "provider_allowance_to_redeem_pipe": 115792089237316195423570985008687907853269984665640564039457583999380356731489,
+        "redemption_pipe_balance": 0
+      },
+      "redemption_fee_bps": 30,
+      "redemption_quote_share_units": 1941370313040391905921,
+      "redemption_quote_usdc_units": 1994000000,
+      "deposit_2000_share_units": 1941370313040391905921,
+      "redeem_paused": false,
+      "deposit_paused": false,
+      "max_supply_share_units": 20000000000000000000000000,
+      "max_withdraw_share_units": 2000000000000000000000000,
+      "min_redeem_share_units": 1000000000000000,
+      "max_redeem_zero_owner_share_units": 0,
+      "proxy_implementations": {
+        "share": "0x8ef9eae50cf62171330d7a498fb618fe1e718a8c",
+        "nav": "0x28536b960e9cf6cbd6ad013c631af444ec08b2c2",
+        "redemption": "0x3fac21fdd343486280b04447aede477f689881c7",
+        "deposit": "0x84f36fea2e631380c7d4dc52eb42da66941d40cf"
+      }
+    },
+    "issuer_timestamp_ms": 1789948799999,
+    "issuer_pps_usdc": "1.0302",
+    "onchain_pps_usdc": "1.030200156335855256381757034638158911056174172517001584",
+    "difference_bps": "0.001517529171582039963450185972733995090006959829000000",
+    "reserve_usdc": "486836.352173",
+    "historical_spendable_token_balance_usdc": "486836.352173",
+    "historical_preview_redeem_usdc": "1994",
+    "historical_preview_deposit_shares": "1941.370313040391905921"
+  },
+  "2026-11-22": {
+    "block": {
+      "number": 51987233,
+      "time": 1795391999,
+      "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03",
+      "utc": "2026-11-22T23:59:59+00:00"
+    },
+    "next_block": {
+      "number": 51987234,
+      "time": 1795392000,
+      "hash": "0x5a2c54f61a5d8a21561a1f0bfe3556a4f0f94ca58b83d25a6aa554ce62264290",
+      "utc": "2026-11-23T00:00:00+00:00"
+    },
+    "providers_verified": [
+      "drpc",
+      "hyperliquid-publicnode"
+    ],
+    "state": {
+      "nav_wei": 10844794377534118000000000,
+      "supply_wei": 10372352037241442756809992,
+      "provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "asset": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "asset_decimals": 6,
+      "reserve": {
+        "provider_balance": 96870270250,
+        "provider_allowance_to_redeem_pipe": 115792089237316195423570985008687907853269984665640564039457583995802955840935,
+        "redemption_pipe_balance": 0
+      },
+      "redemption_fee_bps": 30,
+      "redemption_quote_share_units": 1912872052001026715174,
+      "redemption_quote_usdc_units": 1994000000,
+      "deposit_2000_share_units": 1912872052001026715174,
+      "redeem_paused": false,
+      "deposit_paused": false,
+      "max_supply_share_units": 20000000000000000000000000,
+      "max_withdraw_share_units": 2000000000000000000000000,
+      "min_redeem_share_units": 1000000000000000,
+      "max_redeem_zero_owner_share_units": 0,
+      "proxy_implementations": {
+        "share": "0x8ef9eae50cf62171330d7a498fb618fe1e718a8c",
+        "nav": "0x28536b960e9cf6cbd6ad013c631af444ec08b2c2",
+        "redemption": "0x3fac21fdd343486280b04447aede477f689881c7",
+        "deposit": "0x84f36fea2e631380c7d4dc52eb42da66941d40cf"
+      }
+    },
+    "issuer_timestamp_ms": 1795391999999,
+    "issuer_pps_usdc": "1.045548",
+    "onchain_pps_usdc": "1.045548236175979489798322095271067519229181401578225369",
+    "difference_bps": "0.002258872662850470012809273869006771390711648105770000",
+    "reserve_usdc": "96870.27025",
+    "historical_spendable_token_balance_usdc": "96870.27025",
+    "historical_preview_redeem_usdc": "1994",
+    "historical_preview_deposit_shares": "1912.872052001026715174"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "source_endpoint": "https://api.liminal.money/sdk/tokenized/limUSD/metrics?range=max",
+  "source_sha256": "2ff0d8655657cf2be049c8178109487f44dd16b938d4c926f8c294132275e750",
+  "daily_marks": 190,
+  "maximum_absolute_deviation_from_assets_over_shares_usdc": "9.87440873539375777579E-7",
+  "starting_paper_usdc": "2000",
+  "annual_cash_rate": "0.04",
+  "issuer_nav_screen_pass": true,
+  "windows": [
+    {
+      "start_mark_utc_day": "2026-05-17",
+      "end_mark_utc_day": "2026-07-19",
+      "days": 63,
+      "opening_pps": "1.002662",
+      "closing_pps": "1.015764",
+      "pessimistic_queue_pps": "1.014333",
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "gross_share_pnl_usdc": "26.13443014694882223520987200",
+      "issuer_mark_max_drawdown_pct": "0",
+      "scenarios": {
+        "base_instant": {
+          "net_pnl_usdc": "19.045998843079721780619989",
+          "excess_vs_cash_usdc": "5.46086264932955680974644500"
+        },
+        "stress_instant": {
+          "net_pnl_usdc": "14.001412414970287095751110",
+          "excess_vs_cash_usdc": "0.41627622122012212487756600"
+        },
+        "stress_queued": {
+          "net_pnl_usdc": "19.234985966856228719149623",
+          "excess_vs_cash_usdc": "5.64984977310606374827607900"
+        },
+        "additional_100bp_exit_loss": {
+          "net_pnl_usdc": "-6.158761883477863926228381",
+          "excess_vs_cash_usdc": "-19.74389807722802889710192500"
+        }
+      }
+    },
+    {
+      "start_mark_utc_day": "2026-07-19",
+      "end_mark_utc_day": "2026-09-20",
+      "days": 63,
+      "opening_pps": "1.015764",
+      "closing_pps": "1.0302",
+      "pessimistic_queue_pps": "1.029404",
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "gross_share_pnl_usdc": "28.42392524247758337566600200",
+      "issuer_mark_max_drawdown_pct": "0",
+      "scenarios": {
+        "base_instant": {
+          "net_pnl_usdc": "21.327484140016775550226233",
+          "excess_vs_cash_usdc": "7.74234794626661057935268900"
+        },
+        "stress_instant": {
+          "net_pnl_usdc": "16.277197420892943636513994",
+          "excess_vs_cash_usdc": "2.69206122714277866564045000"
+        },
+        "stress_queued": {
+          "net_pnl_usdc": "22.804438930696500368195762",
+          "excess_vs_cash_usdc": "9.21930273694633539732221800"
+        },
+        "additional_100bp_exit_loss": {
+          "net_pnl_usdc": "-3.905757508245123867355015",
+          "excess_vs_cash_usdc": "-17.49089370199528883822855900"
+        }
+      }
+    },
+    {
+      "start_mark_utc_day": "2026-09-20",
+      "end_mark_utc_day": "2026-11-22",
+      "days": 63,
+      "opening_pps": "1.0302",
+      "closing_pps": "1.045548",
+      "pessimistic_queue_pps": "1.04474",
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "gross_share_pnl_usdc": "29.79615608619685497961560800",
+      "issuer_mark_max_drawdown_pct": "0",
+      "scenarios": {
+        "base_instant": {
+          "net_pnl_usdc": "22.694914234129295282469424",
+          "excess_vs_cash_usdc": "9.10977804037913031159588000"
+        },
+        "stress_instant": {
+          "net_pnl_usdc": "17.641210990915323238206173",
+          "excess_vs_cash_usdc": "4.05607479716515826733262900"
+        },
+        "stress_queued": {
+          "net_pnl_usdc": "24.172594748592506309454475",
+          "excess_vs_cash_usdc": "10.58745855484234133858093100"
+        },
+        "additional_100bp_exit_loss": {
+          "net_pnl_usdc": "-2.555397727712457775189284",
+          "excess_vs_cash_usdc": "-16.14053392146262274606282800"
+        }
+      }
+    }
+  ],
+  "overlapping_63_day_endpoint_sensitivity": {
+    "windows": 127,
+    "above_cash": 122,
+    "smallest_cash_excess_usdc": "-0.621205245424326040366556",
+    "largest_cash_excess_usdc": "4.071655156942286869536796"
+  }
+}

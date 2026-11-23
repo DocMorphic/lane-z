@@ -1,8 +1,8 @@
 # Lane Z
 
-Millisecond-scale paper research for Trade[XYZ] NVDA and TSLA equity perpetuals on Hyperliquid.
+Paper research for Hyperliquid equity perpetuals, crypto derivatives, and longer-horizon allocations.
 
-**Result as of November 23, 2026.** No tested Hyperliquid strategy has consistently beaten 4% annual cash after fees, funding and execution stress. HLP beat it in the first five periods and fell short in two later quarters. Fixed QQQ timing cleared cash in four separate Nasdaq vintages, while passive QQQ earned more in three. All positions and balances are simulated. [Hyperliquid vault](docs/hlp-vault.md) · [Nasdaq QQQ](docs/nasdaq-trend.md)
+**Result as of November 23, 2026.** A paper allocation to limUSD, an externally managed Hyperliquid yield portfolio, beat compounded 4% cash in three consecutive 63-day periods after modeled fees and redemptions. The stressed excess was 0.42, 2.69 and 4.06 USDC on 2,000 USDC each. Historical on-chain quotes and reserves support those paper results. Lane Z’s own trading rules fell short of the repeated cash hurdle. [limUSD replay and audit](docs/liminal-allocation.md)
 
 ## Longer-horizon paper tests
 
@@ -12,7 +12,9 @@ Separate tests retired [equity-perp relative strength](docs/relative-strength.md
 
 Additional tests retired [native trend](docs/native-trend.md), [selective carry and HYPE staking](docs/selective-carry.md), [daily relative basis](docs/perp-basis.md), and a funding-gated [equity index and gold portfolio](docs/hip3-allocation.md). They include explicit held-out cash hurdles, full capital accounting and separate stress results.
 
-## The strategy
+The [HLP vault](docs/hlp-vault.md) beat cash in its first five periods and missed in two later quarters. Nasdaq [QQQ timing](docs/nasdaq-trend.md) cleared cash in four separate stressed vintages. Passive QQQ earned more in three of those vintages. The [overnight equity-index trade](docs/hip3-overnight.md), [cross-venue crypto carry](docs/cross-venue-carry.md), [JitoSOL hedge](docs/jito-hedge.md), and [cross-asset trend basket](docs/managed-futures.md) fell short. All tests were paper-only.
+
+## The millisecond strategy
 
 Every 250 ms, a ridge model estimates the move in the Hyperliquid midpoint after the simulated entry arrives. It combines the target's own book pressure, XYZ100 and peer moves, and, in the strongest version, the Binance perp's returns and short-term basis for the same stock. Its paper orders cross the book only when the forecast clears the observed spread, the fee reserve, and a slippage buffer. The Binance arm's reference policy uses a 5,000 ms hold and 250 ms execution delay per leg. It takes one position at a time per symbol.
 

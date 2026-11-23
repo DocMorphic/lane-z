@@ -1,0 +1,2407 @@
+{
+  "capital_usdc": 3000.0,
+  "ratio_endpoint": "https://kobe.mainnet.jito.network/api/v1/jitosol_sol_ratio",
+  "market": {
+    "asset": "SOL",
+    "base_token": "USOL",
+    "base_token_id": "0x49b67c39f5566535de22b29b0e51e685",
+    "spot_symbol": "@156",
+    "perp_symbol": "SOL",
+    "archive_spot_from_utc": "2025-04-11T00:00:00.000Z",
+    "archive_perp_from_utc": "2024-10-29T00:00:00.000Z",
+    "frozen_eligible_from_utc": "2025-05-19",
+    "spot_lot_decimals": 3,
+    "perp_lot_decimals": 2,
+    "common_lot_decimals": 2
+  },
+  "scenarios": {
+    "base": {
+      "lag_bars": 1,
+      "delay_days": 3,
+      "execution_bps": 5,
+      "reserve_out_sol": 0.01,
+      "reserve_return_sol": 0.03,
+      "adverse_funding": false,
+      "route_haircut_bps": 0
+    },
+    "combined": {
+      "lag_bars": 2,
+      "delay_days": 5,
+      "execution_bps": 20,
+      "reserve_out_sol": 0.02,
+      "reserve_return_sol": 0.06,
+      "adverse_funding": true,
+      "route_haircut_bps": 50
+    }
+  },
+  "ratio_tape": {
+    "observations": 484,
+    "oldest": "2025-07-25T23:10:11+00:00",
+    "newest": "2026-11-20T23:11:26+00:00",
+    "longest_observation_gap_hours": 25.500555555555554
+  },
+  "source_audit": {
+    "Jito/jitosol-ratios.json": {
+      "sha256": "4c0e4b39746eb4c5705873e6917998a2f5146d6af075f442e754157e8856196f",
+      "rows_or_fields": 1,
+      "bytes": 27962
+    },
+    "SOL-perp-candles.json": {
+      "sha256": "8498ab156c83f6164d1d769d02e4405e1400786c5161b7d353a6b92b9e4b6759",
+      "rows_or_fields": 3415,
+      "bytes": 461947
+    },
+    "native/SOL-funding-2025-08-01.json": {
+      "sha256": "cc27793a803eb3a7b645c8be968b960c09aeb2429c0455a6e677f4e515a342f6",
+      "rows_or_fields": 480,
+      "bytes": 42577
+    },
+    "native/SOL-funding-2025-08-21.json": {
+      "sha256": "e7b369bf58ec6568e1d8e7863cac16c45dd909d42080c3c69b34fda43fc143c4",
+      "rows_or_fields": 480,
+      "bytes": 42331
+    },
+    "native/SOL-funding-2025-09-10.json": {
+      "sha256": "d43150e6d2527d43983d3f870cc2f881f5d32fab2dcc814a0303a21a26665241",
+      "rows_or_fields": 480,
+      "bytes": 42512
+    },
+    "native/SOL-funding-2025-09-30.json": {
+      "sha256": "deffddae256130a0955b93d90d42f993a7751e882acaadeac729a7d353647b00",
+      "rows_or_fields": 480,
+      "bytes": 42866
+    },
+    "native/SOL-funding-2025-10-20.json": {
+      "sha256": "88cc0d61e7afd4dbd2ffa7f199bdea46041c8957664b33dc3c235a5516ce11a2",
+      "rows_or_fields": 480,
+      "bytes": 43051
+    },
+    "native/SOL-funding-2025-11-09.json": {
+      "sha256": "66bd2123d212c4a5808a03f66990c72188793b1afab25a282d2caeec5ea64e7b",
+      "rows_or_fields": 480,
+      "bytes": 43572
+    },
+    "native/SOL-funding-2025-11-29.json": {
+      "sha256": "db30b74699fc814b40826336aa713d2e229d14eece8add9b1e8f7b12ac8b8451",
+      "rows_or_fields": 480,
+      "bytes": 43214
+    },
+    "native/SOL-funding-2025-12-19.json": {
+      "sha256": "04bec280de717e0c81d3588ec1f80aedc8bb55db8add476b6b1a1ca8390d4298",
+      "rows_or_fields": 480,
+      "bytes": 42697
+    },
+    "native/SOL-funding-2026-01-08.json": {
+      "sha256": "ce143c3929ca46ca88e3fd536f893b1c603f70579c41a5bfbd6623db3d0928f9",
+      "rows_or_fields": 480,
+      "bytes": 42820
+    },
+    "native/SOL-funding-2026-01-28.json": {
+      "sha256": "0328b8a4659a7f1ae6d81b2a9defb82816d589471e1a3dd2dfe1b5c26a841388",
+      "rows_or_fields": 480,
+      "bytes": 43873
+    },
+    "native/SOL-funding-2026-02-17.json": {
+      "sha256": "600d82668ba3b84ad28f9c7c7909b9f9ddeff5ebe7afba911fdeaf7fca6c5641",
+      "rows_or_fields": 480,
+      "bytes": 43881
+    },
+    "native/SOL-funding-2026-03-09.json": {
+      "sha256": "b19e2b4e7ce56d4e4138084cf94d7a586abce8fb0dc0bad1876411d7a896ffe1",
+      "rows_or_fields": 480,
+      "bytes": 43835
+    },
+    "native/SOL-funding-2026-03-29.json": {
+      "sha256": "8985892ddc23e982e26d2edd5241366d501aa9e0d4616ec4d5e2450938e3a54a",
+      "rows_or_fields": 480,
+      "bytes": 43541
+    },
+    "native/SOL-funding-2026-04-18.json": {
+      "sha256": "5d43674b99b25d837ffa72bdf5a7b4d3d2c0ff381b5e16c543611ef9495dce3d",
+      "rows_or_fields": 480,
+      "bytes": 43568
+    },
+    "native/SOL-funding-2026-05-08.json": {
+      "sha256": "56cbc6a3388d69494b71da774506ccd5f64f09abe698837562e7b1db7981c6ac",
+      "rows_or_fields": 480,
+      "bytes": 43153
+    },
+    "native/SOL-funding-2026-05-28.json": {
+      "sha256": "cbc759ae489732957b16e6235c91d0aa16e10ee1b1c3419f05f18ad37ed9584d",
+      "rows_or_fields": 480,
+      "bytes": 43408
+    },
+    "native/SOL-funding-2026-06-17.json": {
+      "sha256": "e4765ca289dfe6e437977df35137b6b459aee3e794a1efb5cf0a2f707758efbd",
+      "rows_or_fields": 480,
+      "bytes": 42928
+    },
+    "native/SOL-funding-2026-07-07.json": {
+      "sha256": "8904de53bfb85fc2b43b61740e2e1a780121c935c804ae35d4064ce2d3840574",
+      "rows_or_fields": 480,
+      "bytes": 43082
+    },
+    "native/SOL-funding-2026-07-27.json": {
+      "sha256": "3587e1db454f2cba222c47b37a1f3b19f624a8e919c10254122db2132b230652",
+      "rows_or_fields": 480,
+      "bytes": 43078
+    },
+    "native/SOL-funding-2026-08-16.json": {
+      "sha256": "1cde5d25ecec03ef3bbba309aee4238f1893dd0306de033613b3b12fd1f5753d",
+      "rows_or_fields": 480,
+      "bytes": 42597
+    },
+    "native/SOL-funding-2026-09-05.json": {
+      "sha256": "78c1974564e8191ac6a482823e9cb2286bb3862d9fe7d4e216456e0cd723239c",
+      "rows_or_fields": 480,
+      "bytes": 42801
+    },
+    "native/SOL-funding-2026-09-25.json": {
+      "sha256": "0cc6ae97011482b7daabf516c8008987172bfda62fa411d19b0937c27ea33f75",
+      "rows_or_fields": 480,
+      "bytes": 42740
+    },
+    "native/SOL-funding-2026-10-15.json": {
+      "sha256": "34ac0915796cb58f2661c91ffcc183fba022634c667c7e1ed42558730b55fee0",
+      "rows_or_fields": 480,
+      "bytes": 42903
+    },
+    "native/SOL-funding-2026-11-04.json": {
+      "sha256": "58afd0650541523f177cff4daeef655806aed8a1b60b6e4b3bd6d1c0c833b66f",
+      "rows_or_fields": 408,
+      "bytes": 36918
+    },
+    "native/SOL-funding-close.json": {
+      "sha256": "733f494462d3111cc70311d752e9857ebb08b3149f626ae60cc48e463fc952f1",
+      "rows_or_fields": 1,
+      "bytes": 93
+    },
+    "data/agent-selective-carry/spot-meta.json": {
+      "sha256": "01feb4313be53af202b92a44ec94b4979a2ea3ab8f3e330a1def94df23f46a8c",
+      "bytes": 144012,
+      "rows_or_fields": 2
+    },
+    "data/agent-selective-carry/perp-meta.json": {
+      "sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "bytes": 17743,
+      "rows_or_fields": 3
+    },
+    "data/agent-selective-carry/tardis-listings.json": {
+      "sha256": "853602b9a62f3625d886cd570725acec90c714e808cee10a60861890190d0fc1",
+      "bytes": 276700,
+      "rows_or_fields": 11
+    },
+    "data/agent-selective-carry/early/SOL-spot-candles.json": {
+      "sha256": "cabdbcba3aacbad8d3d7429a7b3d35b8e60616ad1ed80b20e9b52c593fee1f88",
+      "bytes": 59639,
+      "rows_or_fields": 445
+    },
+    "data/agent-selective-carry/late/SOL-spot-candles.json": {
+      "sha256": "6be3f932ac0a2a4b5043c23a9f32819bf9ba493cf5746130b84aa7a6248f16ab",
+      "bytes": 382376,
+      "rows_or_fields": 2869
+    }
+  },
+  "periods": {
+    "development": {
+      "start_utc": "2025-08-01",
+      "close_utc": "2025-12-01",
+      "policies": {
+        "JitoSOL": {
+          "base": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": 42.537884525338086,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": 2.950803075734541,
+            "basis_usdc": 1.6136427360191559,
+            "stake_rewards_usdc": 29.875558526826772,
+            "funding_usdc": 23.271850674964487,
+            "fees_usdc": 2.7680365896255,
+            "allowance_usdc": 2.409249559999796,
+            "bridge_reserve_usdc": 5.8233999999999995,
+            "redeem_fee_usdc": 1.1384212534348628,
+            "spot_dust_usdc": 0.08406000941115065,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 18.404850181311303,
+            "adverse_envelope_drawdown_usdc": 368.9487894514223,
+            "minimum_separate_hedge_margin_headroom_usdc": 927.0013889616114,
+            "maximum_residual_SOL_mark_usdc": 12.925691102593207,
+            "ending_hedge_usdc": 1974.8594385943811,
+            "ending_spot_cash_usdc": 1067.678445930957,
+            "minimum_leg_notional_usdc": 10.219000000000001,
+            "maximum_last_completed_bar_volume_share": 0.0007783112176138751,
+            "initial_funding": {
+              "desired_SOL": 7.83,
+              "bought_SOL": 7.83,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": {
+              "utc": "2025-08-01T08:00:00+00:00",
+              "snapshot_utc": "2025-07-31T23:52:28+00:00",
+              "ratio": 1.2209846882536106,
+              "shares": 6.404666721,
+              "redeemable_SOL": 7.819999999708459,
+              "bridge_reserve_SOL": 0.01
+            },
+            "burn": {
+              "request_utc": "2025-11-27T20:00:00+00:00",
+              "snapshot_utc": "2025-11-26T23:34:38+00:00",
+              "ratio": 1.2454365954676976,
+              "withdrawal_fee_SOL": 0.007976606316107502,
+              "claim_SOL": 7.9686297097913945,
+              "delay_days": 3
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2025-11-30T20:00:00+00:00",
+              "unit_available_utc": "2025-12-01T00:00:00+00:00",
+              "after_bridge_SOL": 7.938629709791394,
+              "bridge_reserve_SOL": 0.03
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2025-08-04T00:00:00+00:00",
+                "target_utc": "2025-08-04T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-03T23:57:06+00:00",
+                "ratio": 1.221887001765468,
+                "known_redeemable_SOL": 7.8257790170297605,
+                "desired_short_SOL": -7.82
+              },
+              {
+                "decision_utc": "2025-08-11T00:00:00+00:00",
+                "target_utc": "2025-08-11T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-10T23:05:05+00:00",
+                "ratio": 1.2232008144512783,
+                "known_redeemable_SOL": 7.834193549416198,
+                "desired_short_SOL": -7.83
+              },
+              {
+                "decision_utc": "2025-08-18T00:00:00+00:00",
+                "target_utc": "2025-08-18T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-17T23:50:47+00:00",
+                "ratio": 1.2250024900337306,
+                "known_redeemable_SOL": 7.845732681061168,
+                "desired_short_SOL": -7.84
+              },
+              {
+                "decision_utc": "2025-08-25T00:00:00+00:00",
+                "target_utc": "2025-08-25T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-24T22:53:18+00:00",
+                "ratio": 1.2262706058853248,
+                "known_redeemable_SOL": 7.853854540454246,
+                "desired_short_SOL": -7.85
+              },
+              {
+                "decision_utc": "2025-09-01T00:00:00+00:00",
+                "target_utc": "2025-09-01T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-31T23:45:45+00:00",
+                "ratio": 1.227946421710505,
+                "known_redeemable_SOL": 7.864587582300302,
+                "desired_short_SOL": -7.86
+              },
+              {
+                "decision_utc": "2025-09-08T00:00:00+00:00",
+                "target_utc": "2025-09-08T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-07T23:21:50+00:00",
+                "ratio": 1.2292285812945887,
+                "known_redeemable_SOL": 7.872799387119495,
+                "desired_short_SOL": -7.87
+              },
+              {
+                "decision_utc": "2025-09-15T00:00:00+00:00",
+                "target_utc": "2025-09-15T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-14T23:30:12+00:00",
+                "ratio": 1.2309603405459986,
+                "known_redeemable_SOL": 7.883890727965784,
+                "desired_short_SOL": -7.88
+              },
+              {
+                "decision_utc": "2025-09-22T00:00:00+00:00",
+                "target_utc": "2025-09-22T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-21T23:33:46+00:00",
+                "ratio": 1.2322210895607193,
+                "known_redeemable_SOL": 7.8919654052239,
+                "desired_short_SOL": -7.89
+              },
+              {
+                "decision_utc": "2025-09-29T00:00:00+00:00",
+                "target_utc": "2025-09-29T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-28T23:19:08+00:00",
+                "ratio": 1.2338861692375196,
+                "known_redeemable_SOL": 7.902629685617716,
+                "desired_short_SOL": -7.9
+              },
+              {
+                "decision_utc": "2025-10-06T00:00:00+00:00",
+                "target_utc": "2025-10-06T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-05T23:21:50+00:00",
+                "ratio": 1.2351438208931655,
+                "known_redeemable_SOL": 7.910684525323242,
+                "desired_short_SOL": -7.91
+              },
+              {
+                "decision_utc": "2025-10-13T00:00:00+00:00",
+                "target_utc": "2025-10-13T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-12T23:33:02+00:00",
+                "ratio": 1.2368062444836392,
+                "known_redeemable_SOL": 7.921331794369354,
+                "desired_short_SOL": -7.92
+              },
+              {
+                "decision_utc": "2025-10-20T00:00:00+00:00",
+                "target_utc": "2025-10-20T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-19T23:03:34+00:00",
+                "ratio": 1.2380356143904416,
+                "known_redeemable_SOL": 7.92920549889925,
+                "desired_short_SOL": -7.92
+              },
+              {
+                "decision_utc": "2025-10-27T00:00:00+00:00",
+                "target_utc": "2025-10-27T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-26T23:49:33+00:00",
+                "ratio": 1.2396110669842229,
+                "known_redeemable_SOL": 7.9392957476971535,
+                "desired_short_SOL": -7.93
+              },
+              {
+                "decision_utc": "2025-11-03T00:00:00+00:00",
+                "target_utc": "2025-11-03T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-02T22:51:41+00:00",
+                "ratio": 1.2406939452702546,
+                "known_redeemable_SOL": 7.946231222218595,
+                "desired_short_SOL": -7.94
+              },
+              {
+                "decision_utc": "2025-11-10T00:00:00+00:00",
+                "target_utc": "2025-11-10T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-09T23:17:10+00:00",
+                "ratio": 1.2422166850841523,
+                "known_redeemable_SOL": 7.955983863229407,
+                "desired_short_SOL": -7.95
+              },
+              {
+                "decision_utc": "2025-11-17T00:00:00+00:00",
+                "target_utc": "2025-11-17T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-16T23:49:03+00:00",
+                "ratio": 1.2434377109026746,
+                "known_redeemable_SOL": 7.963804126654779,
+                "desired_short_SOL": -7.96
+              },
+              {
+                "decision_utc": "2025-11-24T00:00:00+00:00",
+                "target_utc": "2025-11-24T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-23T23:16:15+00:00",
+                "ratio": 1.2450400901175378,
+                "known_redeemable_SOL": 7.974066831486636,
+                "desired_short_SOL": -7.97
+              },
+              {
+                "decision_utc": "2025-11-27T20:00:00+00:00",
+                "target_utc": "2025-11-28T00:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-26T23:34:38+00:00",
+                "ratio": 1.2454365954676976,
+                "known_redeemable_SOL": 7.9686297097913945,
+                "desired_short_SOL": -7.96
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-08-01T04:00:00+00:00",
+                "qty": 7.83,
+                "open_proxy": 171.02,
+                "adjusted_price": 171.10551,
+                "fee": 0.93782930031,
+                "allowance": 0.6695432999999946,
+                "volume_share": 0.00024044680728556897,
+                "mark_notional": 1339.0866,
+                "fill_notional": 1339.7561433
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-08-01T04:00:00+00:00",
+                "qty": -7.83,
+                "open_proxy": 171.07,
+                "adjusted_price": 170.984465,
+                "fee": 0.6024637624275,
+                "allowance": 0.6697390499999455,
+                "volume_share": 5.765490167468271e-06,
+                "mark_notional": 1339.4781,
+                "fill_notional": 1338.80836095
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-09-15T04:00:00+00:00",
+                "qty": -0.05,
+                "open_proxy": 242.61,
+                "adjusted_price": 242.48869500000004,
+                "fee": 0.005455995637500001,
+                "allowance": 0.006065249999998912,
+                "volume_share": 5.806981531812741e-08,
+                "mark_notional": 12.130500000000001,
+                "fill_notional": 12.124434750000002
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-10-27T04:00:00+00:00",
+                "qty": -0.05,
+                "open_proxy": 204.38,
+                "adjusted_price": 204.27781000000002,
+                "fee": 0.004596250725000001,
+                "allowance": 0.005109499999998946,
+                "volume_share": 8.088699121536539e-08,
+                "mark_notional": 10.219000000000001,
+                "fill_notional": 10.213890500000002
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": 7.93,
+                "open_proxy": 133.41,
+                "adjusted_price": 133.47670499999998,
+                "fee": 0.47631162179249986,
+                "allowance": 0.5289706499998786,
+                "volume_share": 2.1092243054986654e-05,
+                "mark_notional": 1057.9413,
+                "fill_notional": 1058.4702706499997
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": -7.938,
+                "open_proxy": 133.49,
+                "adjusted_price": 133.423255,
+                "fee": 0.741379658733,
+                "allowance": 0.5298218099999793,
+                "volume_share": 0.0007783112176138751,
+                "mark_notional": 1059.64362,
+                "fill_notional": 1059.1137981900001
+              }
+            ]
+          },
+          "combined": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": 8.818200435056497,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": -30.76888101454705,
+            "basis_usdc": -0.6724684751853357,
+            "stake_rewards_usdc": 29.409489699422057,
+            "funding_usdc": 10.434430379597758,
+            "fees_usdc": 2.74160559153,
+            "allowance_usdc": 9.547189899999976,
+            "bridge_reserve_usdc": 11.679599999999999,
+            "redeem_fee_usdc": 1.0718131876363337,
+            "spot_dust_usdc": 0.07105803660045992,
+            "route_haircut_usdc": 5.241984453011252,
+            "mark_drawdown_usdc": 27.633691630999238,
+            "adverse_envelope_drawdown_usdc": 367.64387080828783,
+            "minimum_separate_hedge_margin_headroom_usdc": 907.5598858810772,
+            "maximum_residual_SOL_mark_usdc": 12.503129336785978,
+            "ending_hedge_usdc": 1941.4681745120174,
+            "ending_spot_cash_usdc": 1067.3500259230389,
+            "minimum_leg_notional_usdc": 10.0368,
+            "maximum_last_completed_bar_volume_share": 0.0007721341444582095,
+            "initial_funding": {
+              "desired_SOL": 7.81,
+              "bought_SOL": 7.81,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": {
+              "utc": "2025-08-01T16:00:00+00:00",
+              "snapshot_utc": "2025-07-31T23:52:28+00:00",
+              "ratio": 1.2209846882536106,
+              "shares": 6.380096388,
+              "redeemable_SOL": 7.789999999330167,
+              "bridge_reserve_SOL": 0.02
+            },
+            "burn": {
+              "request_utc": "2025-11-25T16:00:00+00:00",
+              "snapshot_utc": "2025-11-24T23:46:14+00:00",
+              "ratio": 1.245040090568318,
+              "withdrawal_fee_SOL": 0.00794347578475012,
+              "claim_SOL": 7.935532308965369,
+              "delay_days": 5
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2025-11-30T16:00:00+00:00",
+              "unit_available_utc": "2025-12-01T00:00:00+00:00",
+              "after_bridge_SOL": 7.8755323089653695,
+              "bridge_reserve_SOL": 0.06
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2025-08-04T00:00:00+00:00",
+                "target_utc": "2025-08-04T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-03T23:57:06+00:00",
+                "ratio": 1.221887001765468,
+                "known_redeemable_SOL": 7.795756846508012,
+                "desired_short_SOL": -7.79
+              },
+              {
+                "decision_utc": "2025-08-11T00:00:00+00:00",
+                "target_utc": "2025-08-11T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-10T23:05:05+00:00",
+                "ratio": 1.2232008144512783,
+                "known_redeemable_SOL": 7.804139098079259,
+                "desired_short_SOL": -7.8
+              },
+              {
+                "decision_utc": "2025-08-18T00:00:00+00:00",
+                "target_utc": "2025-08-18T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-17T23:50:47+00:00",
+                "ratio": 1.2250024900337306,
+                "known_redeemable_SOL": 7.815633961955211,
+                "desired_short_SOL": -7.81
+              },
+              {
+                "decision_utc": "2025-08-25T00:00:00+00:00",
+                "target_utc": "2025-08-25T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-24T22:53:18+00:00",
+                "ratio": 1.2262706058853248,
+                "known_redeemable_SOL": 7.823724663319532,
+                "desired_short_SOL": -7.82
+              },
+              {
+                "decision_utc": "2025-09-01T00:00:00+00:00",
+                "target_utc": "2025-09-01T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-08-31T23:45:45+00:00",
+                "ratio": 1.227946421710505,
+                "known_redeemable_SOL": 7.834416529812717,
+                "desired_short_SOL": -7.83
+              },
+              {
+                "decision_utc": "2025-09-08T00:00:00+00:00",
+                "target_utc": "2025-09-08T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-07T23:21:50+00:00",
+                "ratio": 1.2292285812945887,
+                "known_redeemable_SOL": 7.84259683154397,
+                "desired_short_SOL": -7.84
+              },
+              {
+                "decision_utc": "2025-09-15T00:00:00+00:00",
+                "target_utc": "2025-09-15T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-14T23:30:12+00:00",
+                "ratio": 1.2309603405459986,
+                "known_redeemable_SOL": 7.853645622488775,
+                "desired_short_SOL": -7.85
+              },
+              {
+                "decision_utc": "2025-09-22T00:00:00+00:00",
+                "target_utc": "2025-09-22T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-21T23:33:46+00:00",
+                "ratio": 1.2322210895607193,
+                "known_redeemable_SOL": 7.86168932272377,
+                "desired_short_SOL": -7.86
+              },
+              {
+                "decision_utc": "2025-09-29T00:00:00+00:00",
+                "target_utc": "2025-09-29T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-09-28T23:19:08+00:00",
+                "ratio": 1.2338861692375196,
+                "known_redeemable_SOL": 7.8723126915554555,
+                "desired_short_SOL": -7.87
+              },
+              {
+                "decision_utc": "2025-10-06T00:00:00+00:00",
+                "target_utc": "2025-10-06T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-05T23:21:50+00:00",
+                "ratio": 1.2351438208931655,
+                "known_redeemable_SOL": 7.880336630341005,
+                "desired_short_SOL": -7.88
+              },
+              {
+                "decision_utc": "2025-10-13T00:00:00+00:00",
+                "target_utc": "2025-10-13T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-12T23:33:02+00:00",
+                "ratio": 1.2368062444836392,
+                "known_redeemable_SOL": 7.890943053085912,
+                "desired_short_SOL": -7.89
+              },
+              {
+                "decision_utc": "2025-10-20T00:00:00+00:00",
+                "target_utc": "2025-10-20T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-19T23:03:34+00:00",
+                "ratio": 1.2380356143904416,
+                "known_redeemable_SOL": 7.8987865515878175,
+                "desired_short_SOL": -7.89
+              },
+              {
+                "decision_utc": "2025-10-27T00:00:00+00:00",
+                "target_utc": "2025-10-27T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-10-26T23:49:33+00:00",
+                "ratio": 1.2396110669842229,
+                "known_redeemable_SOL": 7.908838090990867,
+                "desired_short_SOL": -7.9
+              },
+              {
+                "decision_utc": "2025-11-03T00:00:00+00:00",
+                "target_utc": "2025-11-03T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-02T22:51:41+00:00",
+                "ratio": 1.2406939452702546,
+                "known_redeemable_SOL": 7.915746958832221,
+                "desired_short_SOL": -7.91
+              },
+              {
+                "decision_utc": "2025-11-10T00:00:00+00:00",
+                "target_utc": "2025-11-10T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-09T23:17:10+00:00",
+                "ratio": 1.2422166850841523,
+                "known_redeemable_SOL": 7.925462185618733,
+                "desired_short_SOL": -7.92
+              },
+              {
+                "decision_utc": "2025-11-17T00:00:00+00:00",
+                "target_utc": "2025-11-17T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-16T23:49:03+00:00",
+                "ratio": 1.2434377109026746,
+                "known_redeemable_SOL": 7.933252448033143,
+                "desired_short_SOL": -7.93
+              },
+              {
+                "decision_utc": "2025-11-24T00:00:00+00:00",
+                "target_utc": "2025-11-24T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-23T23:16:15+00:00",
+                "ratio": 1.2450400901175378,
+                "known_redeemable_SOL": 7.943475781874097,
+                "desired_short_SOL": -7.94
+              },
+              {
+                "decision_utc": "2025-11-25T16:00:00+00:00",
+                "target_utc": "2025-11-26T00:00:00+00:00",
+                "ratio_as_of_utc": "2025-11-24T23:46:14+00:00",
+                "ratio": 1.245040090568318,
+                "known_redeemable_SOL": 7.935532308965369,
+                "desired_short_SOL": -7.93
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-08-01T08:00:00+00:00",
+                "qty": 7.81,
+                "open_proxy": 169.3,
+                "adjusted_price": 169.63860000000003,
+                "fee": 0.9274142262000001,
+                "allowance": 2.6444660000001075,
+                "volume_share": 0.00025645975662067606,
+                "mark_notional": 1322.233,
+                "fill_notional": 1324.8774660000001
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-08-01T08:00:00+00:00",
+                "qty": -7.81,
+                "open_proxy": 169.32,
+                "adjusted_price": 168.98136,
+                "fee": 0.5938849897199999,
+                "allowance": 2.6447783999999848,
+                "volume_share": 1.5392650247984266e-05,
+                "mark_notional": 1322.3891999999998,
+                "fill_notional": 1319.7444216
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-09-22T08:00:00+00:00",
+                "qty": -0.05,
+                "open_proxy": 221.9,
+                "adjusted_price": 221.4562,
+                "fee": 0.0049827645,
+                "allowance": 0.02219000000000051,
+                "volume_share": 1.929506379708317e-08,
+                "mark_notional": 11.095,
+                "fill_notional": 11.07281
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-11-10T08:00:00+00:00",
+                "qty": -0.06,
+                "open_proxy": 167.28,
+                "adjusted_price": 166.94544,
+                "fee": 0.0045075268799999995,
+                "allowance": 0.020073600000000625,
+                "volume_share": 1.836464546194919e-07,
+                "mark_notional": 10.0368,
+                "fill_notional": 10.0167264
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": 7.92,
+                "open_proxy": 133.41,
+                "adjusted_price": 133.67682,
+                "fee": 0.47642418647999996,
+                "allowance": 2.1132143999999653,
+                "volume_share": 2.1065645018347327e-05,
+                "mark_notional": 1056.6072,
+                "fill_notional": 1058.7204144
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": -7.875,
+                "open_proxy": 133.49,
+                "adjusted_price": 133.22302000000002,
+                "fee": 0.7343918977500001,
+                "allowance": 2.1024674999999178,
+                "volume_share": 0.0007721341444582095,
+                "mark_notional": 1051.23375,
+                "fill_notional": 1049.1312825000002
+              }
+            ]
+          }
+        },
+        "Unstaked_SOL": {
+          "base": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": 19.157913859916334,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": -20.42916758968721,
+            "basis_usdc": 1.0178999999999299,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 23.266100803373774,
+            "fees_usdc": 2.74189109346,
+            "allowance_usdc": 2.3841958499997995,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 18.76456705110968,
+            "adverse_envelope_drawdown_usdc": 368.0916121186642,
+            "minimum_separate_hedge_margin_headroom_usdc": 928.1803936951744,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": 1965.8790926708812,
+            "ending_spot_cash_usdc": 1053.278821189035,
+            "minimum_leg_notional_usdc": 1044.6003,
+            "maximum_last_completed_bar_volume_share": 0.0007677219493470197,
+            "initial_funding": {
+              "desired_SOL": 7.83,
+              "bought_SOL": 7.83,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-08-01T04:00:00+00:00",
+                "qty": 7.83,
+                "open_proxy": 171.02,
+                "adjusted_price": 171.10551,
+                "fee": 0.93782930031,
+                "allowance": 0.6695432999999946,
+                "volume_share": 0.00024044680728556897,
+                "mark_notional": 1339.0866,
+                "fill_notional": 1339.7561433
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-08-01T04:00:00+00:00",
+                "qty": -7.83,
+                "open_proxy": 171.07,
+                "adjusted_price": 170.984465,
+                "fee": 0.6024637624275,
+                "allowance": 0.6697390499999455,
+                "volume_share": 5.765490167468271e-06,
+                "mark_notional": 1339.4781,
+                "fill_notional": 1338.80836095
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": 7.83,
+                "open_proxy": 133.41,
+                "adjusted_price": 133.47670499999998,
+                "fee": 0.47030517006749994,
+                "allowance": 0.5223001499998802,
+                "volume_share": 2.082626268859338e-05,
+                "mark_notional": 1044.6003,
+                "fill_notional": 1045.12260015
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": -7.83,
+                "open_proxy": 133.49,
+                "adjusted_price": 133.423255,
+                "fee": 0.7312928606550001,
+                "allowance": 0.5226133499999795,
+                "volume_share": 0.0007677219493470197,
+                "mark_notional": 1045.2267000000002,
+                "fill_notional": 1044.7040866500001
+              }
+            ]
+          },
+          "combined": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": -0.8814288579415006,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": -40.468510307545046,
+            "basis_usdc": 0.7809999999998993,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 10.515230192207301,
+            "fees_usdc": 2.71943665015,
+            "allowance_usdc": 9.458222399999975,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 28.142846270081463,
+            "adverse_envelope_drawdown_usdc": 371.3482513907552,
+            "minimum_separate_hedge_margin_headroom_usdc": 907.5598858810772,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": 1935.1799954185983,
+            "ending_spot_cash_usdc": 1063.93857572346,
+            "minimum_leg_notional_usdc": 1041.9321,
+            "maximum_last_completed_bar_volume_share": 0.0007657609737420464,
+            "initial_funding": {
+              "desired_SOL": 7.81,
+              "bought_SOL": 7.81,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-08-01T08:00:00+00:00",
+                "qty": 7.81,
+                "open_proxy": 169.3,
+                "adjusted_price": 169.63860000000003,
+                "fee": 0.9274142262000001,
+                "allowance": 2.6444660000001075,
+                "volume_share": 0.00025645975662067606,
+                "mark_notional": 1322.233,
+                "fill_notional": 1324.8774660000001
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-08-01T08:00:00+00:00",
+                "qty": -7.81,
+                "open_proxy": 169.32,
+                "adjusted_price": 168.98136,
+                "fee": 0.5938849897199999,
+                "allowance": 2.6447783999999848,
+                "volume_share": 1.5392650247984266e-05,
+                "mark_notional": 1322.3891999999998,
+                "fill_notional": 1319.7444216
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": 7.81,
+                "open_proxy": 133.41,
+                "adjusted_price": 133.67682,
+                "fee": 0.4698071838899999,
+                "allowance": 2.0838641999999656,
+                "volume_share": 2.0773066615314724e-05,
+                "mark_notional": 1041.9321,
+                "fill_notional": 1044.0159641999999
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T00:00:00+00:00",
+                "qty": -7.81,
+                "open_proxy": 133.49,
+                "adjusted_price": 133.22302000000002,
+                "fee": 0.72833025034,
+                "allowance": 2.0851137999999185,
+                "volume_share": 0.0007657609737420464,
+                "mark_notional": 1042.5569,
+                "fill_notional": 1040.4717862
+              }
+            ]
+          }
+        }
+      }
+    },
+    "holdout_1": {
+      "start_utc": "2025-12-01",
+      "close_utc": "2026-04-01",
+      "policies": {
+        "JitoSOL": {
+          "base": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": -3.2650757961832824,
+            "cash_hurdle_usdc": 39.26048318055497,
+            "excess_over_cash_usdc": -42.52555897673825,
+            "basis_usdc": -5.501914018365587,
+            "stake_rewards_usdc": 20.5393139189336,
+            "funding_usdc": -9.082887150507197,
+            "fees_usdc": 2.4556725386720997,
+            "allowance_usdc": 2.136410106999704,
+            "bridge_reserve_usdc": 3.75262,
+            "redeem_fee_usdc": 0.8555074103053242,
+            "spot_dust_usdc": 0.019378490262811847,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 22.229689556403628,
+            "adverse_envelope_drawdown_usdc": 147.86004782240298,
+            "minimum_separate_hedge_margin_headroom_usdc": 1364.4077808420088,
+            "maximum_residual_SOL_mark_usdc": 11.681109697347084,
+            "ending_hedge_usdc": 2080.3415502076914,
+            "ending_spot_cash_usdc": 916.3933739961252,
+            "minimum_leg_notional_usdc": 11.01464,
+            "maximum_last_completed_bar_volume_share": 0.0009790125032323402,
+            "initial_funding": {
+              "desired_SOL": 10.09,
+              "bought_SOL": 10.09,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": {
+              "utc": "2025-12-01T08:00:00+00:00",
+              "snapshot_utc": "2025-11-30T23:00:53+00:00",
+              "ratio": 1.246650074745539,
+              "shares": 8.085669109,
+              "redeemable_SOL": 10.079999999102544,
+              "bridge_reserve_SOL": 0.01
+            },
+            "burn": {
+              "request_utc": "2026-03-28T20:00:00+00:00",
+              "snapshot_utc": "2026-03-27T23:58:55+00:00",
+              "ratio": 1.2697155232607524,
+              "withdrawal_fee_SOL": 0.010266499583647237,
+              "claim_SOL": 10.25623308406359,
+              "delay_days": 3
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2026-03-31T20:00:00+00:00",
+              "unit_available_utc": "2026-04-01T00:00:00+00:00",
+              "after_bridge_SOL": 10.22623308406359,
+              "bridge_reserve_SOL": 0.03
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2025-12-08T00:00:00+00:00",
+                "target_utc": "2025-12-08T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-07T23:58:13+00:00",
+                "ratio": 1.247756356913316,
+                "known_redeemable_SOL": 10.088945030652377,
+                "desired_short_SOL": -10.08
+              },
+              {
+                "decision_utc": "2025-12-15T00:00:00+00:00",
+                "target_utc": "2025-12-15T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-14T23:17:39+00:00",
+                "ratio": 1.2493634294175042,
+                "known_redeemable_SOL": 10.101939287155416,
+                "desired_short_SOL": -10.1
+              },
+              {
+                "decision_utc": "2025-12-22T00:00:00+00:00",
+                "target_utc": "2025-12-22T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-21T23:31:18+00:00",
+                "ratio": 1.2505475897387544,
+                "known_redeemable_SOL": 10.111514015685051,
+                "desired_short_SOL": -10.11
+              },
+              {
+                "decision_utc": "2025-12-29T00:00:00+00:00",
+                "target_utc": "2025-12-29T04:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-28T23:05:19+00:00",
+                "ratio": 1.2520983760288091,
+                "known_redeemable_SOL": 10.124053160485207,
+                "desired_short_SOL": -10.12
+              },
+              {
+                "decision_utc": "2026-01-05T00:00:00+00:00",
+                "target_utc": "2026-01-05T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-04T23:33:58+00:00",
+                "ratio": 1.253276807613543,
+                "known_redeemable_SOL": 10.13358156834696,
+                "desired_short_SOL": -10.13
+              },
+              {
+                "decision_utc": "2026-01-12T00:00:00+00:00",
+                "target_utc": "2026-01-12T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-11T23:20:46+00:00",
+                "ratio": 1.2548580452582456,
+                "known_redeemable_SOL": 10.14636693272472,
+                "desired_short_SOL": -10.14
+              },
+              {
+                "decision_utc": "2026-01-19T00:00:00+00:00",
+                "target_utc": "2026-01-19T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-18T23:50:33+00:00",
+                "ratio": 1.2563958577053742,
+                "known_redeemable_SOL": 10.158801175323903,
+                "desired_short_SOL": -10.15
+              },
+              {
+                "decision_utc": "2026-01-26T00:00:00+00:00",
+                "target_utc": "2026-01-26T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-25T23:57:23+00:00",
+                "ratio": 1.257584770624602,
+                "known_redeemable_SOL": 10.168414331788194,
+                "desired_short_SOL": -10.16
+              },
+              {
+                "decision_utc": "2026-02-02T00:00:00+00:00",
+                "target_utc": "2026-02-02T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-01T23:43:07+00:00",
+                "ratio": 1.2591930574158026,
+                "known_redeemable_SOL": 10.181418406614217,
+                "desired_short_SOL": -10.18
+              },
+              {
+                "decision_utc": "2026-02-09T00:00:00+00:00",
+                "target_utc": "2026-02-09T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-08T23:06:14+00:00",
+                "ratio": 1.2603643780310259,
+                "known_redeemable_SOL": 10.190889317529463,
+                "desired_short_SOL": -10.19
+              },
+              {
+                "decision_utc": "2026-02-16T00:00:00+00:00",
+                "target_utc": "2026-02-16T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-15T23:02:36+00:00",
+                "ratio": 1.2619715480276688,
+                "known_redeemable_SOL": 10.20388436232423,
+                "desired_short_SOL": -10.2
+              },
+              {
+                "decision_utc": "2026-02-23T00:00:00+00:00",
+                "target_utc": "2026-02-23T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-22T23:13:53+00:00",
+                "ratio": 1.263123073542469,
+                "known_redeemable_SOL": 10.213195216607476,
+                "desired_short_SOL": -10.21
+              },
+              {
+                "decision_utc": "2026-03-02T00:00:00+00:00",
+                "target_utc": "2026-03-02T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-01T23:03:58+00:00",
+                "ratio": 1.2646449945003897,
+                "known_redeemable_SOL": 10.225500965883276,
+                "desired_short_SOL": -10.22
+              },
+              {
+                "decision_utc": "2026-03-09T00:00:00+00:00",
+                "target_utc": "2026-03-09T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-08T22:52:49+00:00",
+                "ratio": 1.2658290783893136,
+                "known_redeemable_SOL": 10.235075076406412,
+                "desired_short_SOL": -10.23
+              },
+              {
+                "decision_utc": "2026-03-16T00:00:00+00:00",
+                "target_utc": "2026-03-16T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-15T23:35:52+00:00",
+                "ratio": 1.2673915929092368,
+                "known_redeemable_SOL": 10.24770905179252,
+                "desired_short_SOL": -10.24
+              },
+              {
+                "decision_utc": "2026-03-23T00:00:00+00:00",
+                "target_utc": "2026-03-23T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-22T23:34:33+00:00",
+                "ratio": 1.2685485870350808,
+                "known_redeemable_SOL": 10.25706412345515,
+                "desired_short_SOL": -10.25
+              },
+              {
+                "decision_utc": "2026-03-28T20:00:00+00:00",
+                "target_utc": "2026-03-29T00:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-27T23:58:55+00:00",
+                "ratio": 1.2697155232607524,
+                "known_redeemable_SOL": 10.25623308406359,
+                "desired_short_SOL": -10.25
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T04:00:00+00:00",
+                "qty": 10.09,
+                "open_proxy": 126.98,
+                "adjusted_price": 127.04348999999999,
+                "fee": 0.8973081698699998,
+                "allowance": 0.6406140999998727,
+                "volume_share": 0.00044832676365039474,
+                "mark_notional": 1281.2282,
+                "fill_notional": 1281.8688140999998
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T04:00:00+00:00",
+                "qty": -10.09,
+                "open_proxy": 126.9,
+                "adjusted_price": 126.83655000000002,
+                "fee": 0.575901355275,
+                "allowance": 0.640210499999888,
+                "volume_share": 8.285648359497875e-06,
+                "mark_notional": 1280.421,
+                "fill_notional": 1279.7807895
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-03-02T04:00:00+00:00",
+                "qty": -0.13,
+                "open_proxy": 84.728,
+                "adjusted_price": 84.685636,
+                "fee": 0.004954109706,
+                "allowance": 0.00550731999999897,
+                "volume_share": 1.70292033415122e-07,
+                "mark_notional": 11.01464,
+                "fill_notional": 11.00913268
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": 10.22,
+                "open_proxy": 83.168,
+                "adjusted_price": 83.209584,
+                "fee": 0.38268087681600005,
+                "allowance": 0.42498848000000294,
+                "volume_share": 1.2958143598597184e-05,
+                "mark_notional": 849.9769600000001,
+                "fill_notional": 850.4019484800001
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": -10.226,
+                "open_proxy": 83.139,
+                "adjusted_price": 83.0974305,
+                "fee": 0.5948280270051001,
+                "allowance": 0.42508970699994136,
+                "volume_share": 0.0009790125032323402,
+                "mark_notional": 850.1794140000001,
+                "fill_notional": 849.7543242930001
+              }
+            ]
+          },
+          "combined": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": -22.19993958427358,
+            "cash_hurdle_usdc": 39.26048318055497,
+            "excess_over_cash_usdc": -61.46042276482855,
+            "basis_usdc": -4.874128351957055,
+            "stake_rewards_usdc": 20.236919381354397,
+            "funding_usdc": -14.029243020968174,
+            "fees_usdc": 2.4553944612347998,
+            "allowance_usdc": 8.54583145600014,
+            "bridge_reserve_usdc": 7.35756,
+            "redeem_fee_usdc": 0.8964245989603836,
+            "spot_dust_usdc": 0.061238430437111455,
+            "route_haircut_usdc": 4.217038646071356,
+            "mark_drawdown_usdc": 32.649653724682594,
+            "adverse_envelope_drawdown_usdc": 147.4860912257941,
+            "minimum_separate_hedge_margin_headroom_usdc": 1364.078180712296,
+            "maximum_residual_SOL_mark_usdc": 11.980317596905698,
+            "ending_hedge_usdc": 2075.8661969118466,
+            "ending_spot_cash_usdc": 901.9338635038797,
+            "minimum_leg_notional_usdc": 10.80534,
+            "maximum_last_completed_bar_volume_share": 0.0009738426738587292,
+            "initial_funding": {
+              "desired_SOL": 10.08,
+              "bought_SOL": 10.08,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": {
+              "utc": "2025-12-01T16:00:00+00:00",
+              "snapshot_utc": "2025-11-30T23:00:53+00:00",
+              "ratio": 1.246650074745539,
+              "shares": 8.069626115,
+              "redeemable_SOL": 10.059999999433304,
+              "bridge_reserve_SOL": 0.02
+            },
+            "burn": {
+              "request_utc": "2026-03-26T16:00:00+00:00",
+              "snapshot_utc": "2026-03-25T23:47:18+00:00",
+              "ratio": 1.2693251721453516,
+              "withdrawal_fee_SOL": 0.010242979557570999,
+              "claim_SOL": 10.232736578013428,
+              "delay_days": 5
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2026-03-31T16:00:00+00:00",
+              "unit_available_utc": "2026-04-01T00:00:00+00:00",
+              "after_bridge_SOL": 10.172736578013428,
+              "bridge_reserve_SOL": 0.06
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2025-12-08T00:00:00+00:00",
+                "target_utc": "2025-12-08T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-07T23:58:13+00:00",
+                "ratio": 1.247756356913316,
+                "known_redeemable_SOL": 10.068927282904957,
+                "desired_short_SOL": -10.06
+              },
+              {
+                "decision_utc": "2025-12-15T00:00:00+00:00",
+                "target_utc": "2025-12-15T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-14T23:17:39+00:00",
+                "ratio": 1.2493634294175042,
+                "known_redeemable_SOL": 10.081895757153452,
+                "desired_short_SOL": -10.08
+              },
+              {
+                "decision_utc": "2025-12-22T00:00:00+00:00",
+                "target_utc": "2025-12-22T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-21T23:31:18+00:00",
+                "ratio": 1.2505475897387544,
+                "known_redeemable_SOL": 10.091451488206157,
+                "desired_short_SOL": -10.09
+              },
+              {
+                "decision_utc": "2025-12-29T00:00:00+00:00",
+                "target_utc": "2025-12-29T08:00:00+00:00",
+                "ratio_as_of_utc": "2025-12-28T23:05:19+00:00",
+                "ratio": 1.2520983760288091,
+                "known_redeemable_SOL": 10.103965753751169,
+                "desired_short_SOL": -10.1
+              },
+              {
+                "decision_utc": "2026-01-05T00:00:00+00:00",
+                "target_utc": "2026-01-05T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-04T23:33:58+00:00",
+                "ratio": 1.253276807613543,
+                "known_redeemable_SOL": 10.113475256042078,
+                "desired_short_SOL": -10.11
+              },
+              {
+                "decision_utc": "2026-01-12T00:00:00+00:00",
+                "target_utc": "2026-01-12T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-11T23:20:46+00:00",
+                "ratio": 1.2548580452582456,
+                "known_redeemable_SOL": 10.12623525263379,
+                "desired_short_SOL": -10.12
+              },
+              {
+                "decision_utc": "2026-01-19T00:00:00+00:00",
+                "target_utc": "2026-01-19T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-18T23:50:33+00:00",
+                "ratio": 1.2563958577053742,
+                "known_redeemable_SOL": 10.138644824117112,
+                "desired_short_SOL": -10.13
+              },
+              {
+                "decision_utc": "2026-01-26T00:00:00+00:00",
+                "target_utc": "2026-01-26T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-01-25T23:57:23+00:00",
+                "ratio": 1.257584770624602,
+                "known_redeemable_SOL": 10.148238906858573,
+                "desired_short_SOL": -10.14
+              },
+              {
+                "decision_utc": "2026-02-02T00:00:00+00:00",
+                "target_utc": "2026-02-02T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-01T23:43:07+00:00",
+                "ratio": 1.2591930574158026,
+                "known_redeemable_SOL": 10.161217179949254,
+                "desired_short_SOL": -10.16
+              },
+              {
+                "decision_utc": "2026-02-09T00:00:00+00:00",
+                "target_utc": "2026-02-09T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-08T23:06:14+00:00",
+                "ratio": 1.2603643780310259,
+                "known_redeemable_SOL": 10.170669299374898,
+                "desired_short_SOL": -10.17
+              },
+              {
+                "decision_utc": "2026-02-16T00:00:00+00:00",
+                "target_utc": "2026-02-16T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-15T23:02:36+00:00",
+                "ratio": 1.2619715480276688,
+                "known_redeemable_SOL": 10.183638560351053,
+                "desired_short_SOL": -10.18
+              },
+              {
+                "decision_utc": "2026-02-23T00:00:00+00:00",
+                "target_utc": "2026-02-23T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-02-22T23:13:53+00:00",
+                "ratio": 1.263123073542469,
+                "known_redeemable_SOL": 10.192930940717373,
+                "desired_short_SOL": -10.19
+              },
+              {
+                "decision_utc": "2026-03-02T00:00:00+00:00",
+                "target_utc": "2026-03-02T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-01T23:03:58+00:00",
+                "ratio": 1.2646449945003897,
+                "known_redeemable_SOL": 10.205212273824376,
+                "desired_short_SOL": -10.2
+              },
+              {
+                "decision_utc": "2026-03-09T00:00:00+00:00",
+                "target_utc": "2026-03-09T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-08T22:52:49+00:00",
+                "ratio": 1.2658290783893136,
+                "known_redeemable_SOL": 10.214767388096787,
+                "desired_short_SOL": -10.21
+              },
+              {
+                "decision_utc": "2026-03-16T00:00:00+00:00",
+                "target_utc": "2026-03-16T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-15T23:35:52+00:00",
+                "ratio": 1.2673915929092368,
+                "known_redeemable_SOL": 10.227376296071826,
+                "desired_short_SOL": -10.22
+              },
+              {
+                "decision_utc": "2026-03-23T00:00:00+00:00",
+                "target_utc": "2026-03-23T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-22T23:34:33+00:00",
+                "ratio": 1.2685485870350808,
+                "known_redeemable_SOL": 10.236712806084638,
+                "desired_short_SOL": -10.23
+              },
+              {
+                "decision_utc": "2026-03-26T16:00:00+00:00",
+                "target_utc": "2026-03-27T00:00:00+00:00",
+                "ratio_as_of_utc": "2026-03-25T23:47:18+00:00",
+                "ratio": 1.2693251721453516,
+                "known_redeemable_SOL": 10.232736578013428,
+                "desired_short_SOL": -10.23
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T08:00:00+00:00",
+                "qty": 10.08,
+                "open_proxy": 127.36,
+                "adjusted_price": 127.61472,
+                "fee": 0.9004494643200001,
+                "allowance": 2.567577600000061,
+                "volume_share": 0.0009541254947632899,
+                "mark_notional": 1283.7888,
+                "fill_notional": 1286.3563776
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T08:00:00+00:00",
+                "qty": -10.08,
+                "open_proxy": 127.33,
+                "adjusted_price": 127.07534,
+                "fee": 0.57641374224,
+                "allowance": 2.5669728000000123,
+                "volume_share": 2.8002342084778257e-05,
+                "mark_notional": 1283.4864,
+                "fill_notional": 1280.9194272
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-03-09T08:00:00+00:00",
+                "qty": -0.13,
+                "open_proxy": 83.118,
+                "adjusted_price": 82.951764,
+                "fee": 0.004852678194,
+                "allowance": 0.02161067999999972,
+                "volume_share": 2.886663143309258e-07,
+                "mark_notional": 10.80534,
+                "fill_notional": 10.78372932
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": 10.21,
+                "open_proxy": 83.168,
+                "adjusted_price": 83.33433600000001,
+                "fee": 0.38287960675200006,
+                "allowance": 1.6982905600000118,
+                "volume_share": 1.294546439742439e-05,
+                "mark_notional": 849.1452800000002,
+                "fill_notional": 850.8435705600001
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": -10.172,
+                "open_proxy": 83.139,
+                "adjusted_price": 82.97272199999999,
+                "fee": 0.5907989697288,
+                "allowance": 1.6913798160000557,
+                "volume_share": 0.0009738426738587292,
+                "mark_notional": 845.6899080000001,
+                "fill_notional": 843.998528184
+              }
+            ]
+          }
+        },
+        "Unstaked_SOL": {
+          "base": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": -14.650610775508994,
+            "cash_hurdle_usdc": 39.26048318055497,
+            "excess_over_cash_usdc": -53.911093956063965,
+            "basis_usdc": -1.0998100000000648,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": -8.993017567586211,
+            "fees_usdc": 2.4379397929185,
+            "allowance_usdc": 2.1198434149997056,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 23.997706741907223,
+            "adverse_envelope_drawdown_usdc": 144.73261126090074,
+            "minimum_separate_hedge_margin_headroom_usdc": 1364.4077808420088,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": 2080.2493549009823,
+            "ending_spot_cash_usdc": 905.1000343235087,
+            "minimum_leg_notional_usdc": 838.8725099999999,
+            "maximum_last_completed_bar_volume_share": 0.0009659921922173198,
+            "initial_funding": {
+              "desired_SOL": 10.09,
+              "bought_SOL": 10.09,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T04:00:00+00:00",
+                "qty": 10.09,
+                "open_proxy": 126.98,
+                "adjusted_price": 127.04348999999999,
+                "fee": 0.8973081698699998,
+                "allowance": 0.6406140999998727,
+                "volume_share": 0.00044832676365039474,
+                "mark_notional": 1281.2282,
+                "fill_notional": 1281.8688140999998
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T04:00:00+00:00",
+                "qty": -10.09,
+                "open_proxy": 126.9,
+                "adjusted_price": 126.83655000000002,
+                "fee": 0.575901355275,
+                "allowance": 0.640210499999888,
+                "volume_share": 8.285648359497875e-06,
+                "mark_notional": 1280.421,
+                "fill_notional": 1279.7807895
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": 10.09,
+                "open_proxy": 83.168,
+                "adjusted_price": 83.209584,
+                "fee": 0.37781311615200003,
+                "allowance": 0.4195825600000029,
+                "volume_share": 1.279331398335084e-05,
+                "mark_notional": 839.16512,
+                "fill_notional": 839.5847025600001
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": -10.09,
+                "open_proxy": 83.139,
+                "adjusted_price": 83.0974305,
+                "fee": 0.5869171516214999,
+                "allowance": 0.41943625499994214,
+                "volume_share": 0.0009659921922173198,
+                "mark_notional": 838.8725099999999,
+                "fill_notional": 838.453073745
+              }
+            ]
+          },
+          "combined": {
+            "complete": true,
+            "failure": null,
+            "net_usdc": -25.473528024472216,
+            "cash_hurdle_usdc": 39.26048318055497,
+            "excess_over_cash_usdc": -64.73401120502719,
+            "basis_usdc": -0.5947200000001238,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": -13.951185223384721,
+            "fees_usdc": 2.440323281088,
+            "allowance_usdc": 8.487299520000139,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 27.553740238677165,
+            "adverse_envelope_drawdown_usdc": 144.92751404363707,
+            "minimum_separate_hedge_margin_headroom_usdc": 1364.078180712296,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": 2076.00371680628,
+            "ending_spot_cash_usdc": 898.5227551692478,
+            "minimum_leg_notional_usdc": 838.04112,
+            "maximum_last_completed_bar_volume_share": 0.0009650348164073918,
+            "initial_funding": {
+              "desired_SOL": 10.08,
+              "bought_SOL": 10.08,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": false
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2025-12-01T08:00:00+00:00",
+                "qty": 10.08,
+                "open_proxy": 127.36,
+                "adjusted_price": 127.61472,
+                "fee": 0.9004494643200001,
+                "allowance": 2.567577600000061,
+                "volume_share": 0.0009541254947632899,
+                "mark_notional": 1283.7888,
+                "fill_notional": 1286.3563776
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2025-12-01T08:00:00+00:00",
+                "qty": -10.08,
+                "open_proxy": 127.33,
+                "adjusted_price": 127.07534,
+                "fee": 0.57641374224,
+                "allowance": 2.5669728000000123,
+                "volume_share": 2.8002342084778257e-05,
+                "mark_notional": 1283.4864,
+                "fill_notional": 1280.9194272
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": 10.08,
+                "open_proxy": 83.168,
+                "adjusted_price": 83.33433600000001,
+                "fee": 0.37800454809600004,
+                "allowance": 1.6766668800000115,
+                "volume_share": 1.2780634782178044e-05,
+                "mark_notional": 838.3334400000001,
+                "fill_notional": 840.0101068800001
+              },
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T00:00:00+00:00",
+                "qty": -10.08,
+                "open_proxy": 83.139,
+                "adjusted_price": 82.97272199999999,
+                "fee": 0.5854555264319999,
+                "allowance": 1.6760822400000552,
+                "volume_share": 0.0009650348164073918,
+                "mark_notional": 838.04112,
+                "fill_notional": 836.36503776
+              }
+            ]
+          }
+        }
+      }
+    },
+    "holdout_2": {
+      "start_utc": "2026-04-01",
+      "close_utc": "2026-08-01",
+      "policies": {
+        "JitoSOL": {
+          "base": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T00:00:00+00:00",
+              "reason": "execution needs 16.36600000 SOL against 849.52200000 SOL of prior-bar volume (1.9265% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": -2.185176830996969,
+            "stake_rewards_usdc": 22.615133670514265,
+            "funding_usdc": 8.0360668602826,
+            "fees_usdc": 1.5586281680804999,
+            "allowance_usdc": 1.357281839999857,
+            "bridge_reserve_usdc": 3.03043,
+            "redeem_fee_usdc": 1.2189323635179306,
+            "spot_dust_usdc": 3.7630766698271144e-08,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 6.353103742229905,
+            "adverse_envelope_drawdown_usdc": 90.82783724452838,
+            "minimum_separate_hedge_margin_headroom_usdc": 1328.2102587171862,
+            "maximum_residual_SOL_mark_usdc": 11.357283951724751,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": 10.185599999999999,
+            "maximum_last_completed_bar_volume_share": 0.0007673821689196434,
+            "initial_funding": {
+              "desired_SOL": 16.21,
+              "bought_SOL": 16.14,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": {
+              "utc": "2026-04-01T08:00:00+00:00",
+              "snapshot_utc": "2026-03-31T22:56:50+00:00",
+              "ratio": 1.270486262396107,
+              "shares": 12.695926337,
+              "redeemable_SOL": 16.129999999551426,
+              "bridge_reserve_SOL": 0.01
+            },
+            "burn": {
+              "request_utc": "2026-07-28T20:00:00+00:00",
+              "snapshot_utc": "2026-07-27T23:16:22+00:00",
+              "ratio": 1.2927642482256831,
+              "withdrawal_fee_SOL": 0.016412839666580456,
+              "claim_SOL": 16.396426826913878,
+              "delay_days": 3
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2026-07-31T20:00:00+00:00",
+              "unit_available_utc": "2026-08-01T00:00:00+00:00",
+              "after_bridge_SOL": 16.366426826913877,
+              "bridge_reserve_SOL": 0.03
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2026-04-06T00:00:00+00:00",
+                "target_utc": "2026-04-06T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-05T23:14:00+00:00",
+                "ratio": 1.2716405876148142,
+                "known_redeemable_SOL": 16.144655227497076,
+                "desired_short_SOL": -16.14
+              },
+              {
+                "decision_utc": "2026-04-13T00:00:00+00:00",
+                "target_utc": "2026-04-13T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-12T23:58:20+00:00",
+                "ratio": 1.2728034594547808,
+                "known_redeemable_SOL": 16.159418962716664,
+                "desired_short_SOL": -16.15
+              },
+              {
+                "decision_utc": "2026-04-20T00:00:00+00:00",
+                "target_utc": "2026-04-20T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-19T23:18:10+00:00",
+                "ratio": 1.2743481329096098,
+                "known_redeemable_SOL": 16.179030023113892,
+                "desired_short_SOL": -16.17
+              },
+              {
+                "decision_utc": "2026-04-27T00:00:00+00:00",
+                "target_utc": "2026-04-27T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-26T23:34:33+00:00",
+                "ratio": 1.275483606435434,
+                "known_redeemable_SOL": 16.19344591135537,
+                "desired_short_SOL": -16.19
+              },
+              {
+                "decision_utc": "2026-05-04T00:00:00+00:00",
+                "target_utc": "2026-05-04T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-03T22:56:45+00:00",
+                "ratio": 1.2770242538963785,
+                "known_redeemable_SOL": 16.213005858030808,
+                "desired_short_SOL": -16.21
+              },
+              {
+                "decision_utc": "2026-05-11T00:00:00+00:00",
+                "target_utc": "2026-05-11T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-10T23:16:13+00:00",
+                "ratio": 1.2781842045103395,
+                "known_redeemable_SOL": 16.227732505580214,
+                "desired_short_SOL": -16.22
+              },
+              {
+                "decision_utc": "2026-05-18T00:00:00+00:00",
+                "target_utc": "2026-05-18T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-17T23:04:41+00:00",
+                "ratio": 1.279710987053248,
+                "known_redeemable_SOL": 16.247116424277596,
+                "desired_short_SOL": -16.24
+              },
+              {
+                "decision_utc": "2026-05-25T00:00:00+00:00",
+                "target_utc": "2026-05-25T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-24T23:22:20+00:00",
+                "ratio": 1.2808388419618857,
+                "known_redeemable_SOL": 16.261435587116484,
+                "desired_short_SOL": -16.26
+              },
+              {
+                "decision_utc": "2026-06-01T00:00:00+00:00",
+                "target_utc": "2026-06-01T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-31T23:57:55+00:00",
+                "ratio": 1.2823639261141768,
+                "known_redeemable_SOL": 16.2807979431717,
+                "desired_short_SOL": -16.28
+              },
+              {
+                "decision_utc": "2026-06-08T00:00:00+00:00",
+                "target_utc": "2026-06-08T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-07T23:58:23+00:00",
+                "ratio": 1.2834370741072856,
+                "known_redeemable_SOL": 16.294422551040906,
+                "desired_short_SOL": -16.29
+              },
+              {
+                "decision_utc": "2026-06-15T00:00:00+00:00",
+                "target_utc": "2026-06-15T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-14T23:09:40+00:00",
+                "ratio": 1.2849124066414055,
+                "known_redeemable_SOL": 16.313153264216673,
+                "desired_short_SOL": -16.31
+              },
+              {
+                "decision_utc": "2026-06-22T00:00:00+00:00",
+                "target_utc": "2026-06-22T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-21T23:31:33+00:00",
+                "ratio": 1.286044619525176,
+                "known_redeemable_SOL": 16.327527755586825,
+                "desired_short_SOL": -16.32
+              },
+              {
+                "decision_utc": "2026-06-29T00:00:00+00:00",
+                "target_utc": "2026-06-29T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-28T23:01:35+00:00",
+                "ratio": 1.2875289441658482,
+                "known_redeemable_SOL": 16.346372631884993,
+                "desired_short_SOL": -16.34
+              },
+              {
+                "decision_utc": "2026-07-06T00:00:00+00:00",
+                "target_utc": "2026-07-06T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-05T23:37:20+00:00",
+                "ratio": 1.2886637426429703,
+                "known_redeemable_SOL": 16.360779949757877,
+                "desired_short_SOL": -16.36
+              },
+              {
+                "decision_utc": "2026-07-13T00:00:00+00:00",
+                "target_utc": "2026-07-13T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-12T23:02:45+00:00",
+                "ratio": 1.2901650003423621,
+                "known_redeemable_SOL": 16.37983980692221,
+                "desired_short_SOL": -16.37
+              },
+              {
+                "decision_utc": "2026-07-20T00:00:00+00:00",
+                "target_utc": "2026-07-20T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-19T23:32:10+00:00",
+                "ratio": 1.2912642297364352,
+                "known_redeemable_SOL": 16.393795542336825,
+                "desired_short_SOL": -16.39
+              },
+              {
+                "decision_utc": "2026-07-27T00:00:00+00:00",
+                "target_utc": "2026-07-27T04:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-26T23:21:10+00:00",
+                "ratio": 1.2923896472131833,
+                "known_redeemable_SOL": 16.408083759719993,
+                "desired_short_SOL": -16.4
+              },
+              {
+                "decision_utc": "2026-07-28T20:00:00+00:00",
+                "target_utc": "2026-07-29T00:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-27T23:16:22+00:00",
+                "ratio": 1.2927642482256831,
+                "known_redeemable_SOL": 16.396426826913878,
+                "desired_short_SOL": -16.39
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T04:00:00+00:00",
+                "qty": 16.14,
+                "open_proxy": 83.497,
+                "adjusted_price": 83.5387485,
+                "fee": 0.943820780553,
+                "allowance": 0.6738207899999529,
+                "volume_share": 0.0007673821689196434,
+                "mark_notional": 1347.64158,
+                "fill_notional": 1348.31540079
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T04:00:00+00:00",
+                "qty": -16.14,
+                "open_proxy": 83.398,
+                "adjusted_price": 83.356301,
+                "fee": 0.605416814163,
+                "allowance": 0.6730218599999057,
+                "volume_share": 7.019283153750874e-05,
+                "mark_notional": 1346.04372,
+                "fill_notional": 1345.37069814
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-05-25T04:00:00+00:00",
+                "qty": -0.12,
+                "open_proxy": 84.88,
+                "adjusted_price": 84.83756,
+                "fee": 0.00458122824,
+                "allowance": 0.005092799999999897,
+                "volume_share": 3.713920768514197e-07,
+                "mark_notional": 10.185599999999999,
+                "fill_notional": 10.1805072
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-07-27T04:00:00+00:00",
+                "qty": -0.14,
+                "open_proxy": 76.377,
+                "adjusted_price": 76.3388115,
+                "fee": 0.0048093451245,
+                "allowance": 0.005346389999998565,
+                "volume_share": 5.921527077239977e-07,
+                "mark_notional": 10.69278,
+                "fill_notional": 10.687433610000001
+              }
+            ]
+          },
+          "combined": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T00:00:00+00:00",
+              "reason": "execution needs 16.21900000 SOL against 849.52200000 SOL of prior-bar volume (1.9092% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": -3.9193297963003286,
+            "stake_rewards_usdc": 22.109554217245,
+            "funding_usdc": 1.7691214778559852,
+            "fees_usdc": 1.5526449950999999,
+            "allowance_usdc": 5.402588399999965,
+            "bridge_reserve_usdc": 6.059060000000001,
+            "redeem_fee_usdc": 1.229334315772609,
+            "spot_dust_usdc": 6.303158490794659e-08,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 10.993356448047052,
+            "adverse_envelope_drawdown_usdc": 95.06930009542975,
+            "minimum_separate_hedge_margin_headroom_usdc": 1332.8852975739396,
+            "maximum_residual_SOL_mark_usdc": 11.535676642879235,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": 11.402239999999999,
+            "maximum_last_completed_bar_volume_share": 0.007491329393379795,
+            "initial_funding": {
+              "desired_SOL": 16.19,
+              "bought_SOL": 16.04,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": {
+              "utc": "2026-04-01T16:00:00+00:00",
+              "snapshot_utc": "2026-03-31T22:56:50+00:00",
+              "ratio": 1.270486262396107,
+              "shares": 12.609345314,
+              "redeemable_SOL": 16.019999999245726,
+              "bridge_reserve_SOL": 0.02
+            },
+            "burn": {
+              "request_utc": "2026-07-26T16:00:00+00:00",
+              "snapshot_utc": "2026-07-25T22:51:10+00:00",
+              "ratio": 1.2923884185248862,
+              "withdrawal_fee_SOL": 0.016296171848994647,
+              "claim_SOL": 16.27987567714565,
+              "delay_days": 5
+            },
+            "return_to_unit": {
+              "stake_release_utc": "2026-07-31T16:00:00+00:00",
+              "unit_available_utc": "2026-08-01T00:00:00+00:00",
+              "after_bridge_SOL": 16.21987567714565,
+              "bridge_reserve_SOL": 0.06
+            },
+            "adjustments": [
+              {
+                "decision_utc": "2026-04-06T00:00:00+00:00",
+                "target_utc": "2026-04-06T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-05T23:14:00+00:00",
+                "ratio": 1.2716405876148142,
+                "known_redeemable_SOL": 16.034555284533067,
+                "desired_short_SOL": -16.03
+              },
+              {
+                "decision_utc": "2026-04-13T00:00:00+00:00",
+                "target_utc": "2026-04-13T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-12T23:58:20+00:00",
+                "ratio": 1.2728034594547808,
+                "known_redeemable_SOL": 16.04921833711913,
+                "desired_short_SOL": -16.04
+              },
+              {
+                "decision_utc": "2026-04-20T00:00:00+00:00",
+                "target_utc": "2026-04-20T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-19T23:18:10+00:00",
+                "ratio": 1.2743481329096098,
+                "known_redeemable_SOL": 16.06869565810844,
+                "desired_short_SOL": -16.06
+              },
+              {
+                "decision_utc": "2026-04-27T00:00:00+00:00",
+                "target_utc": "2026-04-27T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-04-26T23:34:33+00:00",
+                "ratio": 1.275483606435434,
+                "known_redeemable_SOL": 16.083013235890462,
+                "desired_short_SOL": -16.08
+              },
+              {
+                "decision_utc": "2026-05-04T00:00:00+00:00",
+                "target_utc": "2026-05-04T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-03T22:56:45+00:00",
+                "ratio": 1.2770242538963785,
+                "known_redeemable_SOL": 16.102439791732646,
+                "desired_short_SOL": -16.1
+              },
+              {
+                "decision_utc": "2026-05-11T00:00:00+00:00",
+                "target_utc": "2026-05-11T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-10T23:16:13+00:00",
+                "ratio": 1.2781842045103395,
+                "known_redeemable_SOL": 16.117066009571268,
+                "desired_short_SOL": -16.11
+              },
+              {
+                "decision_utc": "2026-05-18T00:00:00+00:00",
+                "target_utc": "2026-05-18T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-17T23:04:41+00:00",
+                "ratio": 1.279710987053248,
+                "known_redeemable_SOL": 16.136317737874187,
+                "desired_short_SOL": -16.13
+              },
+              {
+                "decision_utc": "2026-05-25T00:00:00+00:00",
+                "target_utc": "2026-05-25T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-24T23:22:20+00:00",
+                "ratio": 1.2808388419618857,
+                "known_redeemable_SOL": 16.15053924988129,
+                "desired_short_SOL": -16.15
+              },
+              {
+                "decision_utc": "2026-06-01T00:00:00+00:00",
+                "target_utc": "2026-06-01T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-05-31T23:57:55+00:00",
+                "ratio": 1.2823639261141768,
+                "known_redeemable_SOL": 16.16976956259044,
+                "desired_short_SOL": -16.16
+              },
+              {
+                "decision_utc": "2026-06-08T00:00:00+00:00",
+                "target_utc": "2026-06-08T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-07T23:58:23+00:00",
+                "ratio": 1.2834370741072856,
+                "known_redeemable_SOL": 16.183301256208573,
+                "desired_short_SOL": -16.18
+              },
+              {
+                "decision_utc": "2026-06-15T00:00:00+00:00",
+                "target_utc": "2026-06-15T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-14T23:09:40+00:00",
+                "ratio": 1.2849124066414055,
+                "known_redeemable_SOL": 16.20190423358427,
+                "desired_short_SOL": -16.2
+              },
+              {
+                "decision_utc": "2026-06-22T00:00:00+00:00",
+                "target_utc": "2026-06-22T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-21T23:31:33+00:00",
+                "ratio": 1.286044619525176,
+                "known_redeemable_SOL": 16.21618069680469,
+                "desired_short_SOL": -16.21
+              },
+              {
+                "decision_utc": "2026-06-29T00:00:00+00:00",
+                "target_utc": "2026-06-29T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-06-28T23:01:35+00:00",
+                "ratio": 1.2875289441658482,
+                "known_redeemable_SOL": 16.234897058757007,
+                "desired_short_SOL": -16.23
+              },
+              {
+                "decision_utc": "2026-07-06T00:00:00+00:00",
+                "target_utc": "2026-07-06T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-05T23:37:20+00:00",
+                "ratio": 1.2886637426429703,
+                "known_redeemable_SOL": 16.24920612461684,
+                "desired_short_SOL": -16.24
+              },
+              {
+                "decision_utc": "2026-07-13T00:00:00+00:00",
+                "target_utc": "2026-07-13T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-12T23:02:45+00:00",
+                "ratio": 1.2901650003423621,
+                "known_redeemable_SOL": 16.268136001353774,
+                "desired_short_SOL": -16.26
+              },
+              {
+                "decision_utc": "2026-07-20T00:00:00+00:00",
+                "target_utc": "2026-07-20T08:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-19T23:32:10+00:00",
+                "ratio": 1.2912642297364352,
+                "known_redeemable_SOL": 16.281996564362938,
+                "desired_short_SOL": -16.28
+              },
+              {
+                "decision_utc": "2026-07-26T16:00:00+00:00",
+                "target_utc": "2026-07-27T00:00:00+00:00",
+                "ratio_as_of_utc": "2026-07-25T22:51:10+00:00",
+                "ratio": 1.2923884185248862,
+                "known_redeemable_SOL": 16.27987567714565,
+                "desired_short_SOL": -16.27
+              }
+            ],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T08:00:00+00:00",
+                "qty": 16.04,
+                "open_proxy": 83.89,
+                "adjusted_price": 84.05778,
+                "fee": 0.94380075384,
+                "allowance": 2.691191199999894,
+                "volume_share": 0.007491329393379795,
+                "mark_notional": 1345.5955999999999,
+                "fill_notional": 1348.2867912
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T08:00:00+00:00",
+                "qty": -16.04,
+                "open_proxy": 83.809,
+                "adjusted_price": 83.641382,
+                "fee": 0.6037234952759999,
+                "allowance": 2.688592720000072,
+                "volume_share": 3.18031705738666e-05,
+                "mark_notional": 1344.2963599999998,
+                "fill_notional": 1341.6077672799997
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-06-15T08:00:00+00:00",
+                "qty": -0.16,
+                "open_proxy": 71.264,
+                "adjusted_price": 71.121472,
+                "fee": 0.005120745984,
+                "allowance": 0.022804479999999787,
+                "volume_share": 6.892457248026194e-07,
+                "mark_notional": 11.402239999999999,
+                "fill_notional": 11.37943552
+              }
+            ]
+          }
+        },
+        "Unstaked_SOL": {
+          "base": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T00:00:00+00:00",
+              "reason": "execution needs 16.14000000 SOL against 849.52200000 SOL of prior-bar volume (1.8999% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": -2.2434600000001943,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 7.996238724109985,
+            "fees_usdc": 1.549237594716,
+            "allowance_usdc": 1.3468426499998585,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 6.670201606343653,
+            "adverse_envelope_drawdown_usdc": 91.20946192841029,
+            "minimum_separate_hedge_margin_headroom_usdc": 1328.2102587171862,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": 1346.04372,
+            "maximum_last_completed_bar_volume_share": 0.0007673821689196434,
+            "initial_funding": {
+              "desired_SOL": 16.21,
+              "bought_SOL": 16.14,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T04:00:00+00:00",
+                "qty": 16.14,
+                "open_proxy": 83.497,
+                "adjusted_price": 83.5387485,
+                "fee": 0.943820780553,
+                "allowance": 0.6738207899999529,
+                "volume_share": 0.0007673821689196434,
+                "mark_notional": 1347.64158,
+                "fill_notional": 1348.31540079
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T04:00:00+00:00",
+                "qty": -16.14,
+                "open_proxy": 83.398,
+                "adjusted_price": 83.356301,
+                "fee": 0.605416814163,
+                "allowance": 0.6730218599999057,
+                "volume_share": 7.019283153750874e-05,
+                "mark_notional": 1346.04372,
+                "fill_notional": 1345.37069814
+              }
+            ]
+          },
+          "combined": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T00:00:00+00:00",
+              "reason": "execution needs 16.04000000 SOL against 849.52200000 SOL of prior-bar volume (1.8881% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 39.587081449603545,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": -1.9408400000001587,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 1.7306839961328082,
+            "fees_usdc": 1.547524249116,
+            "allowance_usdc": 5.379783919999966,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 13.172186048946969,
+            "adverse_envelope_drawdown_usdc": 94.62586137432481,
+            "minimum_separate_hedge_margin_headroom_usdc": 1332.8852975739396,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": 1344.2963599999998,
+            "maximum_last_completed_bar_volume_share": 0.007491329393379795,
+            "initial_funding": {
+              "desired_SOL": 16.19,
+              "bought_SOL": 16.04,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": [
+              {
+                "market": "USOL/USDC",
+                "utc": "2026-04-01T08:00:00+00:00",
+                "qty": 16.04,
+                "open_proxy": 83.89,
+                "adjusted_price": 84.05778,
+                "fee": 0.94380075384,
+                "allowance": 2.691191199999894,
+                "volume_share": 0.007491329393379795,
+                "mark_notional": 1345.5955999999999,
+                "fill_notional": 1348.2867912
+              },
+              {
+                "market": "SOL-PERP",
+                "utc": "2026-04-01T08:00:00+00:00",
+                "qty": -16.04,
+                "open_proxy": 83.809,
+                "adjusted_price": 83.641382,
+                "fee": 0.6037234952759999,
+                "allowance": 2.688592720000072,
+                "volume_share": 3.18031705738666e-05,
+                "mark_notional": 1344.2963599999998,
+                "fill_notional": 1341.6077672799997
+              }
+            ]
+          }
+        }
+      }
+    },
+    "holdout_3": {
+      "start_utc": "2026-08-01",
+      "close_utc": "2026-11-21",
+      "policies": {
+        "JitoSOL": {
+          "base": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T04:00:00+00:00",
+              "reason": "execution needs 18.46000000 SOL against 848.85900000 SOL of prior-bar volume (2.1747% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 36.32267746507911,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": 0.0,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 0.0,
+            "fees_usdc": 0.0,
+            "allowance_usdc": 0.0,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 0.0,
+            "adverse_envelope_drawdown_usdc": 0.0,
+            "minimum_separate_hedge_margin_headroom_usdc": 1650.0000000000002,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": null,
+            "maximum_last_completed_bar_volume_share": 0.0,
+            "initial_funding": {
+              "desired_SOL": 18.51,
+              "bought_SOL": 18.46,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": []
+          },
+          "combined": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T08:00:00+00:00",
+              "reason": "execution needs 18.45000000 SOL against 412.24600000 SOL of prior-bar volume (4.4755% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 36.32267746507911,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": 0.0,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 0.0,
+            "fees_usdc": 0.0,
+            "allowance_usdc": 0.0,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 0.0,
+            "adverse_envelope_drawdown_usdc": 0.0,
+            "minimum_separate_hedge_margin_headroom_usdc": 1650.0000000000002,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": null,
+            "maximum_last_completed_bar_volume_share": 0.0,
+            "initial_funding": {
+              "desired_SOL": 18.48,
+              "bought_SOL": 18.45,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": []
+          }
+        },
+        "Unstaked_SOL": {
+          "base": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T04:00:00+00:00",
+              "reason": "execution needs 18.46000000 SOL against 848.85900000 SOL of prior-bar volume (2.1747% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 36.32267746507911,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": 0.0,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 0.0,
+            "fees_usdc": 0.0,
+            "allowance_usdc": 0.0,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 0.0,
+            "adverse_envelope_drawdown_usdc": 0.0,
+            "minimum_separate_hedge_margin_headroom_usdc": 1650.0000000000002,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": null,
+            "maximum_last_completed_bar_volume_share": 0.0,
+            "initial_funding": {
+              "desired_SOL": 18.51,
+              "bought_SOL": 18.46,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": []
+          },
+          "combined": {
+            "complete": false,
+            "failure": {
+              "utc": "2026-08-01T08:00:00+00:00",
+              "reason": "execution needs 18.45000000 SOL against 412.24600000 SOL of prior-bar volume (4.4755% versus the 1.00% cap)"
+            },
+            "net_usdc": null,
+            "cash_hurdle_usdc": 36.32267746507911,
+            "excess_over_cash_usdc": null,
+            "basis_usdc": 0.0,
+            "stake_rewards_usdc": 0.0,
+            "funding_usdc": 0.0,
+            "fees_usdc": 0.0,
+            "allowance_usdc": 0.0,
+            "bridge_reserve_usdc": 0.0,
+            "redeem_fee_usdc": 0.0,
+            "spot_dust_usdc": 0.0,
+            "route_haircut_usdc": 0.0,
+            "mark_drawdown_usdc": 0.0,
+            "adverse_envelope_drawdown_usdc": 0.0,
+            "minimum_separate_hedge_margin_headroom_usdc": 1650.0000000000002,
+            "maximum_residual_SOL_mark_usdc": 0.0,
+            "ending_hedge_usdc": null,
+            "ending_spot_cash_usdc": null,
+            "minimum_leg_notional_usdc": null,
+            "maximum_last_completed_bar_volume_share": 0.0,
+            "initial_funding": {
+              "desired_SOL": 18.48,
+              "bought_SOL": 18.45,
+              "spot_spending_cap_usdc": 1350.0,
+              "initial_hedge_collateral_usdc": 1650.0000000000002,
+              "capped_at_open": true
+            },
+            "mint": null,
+            "burn": null,
+            "return_to_unit": null,
+            "adjustments": [],
+            "trades": []
+          }
+        }
+      }
+    }
+  }
+}
