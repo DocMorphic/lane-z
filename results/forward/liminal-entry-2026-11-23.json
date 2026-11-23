@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "mode": "paper_only",
+    "strategy": "hold externally managed limUSD at fixed share quantity",
+    "simulation_capital_usdc": "2000",
+    "first_eligible_entry_timestamp_utc": "2026-11-23T21:44:29+00:00",
+    "entry_rule": "First block at or after the eligibility timestamp, after both RPC heads are at least eight blocks ahead; require identical block hashes and quotes.",
+    "exit_rule": "After exactly 63 days, use the first eligible block at or after the scheduled exit. Confirm the exact share quote, current fee, liquidity reserve and allowance on both independent providers. If instant redemption is unavailable at the checkpoint, record a failure of the instant exit.",
+    "hold_days": 63,
+    "annual_cash_rate": "0.04",
+    "modeled_entry_cost_bps": 5,
+    "gas_budget_usdc": "3",
+    "extra_exit_haircut_bps": 10,
+    "tail_check_extra_exit_loss_bps": 100,
+    "onchain_fee_handling": "Contract previewRedeem includes the fee; do not double charge it.",
+    "rebalances": "none"
+  },
+  "entry_block": {
+    "number": 52066808,
+    "timestamp": 1795470269,
+    "hash": "0xceed18859dc2aab644f39a609d363e9250ec7f0d07a9da426691755f84edeebf"
+  },
+  "providers": [
+    "drpc",
+    "hyperliquid-publicnode"
+  ],
+  "paper_entry_utc": "2026-11-23T21:44:29+00:00",
+  "scheduled_paper_exit_utc": "2027-01-25T21:44:29+00:00",
+  "entry": {
+    "deposit_micro_usdc": "1996001500",
+    "shares_wei": "1907486964469928746871",
+    "price_per_share_usdc": "1.046403743343362004841778464",
+    "spot_check_instant_exit_micro_usdc": "1990013495",
+    "instant_exit_fee_bps_at_entry": 30,
+    "instant_redemption_reserve_micro_usdc": "303193933181"
+  },
+  "cash_bench_profit_usdc": "13.585136193750164970873544752797052603794195165253354",
+  "minimum_contract_redemption_usdc_to_beat_cash_after_exit_haircut": "2015.600737",
+  "status": "paper_position_open"
+}

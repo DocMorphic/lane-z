@@ -4,6 +4,8 @@ Paper research for Hyperliquid equity perpetuals, crypto derivatives, and longer
 
 **Result as of November 23, 2026.** A paper allocation to limUSD, an externally managed Hyperliquid yield portfolio, beat compounded 4% cash in three consecutive 63-day periods after modeled fees and redemptions. The stressed excess was 0.42, 2.69 and 4.06 USDC on 2,000 USDC each. Historical on-chain quotes and reserves support those paper results. Lane Z’s own trading rules fell short of the repeated cash hurdle. [limUSD replay and audit](docs/liminal-allocation.md)
 
+A separate, prospective limUSD paper run began on November 23. The fixed rolling test measures full-size redemption and after-cost excess over 4% cash for three consecutive 63-day periods. [Forward protocol and runner](docs/liminal-forward.md)
+
 ## Longer-horizon paper tests
 
 The simplest funding-carry rule held equal spot and short perpetual quantities. It used observed hourly funding rates, four-hour price proxies, full short collateral, and simulated trading costs. The higher-cost scenario with a 25% haircut to positive funding earned 9.03, 2.85, and 14.44 USDC in the three windows, each on 2,000 USDC of starting capital. A forced-exit stress lost money. There were no live orders. [Funding results, risks, and reproduction](docs/spot-carry.md)
