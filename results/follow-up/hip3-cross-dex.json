@@ -1,0 +1,194 @@
+{
+  "sources": {
+    "xyz-meta.json": "6310de5de4dabe930199a3031dc75647b8d288c496dd334ad7250ded4f20de17",
+    "xyz-1h.json": "769bd542343fc0d9158e424f24987f271f80068dab107eb157461e568b4888d7",
+    "xyz-funding-2026-08-24.json": "94dbbc7f90af284fc0eca9ae2272a804659f74e75f116714cc79d1b409b2a8c0",
+    "xyz-funding-2026-09-13.json": "9d2e1c81c74e8298d4efc2a0e67ddcaadb12589fdd8f4d614e6ddb7e11da1489",
+    "xyz-funding-2026-10-03.json": "fd5517f01422b2d80332c0da791f75e5caa1bff10772b026cd96c15aa5f032c6",
+    "xyz-funding-2026-10-23.json": "455925c843f885b6569421b260b14cd1e5fa0c45d13c63e1ff604323edde37a2",
+    "xyz-funding-2026-11-12.json": "6224944452e96ab5b8f86ab064aebae8ae80728f671202104269231fe6d7e996",
+    "io-meta.json": "ba010e4cac1c7aefc54a3088f20bde22dcf17ae21666e3b0f44bf5d47fac24f6",
+    "io-1h.json": "d70ac57098c93901f63f34e3b8fe6fbc7a2633c6e47af301bf06f8a52fa0b347",
+    "io-funding-2026-08-24.json": "404b36bab9e28a7d993a048dcc26e287ea635135cb9b10b906dac8c4a68dc120",
+    "io-funding-2026-09-13.json": "571a7f552db38eea3b02654bb495345ee0b6006a894fb1309b8c2d043441c6b6",
+    "io-funding-2026-10-03.json": "bf80de3d0e916e87e879e3c56f78e2ddf69439a2bac0782157f3d6901dbd70ea",
+    "io-funding-2026-10-23.json": "87e8ee3488365a61a1ba50a8cd1bd68b204ed42e3640013df42fbb820b249e00",
+    "io-funding-2026-11-12.json": "7214a5ca9c086540d1b05a9a3c9f4cc238a6a58621f6c2133c70d2277cdbdfd7"
+  },
+  "calendar": {
+    "nasdaq-qqq-historical.json": {
+      "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2017-01-01&todate=2026-11-20&limit=5000",
+      "sha256": "20ed5ffb8698274216c7019d0630631cefa930d966cbbb37cdf402fd9671a3d7"
+    },
+    "nasdaq-qqq-dividends.json": {
+      "url": "https://api.nasdaq.com/api/quote/QQQ/dividends?assetclass=etf",
+      "sha256": "6ed68a3e308ada901b0fe41e99cea5835cf68e23895b0fc4b527b0b3d190b68c"
+    },
+    "invesco-qqq-distribution.json": {
+      "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/distribution?idType=cusip&productType=ETF",
+      "sha256": "8cac48440d684d73a51016d1b98323b2ffd85a378bd82f987c43c807f0ae1aa2"
+    },
+    "invesco-qqq-prices.json": {
+      "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46090E103/prices?idType=cusip&variationType=priceListing&productType=ETF",
+      "sha256": "74607c1975ff7284e83c9c0c58c368439696957e818e90c2467f1f87d3cbdbce"
+    }
+  },
+  "markets": {
+    "xyz": {
+      "szDecimals": 3,
+      "name": "xyz:SNDK",
+      "maxLeverage": 10,
+      "marginTableId": 10,
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2025-11-23T17:37:10.033211662",
+      "deployerFeeScale": "1.0"
+    },
+    "io": {
+      "szDecimals": 4,
+      "name": "io:SNDK",
+      "maxLeverage": 15,
+      "marginTableId": 15,
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2026-08-19T14:12:26.461176669",
+      "deployerFeeScale": "1.0"
+    }
+  },
+  "hours": 2089,
+  "vintages": [
+    {
+      "start": "2026-08-24",
+      "end_inclusive": "2026-09-20",
+      "regular_sessions": 19,
+      "qualified_sessions": 19,
+      "median_absolute_basis_bps": 2.0195900300898804,
+      "maximum_absolute_basis_bps": 10.165012903869371,
+      "cash_pnl_usd": 30.111774048144913,
+      "base": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_costs": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_asynchronous": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "same_hour_diagnostic": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      }
+    },
+    {
+      "start": "2026-09-21",
+      "end_inclusive": "2026-10-18",
+      "regular_sessions": 20,
+      "qualified_sessions": 20,
+      "median_absolute_basis_bps": 2.931151274507008,
+      "maximum_absolute_basis_bps": 7.7410906893624025,
+      "cash_pnl_usd": 30.111774048144913,
+      "base": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_costs": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_asynchronous": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "same_hour_diagnostic": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      }
+    },
+    {
+      "start": "2026-10-19",
+      "end_inclusive": "2026-11-18",
+      "regular_sessions": 23,
+      "qualified_sessions": 23,
+      "median_absolute_basis_bps": 2.9201343469293377,
+      "maximum_absolute_basis_bps": 5.898661174985161,
+      "cash_pnl_usd": 33.34340860164487,
+      "base": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_costs": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "stress_asynchronous": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      },
+      "same_hour_diagnostic": {
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "maximum_drawdown": 0.0,
+        "winners": 0,
+        "gross_price_pnl_usd": 0,
+        "mean_signal_bps": null,
+        "round_trips": []
+      }
+    }
+  ]
+}

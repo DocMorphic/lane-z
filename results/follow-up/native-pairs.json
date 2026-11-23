@@ -1,0 +1,1429 @@
+{
+  "input_files": {
+    "data/agent-spot-carry/perp-meta.json": {
+      "sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "rows_or_fields": 3
+    },
+    "data/perp-basis/BTC-perp-candles.json": {
+      "sha256": "961af9ff717e592a1de9c29c8ae4f1b4722d6cfaccc65e8e5bb7682411aa6778",
+      "rows_or_fields": 7
+    },
+    "data/agent-native-trend/BTC-perp-candles.json": {
+      "sha256": "6f04a2eb53aa2c3167fbb22a800b0ff294f909c776b7464e73aad3c94dcca895",
+      "rows_or_fields": 3415
+    },
+    "data/agent-spot-carry/BTC-funding-2025-12-01.json": {
+      "sha256": "f4c0e0ae533968967961db425af3ae4d4ed3ab2173baece663be504aff6422cb",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2025-12-21.json": {
+      "sha256": "1e3393c95d242a7d848d21c05222fe004be3db286a3711d58acc6d5145955c67",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-01-10.json": {
+      "sha256": "12995a653f476303d01022858b0deac2bad2688e2083bc6f410ffd4b00ddf165",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-01-30.json": {
+      "sha256": "b613be0c56dad74a3f46f6d592d2f936dce8bf34f10be1d1bbdeebbc9895b764",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-02-19.json": {
+      "sha256": "21b014c57200ee90b82bd980f3e362ca2e805b51e48941f31e7aa8f5688ba878",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-03-11.json": {
+      "sha256": "3f3d2031eae42f04c25911861b79fa66c3ed95e70d5755ddf329fba781733fec",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-03-31.json": {
+      "sha256": "184a6c87737cf5f34aee9a65bfa97f3f852d9d6527061d9f5bc7dfaa292d4cdb",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-04-20.json": {
+      "sha256": "5d51b086caf1778cfcab22cf965770323849688b88cb52c4fec81fd3496845e2",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-05-10.json": {
+      "sha256": "44893f55e56d89eee2df221a6cd1827bfe0541389fc6b74cd037e19ce687c4f6",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-05-30.json": {
+      "sha256": "d66eecf1b7f9903137858978ad20c1d2439e4a149f1676ad60a3ad7200480485",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-06-19.json": {
+      "sha256": "dd54fa12b8a156c31112338030ddfb1b4f71d18b355d5c374a3d8190c42fe12b",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-07-09.json": {
+      "sha256": "57beca90a69836989df1104cf78a143ad3bdb7e294b9b703096e87c26e051017",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-07-29.json": {
+      "sha256": "810a5269ccecb36495592e87bd89e712e0f574667fef832554dc0a0c94943aa0",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-08-18.json": {
+      "sha256": "dc6b368ff4903cd52644aa4005175580efa57d53b2faa27b2bb4246ccab7571c",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-09-07.json": {
+      "sha256": "8278ca245f430adb348ae99dc8970a59bf72f76f3ab0f93e2f995510934d97bb",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-09-27.json": {
+      "sha256": "3cadf6e802437a5e0ef4bb5c351d8a6412c45ec41e1fe51e3d38becac7c5a406",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-10-17.json": {
+      "sha256": "276085bb1f7d64b17c0e3e0d7a488061553a51463b102160c3813f39f212a8aa",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/BTC-funding-2026-11-06.json": {
+      "sha256": "da8ddef09ed495caf130e539873fdb9a7c1bf68912193df7ec2a303e8ddc0851",
+      "rows_or_fields": 384
+    },
+    "data/agent-spot-carry/BTC-funding-close.json": {
+      "sha256": "cc1f035953331a8ec8b577d8fa6d4ad578a83aee41f0586df22bf56791a6466d",
+      "rows_or_fields": 1
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-08-01.json": {
+      "sha256": "ae0aebdd1c3a10f0c44d34b731e55cf411269cb2676d483d43715b43e3e78346",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-08-21.json": {
+      "sha256": "6af0cce9ba849c7347c5bb002b30f997797e7892fd3efc4e9939d87b651f6ea8",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-09-10.json": {
+      "sha256": "d1a38998bd4485159ac975e51b39922831b6e63948a14ad257472f4165d422ce",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-09-30.json": {
+      "sha256": "bbc61c22dc47ba236fee104c43bd48d662916562062f48ec26219cbc05895d9f",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-10-20.json": {
+      "sha256": "2e8eac5b93c8e85d450d40c77818f52c59e121c51300a2692e3e5b8dd625e296",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-11-09.json": {
+      "sha256": "442546d1b4448de2c00f09f684207964b89c57154a0073b26b81f8202bbaa428",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/BTC-funding-2025-11-29.json": {
+      "sha256": "e046fbb8659fe02dba4ed20c08247fbfd6bec7657e41381ffd9cafe32c9fea0f",
+      "rows_or_fields": 48
+    },
+    "data/agent-spot-carry/older/BTC-funding-close.json": {
+      "sha256": "9c53bfe26421d7e132f88d5361e9ce4a5d679e7d1e61cdc6a820dea17dd43b3d",
+      "rows_or_fields": 1
+    },
+    "data/perp-basis/ETH-perp-candles.json": {
+      "sha256": "fa2680bd7ff83ea42dbea489bb7003d6c024d5d246fa849f7f46137c7d0cb572",
+      "rows_or_fields": 7
+    },
+    "data/agent-native-trend/ETH-perp-candles.json": {
+      "sha256": "88a021f6a65344b3571e24e77e1773970e5919efc9f4530e2490e40174d27cf6",
+      "rows_or_fields": 3415
+    },
+    "data/agent-spot-carry/ETH-funding-2025-12-01.json": {
+      "sha256": "473c6792d16fe03f39893a84b5d1d96a8eaa3838dd1e0b0d004d0c2917a01b16",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2025-12-21.json": {
+      "sha256": "a696c53c7634dfbdeb9468c8390c7ababaf313036274073bb37af5c85a44d23e",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-01-10.json": {
+      "sha256": "9b05b9410290660e831c53f8d90f32b26d3545ed217da924d4eb611bac4491db",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-01-30.json": {
+      "sha256": "bf281a8c8518b45b4b8d60d143cc4d46be6a34c5ea703ab51958942494084a75",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-02-19.json": {
+      "sha256": "bbb476f2d5449b7c703a2c256639ad4f3e3a9b5b20ac8610c1335da5b03c9eb9",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-03-11.json": {
+      "sha256": "2b709069bce23085074138a68f6628a4da8fadc61a598717db4b9cba0b89c8b9",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-03-31.json": {
+      "sha256": "d6a3ac1d6c51edbe52e0867c81a903afb5341e52ab9afb54b8439c7f6fdcc8fb",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-04-20.json": {
+      "sha256": "614ded636dbf2f078c94ce544ca1fe50244fea7ade5026ef164f2806f5e6f2b3",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-05-10.json": {
+      "sha256": "d05881eae523c9629189ceed0015d63b70cd21c97607e6ca7e7673aabfeb411f",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-05-30.json": {
+      "sha256": "320cefdc5e59e0b73f2f0f2568695fac46cd7ab6ef910a4f762cb1a7cac8229f",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-06-19.json": {
+      "sha256": "6b2e232dce304175e7b8da7f21e4cdfe0e3c8b111d8f9174b8915fd3ffbc68d8",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-07-09.json": {
+      "sha256": "9cf41576ff551f7a9eeb37ff1cf6e457706670784f17ec54635460fb474be7e2",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-07-29.json": {
+      "sha256": "2cd48a841ab207db95e08e1b75c6aba8250359d668ba76d996a5e1b4dbf2e71f",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-08-18.json": {
+      "sha256": "55c4adbefaf717252320114f14197bf2afb3d8f2504a6183da9d696f95b55bb5",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-09-07.json": {
+      "sha256": "41ff9899e4f56e2fec59b5896267e9a4b139913f58ae26d08aa8f2fe2e853cdf",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-09-27.json": {
+      "sha256": "115111f467ae9b9a2cb215ed5fafb04932ccb7394a2cfca817b2501710eb990a",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-10-17.json": {
+      "sha256": "8cf35dd7125a5b906b8ddb6b68767cce1a68db82042e5e2c04a3cdb447e5cd83",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/ETH-funding-2026-11-06.json": {
+      "sha256": "5c12545226c8363e0291dd6e9e0f2a6b38f48f8ff9b9399e917875114fd4af36",
+      "rows_or_fields": 384
+    },
+    "data/agent-spot-carry/ETH-funding-close.json": {
+      "sha256": "9131150bb99fa24ef2b732efb6d37dc00eb8f4c4118bb9701478562a78d0ed88",
+      "rows_or_fields": 1
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-08-01.json": {
+      "sha256": "83ac914f15254d0c537fa0407508c0b68cd1769b04d88791365a6de7f219b074",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-08-21.json": {
+      "sha256": "e524b85c683364356b0dd4c3c534a0f8eaaff81f2e01b5aeb9dff72c7006ba3d",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-09-10.json": {
+      "sha256": "e6f591d043f385540a1a82cde794e72ced04dff686c76f694e34cf2f1bfb731b",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-09-30.json": {
+      "sha256": "4378c23c0509edf8039be16b1b50d5e1cb8f256ed33112c44b1901deb3da8ae9",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-10-20.json": {
+      "sha256": "7cd0429511c132fc3a87bbac1e1292353b38c9a2b4542d5dbd8ce99915d4b657",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-11-09.json": {
+      "sha256": "976dc6acb61bdfb8ec6e30673b9e2349b94ad5e8d76f541eecebdbf3ecbfa3dd",
+      "rows_or_fields": 480
+    },
+    "data/agent-spot-carry/older/ETH-funding-2025-11-29.json": {
+      "sha256": "52a9cba307c69ea598b348a8a16f914761f26f6ad223f810e66b04cfdfc48bf9",
+      "rows_or_fields": 48
+    },
+    "data/agent-spot-carry/older/ETH-funding-close.json": {
+      "sha256": "d4480f900e4b884507a511c71c5ec9f8e67377da137dcc9d0d6524d3f6b1f0ed",
+      "rows_or_fields": 1
+    },
+    "data/perp-basis/SOL-perp-candles.json": {
+      "sha256": "a02ee251d255b3d08ab7281f4848ada601c7b119a76779484acfd8c8041f9f83",
+      "rows_or_fields": 7
+    },
+    "data/agent-native-trend/SOL-perp-candles.json": {
+      "sha256": "8498ab156c83f6164d1d769d02e4405e1400786c5161b7d353a6b92b9e4b6759",
+      "rows_or_fields": 3415
+    },
+    "data/perp-basis/SOL-funding-tail.json": {
+      "sha256": "b6b675d4d19901ce5809f93ccb2e9b4738a9a5df21e3d252df5ba79f3113f3e8",
+      "rows_or_fields": 25
+    },
+    "data/agent-native-trend/SOL-funding-2025-08-01.json": {
+      "sha256": "cc27793a803eb3a7b645c8be968b960c09aeb2429c0455a6e677f4e515a342f6",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-08-21.json": {
+      "sha256": "e7b369bf58ec6568e1d8e7863cac16c45dd909d42080c3c69b34fda43fc143c4",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-09-10.json": {
+      "sha256": "d43150e6d2527d43983d3f870cc2f881f5d32fab2dcc814a0303a21a26665241",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-09-30.json": {
+      "sha256": "deffddae256130a0955b93d90d42f993a7751e882acaadeac729a7d353647b00",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-10-20.json": {
+      "sha256": "88cc0d61e7afd4dbd2ffa7f199bdea46041c8957664b33dc3c235a5516ce11a2",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-11-09.json": {
+      "sha256": "66bd2123d212c4a5808a03f66990c72188793b1afab25a282d2caeec5ea64e7b",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-11-29.json": {
+      "sha256": "db30b74699fc814b40826336aa713d2e229d14eece8add9b1e8f7b12ac8b8451",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2025-12-19.json": {
+      "sha256": "04bec280de717e0c81d3588ec1f80aedc8bb55db8add476b6b1a1ca8390d4298",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-01-08.json": {
+      "sha256": "ce143c3929ca46ca88e3fd536f893b1c603f70579c41a5bfbd6623db3d0928f9",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-01-28.json": {
+      "sha256": "0328b8a4659a7f1ae6d81b2a9defb82816d589471e1a3dd2dfe1b5c26a841388",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-02-17.json": {
+      "sha256": "600d82668ba3b84ad28f9c7c7909b9f9ddeff5ebe7afba911fdeaf7fca6c5641",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-03-09.json": {
+      "sha256": "b19e2b4e7ce56d4e4138084cf94d7a586abce8fb0dc0bad1876411d7a896ffe1",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-03-29.json": {
+      "sha256": "8985892ddc23e982e26d2edd5241366d501aa9e0d4616ec4d5e2450938e3a54a",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-04-18.json": {
+      "sha256": "5d43674b99b25d837ffa72bdf5a7b4d3d2c0ff381b5e16c543611ef9495dce3d",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-05-08.json": {
+      "sha256": "56cbc6a3388d69494b71da774506ccd5f64f09abe698837562e7b1db7981c6ac",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-05-28.json": {
+      "sha256": "cbc759ae489732957b16e6235c91d0aa16e10ee1b1c3419f05f18ad37ed9584d",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-06-17.json": {
+      "sha256": "e4765ca289dfe6e437977df35137b6b459aee3e794a1efb5cf0a2f707758efbd",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-07-07.json": {
+      "sha256": "8904de53bfb85fc2b43b61740e2e1a780121c935c804ae35d4064ce2d3840574",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-07-27.json": {
+      "sha256": "3587e1db454f2cba222c47b37a1f3b19f624a8e919c10254122db2132b230652",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-08-16.json": {
+      "sha256": "1cde5d25ecec03ef3bbba309aee4238f1893dd0306de033613b3b12fd1f5753d",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-09-05.json": {
+      "sha256": "78c1974564e8191ac6a482823e9cb2286bb3862d9fe7d4e216456e0cd723239c",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-09-25.json": {
+      "sha256": "0cc6ae97011482b7daabf516c8008987172bfda62fa411d19b0937c27ea33f75",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-10-15.json": {
+      "sha256": "34ac0915796cb58f2661c91ffcc183fba022634c667c7e1ed42558730b55fee0",
+      "rows_or_fields": 480
+    },
+    "data/agent-native-trend/SOL-funding-2026-11-04.json": {
+      "sha256": "58afd0650541523f177cff4daeef655806aed8a1b60b6e4b3bd6d1c0c833b66f",
+      "rows_or_fields": 408
+    },
+    "data/agent-native-trend/SOL-funding-close.json": {
+      "sha256": "733f494462d3111cc70311d752e9857ebb08b3149f626ae60cc48e463fc952f1",
+      "rows_or_fields": 1
+    },
+    "data/perp-basis/HYPE-perp-candles.json": {
+      "sha256": "6597a83c3ed5138685c19bbbfcb6fcc53d03595b895ef1e388a71e4ac2119fcc",
+      "rows_or_fields": 2690
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-08-01.json": {
+      "sha256": "01689051983a8c4afbd91809614121395a7516f87701542a3bdf3c5c22cfd7ef",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-08-21.json": {
+      "sha256": "3281cb597b0f1e97a2d720fbcbaa4118f5cb4d8b7038a55c63b8cc25c75181ce",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-09-10.json": {
+      "sha256": "2a6fcdd31d565597de856d2ea85e26aea3054c768e52114fd33aa5900c2d8d3a",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-09-30.json": {
+      "sha256": "c11f839d4d131f52c63817100244edfa9cde15ab6b929059142a411ee04292d7",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-10-20.json": {
+      "sha256": "d6dab55eed43045ceca245ca04ca4bc559b50a9e65c5e4d76fab88d6e568d596",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-11-09.json": {
+      "sha256": "78b55793c3fe204b2d1550ce34049f886d40af002bfca7be72771b9a5c7ade2c",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-11-29.json": {
+      "sha256": "0aeb7ce3f09f8071ecc4a47b55d4842f7fa827f40d29e21a5e9e3e84ae6c1536",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2025-12-19.json": {
+      "sha256": "5cbe130fbd5b3fedec69d47a7767862adf03774a0af876921572336ec57d7035",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-01-08.json": {
+      "sha256": "6763bf6a04abb78c5fc42754c15d4ea8cbdb7f30b98dfb9b68251e0d0c6757a6",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-01-28.json": {
+      "sha256": "a1ba3455b0cf40fc51cc421db2d818576967d458593a905088eb04e225a001a9",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-02-17.json": {
+      "sha256": "8465a58271621ecdd43b0d7f918c052a6bf7967b99477d16b0ecd6fdb6f887b8",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-03-09.json": {
+      "sha256": "ba3656db2925ac10db148239822d1a089e3f7c730ae38d2c0c22ed8f2ceefd78",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-03-29.json": {
+      "sha256": "1312e65995a03bf67682e070dbf6762f73b1f9b47e950f479c9afb197c40eaf9",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-04-18.json": {
+      "sha256": "f434bcbf326e257214ce0a6734578e0f5c80b3945a7974b1db1d451a251102a5",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-05-08.json": {
+      "sha256": "b3fc3ab6dcf23d216a5ee37149dd3ecbec6a0f94db7df138dfe524f09c11e941",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-05-28.json": {
+      "sha256": "32212da2bf598e851b0d771f000ed2cd52533fc018ee2280abb9daf45891c65b",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-06-17.json": {
+      "sha256": "ee0d73bc85353e27fa54b221c9ed75b71372700e773a283310247240642e24d8",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-07-07.json": {
+      "sha256": "9f908e70256028608ae25d5377fde53d09596119fa5b1cbe2ec74e6c822363e8",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-07-27.json": {
+      "sha256": "4bb6e245c71c1ec72c5fb3e4c4a498757dd29d69f00319e409bda75b25ca61ba",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-08-16.json": {
+      "sha256": "3d165f0750afe436b63ab86efac5c481345d7e40dde2e658d6849eb09c7ac6a9",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-09-05.json": {
+      "sha256": "3446d1df57aa6a23bac73d37e5863364ea047f374562e79c94eb7fc0c5f41bee",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-09-25.json": {
+      "sha256": "550da8e2383e1fa09cf1e2aab9d5d056491d6d0fddba092060db8be74aef1bf3",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-10-15.json": {
+      "sha256": "c4daec25846137d43852f1b9d230dae5966556e2e5460dcb8f8a8708163774dd",
+      "rows_or_fields": 480
+    },
+    "data/agent-selective-carry/late/HYPE-funding-2026-11-04.json": {
+      "sha256": "3bd2a683009b86e9bd034bc1714e8f799517bc9fdbc56a6771615acd91eb3237",
+      "rows_or_fields": 432
+    },
+    "data/agent-selective-carry/late/HYPE-funding-close.json": {
+      "sha256": "5a347454d6ae9b3b21103db81c75fc9f9cb7d90f7f87585f8feab5e81cfb0731",
+      "rows_or_fields": 1
+    }
+  },
+  "historical_screen_pass": false,
+  "windows": [
+    {
+      "start_utc": "2025-12-01T00:00:00+00:00",
+      "end_utc": "2026-04-01T00:00:00+00:00",
+      "entries": [
+        {
+          "decision_utc": "2026-02-01T00:00:00+00:00",
+          "long_short": [
+            "ETH",
+            "BTC"
+          ],
+          "z": -3.3422661969801895,
+          "return_correlation": 0.8933347200547205,
+          "ratio_persistence": 0.734220631701076
+        }
+      ],
+      "exits": [
+        {
+          "decision_utc": "2026-02-02T00:00:00+00:00",
+          "signed_z": 5.588380394326984,
+          "reason": "stop"
+        }
+      ],
+      "scenarios": {
+        "base": {
+          "net_pnl_usdc": -27.245020520897242,
+          "cash_pnl_usdc": 26.173655453703315,
+          "excess_vs_cash_usdc": -53.41867597460056,
+          "gross_price_pnl_usdc": -25.731899999999996,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 16.414749999999998,
+            "ETH": -42.14665,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.33007224778018995,
+          "fees_usdc": 0.8730943586775,
+          "execution_reserve_usdc": 0.9700984099999999,
+          "trade_legs": 4,
+          "trade_events": 2,
+          "turnover_usdc": 1940.2096859499998,
+          "max_marked_drawdown_pct": 1.3622510260448584,
+          "minimum_adverse_margin_headroom_usdc": 1852.8651520668839,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": -27.245020520897242,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.0121378715984366,
+            -0.0015028804317199773,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "stress": {
+          "net_pnl_usdc": -29.95033736741857,
+          "cash_pnl_usdc": 26.173655453703315,
+          "excess_vs_cash_usdc": -56.12399282112189,
+          "gross_price_pnl_usdc": -26.40925,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 10.941049999999999,
+            "ETH": -37.3503,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.2227761743251478,
+          "fees_usdc": 0.86859760674375,
+          "execution_reserve_usdc": 2.895265935,
+          "trade_legs": 4,
+          "trade_events": 2,
+          "turnover_usdc": 1930.2169038749998,
+          "max_marked_drawdown_pct": 1.4975168683709295,
+          "minimum_adverse_margin_headroom_usdc": 1855.4674428374879,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": -29.95033736741857,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.010835108430298224,
+            -0.00418540962047409,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "start_utc": "2026-04-01T00:00:00+00:00",
+      "end_utc": "2026-07-01T00:00:00+00:00",
+      "entries": [
+        {
+          "decision_utc": "2026-06-30T00:00:00+00:00",
+          "long_short": [
+            "BTC",
+            "SOL"
+          ],
+          "z": 2.819377434932906,
+          "return_correlation": 0.825888368561139,
+          "ratio_persistence": 0.8887830342173035
+        }
+      ],
+      "exits": [
+        {
+          "decision_utc": "2026-07-01T00:00:00+00:00",
+          "signed_z": null,
+          "reason": "vintage_end"
+        }
+      ],
+      "scenarios": {
+        "base": {
+          "net_pnl_usdc": -6.436620007050124,
+          "cash_pnl_usdc": 19.652557428353923,
+          "excess_vs_cash_usdc": -26.089177435404046,
+          "gross_price_pnl_usdc": -4.603180000000022,
+          "price_pnl_by_asset_usdc": {
+            "BTC": -8.175500000000001,
+            "ETH": 0.0,
+            "SOL": 3.572319999999978,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.03098662566521999,
+          "fees_usdc": 0.8831500027155,
+          "execution_reserve_usdc": 0.9812766300000001,
+          "trade_legs": 4,
+          "trade_events": 2,
+          "turnover_usdc": 1962.55556159,
+          "max_marked_drawdown_pct": 0.36085603938246225,
+          "minimum_adverse_margin_headroom_usdc": 1890.5736847438648,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": -6.436620007050124,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.0032183100035250156
+          ]
+        },
+        "stress": {
+          "net_pnl_usdc": -7.827815142708005,
+          "cash_pnl_usdc": 19.652557428353923,
+          "excess_vs_cash_usdc": -27.480372571061928,
+          "gross_price_pnl_usdc": -4.003919999999994,
+          "price_pnl_by_asset_usdc": {
+            "BTC": -7.503200000000001,
+            "ETH": 0.0,
+            "SOL": 3.499280000000007,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.001633003937919993,
+          "fees_usdc": 0.8828162666459999,
+          "execution_reserve_usdc": 2.94271188,
+          "trade_legs": 4,
+          "trade_events": 2,
+          "turnover_usdc": 1961.81392588,
+          "max_marked_drawdown_pct": 0.4106468895816118,
+          "minimum_adverse_margin_headroom_usdc": 1890.1770104668788,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": -7.827815142708005,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.003913907571354014
+          ]
+        }
+      }
+    },
+    {
+      "start_utc": "2026-07-01T00:00:00+00:00",
+      "end_utc": "2026-10-01T00:00:00+00:00",
+      "entries": [],
+      "exits": [],
+      "scenarios": {
+        "base": {
+          "net_pnl_usdc": 0.0,
+          "cash_pnl_usdc": 19.869588851947118,
+          "excess_vs_cash_usdc": -19.869588851947118,
+          "gross_price_pnl_usdc": 0.0,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 0.0,
+            "ETH": 0.0,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.0,
+          "fees_usdc": 0.0,
+          "execution_reserve_usdc": 0.0,
+          "trade_legs": 0,
+          "trade_events": 0,
+          "turnover_usdc": 0.0,
+          "max_marked_drawdown_pct": 0.0,
+          "minimum_adverse_margin_headroom_usdc": 2000.0,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": 0.0,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "stress": {
+          "net_pnl_usdc": 0.0,
+          "cash_pnl_usdc": 19.869588851947118,
+          "excess_vs_cash_usdc": -19.869588851947118,
+          "gross_price_pnl_usdc": 0.0,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 0.0,
+            "ETH": 0.0,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.0,
+          "fees_usdc": 0.0,
+          "execution_reserve_usdc": 0.0,
+          "trade_legs": 0,
+          "trade_events": 0,
+          "turnover_usdc": 0.0,
+          "max_marked_drawdown_pct": 0.0,
+          "minimum_adverse_margin_headroom_usdc": 2000.0,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": 0.0,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "start_utc": "2026-10-01T00:00:00+00:00",
+      "end_utc": "2026-11-22T00:00:00+00:00",
+      "entries": [],
+      "exits": [],
+      "scenarios": {
+        "base": {
+          "net_pnl_usdc": 0.0,
+          "cash_pnl_usdc": 11.206496498900265,
+          "excess_vs_cash_usdc": -11.206496498900265,
+          "gross_price_pnl_usdc": 0.0,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 0.0,
+            "ETH": 0.0,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.0,
+          "fees_usdc": 0.0,
+          "execution_reserve_usdc": 0.0,
+          "trade_legs": 0,
+          "trade_events": 0,
+          "turnover_usdc": 0.0,
+          "max_marked_drawdown_pct": 0.0,
+          "minimum_adverse_margin_headroom_usdc": 2000.0,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": 0.0,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "stress": {
+          "net_pnl_usdc": 0.0,
+          "cash_pnl_usdc": 11.206496498900265,
+          "excess_vs_cash_usdc": -11.206496498900265,
+          "gross_price_pnl_usdc": 0.0,
+          "price_pnl_by_asset_usdc": {
+            "BTC": 0.0,
+            "ETH": 0.0,
+            "SOL": 0.0,
+            "HYPE": 0.0
+          },
+          "funding_pnl_usdc": 0.0,
+          "fees_usdc": 0.0,
+          "execution_reserve_usdc": 0.0,
+          "trade_legs": 0,
+          "trade_events": 0,
+          "turnover_usdc": 0.0,
+          "max_marked_drawdown_pct": 0.0,
+          "minimum_adverse_margin_headroom_usdc": 2000.0,
+          "best_day_pct": 0.0,
+          "net_pnl_without_best_day_usdc": 0.0,
+          "daily_returns": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "sets_per_pair": 100,
+  "contracts": {
+    "SOL": {
+      "expiry": "20261124-0600",
+      "coins": [
+        "#445940",
+        "#445941"
+      ]
+    },
+    "HYPE": {
+      "expiry": "20261124-0600",
+      "coins": [
+        "#445950",
+        "#445951"
+      ]
+    },
+    "BTC": {
+      "expiry": "20261124-0600",
+      "coins": [
+        "#445920",
+        "#445921"
+      ]
+    },
+    "ETH": {
+      "expiry": "20261124-0600",
+      "coins": [
+        "#445930",
+        "#445931"
+      ]
+    }
+  },
+  "batches": [
+    {
+      "first_poll_utc": "2026-11-23T11:10:50.495354+00:00",
+      "last_poll_utc": "2026-11-23T11:12:40.500097+00:00",
+      "complete_depth_pairs_checked": 48,
+      "missing_or_time_mismatched_pairs": 0,
+      "insufficient_depth_or_10_usdc_per_side": 0,
+      "min_before_fee_cost_per_set": {
+        "SOL": "1.030568",
+        "HYPE": "1.040578",
+        "BTC": "1.013",
+        "ETH": "1.0275903"
+      },
+      "before_fee_candidates": []
+    },
+    {
+      "first_poll_utc": "2026-11-23T11:12:50.500920+00:00",
+      "last_poll_utc": "2026-11-23T11:14:40.499113+00:00",
+      "complete_depth_pairs_checked": 47,
+      "missing_or_time_mismatched_pairs": 1,
+      "insufficient_depth_or_10_usdc_per_side": 0,
+      "min_before_fee_cost_per_set": {
+        "SOL": "1.0569694",
+        "HYPE": "1.0386418",
+        "BTC": "1.00343",
+        "ETH": "1.01504"
+      },
+      "before_fee_candidates": []
+    },
+    {
+      "first_poll_utc": "2026-11-23T11:14:50.497908+00:00",
+      "last_poll_utc": "2026-11-23T11:16:40.501363+00:00",
+      "complete_depth_pairs_checked": 44,
+      "missing_or_time_mismatched_pairs": 4,
+      "insufficient_depth_or_10_usdc_per_side": 0,
+      "min_before_fee_cost_per_set": {
+        "SOL": "1.0438836",
+        "HYPE": "1.0332542",
+        "BTC": "1.0079774",
+        "ETH": "1.01504"
+      },
+      "before_fee_candidates": []
+    }
+  ],
+  "source_sha256": "eb2c3136d20f6e65c6e958c0160ef0d66140c10c4cd66d81f2b8d6d390d33fbd"
+}

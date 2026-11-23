@@ -8,6 +8,27 @@ At each midnight UTC, use only completed marks and settlements before the decisi
 
 The target is the return from the first four-hour bar after decision to the same timestamp the next day, net of the signed rate and price-proxy funding paid by a long. Demean the target across the four assets and clip it symmetrically at 15% for training. Use the preceding 180 calendar days with a minimum of 60 complete training dates. Require the target to have matured strictly before the decision. Standardize using the training sample standard deviations, leaving effectively zero-variance columns at scale one. Fit ridge with an intercept and a penalty of 0.20 times the number of training asset rows. There is no hyperparameter search or threshold sweep.
 
-Each forecast holds for one daily rebalance interval. Long the highest predicted return and short the lowest only if the spread exceeds 84 bp. Four full fills at the stressed 19.5 bp reserve cost 78 bp of one leg's notional. The remaining 6 bp exceed the daily compounded 4% hurdle when both legs are sized at 25% of full-equity capital. Equal positions cash-settle daily funding, with no assumed interest on idle capital. Use the same 2,000 paper USDC account, quantity lots, fill delays, friction, maintenance and final exits as the relative basis replay. Base and stress use identical model weights and direction decisions. [Common replay assumptions](perp-basis.md)
+Each forecast holds for one daily rebalance interval. Long the highest predicted return and short the lowest only if the spread exceeds 84 bp. Four full fills at the stressed 19.5 bp reserve cost 78 bp of one leg's notional. The remaining 6 bp exceed the daily compounded 4% hurdle when both legs are sized at 25% of full-equity capital. Positions cash-settle hourly funding, with no assumed interest on idle capital. Use the same 2,000 paper USDC account, quantity lots, fill delays, friction, maintenance and final exits as the relative basis replay. Base and stress use identical model weights and direction decisions. [Common replay assumptions](perp-basis.md)
 
 Score Dec 2025–Mar 2026, Apr–Jun 2026, Jul–Sep 2026 and Oct–Nov 22 2026 as four independent-account tests, with each daily model trained only on already matured examples. Sep–Nov 2025 initializes training. Rule choices here come after seeing the fixed-premium study on these market dates, so the archived results are correlated and retrospective. A favorable archive screen needs to exceed 4% cash in all four periods under stress. Verify a favorable result with uninspected or prospective data before claiming a repeatable edge.
+
+## Results
+
+One of four stressed windows beat cash. The model lost in the final two windows. The April–June gain remained positive when its best day was removed. BTC and HYPE contributed 339.69 USDC of that window's 359.41 USDC gross price P&L. That concentration and the weak adjacent periods leave no repeatable cash advantage for this specification.
+
+| Window | Signal days | 4% cash | Base net | Stressed net | Stressed net without best day | Stressed drawdown |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Dec 2025–Mar 2026 | 27 | +26.17 | +26.09 | +6.59 | −53.25 | 7.97% |
+| Apr–Jun 2026 | 42 | +19.65 | +375.12 | +317.47 | +242.24 | 6.40% |
+| Jul–Sep 2026 | 23 | +19.87 | −19.97 | −24.74 | −47.16 | 3.36% |
+| Oct–Nov 22, 2026 | 6 | +11.21 | −43.09 | −36.16 | −47.02 | 2.16% |
+
+Every window starts with 2,000 paper USDC. The model used 76 to 179 matured dates per decision. The round-trip entry gate is based on forecast spread, so it can admit trades whose realized move fails to pay those costs. Keep the fit and cutoff unchanged in this report and retire the tested policy after the later losses. [Decisions, input hashes and full capital results](../results/follow-up/premium-model.json)
+
+Install `requirements-research.txt` and obtain the archived basis replay inputs. Run:
+
+```sh
+python -m lane_z.premium_model --data data/perp-basis data/agent-native-trend \
+  data/agent-spot-carry data/agent-spot-carry/older data/agent-selective-carry/late \
+  --output data/premium-model-reproduced.json
+```

@@ -37,9 +37,7 @@ def capture(path):
             "coin": asset, "interval": "4h", "startTime": start - BAR, "endTime": end,
         }}, 20 + math.ceil(((end - start) // BAR + 2) / 60))
         for label, left, right in funding_pages(WARMUP, DATES[-1]):
-            final_hour = min(max(right, left), end)
-            if right == end:
-                final_hour = end + HOUR - 1
+            final_hour = end + HOUR - 1 if right == end else right
             archive.get(f"{asset}-funding-{label}.json", {
                 "type": "fundingHistory", "coin": asset, "startTime": left, "endTime": final_hour,
             }, 44)
@@ -137,7 +135,9 @@ def funding_cashflow(quantity, rate, opening, previous_bar, scenario):
     return raw_rate * max(opening, previous_bar.high)
 
 
-def replay_window(data, start, end, scenario):
+def replay_window(data, start, end, scenario, pairs=None):
+    if pairs is None:
+        pairs = {t: premium_pair(data.funding, t) for t in range(start, end, DAY)}
     # Mark changes accrue to held positions. Trade cash costs and funding are tracked separately.
     holdings = dict.fromkeys(ASSETS, 0.0)
     targets = holdings.copy()
@@ -166,7 +166,7 @@ def replay_window(data, start, end, scenario):
             decision_equity = opening_equity + math.fsum(
                 holdings[asset] * (prior_bars[asset].close - opens[asset]) for asset in ASSETS
             )
-            pair = premium_pair(data.funding, t)
+            pair = pairs[t]
             targets = dict.fromkeys(ASSETS, 0.0)
             if pair:
                 for asset, sign in zip(pair, (1, -1), strict=True):
