@@ -22,4 +22,13 @@ python -m lane_z.liminal_forward --state data/liminal/forward-2026-11-23/state.j
 python -m lane_z.liminal_forward --state data/liminal/forward-2026-11-23/state.json status
 ```
 
-The local watch process needs a running host. After a host restart, use `watch` with the existing state. It retrieves missed fixed checkpoints in order from both providers’ archives and labels them as recovered observations. A terminal provider disagreement or unavailable archive keeps the result unresolved for retry. An unavailable nonterminal daily mark may be recorded as missing after one day. The strategy score and streak survive restart.
+The watcher retrieves missed fixed checkpoints in order from both providers’ archives and labels them as recovered observations. A terminal provider disagreement or unavailable archive keeps the result unresolved for retry. An unavailable nonterminal daily mark may be recorded as missing after one day. The strategy score and streak survive restart. A manual restart uses `watch` against the existing state file.
+
+On the experiment host, user-level macOS LaunchAgents supervise both watchers. Each uses the project as `WorkingDirectory`, the absolute virtual-environment Python and state paths in `ProgramArguments`, and `KeepAlive` with `SuccessfulExit` set to false. It restarts after failure or when the user logs in again. A successful terminal exit stops the watcher for that login session. The host has to be awake and logged in for contemporaneous marks. Outages use the same archival recovery rules.
+
+```sh
+launchctl print "gui/$(id -u)/local.lane-z.liminal-forward"
+launchctl print "gui/$(id -u)/local.lane-z.liminal-queue-forward"
+```
+
+The services append to `watch.log` alongside each state file. Read the service PID from `launchctl print` after a restart.
