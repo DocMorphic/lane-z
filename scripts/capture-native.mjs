@@ -1,5 +1,6 @@
 import { createWriteStream, mkdirSync } from "node:fs";
 import { dirname } from "node:path";
+import { performance } from "node:perf_hooks";
 import { pipeline } from "node:stream/promises";
 import { createGzip } from "node:zlib";
 
@@ -24,7 +25,11 @@ const bookChannel = mode === "--bbo" ? "bbo" : "l2Book";
 const counts = { [bookChannel]: 0, trades: 0 };
 let stopped = false;
 
-function write(channel, data, received_ms = Date.now()) {
+function receivedMs() {
+  return Math.floor(performance.timeOrigin + performance.now());
+}
+
+function write(channel, data, received_ms = receivedMs()) {
   output.write(JSON.stringify({ received_ms, channel, data }) + "\n");
 }
 
@@ -39,7 +44,7 @@ socket.addEventListener("open", () => {
 
 socket.addEventListener("message", event => {
   if (stopped) return;
-  const received_ms = Date.now();
+  const received_ms = receivedMs();
   const { channel, data } = JSON.parse(event.data);
   if (!Object.hasOwn(counts, channel)) return;
   counts[channel]++;

@@ -1,5 +1,6 @@
 import { createWriteStream, mkdirSync } from "node:fs";
 import { join } from "node:path";
+import { performance } from "node:perf_hooks";
 import { pipeline } from "node:stream/promises";
 import { createGzip } from "node:zlib";
 
@@ -66,7 +67,7 @@ function connect(url, onOpen, onQuote) {
     });
     socket.addEventListener("message", event => {
       if (stopped) return;
-      const receivedMs = Date.now();
+      const receivedMs = Math.floor(performance.timeOrigin + performance.now());
       try {
         onQuote(JSON.parse(event.data), receivedMs);
       } catch (error) {

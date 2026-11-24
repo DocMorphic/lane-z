@@ -31,3 +31,7 @@ python -m lane_z.equity_fast data/agent-equity-fast-today/premarket-01 \
   --start 2026-11-24T09:24:02+00:00 --end 2026-11-24T09:26:22.500+00:00 \
   --output data/agent-equity-fast-today/replicate-premarket-01.json
 ```
+
+## Regular-session clock recovery
+
+The scheduled regular-session capture ran from 14:33 through 15:06 UTC. The replay detected a wall-clock rollback at 14:46:13 UTC. Its affected files reported backward steps of 54–68 ms. Preserve the original gzip files. Quarantine all receipts from 14:46:13 inclusive to 14:46:14 exclusive on every feed. Replay the portions before and after as independent segments with the original decision bounds, fresh signal warmup and an exit buffer inside each segment. Keep the results labeled as recovery from a clock interruption. Use a new 20-minute live tape captured with a monotonic, UTC-anchored clock as a separate regular-session check. All paper execution and signal parameters stay fixed.
