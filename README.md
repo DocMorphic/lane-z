@@ -38,6 +38,8 @@ Every 250 ms, a ridge model estimates the move in the Hyperliquid midpoint after
 
 The positive case uses two held-out regular sessions, roughly $100 requested per order, sampled best quotes, and 0.9 bps taker fees per side. It filled 56 of 140 attempted entries, with 32 partial fills. The weekend model has one held-out session. [Full results](docs/results.md) · [Study protocol](docs/protocol.md) · [Research and sources](docs/research.md)
 
+On November 24, the frozen five-second equity model and a new 30-second cross-venue rule produced four premarket attempts and zero fills. A separate ten-second native crypto rule lost in both fresh samples. A 30-second native flow reversal stayed flat in its first best-quote sample. The three-minute HIP-3 volume breakout lost after stress in all three historical holdouts. [Fresh equity replay](docs/hip3-fresh-fast-2026-11-24.md) · [Native continuation](docs/native-flow-transition.md) · [Native reversal](docs/native-fast.md) · [Volume breakout](docs/hip3-volume-breakout.md)
+
 ## Follow-up venue tests
 
 The frozen Binance model made no trades in the first live Saturday window. A separate reversal rule lost money in paper tests on Hyperliquid, Binance, and Lighter, and a five-second cash queue strategy lost money on the public NYSE Arca sample. [Venue comparison and commands](docs/venue-comparison.md)

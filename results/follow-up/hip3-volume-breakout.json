@@ -1,0 +1,473 @@
+{
+  "growth_fee_assumption_supported": true,
+  "current_metadata_and_reference_book": {
+    "xyz:XYZ100": {
+      "growth_mode": "enabled",
+      "delisted": false,
+      "deployer_fee_scale": "1.0",
+      "last_fee_scale_change": "2025-11-23T17:37:10.033211662",
+      "snapshot_spread_bps": 0.7548309178743962,
+      "snapshot_time": "2026-11-24T09:29:25.806000+00:00"
+    },
+    "xyz:NVDA": {
+      "growth_mode": "enabled",
+      "delisted": false,
+      "deployer_fee_scale": "1.0",
+      "last_fee_scale_change": "2025-11-23T17:37:10.033211662",
+      "snapshot_spread_bps": 1.261113563275226,
+      "snapshot_time": "2026-11-24T09:29:26.877000+00:00"
+    },
+    "xyz:SILVER": {
+      "growth_mode": "enabled",
+      "delisted": false,
+      "deployer_fee_scale": "1.0",
+      "last_fee_scale_change": "2025-12-27T14:46:13.933247634",
+      "snapshot_spread_bps": 0.238854454037875,
+      "snapshot_time": "2026-11-24T09:29:27.422000+00:00"
+    }
+  },
+  "windows": [
+    {
+      "dates_in_new_york": [
+        "2026-11-16",
+        "2026-11-17"
+      ],
+      "valid_session_bars_out_of_130": {
+        "2026-11-16": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        },
+        "2026-11-17": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        }
+      },
+      "raw_signals": {
+        "2026-11-16": {
+          "xyz:XYZ100": 10,
+          "xyz:NVDA": 11,
+          "xyz:SILVER": 7
+        },
+        "2026-11-17": {
+          "xyz:XYZ100": 12,
+          "xyz:NVDA": 17,
+          "xyz:SILVER": 5
+        }
+      },
+      "cases": {
+        "gross": {
+          "basket": {
+            "trades": 47,
+            "mean_bps": 1.6752041743750792,
+            "net_usdc_at_100_notional_per_trade": 0.7873459619562873,
+            "positive_trades": 27
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": 2.0648770700394588,
+              "net_usdc_at_100_notional_per_trade": 0.351029101906708,
+              "positive_trades": 11
+            },
+            "xyz:NVDA": {
+              "trades": 20,
+              "mean_bps": 0.19737985923806695,
+              "net_usdc_at_100_notional_per_trade": 0.03947597184761339,
+              "positive_trades": 10
+            },
+            "xyz:SILVER": {
+              "trades": 10,
+              "mean_bps": 3.9684088820196584,
+              "net_usdc_at_100_notional_per_trade": 0.39684088820196584,
+              "positive_trades": 6
+            }
+          }
+        },
+        "fee_only": {
+          "basket": {
+            "trades": 47,
+            "mean_bps": -0.12516921821028318,
+            "net_usdc_at_100_notional_per_trade": -0.05882953255883309,
+            "positive_trades": 27
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": 0.26449186501846317,
+              "net_usdc_at_100_notional_per_trade": 0.044963617053138734,
+              "positive_trades": 11
+            },
+            "xyz:NVDA": {
+              "trades": 20,
+              "mean_bps": -1.603149839861421,
+              "net_usdc_at_100_notional_per_trade": -0.3206299679722842,
+              "positive_trades": 10
+            },
+            "xyz:SILVER": {
+              "trades": 10,
+              "mean_bps": 2.1683681836031234,
+              "net_usdc_at_100_notional_per_trade": 0.21683681836031238,
+              "positive_trades": 6
+            }
+          }
+        },
+        "base": {
+          "basket": {
+            "trades": 47,
+            "mean_bps": -2.126136400678644,
+            "net_usdc_at_100_notional_per_trade": -0.9992841083189627,
+            "positive_trades": 25
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": -1.736431164514375,
+              "net_usdc_at_100_notional_per_trade": -0.29519329796744376,
+              "positive_trades": 11
+            },
+            "xyz:NVDA": {
+              "trades": 20,
+              "mean_bps": -3.604516979495082,
+              "net_usdc_at_100_notional_per_trade": -0.7209033958990164,
+              "positive_trades": 8
+            },
+            "xyz:SILVER": {
+              "trades": 10,
+              "mean_bps": 0.16812585547497522,
+              "net_usdc_at_100_notional_per_trade": 0.01681258554749752,
+              "positive_trades": 6
+            }
+          }
+        },
+        "stress": {
+          "basket": {
+            "trades": 40,
+            "mean_bps": -4.995106879066953,
+            "net_usdc_at_100_notional_per_trade": -1.9980427516267814,
+            "positive_trades": 15
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 13,
+              "mean_bps": -6.024602697802573,
+              "net_usdc_at_100_notional_per_trade": -0.7831983507143345,
+              "positive_trades": 4
+            },
+            "xyz:NVDA": {
+              "trades": 17,
+              "mean_bps": 1.3599386772418545,
+              "net_usdc_at_100_notional_per_trade": 0.23118957513111527,
+              "positive_trades": 9
+            },
+            "xyz:SILVER": {
+              "trades": 10,
+              "mean_bps": -14.46033976043562,
+              "net_usdc_at_100_notional_per_trade": -1.4460339760435619,
+              "positive_trades": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "dates_in_new_york": [
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "valid_session_bars_out_of_130": {
+        "2026-11-18": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        },
+        "2026-11-19": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        }
+      },
+      "raw_signals": {
+        "2026-11-18": {
+          "xyz:XYZ100": 9,
+          "xyz:NVDA": 7,
+          "xyz:SILVER": 7
+        },
+        "2026-11-19": {
+          "xyz:XYZ100": 11,
+          "xyz:NVDA": 13,
+          "xyz:SILVER": 11
+        }
+      },
+      "cases": {
+        "gross": {
+          "basket": {
+            "trades": 44,
+            "mean_bps": 6.460778624941342,
+            "net_usdc_at_100_notional_per_trade": 2.8427425949741907,
+            "positive_trades": 24
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": 6.2897372319620555,
+              "net_usdc_at_100_notional_per_trade": 1.0692553294335494,
+              "positive_trades": 10
+            },
+            "xyz:NVDA": {
+              "trades": 13,
+              "mean_bps": 12.769005924704143,
+              "net_usdc_at_100_notional_per_trade": 1.6599707702115385,
+              "positive_trades": 8
+            },
+            "xyz:SILVER": {
+              "trades": 14,
+              "mean_bps": 0.8108321094935885,
+              "net_usdc_at_100_notional_per_trade": 0.1135164953291024,
+              "positive_trades": 6
+            }
+          }
+        },
+        "fee_only": {
+          "basket": {
+            "trades": 44,
+            "mean_bps": 4.6612661519360845,
+            "net_usdc_at_100_notional_per_trade": 2.0509571068518775,
+            "positive_trades": 22
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": 4.489762469820085,
+              "net_usdc_at_100_notional_per_trade": 0.7632596198694144,
+              "positive_trades": 9
+            },
+            "xyz:NVDA": {
+              "trades": 13,
+              "mean_bps": 10.970191802987898,
+              "net_usdc_at_100_notional_per_trade": 1.4261249343884268,
+              "positive_trades": 8
+            },
+            "xyz:SILVER": {
+              "trades": 14,
+              "mean_bps": -0.98876748147117,
+              "net_usdc_at_100_notional_per_trade": -0.1384274474059638,
+              "positive_trades": 5
+            }
+          }
+        },
+        "base": {
+          "basket": {
+            "trades": 44,
+            "mean_bps": 2.6622288436959782,
+            "net_usdc_at_100_notional_per_trade": 1.1713806912262303,
+            "positive_trades": 16
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 17,
+              "mean_bps": 2.4897964020190866,
+              "net_usdc_at_100_notional_per_trade": 0.42326538834324473,
+              "positive_trades": 6
+            },
+            "xyz:NVDA": {
+              "trades": 13,
+              "mean_bps": 8.972564458409497,
+              "net_usdc_at_100_notional_per_trade": 1.1664333795932347,
+              "positive_trades": 7
+            },
+            "xyz:SILVER": {
+              "trades": 14,
+              "mean_bps": -2.987986262216064,
+              "net_usdc_at_100_notional_per_trade": -0.4183180767102489,
+              "positive_trades": 3
+            }
+          }
+        },
+        "stress": {
+          "basket": {
+            "trades": 40,
+            "mean_bps": -13.694180677063356,
+            "net_usdc_at_100_notional_per_trade": -5.477672270825344,
+            "positive_trades": 7
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 14,
+              "mean_bps": -11.368849750602259,
+              "net_usdc_at_100_notional_per_trade": -1.5916389650843161,
+              "positive_trades": 4
+            },
+            "xyz:NVDA": {
+              "trades": 13,
+              "mean_bps": -14.113347577970792,
+              "net_usdc_at_100_notional_per_trade": -1.834735185136203,
+              "positive_trades": 2
+            },
+            "xyz:SILVER": {
+              "trades": 13,
+              "mean_bps": -15.779216312344795,
+              "net_usdc_at_100_notional_per_trade": -2.0512981206048235,
+              "positive_trades": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "dates_in_new_york": [
+        "2026-11-20",
+        "2026-11-23"
+      ],
+      "valid_session_bars_out_of_130": {
+        "2026-11-20": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        },
+        "2026-11-23": {
+          "xyz:XYZ100": 130,
+          "xyz:NVDA": 130,
+          "xyz:SILVER": 130
+        }
+      },
+      "raw_signals": {
+        "2026-11-20": {
+          "xyz:XYZ100": 15,
+          "xyz:NVDA": 16,
+          "xyz:SILVER": 10
+        },
+        "2026-11-23": {
+          "xyz:XYZ100": 9,
+          "xyz:NVDA": 10,
+          "xyz:SILVER": 7
+        }
+      },
+      "cases": {
+        "gross": {
+          "basket": {
+            "trades": 49,
+            "mean_bps": 0.4406995180640953,
+            "net_usdc_at_100_notional_per_trade": 0.21594276385140668,
+            "positive_trades": 25
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 18,
+              "mean_bps": -2.484239656417494,
+              "net_usdc_at_100_notional_per_trade": -0.44716313815514885,
+              "positive_trades": 10
+            },
+            "xyz:NVDA": {
+              "trades": 18,
+              "mean_bps": 5.4750913310365315,
+              "net_usdc_at_100_notional_per_trade": 0.9855164395865758,
+              "positive_trades": 10
+            },
+            "xyz:SILVER": {
+              "trades": 13,
+              "mean_bps": -2.4800810583078476,
+              "net_usdc_at_100_notional_per_trade": -0.3224105375800202,
+              "positive_trades": 5
+            }
+          }
+        },
+        "fee_only": {
+          "basket": {
+            "trades": 49,
+            "mean_bps": -1.3591788345917577,
+            "net_usdc_at_100_notional_per_trade": -0.6659976289499613,
+            "positive_trades": 24
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 18,
+              "mean_bps": -4.284254998437176,
+              "net_usdc_at_100_notional_per_trade": -0.7711658997186918,
+              "positive_trades": 10
+            },
+            "xyz:NVDA": {
+              "trades": 18,
+              "mean_bps": 3.6756231999598596,
+              "net_usdc_at_100_notional_per_trade": 0.6616121759927748,
+              "positive_trades": 10
+            },
+            "xyz:SILVER": {
+              "trades": 13,
+              "mean_bps": -4.280337732492648,
+              "net_usdc_at_100_notional_per_trade": -0.5564439052240442,
+              "positive_trades": 4
+            }
+          }
+        },
+        "base": {
+          "basket": {
+            "trades": 49,
+            "mean_bps": -3.359102405961461,
+            "net_usdc_at_100_notional_per_trade": -1.645960178921116,
+            "positive_trades": 21
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 18,
+              "mean_bps": -6.284542557551776,
+              "net_usdc_at_100_notional_per_trade": -1.1312176603593198,
+              "positive_trades": 7
+            },
+            "xyz:NVDA": {
+              "trades": 18,
+              "mean_bps": 1.676636412085964,
+              "net_usdc_at_100_notional_per_trade": 0.3017945541754735,
+              "positive_trades": 10
+            },
+            "xyz:SILVER": {
+              "trades": 13,
+              "mean_bps": -6.281054405671305,
+              "net_usdc_at_100_notional_per_trade": -0.8165370727372697,
+              "positive_trades": 4
+            }
+          }
+        },
+        "stress": {
+          "basket": {
+            "trades": 49,
+            "mean_bps": -14.36386576472382,
+            "net_usdc_at_100_notional_per_trade": -7.038294224714672,
+            "positive_trades": 12
+          },
+          "markets": {
+            "xyz:XYZ100": {
+              "trades": 18,
+              "mean_bps": -18.502563936951294,
+              "net_usdc_at_100_notional_per_trade": -3.3304615086512332,
+              "positive_trades": 2
+            },
+            "xyz:NVDA": {
+              "trades": 17,
+              "mean_bps": -13.850217983766088,
+              "net_usdc_at_100_notional_per_trade": -2.3545370572402353,
+              "positive_trades": 5
+            },
+            "xyz:SILVER": {
+              "trades": 14,
+              "mean_bps": -9.666397563022887,
+              "net_usdc_at_100_notional_per_trade": -1.3532956588232044,
+              "positive_trades": 5
+            }
+          }
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "meta.json": "6310de5de4dabe930199a3031dc75647b8d288c496dd334ad7250ded4f20de17",
+    "XYZ100-book.json": "748e91bfccf4c3500152dd9e7afac12b1dc034b3d833970a7a12ef2ecb9d42a9",
+    "XYZ100-3m.json": "b658a9e1cb07f11364bc3c5c1556d66dae4bfdc883bfae5764721332e1fd5e5f",
+    "NVDA-book.json": "44afae46c605962f0d99b7fa451fdb200a4ba9dcfd521960d2be564a47a93d1a",
+    "NVDA-3m.json": "2335cd07429eab2e9bf19dee99ef8564588cf268b8e774b699e5a8fc59fbe1fd",
+    "SILVER-book.json": "c692a128e38e06a5949ecfb948a27d6a613ba40b6837e9aa76b01244205f83cf",
+    "SILVER-3m.json": "78da6f92829826ad02aaf858119217012bcbcdd9661eafcd3a1a91a5cf08abea"
+  },
+  "passes_candle_screen": false
+}

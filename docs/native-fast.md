@@ -12,3 +12,22 @@ Large trade bursts can remove resting liquidity and push the midpoint away from 
 ## Best-quote follow-up
 
 The initial 180-second window produced only 14–15 usable full-book snapshots per market. Freeze a separate `bbo` feed replay with the same timing, signals, prices and costs. This version fills only against the displayed best price and size. Run fresh 180- and 300-second captures in order. The order-flow and price thresholds are unchanged.
+
+## November 24 paper readout
+
+| UTC capture | Feed | Valid book snapshots | Decision rows with both fresh midpoint marks | Completed reversal or continuation trades |
+| --- | --- | ---: | ---: | ---: |
+| 09:24:53–09:27:53 | L2 | 88 | 0 | 0 |
+| 09:28:30–09:33:30 | L2 | 156 | 0 | 0 |
+| 09:29:52–09:32:51 | Best quotes | 8,619 | 3,766 | 0 |
+
+The initial full-depth feed lacked the cadence for this signal. Best quotes provided sufficient price-pair coverage to evaluate 3,766 market decisions. The largest observed absolute three-second midpoint move was 8.47 bps, below the 10 bp impulse threshold. Neither rule attempted entry. The first best-quote sample remained at zero paper P&L across all delay settings. It represents about three minutes of one morning. Best-quote fills use displayed liquidity and model a counterfactual order. [Paper report and capture hashes](../results/follow-up/native-fast-2026-11-24.json)
+
+```sh
+mkdir -p data/native-fast
+curl -fsS https://api.hyperliquid.xyz/info -H 'Content-Type: application/json' \
+  --data '{"type":"meta"}' -o data/native-fast/meta.json
+node scripts/capture-native.mjs data/native-fast/next.jsonl.gz 300 --bbo
+python -m lane_z.native_fast data/native-fast/next.jsonl.gz \
+  --meta data/native-fast/meta.json --output data/native-fast/next.json
+```

@@ -1,0 +1,182 @@
+{
+  "premarket-01": {
+    "250ms-plus-0ms-source/published_5s": {
+      "attempts": 1,
+      "round_trips": 1,
+      "entry_notional_usd": 99.78920000000001,
+      "midpoint_move_usd": -0.006280000000003838,
+      "spread_cost_usd": 0.006279999999975416,
+      "fees_usd": 0.0179631864,
+      "slippage_reserve_usd": 0.009979548,
+      "net_usd": -0.04050273439997926,
+      "complete": true
+    },
+    "250ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "500ms-plus-0ms-source/published_5s": {
+      "attempts": 1,
+      "round_trips": 1,
+      "entry_notional_usd": 99.72640000000001,
+      "midpoint_move_usd": -0.06907999999999959,
+      "spread_cost_usd": 0.006279999999975416,
+      "fees_usd": 0.017957534400000003,
+      "slippage_reserve_usd": 0.009976408,
+      "net_usd": -0.10329394239997501,
+      "complete": true
+    },
+    "500ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "900ms-plus-0ms-source/published_5s": {
+      "attempts": 1,
+      "round_trips": 1,
+      "entry_notional_usd": 99.75152,
+      "midpoint_move_usd": -0.07792000000000598,
+      "spread_cost_usd": 0.006280000000003838,
+      "fees_usd": 0.017962851600000003,
+      "slippage_reserve_usd": 0.009979362,
+      "net_usd": -0.11214221360000982,
+      "complete": true
+    },
+    "900ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "500ms-plus-125ms-source/published_5s": {
+      "attempts": 1,
+      "round_trips": 1,
+      "entry_notional_usd": 99.72640000000001,
+      "midpoint_move_usd": -0.06907999999999959,
+      "spread_cost_usd": 0.006279999999975416,
+      "fees_usd": 0.017957534400000003,
+      "slippage_reserve_usd": 0.009976408,
+      "net_usd": -0.10329394239997501,
+      "complete": true
+    },
+    "500ms-plus-125ms-source/binance_divergence_30s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    }
+  },
+  "premarket-02": {
+    "250ms-plus-0ms-source/published_5s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "250ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 2,
+      "round_trips": 2,
+      "entry_notional_usd": 118.32876000000002,
+      "midpoint_move_usd": 0.054179999999998785,
+      "spread_cost_usd": 0.00774000000001962,
+      "fees_usd": 0.0213033564,
+      "slippage_reserve_usd": 0.011835198,
+      "net_usd": 0.013301445599979164,
+      "complete": true
+    },
+    "500ms-plus-0ms-source/published_5s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "500ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 2,
+      "round_trips": 2,
+      "entry_notional_usd": 179.1622,
+      "midpoint_move_usd": 0.026299999999991996,
+      "spread_cost_usd": 0.035899999999998045,
+      "fees_usd": 0.032248332,
+      "slippage_reserve_usd": 0.01791574,
+      "net_usd": -0.05976407200000605,
+      "complete": true
+    },
+    "900ms-plus-0ms-source/published_5s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "900ms-plus-0ms-source/binance_divergence_30s": {
+      "attempts": 2,
+      "round_trips": 2,
+      "entry_notional_usd": 199.7754,
+      "midpoint_move_usd": 0.029899999999983606,
+      "spread_cost_usd": 0.02579999999998961,
+      "fees_usd": 0.035959940999999995,
+      "slippage_reserve_usd": 0.019977744999999998,
+      "net_usd": -0.051837686000005996,
+      "complete": true
+    },
+    "500ms-plus-125ms-source/published_5s": {
+      "attempts": 0,
+      "round_trips": 0,
+      "entry_notional_usd": 0,
+      "midpoint_move_usd": 0,
+      "spread_cost_usd": 0,
+      "fees_usd": 0,
+      "slippage_reserve_usd": 0,
+      "net_usd": 0,
+      "complete": true
+    },
+    "500ms-plus-125ms-source/binance_divergence_30s": {
+      "attempts": 2,
+      "round_trips": 2,
+      "entry_notional_usd": 199.7754,
+      "midpoint_move_usd": 0.024349999999998317,
+      "spread_cost_usd": 0.03284999999999627,
+      "fees_usd": 0.035958806999999995,
+      "slippage_reserve_usd": 0.019977115,
+      "net_usd": -0.06443592199999795,
+      "complete": true
+    }
+  }
+}

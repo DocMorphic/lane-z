@@ -1,0 +1,1774 @@
+{
+  "windows": [
+    {
+      "mode": "paper_only",
+      "book_channel": "l2Book",
+      "capture": "2026-11-24-morning-1.jsonl.gz",
+      "sha256": "d09047b14610a271673fe9e6f4336bbf20b1b1e85f7c44a239de961a7619f713",
+      "metadata_sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "start_utc": "2026-11-24T09:24:53.863+00:00",
+      "end_utc": "2026-11-24T09:27:53.365+00:00",
+      "taker_fee_bps_per_leg": 4.5,
+      "lot_decimals": {
+        "BTC": 5,
+        "ETH": 4,
+        "SOL": 2,
+        "DOGE": 0,
+        "SUI": 1,
+        "HYPE": 2
+      },
+      "coverage": {
+        "BTC": {
+          "books_dropped": 0,
+          "trades_dropped": 29,
+          "books": 15,
+          "trades": 503,
+          "median_book_lag_ms": 420,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "ETH": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 15,
+          "trades": 167,
+          "median_book_lag_ms": 421,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SOL": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 15,
+          "trades": 187,
+          "median_book_lag_ms": 421,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "HYPE": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 15,
+          "trades": 526,
+          "median_book_lag_ms": 421,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "DOGE": {
+          "books_dropped": 1,
+          "trades_dropped": 30,
+          "books": 14,
+          "trades": 23,
+          "median_book_lag_ms": 420,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SUI": {
+          "books_dropped": 1,
+          "trades_dropped": 30,
+          "books": 14,
+          "trades": 6,
+          "median_book_lag_ms": 421,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        }
+      },
+      "scenarios": {
+        "reversal": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        },
+        "continuation": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "mode": "paper_only",
+      "book_channel": "l2Book",
+      "capture": "2026-11-24-morning-2.jsonl.gz",
+      "sha256": "49a6faa716f5f24b6037f402d3179db7f426960e6b5a986ce2d480eced24c765",
+      "metadata_sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "start_utc": "2026-11-24T09:28:30.363+00:00",
+      "end_utc": "2026-11-24T09:33:30.074+00:00",
+      "taker_fee_bps_per_leg": 4.5,
+      "lot_decimals": {
+        "BTC": 5,
+        "ETH": 4,
+        "SOL": 2,
+        "DOGE": 0,
+        "SUI": 1,
+        "HYPE": 2
+      },
+      "coverage": {
+        "BTC": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 26,
+          "trades": 1323,
+          "median_book_lag_ms": 443,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "ETH": {
+          "books_dropped": 0,
+          "trades_dropped": 23,
+          "books": 26,
+          "trades": 542,
+          "median_book_lag_ms": 445,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SOL": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 26,
+          "trades": 460,
+          "median_book_lag_ms": 445,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "HYPE": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 26,
+          "trades": 792,
+          "median_book_lag_ms": 445,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "DOGE": {
+          "books_dropped": 0,
+          "trades_dropped": 29,
+          "books": 26,
+          "trades": 21,
+          "median_book_lag_ms": 445,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SUI": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 26,
+          "trades": 52,
+          "median_book_lag_ms": 445,
+          "grid_with_fresh_price_pair": 0,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        }
+      },
+      "scenarios": {
+        "reversal": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        },
+        "continuation": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "mode": "paper_only",
+      "book_channel": "bbo",
+      "capture": "2026-11-24-bbo-1.jsonl.gz",
+      "sha256": "087bfbb042884f9e0adeb1cdd0846881766a07adc24d17ce4372939531941e65",
+      "metadata_sha256": "3fcc787862033a6d3ef452c3a35323eefe3588bed11577cab66b0f0ae949b8d8",
+      "start_utc": "2026-11-24T09:29:52.188+00:00",
+      "end_utc": "2026-11-24T09:32:51.672+00:00",
+      "taker_fee_bps_per_leg": 4.5,
+      "lot_decimals": {
+        "BTC": 5,
+        "ETH": 4,
+        "SOL": 2,
+        "DOGE": 0,
+        "SUI": 1,
+        "HYPE": 2
+      },
+      "coverage": {
+        "BTC": {
+          "books_dropped": 0,
+          "trades_dropped": 28,
+          "books": 1946,
+          "trades": 915,
+          "median_book_lag_ms": 366,
+          "grid_with_fresh_price_pair": 703,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "ETH": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 1894,
+          "trades": 309,
+          "median_book_lag_ms": 365,
+          "grid_with_fresh_price_pair": 703,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SOL": {
+          "books_dropped": 0,
+          "trades_dropped": 25,
+          "books": 1534,
+          "trades": 326,
+          "median_book_lag_ms": 368,
+          "grid_with_fresh_price_pair": 688,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "HYPE": {
+          "books_dropped": 0,
+          "trades_dropped": 29,
+          "books": 1547,
+          "trades": 456,
+          "median_book_lag_ms": 367,
+          "grid_with_fresh_price_pair": 699,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "DOGE": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 791,
+          "trades": 12,
+          "median_book_lag_ms": 381,
+          "grid_with_fresh_price_pair": 449,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        },
+        "SUI": {
+          "books_dropped": 0,
+          "trades_dropped": 30,
+          "books": 907,
+          "trades": 45,
+          "median_book_lag_ms": 373,
+          "grid_with_fresh_price_pair": 524,
+          "reversal_onsets": 0,
+          "continuation_onsets": 0
+        }
+      },
+      "scenarios": {
+        "reversal": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        },
+        "continuation": {
+          "250ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "500ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_1bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          },
+          "900ms_2bp": {
+            "attempts": 0,
+            "missed_entries": 0,
+            "partial_entries": 0,
+            "unresolved_exits": 0,
+            "eligible_signals": 0,
+            "entry_usdc": 0,
+            "gross_usdc": 0,
+            "fees_usdc": 0,
+            "extra_slippage_usdc": 0,
+            "net_usdc": 0,
+            "completed": 0,
+            "markets": {
+              "BTC": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "ETH": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SOL": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "HYPE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "DOGE": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              },
+              "SUI": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "unresolved_exits": 0,
+                "eligible_signals": 0,
+                "trades": []
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

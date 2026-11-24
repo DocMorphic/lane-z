@@ -1,0 +1,303 @@
+{
+  "beat_zero_after_stress_in_both": false,
+  "capture_end_utc": "2026-11-24T09:27:16.962+00:00",
+  "capture_start_utc": "2026-11-24T09:24:51.958+00:00",
+  "coverage": {
+    "BTC": {
+      "bbo": 1554,
+      "bbo_median_receive_minus_venue_ms": 359.0,
+      "trades": 413,
+      "valid_bbo": 1554
+    },
+    "ETH": {
+      "bbo": 1482,
+      "bbo_median_receive_minus_venue_ms": 359.0,
+      "trades": 149,
+      "valid_bbo": 1482
+    },
+    "SOL": {
+      "bbo": 1131,
+      "bbo_median_receive_minus_venue_ms": 364,
+      "trades": 162,
+      "valid_bbo": 1131
+    }
+  },
+  "source_sha256": "bd838e112554fb992c8bb544a390c5c73987ed3e740737b75ee753c2faec518f",
+  "trade_notional_cap_usdc": 200,
+  "windows": [
+    {
+      "end_utc": "2026-11-24T09:26:11.958+00:00",
+      "replay": {
+        "base": {
+          "closed_paper_trades": 1,
+          "complete": false,
+          "entry_usdc": 199.97604,
+          "execution_reserve_usdc": 0.0,
+          "fee_usdc": 0.180015858,
+          "ledger": [
+            {
+              "asset": "ETH",
+              "decision_utc": "2026-11-24T09:25:36.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.97604,
+              "entry_utc": "2026-11-24T09:25:37.713+00:00",
+              "execution_reserve_usdc": 0.0,
+              "exit_utc": "2026-11-24T09:25:48.734+00:00",
+              "fee_usdc": 0.180015858,
+              "midpoint_pnl_usdc": 0.0950399999999946,
+              "net_usdc": -0.09685585799999459,
+              "observed_entry_delay_ms": 755,
+              "observed_exit_extra_delay_ms": 271,
+              "spread_usdc": 0.011879999999989191
+            }
+          ],
+          "midpoint_pnl_usdc": 0.0950399999999946,
+          "net_bps_on_entry_notional": -4.843373136101434,
+          "net_usdc": -0.09685585799999459,
+          "outcomes": {
+            "unresolved_exit_touch_size": 2
+          },
+          "spread_usdc": 0.011879999999989191
+        },
+        "stress": {
+          "closed_paper_trades": 3,
+          "complete": false,
+          "entry_usdc": 598.880076804,
+          "execution_reserve_usdc": 0.05989468950000001,
+          "fee_usdc": 0.5390522036916751,
+          "ledger": [
+            {
+              "asset": "BTC",
+              "decision_utc": "2026-11-24T09:25:11.958+00:00",
+              "direction": -1,
+              "entry_usdc": 199.45702665,
+              "entry_utc": "2026-11-24T09:25:13.479+00:00",
+              "execution_reserve_usdc": 0.0199485315,
+              "exit_utc": "2026-11-24T09:25:25.056+00:00",
+              "fee_usdc": 0.179536784324175,
+              "midpoint_pnl_usdc": -0.0333,
+              "net_usdc": -0.236115315824175,
+              "observed_entry_delay_ms": 1521,
+              "observed_exit_extra_delay_ms": 77,
+              "spread_usdc": 0.0033299999999999996
+            },
+            {
+              "asset": "BTC",
+              "decision_utc": "2026-11-24T09:25:35.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.437011352,
+              "entry_utc": "2026-11-24T09:25:37.483+00:00",
+              "execution_reserve_usdc": 0.019947366,
+              "exit_utc": "2026-11-24T09:25:49.140+00:00",
+              "fee_usdc": 0.1795262919021,
+              "midpoint_pnl_usdc": 0.09657,
+              "net_usdc": -0.10623365790210001,
+              "observed_entry_delay_ms": 1525,
+              "observed_exit_extra_delay_ms": 157,
+              "spread_usdc": 0.0033299999999999996
+            },
+            {
+              "asset": "ETH",
+              "decision_utc": "2026-11-24T09:25:36.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.98603880200002,
+              "entry_utc": "2026-11-24T09:25:38.587+00:00",
+              "execution_reserve_usdc": 0.019998792000000005,
+              "exit_utc": "2026-11-24T09:25:50.097+00:00",
+              "fee_usdc": 0.17998912746540002,
+              "midpoint_pnl_usdc": 0.0356399999999946,
+              "net_usdc": -0.17622791946539462,
+              "observed_entry_delay_ms": 1629,
+              "observed_exit_extra_delay_ms": 10,
+              "spread_usdc": 0.011879999999989198
+            }
+          ],
+          "midpoint_pnl_usdc": 0.0989099999999946,
+          "net_bps_on_entry_notional": -8.659110784902403,
+          "net_usdc": -0.5185768931916697,
+          "outcomes": {
+            "one_position_limit": 1,
+            "unresolved_exit_touch_size": 1
+          },
+          "spread_usdc": 0.018539999999989197
+        }
+      },
+      "signal_counts": {
+        "BTC": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 3,
+          "signals": 3,
+          "taker_dominance": 29
+        },
+        "ETH": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 1,
+          "signals": 1,
+          "taker_dominance": 4
+        },
+        "SOL": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 6,
+          "signals": 6,
+          "taker_dominance": 6
+        }
+      },
+      "start_utc": "2026-11-24T09:25:11.958+00:00"
+    },
+    {
+      "end_utc": "2026-11-24T09:27:11.958+00:00",
+      "replay": {
+        "base": {
+          "closed_paper_trades": 4,
+          "complete": true,
+          "entry_usdc": 799.15742,
+          "execution_reserve_usdc": 0.0,
+          "fee_usdc": 0.719351136,
+          "ledger": [
+            {
+              "asset": "BTC",
+              "decision_utc": "2026-11-24T09:26:16.958+00:00",
+              "direction": -1,
+              "entry_usdc": 199.83888000000002,
+              "entry_utc": "2026-11-24T09:26:17.742+00:00",
+              "execution_reserve_usdc": 0.0,
+              "exit_utc": "2026-11-24T09:26:28.692+00:00",
+              "fee_usdc": 0.179889561,
+              "midpoint_pnl_usdc": -0.07348,
+              "net_usdc": -0.256709561,
+              "observed_entry_delay_ms": 784,
+              "observed_exit_extra_delay_ms": 200,
+              "spread_usdc": 0.0033399999999999958
+            },
+            {
+              "asset": "BTC",
+              "decision_utc": "2026-11-24T09:26:37.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.95578,
+              "entry_utc": "2026-11-24T09:26:38.758+00:00",
+              "execution_reserve_usdc": 0.0,
+              "exit_utc": "2026-11-24T09:26:49.602+00:00",
+              "fee_usdc": 0.17998425,
+              "midpoint_pnl_usdc": 0.056780000000000004,
+              "net_usdc": -0.12654425000000002,
+              "observed_entry_delay_ms": 800,
+              "observed_exit_extra_delay_ms": 94,
+              "spread_usdc": 0.0033400000000000027
+            },
+            {
+              "asset": "ETH",
+              "decision_utc": "2026-11-24T09:26:38.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.89288,
+              "entry_utc": "2026-11-24T09:26:39.789+00:00",
+              "execution_reserve_usdc": 0.0,
+              "exit_utc": "2026-11-24T09:26:50.651+00:00",
+              "fee_usdc": 0.17993032199999998,
+              "midpoint_pnl_usdc": 0.0712800000000162,
+              "net_usdc": -0.12053032199999997,
+              "observed_entry_delay_ms": 831,
+              "observed_exit_extra_delay_ms": 112,
+              "spread_usdc": 0.011880000000016204
+            },
+            {
+              "asset": "SOL",
+              "decision_utc": "2026-11-24T09:26:19.958+00:00",
+              "direction": -1,
+              "entry_usdc": 199.46987999999996,
+              "entry_utc": "2026-11-24T09:26:20.750+00:00",
+              "execution_reserve_usdc": 0.0,
+              "exit_utc": "2026-11-24T09:26:31.550+00:00",
+              "fee_usdc": 0.17954700299999998,
+              "midpoint_pnl_usdc": -0.05076000000000192,
+              "net_usdc": -0.23312700300001538,
+              "observed_entry_delay_ms": 792,
+              "observed_exit_extra_delay_ms": 50,
+              "spread_usdc": 0.0028200000000134645
+            }
+          ],
+          "midpoint_pnl_usdc": 0.003820000000014284,
+          "net_bps_on_entry_notional": -9.221101094200131,
+          "net_usdc": -0.7369111360000153,
+          "outcomes": {
+            "one_position_limit": 8
+          },
+          "spread_usdc": 0.021380000000029667
+        },
+        "stress": {
+          "closed_paper_trades": 2,
+          "complete": false,
+          "entry_usdc": 399.36278115,
+          "execution_reserve_usdc": 0.039941613,
+          "fee_usdc": 0.35947451726325,
+          "ledger": [
+            {
+              "asset": "ETH",
+              "decision_utc": "2026-11-24T09:26:38.958+00:00",
+              "direction": 1,
+              "entry_usdc": 199.902874644,
+              "entry_utc": "2026-11-24T09:26:40.463+00:00",
+              "execution_reserve_usdc": 0.019991664000000003,
+              "exit_utc": "2026-11-24T09:26:51.972+00:00",
+              "fee_usdc": 0.1799249749308,
+              "midpoint_pnl_usdc": 0.0594,
+              "net_usdc": -0.1523966389307892,
+              "observed_entry_delay_ms": 1505,
+              "observed_exit_extra_delay_ms": 9,
+              "spread_usdc": 0.011879999999989198
+            },
+            {
+              "asset": "SOL",
+              "decision_utc": "2026-11-24T09:26:19.958+00:00",
+              "direction": -1,
+              "entry_usdc": 199.45990650599998,
+              "entry_utc": "2026-11-24T09:26:21.570+00:00",
+              "execution_reserve_usdc": 0.019949948999999998,
+              "exit_utc": "2026-11-24T09:26:33.124+00:00",
+              "fee_usdc": 0.17954954233245002,
+              "midpoint_pnl_usdc": -0.04934999999999519,
+              "net_usdc": -0.25871949133245226,
+              "observed_entry_delay_ms": 1612,
+              "observed_exit_extra_delay_ms": 54,
+              "spread_usdc": 0.009870000000007054
+            }
+          ],
+          "midpoint_pnl_usdc": 0.010050000000004812,
+          "net_bps_on_entry_notional": -10.294302565687186,
+          "net_usdc": -0.41111613026324145,
+          "outcomes": {
+            "one_position_limit": 4,
+            "unresolved_exit_touch_size": 1
+          },
+          "spread_usdc": 0.02174999999999625
+        }
+      },
+      "signal_counts": {
+        "BTC": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 6,
+          "signals": 6,
+          "taker_dominance": 20
+        },
+        "ETH": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 4,
+          "signals": 3,
+          "taker_dominance": 8
+        },
+        "SOL": {
+          "eligible_times": 46,
+          "fresh_narrow_quotes": 46,
+          "midpoint_continuation_filter": 3,
+          "signals": 3,
+          "taker_dominance": 13
+        }
+      },
+      "start_utc": "2026-11-24T09:26:11.958+00:00"
+    }
+  ]
+}
