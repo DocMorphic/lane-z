@@ -1,0 +1,2004 @@
+{
+  "date": "2026-11-24",
+  "mode": "paper_only",
+  "clock_recovery": {
+    "rollback_microseconds_max": 68000,
+    "quarantine": {
+      "quarantine_start": "2026-11-24T14:46:13+00:00",
+      "quarantine_end": "2026-11-24T14:46:14+00:00",
+      "files": [
+        {
+          "file": "2026-11-24-NVDAUSDT.csv.gz",
+          "original_sha256": "9e405477b083a5983fbc217bd14fdb279308d0214458dfbdf600940adc7aab19",
+          "before_rows": 271445,
+          "quarantined_rows": 346,
+          "after_rows": 217226
+        },
+        {
+          "file": "2026-11-24-TSLAUSDT.csv.gz",
+          "original_sha256": "db8dfb420ca9c3fe129d6266680b8af2d4caac65a3ac2b497278ccf8ba63705e",
+          "before_rows": 85202,
+          "quarantined_rows": 100,
+          "after_rows": 83892
+        },
+        {
+          "file": "2026-11-24-XYZ-AAPL.csv.gz",
+          "original_sha256": "745c1eeea7aa10e20f9361bd7dafaf5fc3250a28303f219fae2c71fab527230e",
+          "before_rows": 4101,
+          "quarantined_rows": 4,
+          "after_rows": 2412
+        },
+        {
+          "file": "2026-11-24-XYZ-MSFT.csv.gz",
+          "original_sha256": "8e1c15572808877b4b80b274bc14188b8e05dabf654c534e90fab538f1cff167",
+          "before_rows": 4224,
+          "quarantined_rows": 4,
+          "after_rows": 3287
+        },
+        {
+          "file": "2026-11-24-XYZ-NVDA.csv.gz",
+          "original_sha256": "a94cc997be77796a7230674d5cfee1d2aa4725977af7e6e37b3f2b6e1791965c",
+          "before_rows": 8467,
+          "quarantined_rows": 12,
+          "after_rows": 5227
+        },
+        {
+          "file": "2026-11-24-XYZ-TSLA.csv.gz",
+          "original_sha256": "4259b9b0e04c53743a42d0cd9a7f36ce80c41a963fa6c466903a9c9b15c79a3a",
+          "before_rows": 5105,
+          "quarantined_rows": 7,
+          "after_rows": 3531
+        },
+        {
+          "file": "2026-11-24-XYZ-XYZ100.csv.gz",
+          "original_sha256": "e1e8cdff8727ede7595426339c96101c15ffe82151306852f448db266ff4b740",
+          "before_rows": 7736,
+          "quarantined_rows": 12,
+          "after_rows": 4909
+        }
+      ]
+    }
+  },
+  "recovered_segments": {
+    "before": {
+      "signal_start_utc": "2026-11-24T14:35:00+00:00",
+      "signal_end_utc": "2026-11-24T14:45:37.750000+00:00",
+      "last_target_receipt_utc": "2026-11-24T14:46:12.910000+00:00",
+      "quote_audit": [
+        {
+          "day": "2026-11-24",
+          "symbol": "NVDA",
+          "exchange": "hyperliquid",
+          "sha256": "21a7487889ebf1fdbce35e7bda10c93c677adaed0891dcad4de111577314dcf7",
+          "bytes": 130475,
+          "rows": 8467,
+          "session_rows": 6779,
+          "arrival_spacing_ms_p50": 81.0,
+          "arrival_spacing_ms_p90": 185.0,
+          "observation_age_ms_p50": 441.0,
+          "observation_age_ms_p90": 579.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "TSLA",
+          "exchange": "hyperliquid",
+          "sha256": "fb9e14ce85405dd4d4bab54d54e3fab8c887289b2500202740cdb9bfce40b361",
+          "bytes": 68995,
+          "rows": 5105,
+          "session_rows": 4044,
+          "arrival_spacing_ms_p50": 118.0,
+          "arrival_spacing_ms_p90": 340.0,
+          "observation_age_ms_p50": 445.0,
+          "observation_age_ms_p90": 582.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "XYZ100",
+          "exchange": "hyperliquid",
+          "sha256": "e38654925609a6dbbeefaf96096ce8aabd1fd6f2c43eb0e9d46227f8968f7301",
+          "bytes": 109024,
+          "rows": 7736,
+          "session_rows": 6186,
+          "arrival_spacing_ms_p50": 87.0,
+          "arrival_spacing_ms_p90": 203.0,
+          "observation_age_ms_p50": 441.0,
+          "observation_age_ms_p90": 580.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "AAPL",
+          "exchange": "hyperliquid",
+          "sha256": "5d59a07e3c6e415ae95200e93ea6505837d079cf910d54a0b4605df79ab17c5c",
+          "bytes": 52481,
+          "rows": 4101,
+          "session_rows": 3305,
+          "arrival_spacing_ms_p50": 129.0,
+          "arrival_spacing_ms_p90": 423.7000000000003,
+          "observation_age_ms_p50": 446.0,
+          "observation_age_ms_p90": 587.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "MSFT",
+          "exchange": "hyperliquid",
+          "sha256": "18c39b108ca89b0db047207b9a3c6f66d59ef9267dca51df994bb81f3c4082e3",
+          "bytes": 52123,
+          "rows": 4224,
+          "session_rows": 3353,
+          "arrival_spacing_ms_p50": 133.0,
+          "arrival_spacing_ms_p90": 418.0,
+          "observation_age_ms_p50": 446.0,
+          "observation_age_ms_p90": 579.8000000000002,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "NVDA",
+          "exchange": "binance-futures",
+          "sha256": "5d95bf26c2a23b4d1813543bb31db9db4a0b8894dbd8eda6514d917ef8977a16",
+          "bytes": 1929302,
+          "rows": 271445,
+          "session_rows": 221719,
+          "arrival_spacing_ms_p50": 0.0,
+          "arrival_spacing_ms_p90": 5.0,
+          "observation_age_ms_p50": 134.0,
+          "observation_age_ms_p90": 460.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "TSLA",
+          "exchange": "binance-futures",
+          "sha256": "2d8d408f33625b9cfc29e36712f23681419ee5736bc6604229917d8343065f71",
+          "bytes": 592497,
+          "rows": 85202,
+          "session_rows": 68985,
+          "arrival_spacing_ms_p50": 0.0,
+          "arrival_spacing_ms_p90": 22.0,
+          "observation_age_ms_p50": 137.0,
+          "observation_age_ms_p90": 486.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        }
+      ],
+      "tests": {
+        "250ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1972,
+                "eligible_rows": 60,
+                "entries_clearing_actual_cost_gate": 29
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1957,
+                "eligible_rows": 26,
+                "entries_clearing_actual_cost_gate": 15
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 65,
+                "missed_entries": 54,
+                "partial_entries": 1,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 11,
+                "entry_notional_usd": 1023.84331,
+                "midpoint_move_usd": 0.4182649999999626,
+                "spread_cost_usd": 0.19374499999996075,
+                "gross_before_fees_usd": 0.22452000000000183,
+                "fees_usd": 0.1842056298,
+                "slippage_reserve_usd": 0.102336461,
+                "net_usd": -0.062022090799998195,
+                "net_bps_per_entry_notional": -0.6057771750249381,
+                "win_rate": 0.36363636363636365,
+                "realized_drawdown_usd": 0.6679372493999901,
+                "hold_ms_p50": 5250.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 65,
+                  "missed_entries": 54,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 11,
+                  "entry_notional_usd": 1023.84331,
+                  "midpoint_move_usd": 0.4182649999999626,
+                  "spread_cost_usd": 0.19374499999996075,
+                  "gross_before_fees_usd": 0.22452000000000183,
+                  "fees_usd": 0.1842056298,
+                  "slippage_reserve_usd": 0.102336461,
+                  "net_usd": -0.062022090799998195,
+                  "net_bps_per_entry_notional": -0.6057771750249381,
+                  "win_rate": 0.36363636363636365,
+                  "realized_drawdown_usd": 0.6679372493999901,
+                  "hold_ms_p50": 5250.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 48,
+                  "missed_entries": 40,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 8,
+                  "entry_notional_usd": 799.34905,
+                  "midpoint_move_usd": -0.11007500000002324,
+                  "spread_cost_usd": 0.15442499999997494,
+                  "gross_before_fees_usd": -0.2644999999999982,
+                  "fees_usd": 0.1438081668,
+                  "slippage_reserve_usd": 0.079893426,
+                  "net_usd": -0.4882015927999982,
+                  "net_bps_per_entry_notional": -6.107489497860767,
+                  "win_rate": 0.25,
+                  "realized_drawdown_usd": 0.6785307103999911,
+                  "hold_ms_p50": 5250.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 17,
+                  "missed_entries": 14,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 3,
+                  "entry_notional_usd": 224.49426,
+                  "midpoint_move_usd": 0.5283399999999858,
+                  "spread_cost_usd": 0.03931999999998581,
+                  "gross_before_fees_usd": 0.48902,
+                  "fees_usd": 0.040397463,
+                  "slippage_reserve_usd": 0.022443035,
+                  "net_usd": 0.426179502,
+                  "net_bps_per_entry_notional": 18.983982129431727,
+                  "win_rate": 0.6666666666666666,
+                  "realized_drawdown_usd": 0.010943217999998034,
+                  "hold_ms_p50": 5250.0,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1762,
+                "eligible_rows": 126,
+                "transitions": 75
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1672,
+                "eligible_rows": 38,
+                "transitions": 24
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 66,
+                "missed_entries": 56,
+                "partial_entries": 4,
+                "delayed_exits": 1,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 10,
+                "entry_notional_usd": 667.20183,
+                "midpoint_move_usd": 0.5463499999999524,
+                "spread_cost_usd": 0.09192999999999252,
+                "gross_before_fees_usd": 0.45441999999995986,
+                "fees_usd": 0.1201043574,
+                "slippage_reserve_usd": 0.066724643,
+                "net_usd": 0.26759099959995986,
+                "net_bps_per_entry_notional": 4.010645468402865,
+                "win_rate": 0.8,
+                "realized_drawdown_usd": 0.38751744000001154,
+                "hold_ms_p50": 30250.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 66,
+                  "missed_entries": 56,
+                  "partial_entries": 4,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 10,
+                  "entry_notional_usd": 667.20183,
+                  "midpoint_move_usd": 0.5463499999999524,
+                  "spread_cost_usd": 0.09192999999999252,
+                  "gross_before_fees_usd": 0.45441999999995986,
+                  "fees_usd": 0.1201043574,
+                  "slippage_reserve_usd": 0.066724643,
+                  "net_usd": 0.26759099959995986,
+                  "net_bps_per_entry_notional": 4.010645468402865,
+                  "win_rate": 0.8,
+                  "realized_drawdown_usd": 0.38751744000001154,
+                  "hold_ms_p50": 30250.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 44,
+                  "missed_entries": 38,
+                  "partial_entries": 0,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 6,
+                  "entry_notional_usd": 599.56263,
+                  "midpoint_move_usd": 0.5227699999999516,
+                  "spread_cost_usd": 0.07707999999999515,
+                  "gross_before_fees_usd": 0.4456899999999564,
+                  "fees_usd": 0.1079300871,
+                  "slippage_reserve_usd": 0.0599611595,
+                  "net_usd": 0.2777987533999564,
+                  "net_bps_per_entry_notional": 4.633356708705418,
+                  "win_rate": 0.8333333333333334,
+                  "realized_drawdown_usd": 0.35195083200001226,
+                  "hold_ms_p50": 30250.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 22,
+                  "missed_entries": 18,
+                  "partial_entries": 4,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 4,
+                  "entry_notional_usd": 67.6392,
+                  "midpoint_move_usd": 0.023580000000000823,
+                  "spread_cost_usd": 0.014849999999997365,
+                  "gross_before_fees_usd": 0.008730000000003457,
+                  "fees_usd": 0.0121742703,
+                  "slippage_reserve_usd": 0.0067634834999999996,
+                  "net_usd": -0.010207753799996541,
+                  "net_bps_per_entry_notional": -1.509147624453947,
+                  "win_rate": 0.75,
+                  "realized_drawdown_usd": 0.03556660799999927,
+                  "hold_ms_p50": 30250.0,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "500ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1972,
+                "eligible_rows": 60,
+                "entries_clearing_actual_cost_gate": 29
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1957,
+                "eligible_rows": 26,
+                "entries_clearing_actual_cost_gate": 15
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 66,
+                "missed_entries": 62,
+                "partial_entries": 1,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 4,
+                "entry_notional_usd": 324.90611,
+                "midpoint_move_usd": 0.33769499999998587,
+                "spread_cost_usd": 0.026774999999972238,
+                "gross_before_fees_usd": 0.31092000000001363,
+                "fees_usd": 0.058455117,
+                "slippage_reserve_usd": 0.032475065,
+                "net_usd": 0.2199898180000136,
+                "net_bps_per_entry_notional": 6.770873530202729,
+                "win_rate": 0.5,
+                "realized_drawdown_usd": 0.013127187999994183,
+                "hold_ms_p50": 5500.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 66,
+                  "missed_entries": 62,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 4,
+                  "entry_notional_usd": 324.90611,
+                  "midpoint_move_usd": 0.33769499999998587,
+                  "spread_cost_usd": 0.026774999999972238,
+                  "gross_before_fees_usd": 0.31092000000001363,
+                  "fees_usd": 0.058455117,
+                  "slippage_reserve_usd": 0.032475065,
+                  "net_usd": 0.2199898180000136,
+                  "net_bps_per_entry_notional": 6.770873530202729,
+                  "win_rate": 0.5,
+                  "realized_drawdown_usd": 0.013127187999994183,
+                  "hold_ms_p50": 5500.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 47,
+                  "missed_entries": 44,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 3,
+                  "entry_notional_usd": 299.75371,
+                  "midpoint_move_usd": 0.33411999999998443,
+                  "spread_cost_usd": 0.019299999999972783,
+                  "gross_before_fees_usd": 0.31482000000001165,
+                  "fees_usd": 0.053927334,
+                  "slippage_reserve_usd": 0.02995963,
+                  "net_usd": 0.23093303600001164,
+                  "net_bps_per_entry_notional": 7.70409266994599,
+                  "win_rate": 0.6666666666666666,
+                  "realized_drawdown_usd": 0.002183969999996177,
+                  "hold_ms_p50": 5500.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 19,
+                  "missed_entries": 18,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 25.1524,
+                  "midpoint_move_usd": 0.003575000000001438,
+                  "spread_cost_usd": 0.007474999999999454,
+                  "gross_before_fees_usd": -0.003899999999998016,
+                  "fees_usd": 0.0045277830000000005,
+                  "slippage_reserve_usd": 0.002515435,
+                  "net_usd": -0.010943217999998017,
+                  "net_bps_per_entry_notional": -4.350764936943598,
+                  "win_rate": 0.0,
+                  "realized_drawdown_usd": 0.010943217999998017,
+                  "hold_ms_p50": 5500.0,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1762,
+                "eligible_rows": 126,
+                "transitions": 75
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1672,
+                "eligible_rows": 38,
+                "transitions": 24
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 76,
+                "missed_entries": 73,
+                "partial_entries": 1,
+                "delayed_exits": 1,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 3,
+                "entry_notional_usd": 224.93896,
+                "midpoint_move_usd": 0.12306000000000594,
+                "spread_cost_usd": 0.024450000000012295,
+                "gross_before_fees_usd": 0.09860999999999365,
+                "fees_usd": 0.040480137900000004,
+                "slippage_reserve_usd": 0.0224889655,
+                "net_usd": 0.03564089659999366,
+                "net_bps_per_entry_notional": 1.5844696979124318,
+                "win_rate": 0.6666666666666666,
+                "realized_drawdown_usd": 0.12518621280000083,
+                "hold_ms_p50": 30500.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 76,
+                  "missed_entries": 73,
+                  "partial_entries": 1,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 3,
+                  "entry_notional_usd": 224.93896,
+                  "midpoint_move_usd": 0.12306000000000594,
+                  "spread_cost_usd": 0.024450000000012295,
+                  "gross_before_fees_usd": 0.09860999999999365,
+                  "fees_usd": 0.040480137900000004,
+                  "slippage_reserve_usd": 0.0224889655,
+                  "net_usd": 0.03564089659999366,
+                  "net_bps_per_entry_notional": 1.5844696979124318,
+                  "win_rate": 0.6666666666666666,
+                  "realized_drawdown_usd": 0.12518621280000083,
+                  "hold_ms_p50": 30500.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 54,
+                  "missed_entries": 52,
+                  "partial_entries": 0,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 2,
+                  "entry_notional_usd": 199.78656,
+                  "midpoint_move_usd": 0.0977100000000064,
+                  "spread_cost_usd": 0.019250000000013756,
+                  "gross_before_fees_usd": 0.07845999999999265,
+                  "fees_usd": 0.0359545194,
+                  "slippage_reserve_usd": 0.019974733,
+                  "net_usd": 0.022530747599992657,
+                  "net_bps_per_entry_notional": 1.1277409050935485,
+                  "win_rate": 0.5,
+                  "realized_drawdown_usd": 0.12518621280000083,
+                  "hold_ms_p50": 31000.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 22,
+                  "missed_entries": 21,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 25.1524,
+                  "midpoint_move_usd": 0.02534999999999954,
+                  "spread_cost_usd": 0.005199999999998539,
+                  "gross_before_fees_usd": 0.020150000000001,
+                  "fees_usd": 0.0045256185,
+                  "slippage_reserve_usd": 0.0025142325,
+                  "net_usd": 0.013110149000001,
+                  "net_bps_per_entry_notional": 5.212285507546397,
+                  "win_rate": 1.0,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": 30500.0,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "900ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1972,
+                "eligible_rows": 60,
+                "entries_clearing_actual_cost_gate": 29
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1957,
+                "eligible_rows": 26,
+                "entries_clearing_actual_cost_gate": 15
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 63,
+                "missed_entries": 60,
+                "partial_entries": 1,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 3,
+                "entry_notional_usd": 224.92606999999998,
+                "midpoint_move_usd": -0.2214749999999981,
+                "spread_cost_usd": 0.043524999999998926,
+                "gross_before_fees_usd": -0.264999999999997,
+                "fees_usd": 0.040463089199999996,
+                "slippage_reserve_usd": 0.022479494,
+                "net_usd": -0.32794258319999703,
+                "net_bps_per_entry_notional": -14.580016589450794,
+                "win_rate": 0.0,
+                "realized_drawdown_usd": 0.32794258319999703,
+                "hold_ms_p50": 6000.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 63,
+                  "missed_entries": 60,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 3,
+                  "entry_notional_usd": 224.92606999999998,
+                  "midpoint_move_usd": -0.2214749999999981,
+                  "spread_cost_usd": 0.043524999999998926,
+                  "gross_before_fees_usd": -0.264999999999997,
+                  "fees_usd": 0.040463089199999996,
+                  "slippage_reserve_usd": 0.022479494,
+                  "net_usd": -0.32794258319999703,
+                  "net_bps_per_entry_notional": -14.580016589450794,
+                  "win_rate": 0.0,
+                  "realized_drawdown_usd": 0.32794258319999703,
+                  "hold_ms_p50": 6000.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 45,
+                  "missed_entries": 43,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 2,
+                  "entry_notional_usd": 199.77366999999998,
+                  "midpoint_move_usd": -0.22504999999999598,
+                  "spread_cost_usd": 0.032150000000001455,
+                  "gross_before_fees_usd": -0.25719999999999743,
+                  "fees_usd": 0.03593495519999999,
+                  "slippage_reserve_usd": 0.019963863999999998,
+                  "net_usd": -0.31309881919999744,
+                  "net_bps_per_entry_notional": -15.672676944864529,
+                  "win_rate": 0.0,
+                  "realized_drawdown_usd": 0.31309881919999744,
+                  "hold_ms_p50": 6000.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 18,
+                  "missed_entries": 17,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 25.1524,
+                  "midpoint_move_usd": 0.0035749999999978854,
+                  "spread_cost_usd": 0.01137499999999747,
+                  "gross_before_fees_usd": -0.007799999999999585,
+                  "fees_usd": 0.0045281340000000005,
+                  "slippage_reserve_usd": 0.00251563,
+                  "net_usd": -0.014843763999999584,
+                  "net_bps_per_entry_notional": -5.901529873888609,
+                  "win_rate": 0.0,
+                  "realized_drawdown_usd": 0.014843763999999584,
+                  "hold_ms_p50": 6000.0,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1762,
+                "eligible_rows": 126,
+                "transitions": 75
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1672,
+                "eligible_rows": 38,
+                "transitions": 24
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 59,
+                "missed_entries": 54,
+                "partial_entries": 1,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 5,
+                "entry_notional_usd": 424.72109,
+                "midpoint_move_usd": -0.6976949999999817,
+                "spread_cost_usd": 0.06562500000003979,
+                "gross_before_fees_usd": -0.7633200000000215,
+                "fees_usd": 0.07651849499999999,
+                "slippage_reserve_usd": 0.042510275,
+                "net_usd": -0.8823487700000215,
+                "net_bps_per_entry_notional": -20.77478116285729,
+                "win_rate": 0.2,
+                "realized_drawdown_usd": 0.8823487700000215,
+                "hold_ms_p50": 31000.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 59,
+                  "missed_entries": 54,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 5,
+                  "entry_notional_usd": 424.72109,
+                  "midpoint_move_usd": -0.6976949999999817,
+                  "spread_cost_usd": 0.06562500000003979,
+                  "gross_before_fees_usd": -0.7633200000000215,
+                  "fees_usd": 0.07651849499999999,
+                  "slippage_reserve_usd": 0.042510275,
+                  "net_usd": -0.8823487700000215,
+                  "net_bps_per_entry_notional": -20.77478116285729,
+                  "win_rate": 0.2,
+                  "realized_drawdown_usd": 0.8823487700000215,
+                  "hold_ms_p50": 31000.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 38,
+                  "missed_entries": 34,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 4,
+                  "entry_notional_usd": 399.56869,
+                  "midpoint_move_usd": -0.7227199999999812,
+                  "spread_cost_usd": 0.058150000000040336,
+                  "gross_before_fees_usd": -0.7808700000000215,
+                  "fees_usd": 0.0719926425,
+                  "slippage_reserve_usd": 0.0399959125,
+                  "net_usd": -0.8928585550000215,
+                  "net_bps_per_entry_notional": -22.34555853212677,
+                  "win_rate": 0.0,
+                  "realized_drawdown_usd": 0.8928585550000215,
+                  "hold_ms_p50": 31000.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 21,
+                  "missed_entries": 20,
+                  "partial_entries": 1,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 25.1524,
+                  "midpoint_move_usd": 0.02502499999999941,
+                  "spread_cost_usd": 0.007474999999999454,
+                  "gross_before_fees_usd": 0.017549999999999955,
+                  "fees_usd": 0.0045258525,
+                  "slippage_reserve_usd": 0.0025143625,
+                  "net_usd": 0.010509784999999954,
+                  "net_bps_per_entry_notional": 4.1784422162497235,
+                  "win_rate": 1.0,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": 31000.0,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "500ms-plus-125ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1971,
+                "eligible_rows": 46,
+                "entries_clearing_actual_cost_gate": 26
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1956,
+                "eligible_rows": 26,
+                "entries_clearing_actual_cost_gate": 17
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 63,
+                "missed_entries": 62,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 1,
+                "entry_notional_usd": 99.92304,
+                "midpoint_move_usd": 0.19963999999998805,
+                "spread_cost_usd": 0.012879999999995562,
+                "gross_before_fees_usd": 0.1867599999999925,
+                "fees_usd": 0.017969338799999998,
+                "slippage_reserve_usd": 0.009982966000000001,
+                "net_usd": 0.15880769519999247,
+                "net_bps_per_entry_notional": 15.893000773394451,
+                "win_rate": 1.0,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": 5500.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 63,
+                  "missed_entries": 62,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 99.92304,
+                  "midpoint_move_usd": 0.19963999999998805,
+                  "spread_cost_usd": 0.012879999999995562,
+                  "gross_before_fees_usd": 0.1867599999999925,
+                  "fees_usd": 0.017969338799999998,
+                  "slippage_reserve_usd": 0.009982966000000001,
+                  "net_usd": 0.15880769519999247,
+                  "net_bps_per_entry_notional": 15.893000773394451,
+                  "win_rate": 1.0,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": 5500.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 42,
+                  "missed_entries": 41,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 1,
+                  "entry_notional_usd": 99.92304,
+                  "midpoint_move_usd": 0.19963999999998805,
+                  "spread_cost_usd": 0.012879999999995562,
+                  "gross_before_fees_usd": 0.1867599999999925,
+                  "fees_usd": 0.017969338799999998,
+                  "slippage_reserve_usd": 0.009982966000000001,
+                  "net_usd": 0.15880769519999247,
+                  "net_bps_per_entry_notional": 15.893000773394451,
+                  "win_rate": 1.0,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": 5500.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 21,
+                  "missed_entries": 21,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 2551,
+                "usable": 1744,
+                "eligible_rows": 102,
+                "transitions": 66
+              },
+              "TSLA": {
+                "rows": 2551,
+                "usable": 1654,
+                "eligible_rows": 31,
+                "transitions": 20
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 59,
+                "missed_entries": 53,
+                "partial_entries": 2,
+                "delayed_exits": 1,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 6,
+                "entry_notional_usd": 442.91599,
+                "midpoint_move_usd": 0.20790500000000378,
+                "spread_cost_usd": 0.04276499999998862,
+                "gross_before_fees_usd": 0.16514000000001516,
+                "fees_usd": 0.07975427040000001,
+                "slippage_reserve_usd": 0.044307928,
+                "net_usd": 0.041077801600015194,
+                "net_bps_per_entry_notional": 0.927440023107208,
+                "win_rate": 0.5,
+                "realized_drawdown_usd": 0.18899197520000136,
+                "hold_ms_p50": 30500.0,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 59,
+                  "missed_entries": 53,
+                  "partial_entries": 2,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 6,
+                  "entry_notional_usd": 442.91599,
+                  "midpoint_move_usd": 0.20790500000000378,
+                  "spread_cost_usd": 0.04276499999998862,
+                  "gross_before_fees_usd": 0.16514000000001516,
+                  "fees_usd": 0.07975427040000001,
+                  "slippage_reserve_usd": 0.044307928,
+                  "net_usd": 0.041077801600015194,
+                  "net_bps_per_entry_notional": 0.927440023107208,
+                  "win_rate": 0.5,
+                  "realized_drawdown_usd": 0.18899197520000136,
+                  "hold_ms_p50": 30500.0,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 43,
+                  "missed_entries": 39,
+                  "partial_entries": 0,
+                  "delayed_exits": 1,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 4,
+                  "entry_notional_usd": 399.60654999999997,
+                  "midpoint_move_usd": 0.19548000000000343,
+                  "spread_cost_usd": 0.03215999999999042,
+                  "gross_before_fees_usd": 0.163320000000013,
+                  "fees_usd": 0.071958735,
+                  "slippage_reserve_usd": 0.039977075,
+                  "net_usd": 0.05138419000001304,
+                  "net_bps_per_entry_notional": 1.2858695634496744,
+                  "win_rate": 0.5,
+                  "realized_drawdown_usd": 0.18899197520000136,
+                  "hold_ms_p50": 30500.0,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 16,
+                  "missed_entries": 14,
+                  "partial_entries": 2,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 2,
+                  "entry_notional_usd": 43.309439999999995,
+                  "midpoint_move_usd": 0.012425000000000352,
+                  "spread_cost_usd": 0.0106049999999982,
+                  "gross_before_fees_usd": 0.0018200000000021532,
+                  "fees_usd": 0.007795535399999999,
+                  "slippage_reserve_usd": 0.004330853,
+                  "net_usd": -0.010306388399997847,
+                  "net_bps_per_entry_notional": -2.379709458260797,
+                  "win_rate": 0.5,
+                  "realized_drawdown_usd": 0.023416537399998848,
+                  "hold_ms_p50": 30500.0,
+                  "complete": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "after": {
+      "signal_start_utc": "2026-11-24T14:46:14.500000+00:00",
+      "signal_end_utc": "2026-11-24T15:05:00+00:00",
+      "last_target_receipt_utc": "2026-11-24T15:05:59.663000+00:00",
+      "quote_audit": [
+        {
+          "day": "2026-11-24",
+          "symbol": "NVDA",
+          "exchange": "hyperliquid",
+          "sha256": "e3e87569eca1da64256612b27233b7e1bbf13676303a62f049a6e2f35b55d088",
+          "bytes": 78669,
+          "rows": 5227,
+          "session_rows": 4587,
+          "arrival_spacing_ms_p50": 46.0,
+          "arrival_spacing_ms_p90": 210.5,
+          "observation_age_ms_p50": 393.0,
+          "observation_age_ms_p90": 2096.8000000000065,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "TSLA",
+          "exchange": "hyperliquid",
+          "sha256": "1d9e5c99248d04978611d5001bb396e7076218a98141d9c1e51b1f7f747cf518",
+          "bytes": 46558,
+          "rows": 3531,
+          "session_rows": 3089,
+          "arrival_spacing_ms_p50": 71.0,
+          "arrival_spacing_ms_p90": 314.3000000000002,
+          "observation_age_ms_p50": 395.0,
+          "observation_age_ms_p90": 1673.0000000000027,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "XYZ100",
+          "exchange": "hyperliquid",
+          "sha256": "fcbea5b4496c7b32f57d9f6d733f5facd71b1aed0f1f5f0ffb298f2f9a9fae88",
+          "bytes": 68160,
+          "rows": 4909,
+          "session_rows": 4314,
+          "arrival_spacing_ms_p50": 48.0,
+          "arrival_spacing_ms_p90": 223.0,
+          "observation_age_ms_p50": 392.0,
+          "observation_age_ms_p90": 2110.100000000001,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "AAPL",
+          "exchange": "hyperliquid",
+          "sha256": "0beb351a77d0e644514d556f41a7a1f1b8d7f1174aa75b60a5b0a477c28f19bf",
+          "bytes": 30745,
+          "rows": 2412,
+          "session_rows": 2124,
+          "arrival_spacing_ms_p50": 91.0,
+          "arrival_spacing_ms_p90": 474.79999999999995,
+          "observation_age_ms_p50": 398.0,
+          "observation_age_ms_p90": 1893.6000000000004,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "MSFT",
+          "exchange": "hyperliquid",
+          "sha256": "80d73fd5add856ff1a21def62bfc31901ec4c6a99c1400f910dd3b94a66e3201",
+          "bytes": 39176,
+          "rows": 3287,
+          "session_rows": 2882,
+          "arrival_spacing_ms_p50": 76.0,
+          "arrival_spacing_ms_p90": 340.0,
+          "observation_age_ms_p50": 395.0,
+          "observation_age_ms_p90": 1612.6000000000004,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 0
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "NVDA",
+          "exchange": "binance-futures",
+          "sha256": "be7bb86d710160057d5c0254762cf60734618e8f16be7027aeb86c09ae446019",
+          "bytes": 1445717,
+          "rows": 217226,
+          "session_rows": 183563,
+          "arrival_spacing_ms_p50": 0.0,
+          "arrival_spacing_ms_p90": 1.0,
+          "observation_age_ms_p50": 3169.0,
+          "observation_age_ms_p90": 17353.0,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 308
+        },
+        {
+          "day": "2026-11-24",
+          "symbol": "TSLA",
+          "exchange": "binance-futures",
+          "sha256": "a2dbead55f86486f285b8eda27796531020161e8037e17bf6ab7029d7ba59ce0",
+          "bytes": 541049,
+          "rows": 83892,
+          "session_rows": 71393,
+          "arrival_spacing_ms_p50": 0.0,
+          "arrival_spacing_ms_p90": 1.0,
+          "observation_age_ms_p50": 3239.0,
+          "observation_age_ms_p90": 16696.800000000003,
+          "venue_out_of_order": 0,
+          "negative_observation_age": 135
+        }
+      ],
+      "tests": {
+        "250ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              },
+              "TSLA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              },
+              "TSLA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "500ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              },
+              "TSLA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              },
+              "TSLA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "900ms-plus-0ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              },
+              "TSLA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              },
+              "TSLA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          }
+        },
+        "500ms-plus-125ms-source": {
+          "published_5s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              },
+              "TSLA": {
+                "rows": 4262,
+                "usable": 0,
+                "eligible_rows": 0,
+                "entries_clearing_actual_cost_gate": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          },
+          "binance_divergence_30s": {
+            "coverage": {
+              "NVDA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              },
+              "TSLA": {
+                "rows": 4222,
+                "usable": 0,
+                "eligible_rows": 0,
+                "transitions": 0
+              }
+            },
+            "performance": {
+              "all": {
+                "attempts": 0,
+                "missed_entries": 0,
+                "partial_entries": 0,
+                "delayed_exits": 0,
+                "unresolved_positions": 0,
+                "funding_crossings": 0,
+                "round_trips": 0,
+                "entry_notional_usd": 0,
+                "midpoint_move_usd": 0,
+                "spread_cost_usd": 0,
+                "gross_before_fees_usd": 0,
+                "fees_usd": 0,
+                "slippage_reserve_usd": 0,
+                "net_usd": 0,
+                "net_bps_per_entry_notional": null,
+                "win_rate": null,
+                "realized_drawdown_usd": 0.0,
+                "hold_ms_p50": null,
+                "complete": true
+              },
+              "by_day": {
+                "2026-11-24": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              },
+              "by_symbol": {
+                "NVDA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                },
+                "TSLA": {
+                  "attempts": 0,
+                  "missed_entries": 0,
+                  "partial_entries": 0,
+                  "delayed_exits": 0,
+                  "unresolved_positions": 0,
+                  "funding_crossings": 0,
+                  "round_trips": 0,
+                  "entry_notional_usd": 0,
+                  "midpoint_move_usd": 0,
+                  "spread_cost_usd": 0,
+                  "gross_before_fees_usd": 0,
+                  "fees_usd": 0,
+                  "slippage_reserve_usd": 0,
+                  "net_usd": 0,
+                  "net_bps_per_entry_notional": null,
+                  "win_rate": null,
+                  "realized_drawdown_usd": 0.0,
+                  "hold_ms_p50": null,
+                  "complete": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

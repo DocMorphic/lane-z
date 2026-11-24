@@ -34,4 +34,26 @@ python -m lane_z.equity_fast data/agent-equity-fast-today/premarket-01 \
 
 ## Regular-session clock recovery
 
-The scheduled regular-session capture ran from 14:33 through 15:06 UTC. The replay detected a wall-clock rollback at 14:46:13 UTC. Its affected files reported backward steps of 54–68 ms. Preserve the original gzip files. Quarantine all receipts from 14:46:13 inclusive to 14:46:14 exclusive on every feed. Replay the portions before and after as independent segments with the original decision bounds, fresh signal warmup and an exit buffer inside each segment. Keep the results labeled as recovery from a clock interruption. Use a new 20-minute live tape captured with a monotonic, UTC-anchored clock as a separate regular-session check. All paper execution and signal parameters stay fixed.
+The scheduled regular-session capture ran from 14:33 through 15:06 UTC. The replay detected a wall-clock rollback at 14:46:13 UTC. Its affected files reported backward steps of 54–68 ms. Preserve the original gzip files. Quarantine all receipts from 14:46:13 inclusive to 14:46:14 exclusive on every feed. Replay the portions before and after as independent segments with the original decision bounds, fresh signal warmup and an exit buffer inside each segment. Keep the results labeled as recovery from a clock interruption. Use a new 20-minute live tape captured with a monotonic, UTC-anchored clock as a separate regular-session check. All paper execution and signal parameters stay fixed. [Node.js clock reference](https://nodejs.org/api/perf_hooks.html#performancetimeorigin)
+
+The quarantine excluded 485 receipts from the 707,249-row capture. The first eligible segment ran from 14:35 to 14:45:37.750 UTC and produced the following paper closes. All values are after fees and the 0.5 bp reserve per fill. [Original file hashes, quarantine audit and segment results](../results/follow-up/hip3-regular-2026-11-24.json)
+
+| Delay per leg | Five-second closes | Five-second net | 30-second closes | 30-second net |
+| --- | ---: | ---: | ---: | ---: |
+| 250 ms | 11 | −0.0620 USDC | 10 | +0.2676 USDC |
+| 500 ms | 4 | +0.2200 USDC | 3 | +0.0356 USDC |
+| 900 ms | 3 | −0.3279 USDC | 5 | −0.8823 USDC |
+| 500 ms with 125 ms of added Binance delay | 1 | +0.1588 USDC | 6 | +0.0411 USDC |
+
+The second segment, from 14:46:14.500 to 15:05 UTC, had no usable decisions for either rule. Binance median quote age was 3.17 seconds on NVDA and 3.24 seconds on TSLA. The upper tenth of delays exceeded 16 seconds on both. That segment left the paper accounts flat. The small 500 ms gains came from one contiguous opening-period tape and reversed at the 900 ms order delay.
+
+```sh
+capture=data/agent-equity-fast-today/regular-01
+parts=data/agent-equity-fast-today/regular-01-split
+python scripts/split_quote_capture.py "$capture" "$parts" \
+  2026-11-24T14:46:13+00:00 2026-11-24T14:46:14+00:00
+for part in before after; do
+  python -m lane_z.equity_fast "$parts/$part" --start 2026-11-24T14:35:00+00:00 \
+    --end 2026-11-24T15:05:00+00:00 --output "$parts/$part/replay.json"
+done
+```
