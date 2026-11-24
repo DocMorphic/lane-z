@@ -1,0 +1,39 @@
+{
+  "mode": "paper_only",
+  "checkpoint_type": "daily_interim",
+  "entry_record_sha256": "146476fd84f70daa5c9ccfa99645e432be6770e4fc83eb307f663a6ff02d5499",
+  "paper_capital_usdc": "2000",
+  "paper_shares_wei": "1907486964469928746871",
+  "scored_exit_target_utc": "2027-01-25T21:44:29+00:00",
+  "completed_periods": 0,
+  "qualifying_streak": 0,
+  "cash_value_usdc": "2000.214919564055805103869668",
+  "modeled_liquidation_value_usdc": "1988.178545286",
+  "observation": {
+    "target_utc": "2026-11-24T21:44:29+00:00",
+    "block": {
+      "number": 52154648,
+      "timestamp": 1795556669,
+      "hash": "0xe3dc14962ff98fa06880a65bf85b57321987217f9f6fd0e114f70d6122d3d286"
+    },
+    "providers": [
+      "https://hyperliquid.drpc.org",
+      "https://hyperliquid-rpc.publicnode.com"
+    ],
+    "captured_at_utc": "2026-11-24T21:45:09+00:00",
+    "observation": "contemporaneous",
+    "price_per_share_usdc": "1.046485361640878971371552416",
+    "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+    "spendable_reserve_micro_usdc": 41620203546,
+    "fee_bps": 30,
+    "quote": {
+      "gross_micro_usdc": 1996157185,
+      "net_micro_usdc": 1990168714,
+      "reason": null
+    },
+    "entry": null,
+    "paper_pnl_if_redeemed_usdc": "-11.821454714",
+    "cash_excess_if_redeemed_usdc": "-12.036374278055805103869668"
+  },
+  "two_provider_recheck_utc": "2026-11-24T21:46:13+00:00"
+}

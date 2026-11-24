@@ -11,6 +11,10 @@ The prospective experiment began on November 23, 2026 at 21:44:29 UTC. The initi
 
 The first terminal checkpoint is January 25, 2027 at 22:44 Berlin time. The earliest three-window readout is May 31, 2027, assuming uninterrupted rollover. The historical limUSD paper profit was sensitive to extra costs, and the issuer can change fees and reserves. The paper model records the actual instant fee and reserve at each checkpoint. Its snapshots do not assess independent fair value of the fund or show a holder-specific executed transaction.
 
+## First forward observation
+
+The November 24 daily checkpoint was captured 40 seconds after its target. Both RPC providers agreed on the canonical block, the 30 bp instant fee, the full-position quote and a spendable reserve of 41,620.20 USDC. After the modeled exit cost, an immediate paper exit would have returned 1,988.18 USDC. Compounded cash on the starting capital was worth 2,000.21 USDC. This interim mark leaves the scored streak at zero. [First daily mark and recheck](../results/forward/liminal-first-mark-2026-11-24.json)
+
 ## Run and resume
 
 Use Python 3.11 or newer on macOS or Linux. Initialize once from the recorded paper entry, which contains the initial block, exact share count, and matched provider quote. Initialization rechecks both sources. [Original paper entry](../results/forward/liminal-entry-2026-11-23.json) `watch` writes durable state and checks each new checkpoint. `status` reads it immediately. `tick` advances one due checkpoint when both providers agree.
