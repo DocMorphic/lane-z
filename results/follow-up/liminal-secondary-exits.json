@@ -1,0 +1,224 @@
+{
+  "providers": [
+    "https://hyperliquid.drpc.org",
+    "https://hyperliquid-rpc.publicnode.com"
+  ],
+  "checkpoints": {
+    "2026-05-17/2026-07-19": {
+      "block": {
+        "number": 40920592,
+        "timestamp": 1784505599,
+        "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e"
+      },
+      "pool_balances": [
+        {
+          "pool": "0xd8f284ddfdadf6fa009836e3aa946f86abc41e97",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 12940808087
+        },
+        {
+          "pool": "0x0932ed201bf117a20d42f56cb35c37315449ba2c",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 2000,
+          "pool_total_quote_token_micro": 100034
+        },
+        {
+          "pool": "0xe8fb2a92b0d9e51c14e27fcae23f0e2e96e77d3d",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 6
+        },
+        {
+          "pool": "0x6d59758d07f9c7d56bf97080e9cdf081dbf1f429",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "hyperswap-v3",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 10343931
+        }
+      ],
+      "total_native_usdc_reserve_micro": 12951152018,
+      "all_routes_assuming_usdt0_usdc_parity_before_cost_micro": 12951252058,
+      "project_x_quote": {
+        "quoter": "0x239f11a7a3e08f2b8110d4ca9f6b95d4c8865258",
+        "verified_factory": "0xff7b3e8c00e57ea31477c32a5b52a58eea47b072",
+        "input_shares_wei": "1990701020417310385146",
+        "amount_out_micro_usdc": 2006532385,
+        "sqrt_price_limit_ending": "79631189459612658520492",
+        "initialized_ticks_crossed": 1,
+        "estimate_gas_units": 102475,
+        "upper_usdc_after_10bp_exit_reserve": "2004.525852615",
+        "after_cost_ceiling_minus_initial_usdc": "4.525852615"
+      }
+    },
+    "2026-07-19/2026-09-20": {
+      "block": {
+        "number": 46453895,
+        "timestamp": 1789948799,
+        "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648"
+      },
+      "pool_balances": [
+        {
+          "pool": "0xd8f284ddfdadf6fa009836e3aa946f86abc41e97",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 2541138400
+        },
+        {
+          "pool": "0x0932ed201bf117a20d42f56cb35c37315449ba2c",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 2000,
+          "pool_total_quote_token_micro": 100034
+        },
+        {
+          "pool": "0xe8fb2a92b0d9e51c14e27fcae23f0e2e96e77d3d",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 6
+        },
+        {
+          "pool": "0x6d59758d07f9c7d56bf97080e9cdf081dbf1f429",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "hyperswap-v3",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 221
+        }
+      ],
+      "total_native_usdc_reserve_micro": 2541138621,
+      "all_routes_assuming_usdt0_usdc_parity_before_cost_micro": 2541238661,
+      "project_x_quote": {
+        "quoter": "0x239f11a7a3e08f2b8110d4ca9f6b95d4c8865258",
+        "verified_factory": "0xff7b3e8c00e57ea31477c32a5b52a58eea47b072",
+        "input_shares_wei": "1965023471596163065558",
+        "amount_out_micro_usdc": 1997005448,
+        "sqrt_price_limit_ending": "79484610394216310987404",
+        "initialized_ticks_crossed": 3,
+        "estimate_gas_units": 179182,
+        "upper_usdc_after_10bp_exit_reserve": "1995.008442552",
+        "after_cost_ceiling_minus_initial_usdc": "-4.991557448"
+      }
+    },
+    "2026-09-20/2026-11-22": {
+      "block": {
+        "number": 51987233,
+        "timestamp": 1795391999,
+        "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03"
+      },
+      "pool_balances": [
+        {
+          "pool": "0xd8f284ddfdadf6fa009836e3aa946f86abc41e97",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 768322762
+        },
+        {
+          "pool": "0x0932ed201bf117a20d42f56cb35c37315449ba2c",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 2000,
+          "pool_total_quote_token_micro": 100034
+        },
+        {
+          "pool": "0xe8fb2a92b0d9e51c14e27fcae23f0e2e96e77d3d",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 6
+        },
+        {
+          "pool": "0x6d59758d07f9c7d56bf97080e9cdf081dbf1f429",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "hyperswap-v3",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 221
+        }
+      ],
+      "total_native_usdc_reserve_micro": 768322983,
+      "all_routes_assuming_usdt0_usdc_parity_before_cost_micro": 768423023,
+      "project_x_quote": {
+        "quoter": "0x239f11a7a3e08f2b8110d4ca9f6b95d4c8865258",
+        "verified_factory": "0xff7b3e8c00e57ea31477c32a5b52a58eea47b072",
+        "input_shares_wei": "1937489028442045902403",
+        "amount_out_micro_usdc": 732911039,
+        "sqrt_price_limit_ending": "4295128740",
+        "initialized_ticks_crossed": 4,
+        "estimate_gas_units": 487184,
+        "upper_usdc_after_10bp_exit_reserve": "732.178127961",
+        "after_cost_ceiling_minus_initial_usdc": "-1267.821872039"
+      }
+    },
+    "2026-11-24-paired-entry": {
+      "block": {
+        "number": 52075847,
+        "timestamp": 1795479160,
+        "hash": "0x21db7120623a75f9762145f6776eea92368db0c1b6cf1e1eb3d37125d07819fa"
+      },
+      "pool_balances": [
+        {
+          "pool": "0xd8f284ddfdadf6fa009836e3aa946f86abc41e97",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 768322762
+        },
+        {
+          "pool": "0x0932ed201bf117a20d42f56cb35c37315449ba2c",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 2000,
+          "pool_total_quote_token_micro": 100034
+        },
+        {
+          "pool": "0xe8fb2a92b0d9e51c14e27fcae23f0e2e96e77d3d",
+          "active": true,
+          "quote": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "dex": "project-x",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 6
+        },
+        {
+          "pool": "0x6d59758d07f9c7d56bf97080e9cdf081dbf1f429",
+          "active": true,
+          "quote": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+          "dex": "hyperswap-v3",
+          "fee_millionths": 3000,
+          "pool_total_quote_token_micro": 221
+        }
+      ],
+      "total_native_usdc_reserve_micro": 768322983,
+      "all_routes_assuming_usdt0_usdc_parity_before_cost_micro": 768423023,
+      "project_x_quote": {
+        "quoter": "0x239f11a7a3e08f2b8110d4ca9f6b95d4c8865258",
+        "verified_factory": "0xff7b3e8c00e57ea31477c32a5b52a58eea47b072",
+        "input_shares_wei": "1907485174463860666678",
+        "amount_out_micro_usdc": 732911039,
+        "sqrt_price_limit_ending": "4295128740",
+        "initialized_ticks_crossed": 4,
+        "estimate_gas_units": 487184,
+        "upper_usdc_after_10bp_exit_reserve": "732.178127961",
+        "after_cost_ceiling_minus_initial_usdc": "-1267.821872039"
+      }
+    }
+  }
+}

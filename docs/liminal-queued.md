@@ -38,6 +38,8 @@ Among the 651 completed episodes with exactly one request, the median completion
 
 Requests can enter at any time during each week, so some had less than seven days by cutoff. The peer payouts demonstrate historical throughput for the modeled amount. Paper shares never entered the queue, so their position, processing time and cash settlement remain unobserved. In a matched forward paper study, keep the exact shared-entry share units, paper payout quote and independently observed peer-capacity gate as distinct measurements.
 
+An additional 150-endpoint diagnostic found observed full-size peer payouts at every seven-day deadline. Shifting to five days raised the median conditional payout by 1.07 USDC on 2,000, while six deadlines lost the peer-capacity signal. In a disjoint three-window sample starting near launch, one seven-day window missed cash. An extra 25 bp of payout loss sent all three below cash. The full-size secondary-market alternative also failed its historical size and cost gates. [Queue lead-time diagnostic](liminal-buffer-diagnostic.md) · [Secondary-market exit audit](liminal-secondary-exits.md)
+
 Actual gas for 731 confirmed request transactions was valued at the last completed HYPE/USDC four-hour price. Median request gas was **0.00166 USDC**, the 95th percentile was **0.02004 USDC**, and the highest observed was **0.66641 USDC**. The replay preserves a **3 USDC** all-in reserve for activation, minting, request and possible retry costs. The gas observations exclude attempts that reverted or never confirmed. Manager fulfillment pays the recipient directly, without a holder claim transaction.
 
 ## Reproduction

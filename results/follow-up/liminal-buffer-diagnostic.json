@@ -1,0 +1,275 @@
+{
+  "cached_queue_input_sha256": {
+    "abi_and_headers": "860920ec7eda7c94a0845b3628295ae9ccc277a28fa5c658fee6258712e43f99",
+    "log_pages": "e7c5edae3dab5de045e392a4eaee29c83388fd7a2b6c0c5304762bcccc4338e5",
+    "receipts": "f2aaf62c685dd5937a85c0128a77b4bbb66c435f18fd3cca00e884dccca77de6"
+  },
+  "cash_pnl_usdc": "13.58513619375016497087354400",
+  "disjoint_diagnostics": [
+    {
+      "end": "2026-06-26",
+      "same_entry_instant_net_usdc": "10.2257282515262560",
+      "start": "2026-04-24",
+      "variants": {
+        "3": {
+          "completed_full_size_peers": 6,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "10.27210334239325",
+          "first_24h_requested_full_size_peers": 4,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 7,
+          "improvement_vs_same_entry_instant_usdc": "5.0897070109432440",
+          "queued_excess_if_settled_usdc": "1.73029906871933502912645600",
+          "queued_net_if_settled_usdc": "15.3154352624695",
+          "request_utc_day": "2026-06-23"
+        },
+        "4": {
+          "completed_full_size_peers": 6,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "8.71470421000400",
+          "first_24h_requested_full_size_peers": 0,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 7,
+          "improvement_vs_same_entry_instant_usdc": "3.5284007056177440",
+          "queued_excess_if_settled_usdc": "0.16899276339383502912645600",
+          "queued_net_if_settled_usdc": "13.7541289571440",
+          "request_utc_day": "2026-06-22"
+        },
+        "5": {
+          "completed_full_size_peers": 6,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "8.66895685362475",
+          "first_24h_requested_full_size_peers": 0,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 7,
+          "improvement_vs_same_entry_instant_usdc": "3.4825385791522440",
+          "queued_excess_if_settled_usdc": "0.12313063692833502912645600",
+          "queued_net_if_settled_usdc": "13.7082668306785",
+          "request_utc_day": "2026-06-21"
+        },
+        "7": {
+          "completed_full_size_peers": 9,
+          "distinct_utc_payout_days": 3,
+          "extra_25bp_queued_net_if_settled_usdc": "7.27664600729975",
+          "first_24h_requested_full_size_peers": 1,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 10,
+          "improvement_vs_same_entry_instant_usdc": "2.0867347302022440",
+          "queued_excess_if_settled_usdc": "-1.27267321202166497087354400",
+          "queued_net_if_settled_usdc": "12.3124629817285",
+          "request_utc_day": "2026-06-19"
+        }
+      }
+    },
+    {
+      "end": "2026-08-28",
+      "same_entry_instant_net_usdc": "16.549140154682057284249502",
+      "start": "2026-06-26",
+      "variants": {
+        "3": {
+          "completed_full_size_peers": 1,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "16.784304422958153343460236",
+          "first_24h_requested_full_size_peers": 0,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 1,
+          "improvement_vs_same_entry_instant_usdc": "5.294833872949849579891768",
+          "queued_excess_if_settled_usdc": "8.25883783388174189326772600",
+          "queued_net_if_settled_usdc": "21.843974027631906864141270",
+          "request_utc_day": "2026-08-25"
+        },
+        "4": {
+          "completed_full_size_peers": 1,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "14.437616745701011107946454",
+          "first_24h_requested_full_size_peers": 0,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 1,
+          "improvement_vs_same_entry_instant_usdc": "2.942258870862659320706351",
+          "queued_excess_if_settled_usdc": "5.90626283179455163408230900",
+          "queued_net_if_settled_usdc": "19.491399025544716604955853",
+          "request_utc_day": "2026-08-24"
+        },
+        "5": {
+          "completed_full_size_peers": 3,
+          "distinct_utc_payout_days": 2,
+          "extra_25bp_queued_net_if_settled_usdc": "14.429748555668296465078009",
+          "first_24h_requested_full_size_peers": 2,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 3,
+          "improvement_vs_same_entry_instant_usdc": "2.934370941266390451438336",
+          "queued_excess_if_settled_usdc": "5.89837490219828276481429400",
+          "queued_net_if_settled_usdc": "19.483511095948447735687838",
+          "request_utc_day": "2026-08-23"
+        },
+        "7": {
+          "completed_full_size_peers": 6,
+          "distinct_utc_payout_days": 3,
+          "extra_25bp_queued_net_if_settled_usdc": "11.571628526284702443115288",
+          "first_24h_requested_full_size_peers": 2,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 6,
+          "improvement_vs_same_entry_instant_usdc": "0.069080515421723689831956",
+          "queued_excess_if_settled_usdc": "3.03308447635361600320791400",
+          "queued_net_if_settled_usdc": "16.618220670103780974081458",
+          "request_utc_day": "2026-08-21"
+        }
+      }
+    },
+    {
+      "end": "2026-10-30",
+      "same_entry_instant_net_usdc": "14.984607811827838101078605",
+      "start": "2026-08-28",
+      "variants": {
+        "3": {
+          "completed_full_size_peers": 5,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "14.516265222539113190604840",
+          "first_24h_requested_full_size_peers": 0,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 6,
+          "improvement_vs_same_entry_instant_usdc": "4.585637002338317521012951",
+          "queued_excess_if_settled_usdc": "5.98510862041599065121801200",
+          "queued_net_if_settled_usdc": "19.570244814166155622091556",
+          "request_utc_day": "2026-10-27"
+        },
+        "4": {
+          "completed_full_size_peers": 6,
+          "distinct_utc_payout_days": 1,
+          "extra_25bp_queued_net_if_settled_usdc": "13.127782206695918890644911",
+          "first_24h_requested_full_size_peers": 1,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 7,
+          "improvement_vs_same_entry_instant_usdc": "3.193670587057483496266368",
+          "queued_excess_if_settled_usdc": "4.59314220513515662647142900",
+          "queued_net_if_settled_usdc": "18.178278398885321597344973",
+          "request_utc_day": "2026-10-26"
+        },
+        "5": {
+          "completed_full_size_peers": 7,
+          "distinct_utc_payout_days": 2,
+          "extra_25bp_queued_net_if_settled_usdc": "13.127782206695918890644911",
+          "first_24h_requested_full_size_peers": 1,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 8,
+          "improvement_vs_same_entry_instant_usdc": "3.193670587057483496266368",
+          "queued_excess_if_settled_usdc": "4.59314220513515662647142900",
+          "queued_net_if_settled_usdc": "18.178278398885321597344973",
+          "request_utc_day": "2026-10-25"
+        },
+        "7": {
+          "completed_full_size_peers": 9,
+          "distinct_utc_payout_days": 3,
+          "extra_25bp_queued_net_if_settled_usdc": "11.979762729909367178946199",
+          "first_24h_requested_full_size_peers": 2,
+          "full_size_episodes_open_or_late_at_deadline": 0,
+          "full_size_fresh_owner_episodes_between_request_and_end": 10,
+          "improvement_vs_same_entry_instant_usdc": "2.042770981126961509325060",
+          "queued_excess_if_settled_usdc": "3.44224259920463463953012100",
+          "queued_net_if_settled_usdc": "17.027378792954799610403665",
+          "request_utc_day": "2026-10-23"
+        }
+      }
+    }
+  ],
+  "issuer_endpoints": 214,
+  "issuer_sha256": "2ff0d8655657cf2be049c8178109487f44dd16b938d4c926f8c294132275e750",
+  "minimum_initial_peer_mark_usdc": "2050",
+  "rolling_diagnostics": {
+    "3": {
+      "any_full_size_peer": 119,
+      "at_least_two_utc_payout_days": 0,
+      "conditional_net_above_cash": 150,
+      "conditional_net_above_instant": 150,
+      "daily_endpoints": 150,
+      "first_24h_entry_peers": 93,
+      "median_excess_to_cash_if_settled_usdc": "6.51892555148203147228289650",
+      "median_improvement_if_settled_usdc": "4.7509222360642433660832945",
+      "minimum_excess_to_cash_if_settled_usdc": "1.73029906871933502912645600",
+      "minimum_improvement_if_settled_usdc": "3.120194808469758258167563",
+      "with_peer_and_above_cash": 119,
+      "with_peer_and_above_cash_extra_25bp": 108
+    },
+    "4": {
+      "any_full_size_peer": 138,
+      "at_least_two_utc_payout_days": 28,
+      "conditional_net_above_cash": 150,
+      "conditional_net_above_instant": 150,
+      "daily_endpoints": 150,
+      "first_24h_entry_peers": 99,
+      "median_excess_to_cash_if_settled_usdc": "6.25058083649751160045284500",
+      "median_improvement_if_settled_usdc": "4.510054300342170306133514",
+      "minimum_excess_to_cash_if_settled_usdc": "0.16899276339383502912645600",
+      "minimum_improvement_if_settled_usdc": "0.840178226853335899244771",
+      "with_peer_and_above_cash": 138,
+      "with_peer_and_above_cash_extra_25bp": 105
+    },
+    "5": {
+      "any_full_size_peer": 144,
+      "at_least_two_utc_payout_days": 69,
+      "conditional_net_above_cash": 150,
+      "conditional_net_above_instant": 150,
+      "daily_endpoints": 150,
+      "first_24h_entry_peers": 99,
+      "median_excess_to_cash_if_settled_usdc": "5.49060181256490635794458200",
+      "median_improvement_if_settled_usdc": "3.6161195068925592690098465",
+      "minimum_excess_to_cash_if_settled_usdc": "0.12313063692833502912645600",
+      "minimum_improvement_if_settled_usdc": "0.788882283637483711574403",
+      "with_peer_and_above_cash": 144,
+      "with_peer_and_above_cash_extra_25bp": 93
+    },
+    "7": {
+      "any_full_size_peer": 150,
+      "at_least_two_utc_payout_days": 132,
+      "conditional_net_above_cash": 149,
+      "conditional_net_above_instant": 149,
+      "daily_endpoints": 150,
+      "first_24h_entry_peers": 99,
+      "median_excess_to_cash_if_settled_usdc": "4.81163371742150534364800550",
+      "median_improvement_if_settled_usdc": "3.210380573894865877012702",
+      "minimum_excess_to_cash_if_settled_usdc": "-1.27267321202166497087354400",
+      "minimum_improvement_if_settled_usdc": "-0.239009501572477433666408",
+      "with_peer_and_above_cash": 149,
+      "with_peer_and_above_cash_extra_25bp": 65
+    }
+  },
+  "service_bounds": {
+    "3": {
+      "ambiguous_within_owner_priority": 0,
+      "even_fifo_late_by_lead": 5,
+      "fifo_complete_by_lead": 258,
+      "lifo_complete_by_lead": 258,
+      "mature_full_size_requests": 263,
+      "recent_full_size_episodes_open_at_final_cutoff": 6,
+      "recent_full_size_requests_without_seven_days_followup": 13
+    },
+    "4": {
+      "ambiguous_within_owner_priority": 1,
+      "even_fifo_late_by_lead": 0,
+      "fifo_complete_by_lead": 263,
+      "lifo_complete_by_lead": 262,
+      "mature_full_size_requests": 263,
+      "recent_full_size_episodes_open_at_final_cutoff": 6,
+      "recent_full_size_requests_without_seven_days_followup": 13
+    },
+    "5": {
+      "ambiguous_within_owner_priority": 1,
+      "even_fifo_late_by_lead": 0,
+      "fifo_complete_by_lead": 263,
+      "lifo_complete_by_lead": 262,
+      "mature_full_size_requests": 263,
+      "recent_full_size_episodes_open_at_final_cutoff": 6,
+      "recent_full_size_requests_without_seven_days_followup": 13
+    },
+    "7": {
+      "ambiguous_within_owner_priority": 0,
+      "even_fifo_late_by_lead": 0,
+      "fifo_complete_by_lead": 263,
+      "lifo_complete_by_lead": 263,
+      "mature_full_size_requests": 263,
+      "recent_full_size_episodes_open_at_final_cutoff": 6,
+      "recent_full_size_requests_without_seven_days_followup": 13
+    }
+  },
+  "rolling_window_count": 150
+}

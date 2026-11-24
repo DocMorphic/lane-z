@@ -1,0 +1,16 @@
+# limUSD secondary-market exits
+
+A retrospective screen looked for a same-block exit from the full 2,000 USDC limUSD paper allocation through indexed HyperEVM liquidity pools. The pool search used the issuer’s exact token address. GeckoTerminal returned two native USDC pools and two USDT0 pools. The Dex Screener `hyperevm` token-pairs query returned an empty list. The pool set represents the routes discovered by these queries. [Issuer contract addresses](https://docs.liminal.money/tokenized/developers/limusd) · [GeckoTerminal API](https://api.geckoterminal.com/docs/index.html) · [Dex Screener API](https://docs.dexscreener.com/api/reference)
+
+The date and size came from the three existing instant-redemption replays, plus the verified opening block of the prospective paired cohort. dRPC and PublicNode agreed on each canonical block, pool token pair, fee and stablecoin wallet balance. The deepest route was the 30 bp Project X limUSD/USDC pool. Its quoter simulated each exact paper share count, including the pool fee and price impact. The pool balance is an upper bound on immediately available payout. Only liquidity in active ranges can actually be used. [Exact paper share archive](../results/follow-up/liminal-archive-quotes.json) · [Project X pool](https://www.geckoterminal.com/hyperevm/pools/0xd8f284ddfdadf6fa009836e3aa946f86abc41e97) · [Deployed Project X quoter](https://hyperevmscan.io/address/0x239F11a7A3E08f2B8110D4CA9F6B95d4c8865258)
+
+| UTC observation | USDC balance across both pools | Project X quoted proceeds | Optimistic proceeds from all four pools |
+| --- | ---: | ---: | ---: |
+| July 19, 2026 | 12,951.15 | 2,006.53 | 2,016.98 |
+| September 20, 2026 | 2,541.14 | 1,997.01 | 1,997.11 |
+| November 22, 2026 | 768.32 | 732.91 | 733.01 |
+| November 24, 2026, paired entry | 768.32 | 732.91 | 733.01 |
+
+The optimistic total adds the entire stablecoin balance of the other three pools to the main quote, assuming USDT0 converts to USDC at par with zero additional impact or fees. This upper bound still fell below the 2,015.60 USDC gross payout required to clear cash after the modeled 10 bp exit cost in two of the three historical windows. The single Project X quote failed all three. July's optimistic upper bound exceeded the threshold by 1.38 USDC. It assumes the other pools can pay out their full balances. When an exact-input quote hits the end of available liquidity, any unexchanged shares are excluded from cash proceeds. The November observations establish inadequate size for this position on the discovered routes. [Exact capacity and quote data](../results/follow-up/liminal-secondary-exits.json) · [Paper cash and cost rules](liminal-queue-forward.md)
+
+To reproduce the on-chain reads, query both providers recorded in the report at each exact block hash. Verify the pool’s `token0()` and `token1()` and `fee()`, then query the quote token’s `balanceOf(pool)`. Match the Project X pool and quoter with `factory()`. For the pool quote, call `quoteExactInputSingle((address,address,uint256,uint24,uint160))` with limUSD, native USDC, the archived share units, 3,000 and a zero custom price limit. Read the returned output in USDC microunits. No transactions were submitted. [Quote method source](https://github.com/Uniswap/v3-periphery/blob/main/contracts/lens/QuoterV2.sol)

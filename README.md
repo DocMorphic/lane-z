@@ -8,6 +8,8 @@ A separate, prospective limUSD paper run began on November 23. The fixed rolling
 
 A paired paper cohort opened on November 24 to compare seven-day standard redemption with instant redemption on the same entry. In the three historical windows, the queue model improved stressed paper P&L by 2.70 to 3.65 USDC on 2,000 USDC if settled by the deadline. Verified third-party payouts established comparable throughput in each window. [Historical queue audit](docs/liminal-queued.md) · [Paired forward test](docs/liminal-queue-forward.md)
 
+The wider queue study found full-size peer payouts at all 150 seven-day deadlines and 144 five-day deadlines. One of three non-overlapping windows missed cash for the seven-day rule. The two indexed native-USDC pools together held only 768.32 USDC at the November 24 checkpoint, so secondary-market swaps could fill only part of this size. [Queue timing sensitivity](docs/liminal-buffer-diagnostic.md) · [Secondary-market exit audit](docs/liminal-secondary-exits.md)
+
 ## Longer-horizon paper tests
 
 The simplest funding-carry rule held equal spot and short perpetual quantities. It used observed hourly funding rates, four-hour price proxies, full short collateral, and simulated trading costs. The higher-cost scenario with a 25% haircut to positive funding earned 9.03, 2.85, and 14.44 USDC in the three windows, each on 2,000 USDC of starting capital. A forced-exit stress lost money. There were no live orders. [Funding results, risks, and reproduction](docs/spot-carry.md)
