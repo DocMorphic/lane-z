@@ -20,8 +20,9 @@ The initial 180-second window produced only 14–15 usable full-book snapshots p
 | 09:24:53–09:27:53 | L2 | 88 | 0 | 0 |
 | 09:28:30–09:33:30 | L2 | 156 | 0 | 0 |
 | 09:29:52–09:32:51 | Best quotes | 8,619 | 3,766 | 0 |
+| 09:33:10–09:38:09 | Best quotes | 13,472 | 6,234 | 1 continuation |
 
-The initial full-depth feed lacked the cadence for this signal. Best quotes provided sufficient price-pair coverage to evaluate 3,766 market decisions. The largest observed absolute three-second midpoint move was 8.47 bps, below the 10 bp impulse threshold. Neither rule attempted entry. The first best-quote sample remained at zero paper P&L across all delay settings. It represents about three minutes of one morning. Best-quote fills use displayed liquidity and model a counterfactual order. [Paper report and capture hashes](../results/follow-up/native-fast-2026-11-24.json)
+The initial full-depth feed lacked the cadence for this signal. In the first best-quote window, the largest observed absolute three-second midpoint move was 8.47 bps, below the 10 bp impulse threshold. The second window produced two continuation signals on HYPE. One opened while the model was flat, and the best quote filled only part of the requested size. At 900 ms and the higher execution reserve, the $12.63 paper entry lost $0.0264 after costs. The reversal rule remained flat. The two best-quote windows cover eight minutes of one morning. Paper fills use displayed liquidity and model a counterfactual order. [Paper report and capture hashes](../results/follow-up/native-fast-2026-11-24.json)
 
 ```sh
 mkdir -p data/native-fast
