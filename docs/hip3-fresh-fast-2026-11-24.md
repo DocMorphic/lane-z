@@ -47,6 +47,8 @@ The quarantine excluded 485 receipts from the 707,249-row capture. The first eli
 
 The second segment, from 14:46:14.500 to 15:05 UTC, had no usable decisions for either rule. Binance median quote age was 3.17 seconds on NVDA and 3.24 seconds on TSLA. The upper tenth of delays exceeded 16 seconds on both. That segment left the paper accounts flat. The small 500 ms gains came from one contiguous opening-period tape and reversed at the 900 ms order delay.
 
+The monotonic-clock repeat captured 10 minutes and 21 seconds of usable decision time, from 16:20:51.500 to 16:31:12.500 UTC. The feeds stopped producing usable updates before the planned 20-minute capture ended. The seven files had no backward receipt times or negative quote ages. At 500 ms, the five-second model made three attempts and the 30-second rule made six. Every attempt missed, and both rules remained flat at all tested delays. The opening-period gains remain unconfirmed. [Monotonic follow-up report](../results/follow-up/hip3-regular-2026-11-24.json)
+
 ```sh
 capture=data/agent-equity-fast-today/regular-01
 parts=data/agent-equity-fast-today/regular-01-split
