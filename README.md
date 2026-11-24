@@ -6,6 +6,8 @@ Paper research for Hyperliquid equity perpetuals, crypto derivatives, and longer
 
 A separate, prospective limUSD paper run began on November 23. The fixed rolling test measures full-size redemption and after-cost excess over 4% cash for three consecutive 63-day periods. [Forward protocol and runner](docs/liminal-forward.md)
 
+A paired paper cohort opened on November 24 to compare seven-day standard redemption with instant redemption on the same entry. In the three historical windows, the queue model improved stressed paper P&L by 2.70 to 3.65 USDC on 2,000 USDC if settled by the deadline. Verified third-party payouts established comparable throughput in each window. [Historical queue audit](docs/liminal-queued.md) · [Paired forward test](docs/liminal-queue-forward.md)
+
 ## Longer-horizon paper tests
 
 The simplest funding-carry rule held equal spot and short perpetual quantities. It used observed hourly funding rates, four-hour price proxies, full short collateral, and simulated trading costs. The higher-cost scenario with a 25% haircut to positive funding earned 9.03, 2.85, and 14.44 USDC in the three windows, each on 2,000 USDC of starting capital. A forced-exit stress lost money. There were no live orders. [Funding results, risks, and reproduction](docs/spot-carry.md)
@@ -15,6 +17,8 @@ Separate tests retired [equity-perp relative strength](docs/relative-strength.md
 Additional tests retired [native trend](docs/native-trend.md), [selective carry and HYPE staking](docs/selective-carry.md), [daily relative basis](docs/perp-basis.md), and a funding-gated [equity index and gold portfolio](docs/hip3-allocation.md). They include explicit held-out cash hurdles, full capital accounting and separate stress results.
 
 The [HLP vault](docs/hlp-vault.md) beat cash in its first five periods and missed in two later quarters. Nasdaq [QQQ timing](docs/nasdaq-trend.md) cleared cash in four separate stressed vintages. Passive QQQ earned more in three of those vintages. The [overnight equity-index trade](docs/hip3-overnight.md), [cross-venue crypto carry](docs/cross-venue-carry.md), [JitoSOL hedge](docs/jito-hedge.md), and [cross-asset trend basket](docs/managed-futures.md) fell short. All tests were paper-only.
+
+The Boros funding lock and funding forecast missed the cash hurdle. HyperLend and Felix USDC missed in the latest stressed window. The xHYPE and xLEND allocations passed cash in all three historical windows and trailed limUSD in at least one. The Pendle PT-limUSD screen had one expiry and no completed maturity at review. [Funding lock](docs/boros-lock.md) · [Funding forecast](docs/boros-floating.md) · [HyperLend](docs/hyperlend-usdc.md) · [Felix](docs/felix-usdc.md) · [xTokens](docs/hyperliquid-xtokens.md) · [Pendle PT](docs/pendle-pt.md)
 
 ## The millisecond strategy
 

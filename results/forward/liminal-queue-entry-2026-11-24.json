@@ -1,0 +1,44 @@
+{
+  "start_target_utc": "2026-11-24T00:12:40+00:00",
+  "protocol_sha256": "8d578cd8cd9bc4c81d7d0dd4b92396e1115330efc79f6644944b0a02d7c12cbd",
+  "mode": "paper_only",
+  "arm_names": [
+    "queued_capacity_conditional",
+    "instant_control"
+  ],
+  "hold_days": 63,
+  "days_in_queue_model": 7,
+  "capital_usdc": "2000",
+  "minimum_comparable_native_usdc": 2050,
+  "captured": {
+    "target_utc": "2026-11-24T00:12:40+00:00",
+    "block": {
+      "number": 52075847,
+      "timestamp": 1795479160,
+      "hash": "0x21db7120623a75f9762145f6776eea92368db0c1b6cf1e1eb3d37125d07819fa"
+    },
+    "providers": [
+      "https://hyperliquid.drpc.org",
+      "https://hyperliquid-rpc.publicnode.com"
+    ],
+    "captured_at_utc": "2026-11-24T00:13:04+00:00",
+    "observation": "contemporaneous",
+    "price_per_share_usdc": "1.046404725300692694404292085",
+    "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+    "spendable_reserve_micro_usdc": 299877151436,
+    "fee_bps": 30,
+    "quote": {
+      "gross_micro_usdc": 1996001499,
+      "net_micro_usdc": 1990013495,
+      "reason": null
+    },
+    "entry": {
+      "deposit_micro_usdc": 1996001500,
+      "shares_wei": "1907485174463860666678"
+    }
+  },
+  "request_after_utc": "2027-01-19T00:12:40+00:00",
+  "deadline_utc": "2027-01-26T00:12:40+00:00",
+  "extra_exit_haircut": "0.001",
+  "status": "paper_cohort_open"
+}

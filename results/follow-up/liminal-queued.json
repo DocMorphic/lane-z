@@ -1,0 +1,187 @@
+{
+  "archive_providers": [
+    "https://hyperliquid.drpc.org",
+    "https://hyperliquid-rpc.publicnode.com"
+  ],
+  "canonical_scan_from": {
+    "hash": "0x9beb4c1e3028ac2f6e8c26cb2a8f8b036eb9c54ae53400914b47691f3b41bb1c",
+    "number": 33253579,
+    "timestamp": 1776963240
+  },
+  "canonical_scan_through": {
+    "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03",
+    "number": 51987233,
+    "timestamp": 1795391999
+  },
+  "contract": "0x2e8c1256356e261150120a384d95dc0d0d00ae29",
+  "evidence_counts": {
+    "independent_archive_receipts": 475,
+    "log_segments": 375,
+    "transaction_receipts": 801
+  },
+  "exact_quote_check": {
+    "marks_sha256": "2ff0d8655657cf2be049c8178109487f44dd16b938d4c926f8c294132275e750",
+    "original_quotes_sha256": "b20aed5acfe2e65b84de2aa576e1a249e487dc435b2334a0eb1fc58924fde03c",
+    "windows": [
+      {
+        "deposit_micro_usdc": "1996001500",
+        "exact_queued_mark_pnl_with_haircut_usdc": "17.197354429",
+        "held_exact_shares_wei": "1990701020417310385146",
+        "lowest_sample_canonical_block": {
+          "hash": "0x719a0d165ffd676db282b5117156e5cf96a36f78c2b9308e23d127977348a2e2",
+          "number": 40305802,
+          "timestamp": 1783900799
+        },
+        "lowest_sample_utc_day": "2026-07-12",
+        "quoted_no_queue_fee_micro_usdc": "2019216571",
+        "vintage_end_utc_day": "2026-07-19",
+        "vintage_start_utc_day": "2026-05-17"
+      },
+      {
+        "deposit_micro_usdc": "1996001500",
+        "exact_queued_mark_pnl_with_haircut_usdc": "19.924148905",
+        "held_exact_shares_wei": "1965023471596163065558",
+        "lowest_sample_canonical_block": {
+          "hash": "0x44ccba183914fdf0bd43369a435e3a2f6c9ffe7edb8fb9ad4bd875d3d14221e2",
+          "number": 45839093,
+          "timestamp": 1789343999
+        },
+        "lowest_sample_utc_day": "2026-09-13",
+        "quoted_no_queue_fee_micro_usdc": "2021946095",
+        "vintage_end_utc_day": "2026-09-20",
+        "vintage_start_utc_day": "2026-07-19"
+      },
+      {
+        "deposit_micro_usdc": "1996001500",
+        "exact_queued_mark_pnl_with_haircut_usdc": "20.346959671",
+        "held_exact_shares_wei": "1937489028442045902403",
+        "lowest_sample_canonical_block": {
+          "hash": "0xb60ede988772373a15ebb65628f4f5ddea858eed2b4ef85a785caf155736675b",
+          "number": 51372413,
+          "timestamp": 1794787199
+        },
+        "lowest_sample_utc_day": "2026-11-15",
+        "quoted_no_queue_fee_micro_usdc": "2022369329",
+        "vintage_end_utc_day": "2026-11-22",
+        "vintage_start_utc_day": "2026-09-20"
+      }
+    ]
+  },
+  "holders_or_transaction_details_published": false,
+  "implementation": "0x3fac21fdd343486280b04447aede477f689881c7",
+  "issuer_mark_sha256": "2ff0d8655657cf2be049c8178109487f44dd16b938d4c926f8c294132275e750",
+  "minimum_comparable_payout_usdc": "2050",
+  "passes_historical_screen": true,
+  "protocol": "limusd-seven-day-standard-redemption-v1",
+  "queue_lead_days": 7,
+  "queue_statistics": {
+    "escrowed_shares_in_standard_ledger_wei": "157766791444335367047805",
+    "escrowed_shares_onchain_wei": "157766791444335367047805",
+    "fulfillment_events": 709,
+    "open_episodes_at_cutoff": 18,
+    "open_single_request_episodes": 16,
+    "open_single_request_episodes_age_at_least_3_days": 0,
+    "open_single_request_episodes_age_at_least_7_days": 0,
+    "paid_usdc_micro": 7100573628267,
+    "request_events": 731,
+    "settled_comparable_single_request_count": 264,
+    "settled_comparable_single_request_over_7_days": 0,
+    "settled_comparable_single_request_p95_hours": 68.47611111111111,
+    "settled_episodes": 678,
+    "settled_multiple_request_episodes": 27,
+    "settled_single_request_episodes": 651,
+    "settled_single_request_episodes_with_multiple_installments": 0,
+    "settled_single_request_max_hours": 94.03194444444445,
+    "settled_single_request_over_3_days": 14,
+    "settled_single_request_over_7_days": 0,
+    "settled_single_request_p50_hours": 37.00972222222222,
+    "settled_single_request_p90_hours": 66.64777777777778,
+    "settled_single_request_p95_hours": 69.76472222222222,
+    "standard_ledger_matches_escrow": true
+  },
+  "raw_input_batch_sha256": {
+    "abi_and_headers": "860920ec7eda7c94a0845b3628295ae9ccc277a28fa5c658fee6258712e43f99",
+    "log_pages": "e7c5edae3dab5de045e392a4eaee29c83388fd7a2b6c0c5304762bcccc4338e5",
+    "receipts": "f2aaf62c685dd5937a85c0128a77b4bbb66c435f18fd3cca00e884dccca77de6"
+  },
+  "request_gas": {
+    "hype_candle_input_sha256": "b53da0b02d2fabd63fe2bcfb6bf1d5c7a2c2ca86f1fc2803620d08c54b9180bb",
+    "median_request_gas_hype": "0.0000235416",
+    "median_request_gas_usdc_at_prior_hype_mark": "0.00165708380736",
+    "observed_unique_confirmed_request_transactions": 731,
+    "p95_request_gas_hype": "0.000282028368",
+    "p95_request_gas_usdc_at_prior_hype_mark": "0.02004233179920",
+    "peak_request_gas_hype": "0.01077393943098708",
+    "peak_request_gas_usdc_at_prior_hype_mark": "0.66641124956427484632"
+  },
+  "started_usdc": "2000",
+  "total_gas_reserved_per_vintage_usdc": "3",
+  "windows": [
+    {
+      "cash_4pct_net_usdc": "13.58513619375016497087354400",
+      "conservative_queued_net_if_settled_usdc": "17.197354429",
+      "deadline_utc_day": "2026-07-19",
+      "exact_quote_minus_issuer_net_usdc": "-0.000498147954148057869949",
+      "historical_capacity_gate": true,
+      "instant_stress_net_usdc": "14.001412414970287095751110",
+      "minimum_modeled_pps_in_queue_usdc": "1.014324",
+      "observed_full_comparable_payouts_by_deadline": 4,
+      "observed_full_payouts_by_deadline": 19,
+      "observed_largest_single_full_payout_by_deadline_usdc": "100766.80752",
+      "observed_total_unambiguous_payout_by_deadline_usdc": "118365.585078",
+      "observed_unambiguous_requests_during_service_window": 27,
+      "passes_historical_screen": true,
+      "queued_extra_100bp_tail_if_settled_net_usdc": "-2.994318119511859430196817",
+      "queued_stress_excess_cash_if_settled_usdc": "3.61271638320398308699640500",
+      "queued_stress_gain_vs_instant_usdc": "3.196440161983860962118839",
+      "queued_stress_if_settled_net_usdc": "17.197852576954148057869949",
+      "request_utc_day": "2026-07-12",
+      "right_censored_or_late_for_deadline": 8,
+      "start_utc_day": "2026-05-17"
+    },
+    {
+      "cash_4pct_net_usdc": "13.58513619375016497087354400",
+      "conservative_queued_net_if_settled_usdc": "19.923777348921107658865642",
+      "deadline_utc_day": "2026-09-20",
+      "exact_quote_minus_issuer_net_usdc": "0.000371556078892341134358",
+      "historical_capacity_gate": true,
+      "instant_stress_net_usdc": "16.277197420892943636513994",
+      "minimum_modeled_pps_in_queue_usdc": "1.028967",
+      "observed_full_comparable_payouts_by_deadline": 4,
+      "observed_full_payouts_by_deadline": 13,
+      "observed_largest_single_full_payout_by_deadline_usdc": "332316.588266",
+      "observed_total_unambiguous_payout_by_deadline_usdc": "526456.471095",
+      "observed_unambiguous_requests_during_service_window": 23,
+      "passes_historical_screen": true,
+      "queued_extra_100bp_tail_if_settled_net_usdc": "-0.295679881798823348730611",
+      "queued_stress_excess_cash_if_settled_usdc": "6.33864115517094268799209800",
+      "queued_stress_gain_vs_instant_usdc": "3.646579928028164022351648",
+      "queued_stress_if_settled_net_usdc": "19.923777348921107658865642",
+      "request_utc_day": "2026-09-13",
+      "right_censored_or_late_for_deadline": 10,
+      "start_utc_day": "2026-07-19"
+    },
+    {
+      "cash_4pct_net_usdc": "13.58513619375016497087354400",
+      "conservative_queued_net_if_settled_usdc": "20.338681189858765288293535",
+      "deadline_utc_day": "2026-11-22",
+      "exact_quote_minus_issuer_net_usdc": "0.008278481141234711706465",
+      "historical_capacity_gate": true,
+      "instant_stress_net_usdc": "17.641210990915323238206173",
+      "minimum_modeled_pps_in_queue_usdc": "1.043805",
+      "observed_full_comparable_payouts_by_deadline": 6,
+      "observed_full_payouts_by_deadline": 12,
+      "observed_largest_single_full_payout_by_deadline_usdc": "15657.198251",
+      "observed_total_unambiguous_payout_by_deadline_usdc": "40158.11285",
+      "observed_unambiguous_requests_during_service_window": 28,
+      "passes_historical_screen": true,
+      "queued_extra_100bp_tail_if_settled_net_usdc": "0.115070767537856726849155",
+      "queued_stress_excess_cash_if_settled_usdc": "6.75354499610860031741999100",
+      "queued_stress_gain_vs_instant_usdc": "2.697470198943442050087362",
+      "queued_stress_if_settled_net_usdc": "20.338681189858765288293535",
+      "request_utc_day": "2026-11-15",
+      "right_censored_or_late_for_deadline": 16,
+      "start_utc_day": "2026-09-20"
+    }
+  ]
+}

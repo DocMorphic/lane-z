@@ -1,0 +1,401 @@
+{
+  "archive_capture_block_hashes": {
+    "2026-05-17": "0xc8f3e734d822dd8603bbca58939291f4a92bbc5266a65ac468ee46173c44cad5",
+    "2026-07-19": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e",
+    "2026-09-20": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648",
+    "2026-11-22": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03",
+    "current": "0x7e43e1e76b5499819929ef6cfe9c21f04114ea2ddcb4d70e3927149728fdf692"
+  },
+  "markets": {
+    "xBTC": {
+      "issuer_metrics_endpoint": "https://api.liminal.money/sdk/tokenized/xBTC/metrics?range=max",
+      "sha256": "f80eab70211599ce032ff2da1ba16549a2463e593936ff15b72bd9c876be4c6e",
+      "observations": 337,
+      "first_day": "2025-12-22",
+      "last_day": "2026-11-23",
+      "scoped_observations": 190,
+      "windows": [
+        {
+          "start": "2026-05-17",
+          "end": "2026-07-19",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "14.001578404",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "7.454570451492598901596586000",
+          "issuer_30bp_pnl_usdc": {
+            "base": "0.431490636768052044339352",
+            "stress": "-4.566587442587912933693431"
+          },
+          "archive_pps_max_absolute_difference_usdc": "4.03914872E-19",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "0.431491",
+              "onchain_30bp_pnl_usdc": "0.431491",
+              "cash_excess_usdc": "-13.15364519375016497087354400",
+              "limusd_excess_usdc": "-13.570087404",
+              "extra_100bp_loss_pnl_usdc": "-19.57282391",
+              "after_fee_quote_usdc": "2000.431491",
+              "reserve_to_exit_quote_multiple": "43.43830048464279049884243199",
+              "reserve_to_onchain_aum_pct": "10.55037604112757307197875787"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "-4.566587843",
+              "onchain_30bp_pnl_usdc": "-4.566587843",
+              "cash_excess_usdc": "-18.15172403675016497087354400",
+              "limusd_excess_usdc": "-18.568166247",
+              "extra_100bp_loss_pnl_usdc": "-24.540896273",
+              "after_fee_quote_usdc": "1997.430843",
+              "reserve_to_exit_quote_multiple": "43.50355583499918950635729219",
+              "reserve_to_onchain_aum_pct": "10.55037604112757307197875787"
+            }
+          }
+        },
+        {
+          "start": "2026-07-19",
+          "end": "2026-09-20",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "16.276090615",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "27.91197204308400261433499600",
+          "issuer_30bp_pnl_usdc": {
+            "base": "20.817322008891273231188746",
+            "stress": "15.768309929852058385020620"
+          },
+          "archive_pps_max_absolute_difference_usdc": "5.32247720E-19",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "20.817322",
+              "onchain_30bp_pnl_usdc": "20.817322",
+              "cash_excess_usdc": "7.23218580624983502912645600",
+              "limusd_excess_usdc": "4.541231385",
+              "extra_100bp_loss_pnl_usdc": "0.60914878",
+              "after_fee_quote_usdc": "2020.817322",
+              "reserve_to_exit_quote_multiple": "21.94701016720599943471783047",
+              "reserve_to_onchain_aum_pct": "3.551971870109388818585557158"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "15.768309904",
+              "onchain_30bp_pnl_usdc": "15.768309904",
+              "cash_excess_usdc": "2.18317371024983502912645600",
+              "limusd_excess_usdc": "-0.507780711",
+              "extra_100bp_loss_pnl_usdc": "-4.409551056",
+              "after_fee_quote_usdc": "2017.786096",
+              "reserve_to_exit_quote_multiple": "21.97998013759730060108412998",
+              "reserve_to_onchain_aum_pct": "3.551971870109388818585557158"
+            }
+          }
+        },
+        {
+          "start": "2026-09-20",
+          "end": "2026-11-22",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "17.641360978",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "33.23920622253425443025245200",
+          "issuer_30bp_pnl_usdc": {
+            "base": "26.125918859564718341128213",
+            "stress": "21.063643251294095892352905"
+          },
+          "archive_pps_max_absolute_difference_usdc": "9.79201119E-19",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "26.125919",
+              "onchain_30bp_pnl_usdc": "26.125919",
+              "cash_excess_usdc": "12.54078280624983502912645600",
+              "limusd_excess_usdc": "8.484558022",
+              "extra_100bp_loss_pnl_usdc": "5.86465981",
+              "after_fee_quote_usdc": "2026.125919",
+              "reserve_to_exit_quote_multiple": "28.81996429512138332207969746",
+              "reserve_to_onchain_aum_pct": "3.556118634853991420809180910"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "21.06364327",
+              "onchain_30bp_pnl_usdc": "21.06364327",
+              "cash_excess_usdc": "7.47850707624983502912645600",
+              "limusd_excess_usdc": "3.422282292",
+              "extra_100bp_loss_pnl_usdc": "0.83277597",
+              "after_fee_quote_usdc": "2023.08673",
+              "reserve_to_exit_quote_multiple": "28.86325918563066250748429357",
+              "reserve_to_onchain_aum_pct": "3.556118634853991420809180910"
+            }
+          }
+        }
+      ],
+      "current_fee_bps": 30,
+      "current_spendable_reserve_usdc": "58219.926775",
+      "current_reserve_quote": {
+        "gross": 1996001499,
+        "net": 1990013495,
+        "available": true
+      },
+      "current_exit_capacity_verified": true,
+      "historical_challenger_pass": false
+    },
+    "xHYPE": {
+      "issuer_metrics_endpoint": "https://api.liminal.money/sdk/tokenized/xHYPE/metrics?range=max",
+      "sha256": "b7c10bc741c3347f47011e3db59cb524dba80a4ca3aeb7ef6d4d67a362f7e4b5",
+      "observations": 371,
+      "first_day": "2025-11-18",
+      "last_day": "2026-11-23",
+      "scoped_observations": 190,
+      "windows": [
+        {
+          "start": "2026-05-17",
+          "end": "2026-07-19",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "14.001578404",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "25.83527697077042085839602600",
+          "issuer_30bp_pnl_usdc": {
+            "base": "18.747892254288180541022928",
+            "stress": "13.704050645490841521941183"
+          },
+          "archive_pps_max_absolute_difference_usdc": "8.19811101473463852893E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "18.749142",
+              "onchain_30bp_pnl_usdc": "18.749142",
+              "cash_excess_usdc": "5.16400580624983502912645600",
+              "limusd_excess_usdc": "4.747563596",
+              "extra_100bp_loss_pnl_usdc": "-1.43834942",
+              "after_fee_quote_usdc": "2018.749142",
+              "reserve_to_exit_quote_multiple": "58.40161656251988143259852343",
+              "reserve_to_onchain_aum_pct": "2.071406823879594821178680101"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "13.705296982",
+              "onchain_30bp_pnl_usdc": "13.705296982",
+              "cash_excess_usdc": "0.12016078824983502912645600",
+              "limusd_excess_usdc": "-0.296281422",
+              "extra_100bp_loss_pnl_usdc": "-6.451913198",
+              "after_fee_quote_usdc": "2015.721018",
+              "reserve_to_exit_quote_multiple": "58.48935059673024652660539952",
+              "reserve_to_onchain_aum_pct": "2.071406823879594821178680101"
+            }
+          }
+        },
+        {
+          "start": "2026-07-19",
+          "end": "2026-09-20",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "16.276090615",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "32.40019813693570648802281400",
+          "issuer_30bp_pnl_usdc": {
+            "base": "25.289846043753636918874467",
+            "stress": "20.229659363413318457032659"
+          },
+          "archive_pps_max_absolute_difference_usdc": "9.01221177756891573829E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "25.289977",
+              "onchain_30bp_pnl_usdc": "25.289977",
+              "cash_excess_usdc": "11.70484080624983502912645600",
+              "limusd_excess_usdc": "9.013886385",
+              "extra_100bp_loss_pnl_usdc": "5.03707723",
+              "after_fee_quote_usdc": "2025.289977",
+              "reserve_to_exit_quote_multiple": "170.9188796000248017817549294",
+              "reserve_to_onchain_aum_pct": "4.888084690496886317549929532"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "20.229788959",
+              "onchain_30bp_pnl_usdc": "20.229788959",
+              "cash_excess_usdc": "6.64465276524983502912645600",
+              "limusd_excess_usdc": "3.953698344",
+              "extra_100bp_loss_pnl_usdc": "0.007268549",
+              "after_fee_quote_usdc": "2022.252041",
+              "reserve_to_exit_quote_multiple": "171.1756431521880709032747120",
+              "reserve_to_onchain_aum_pct": "4.888084690496886317549929532"
+            }
+          }
+        },
+        {
+          "start": "2026-09-20",
+          "end": "2026-11-22",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "17.641360978",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "31.51454575742431814395832400",
+          "issuer_30bp_pnl_usdc": {
+            "base": "24.407292119091969166931686",
+            "stress": "19.349310499732417881968107"
+          },
+          "archive_pps_max_absolute_difference_usdc": "9.80330817111596491923E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "24.407415",
+              "onchain_30bp_pnl_usdc": "24.407415",
+              "cash_excess_usdc": "10.82227880624983502912645600",
+              "limusd_excess_usdc": "6.766054022",
+              "extra_100bp_loss_pnl_usdc": "4.16334085",
+              "after_fee_quote_usdc": "2024.407415",
+              "reserve_to_exit_quote_multiple": "182.7887746790336667483506525",
+              "reserve_to_onchain_aum_pct": "3.785910170543923324892872951"
+            },
+            "stress": {
+              "actual_fee_bps": 30,
+              "actual_fee_pnl_usdc": "19.349432197",
+              "onchain_30bp_pnl_usdc": "19.349432197",
+              "cash_excess_usdc": "5.76429600324983502912645600",
+              "limusd_excess_usdc": "1.708071219",
+              "extra_100bp_loss_pnl_usdc": "-0.864275833",
+              "after_fee_quote_usdc": "2021.370803",
+              "reserve_to_exit_quote_multiple": "183.0633698131040037585820418",
+              "reserve_to_onchain_aum_pct": "3.785910170543923324892872951"
+            }
+          }
+        }
+      ],
+      "current_fee_bps": 30,
+      "current_spendable_reserve_usdc": "318245.216582",
+      "current_reserve_quote": {
+        "gross": 1996001499,
+        "net": 1990013495,
+        "available": true
+      },
+      "current_exit_capacity_verified": true,
+      "historical_challenger_pass": false
+    },
+    "xLEND": {
+      "issuer_metrics_endpoint": "https://api.liminal.money/sdk/tokenized/xLEND/metrics?range=max",
+      "sha256": "39ed258126e903580d34037e8ba8e4878d5a3b0230b16d34282211a155475047",
+      "observations": 249,
+      "first_day": "2026-03-20",
+      "last_day": "2026-11-23",
+      "scoped_observations": 190,
+      "windows": [
+        {
+          "start": "2026-05-17",
+          "end": "2026-07-19",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "14.001578404",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "21.92342784638708223420003200",
+          "issuer_30bp_pnl_usdc": {
+            "base": "14.849728734066497027003682",
+            "stress": "9.815626686824431884181714"
+          },
+          "archive_pps_max_absolute_difference_usdc": "7.84279493108352729781E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "20.912894",
+              "onchain_30bp_pnl_usdc": "14.850156",
+              "cash_excess_usdc": "7.32775780624983502912645600",
+              "limusd_excess_usdc": "6.911315596",
+              "extra_100bp_loss_pnl_usdc": "0.70376506",
+              "after_fee_quote_usdc": "2020.912894",
+              "reserve_to_exit_quote_multiple": "163.1599844485924686272005151",
+              "reserve_to_onchain_aum_pct": "5.086689068999100446253937975"
+            },
+            "stress": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "15.863642476",
+              "onchain_30bp_pnl_usdc": "9.81605212",
+              "cash_excess_usdc": "2.27850628224983502912645600",
+              "limusd_excess_usdc": "1.862064072",
+              "extra_100bp_loss_pnl_usdc": "-4.315172764",
+              "after_fee_quote_usdc": "2017.881524",
+              "reserve_to_exit_quote_multiple": "163.4050921400874078274181175",
+              "reserve_to_onchain_aum_pct": "5.086689068999100446253937975"
+            }
+          }
+        },
+        {
+          "start": "2026-07-19",
+          "end": "2026-09-20",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "16.276090615",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "22.12371129970911562113930000",
+          "issuer_30bp_pnl_usdc": {
+            "base": "15.049311495727083280138745",
+            "stress": "10.014710790955009162563318"
+          },
+          "archive_pps_max_absolute_difference_usdc": "7.84279493108352729781E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "21.112363",
+              "onchain_30bp_pnl_usdc": "15.049026",
+              "cash_excess_usdc": "7.52722680624983502912645600",
+              "limusd_excess_usdc": "4.836272385",
+              "extra_100bp_loss_pnl_usdc": "0.90123937",
+              "after_fee_quote_usdc": "2021.112363",
+              "reserve_to_exit_quote_multiple": "85.29931056287344079741300360",
+              "reserve_to_onchain_aum_pct": "4.931155482413935318628873757"
+            },
+            "stress": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "16.062613306",
+              "onchain_30bp_pnl_usdc": "10.014425548",
+              "cash_excess_usdc": "2.47747711224983502912645600",
+              "limusd_excess_usdc": "-0.213477309",
+              "extra_100bp_loss_pnl_usdc": "-4.118193634",
+              "after_fee_quote_usdc": "2018.080694",
+              "reserve_to_exit_quote_multiple": "85.42745175976595512686669605",
+              "reserve_to_onchain_aum_pct": "4.931155482413935318628873757"
+            }
+          }
+        },
+        {
+          "start": "2026-09-20",
+          "end": "2026-11-22",
+          "cash_pnl_usdc": "13.58513619375016497087354400",
+          "limusd_stress_pnl_usdc": "17.641360978",
+          "issuer_max_drawdown_pct": "0",
+          "issuer_gross_pnl_usdc": "21.53393075340589662547667000",
+          "issuer_30bp_pnl_usdc": {
+            "base": "14.461594296665106096132440",
+            "stress": "9.428462003314888328551253"
+          },
+          "archive_pps_max_absolute_difference_usdc": "7.54457298532030230596E-7",
+          "outcomes": {
+            "base": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "20.523358",
+              "onchain_30bp_pnl_usdc": "14.461788",
+              "cash_excess_usdc": "6.93822180624983502912645600",
+              "limusd_excess_usdc": "2.881997022",
+              "extra_100bp_loss_pnl_usdc": "0.31812442",
+              "after_fee_quote_usdc": "2020.523358",
+              "reserve_to_exit_quote_multiple": "28.05857900307431140323397340",
+              "reserve_to_onchain_aum_pct": "4.993300399952099570558867564"
+            },
+            "stress": {
+              "actual_fee_bps": 0,
+              "actual_fee_pnl_usdc": "15.475080427",
+              "onchain_30bp_pnl_usdc": "9.428655904",
+              "cash_excess_usdc": "1.88994423324983502912645600",
+              "limusd_excess_usdc": "-2.166280551",
+              "extra_100bp_loss_pnl_usdc": "-4.699845303",
+              "after_fee_quote_usdc": "2017.492573",
+              "reserve_to_exit_quote_multiple": "28.10073009770628781392792765",
+              "reserve_to_onchain_aum_pct": "4.993300399952099570558867564"
+            }
+          }
+        }
+      ],
+      "current_fee_bps": 0,
+      "current_spendable_reserve_usdc": "10137.221403",
+      "current_reserve_quote": {
+        "gross": 1996001499,
+        "net": 1996001499,
+        "available": true
+      },
+      "current_exit_capacity_verified": true,
+      "historical_challenger_pass": false
+    }
+  }
+}

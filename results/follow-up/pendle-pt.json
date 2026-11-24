@@ -1,0 +1,322 @@
+{
+  "market": "0xfc93d1ada3277e6274c3905db0a2c81ac1252025",
+  "pt": "0x6b7cea9d070bbffd8205f256897319139cdef399",
+  "sy": "0xcf6b4c156f51818922b98524dc832e352f40d516",
+  "yt": "0x6df3fbb4373fe1409e4697f214f723ab61640130",
+  "expiry": 1795651200,
+  "rpcs": [
+    "https://hyperliquid.drpc.org",
+    "https://hyperliquid-rpc.publicnode.com"
+  ],
+  "registry_sha256": "cab97dd1c41d2ac02d0ad3eab893793e5c327fa8271d8e455944197e8a9ca875",
+  "HyperEVM_market_count": 50,
+  "limUSD_markets": [
+    {
+      "name": "limUSD",
+      "address": "0xfc93d1ada3277e6274c3905db0a2c81ac1252025",
+      "expiry": "2026-11-26T00:00:00.000Z"
+    }
+  ],
+  "snapshots": [
+    {
+      "target": "2026-07-23T00:00:00+00:00",
+      "canonical": {
+        "number": 41184114,
+        "timestamp": 1784764800,
+        "hash": "0xe305a1c4ea6cf39cb97b2f0cf5e4c7886772c3fc527f7c5632faacefae2b0ae4"
+      },
+      "successor": {
+        "number": 41184115,
+        "timestamp": 1784764801,
+        "hash": "0xb3c6f821f487783d03aedff9ba50f1b2d004a1716702ca0393b203d79ba4bcf1"
+      },
+      "market_balances": {
+        "pt_raw": "740410948072",
+        "sy_raw": "1073872242218878697515453",
+        "lp_raw": "798812140841799151",
+        "ln_fee_rate_root": "1853155097604178",
+        "reserve_fee_percent": 80
+      },
+      "pt_total_supply_raw": "986717802214",
+      "sy_decimals": 18,
+      "lp_decimals": 18,
+      "exchange_rate_raw": "1016416",
+      "watermark_raw": "1016416",
+      "current_redemption_index_raw": "1016416",
+      "instant_redeem_fee_bps": 30,
+      "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "spendable_usdc_micro": "594759255009",
+      "remaining_share_capacity_wei": "8296934718498883227064155",
+      "quotes": {
+        "base": {
+          "initial_quote_input_micro_usdc": "1999000000",
+          "pt_output_micro": "2058624675",
+          "sy_minted_raw": "1966714036031717668371",
+          "swap_fee_sy_raw": "1257697635613764442",
+          "price_impact_raw": "50969367069687",
+          "mint_capacity": true,
+          "conditional_sy_units": "2025376100927179422598",
+          "limUSD_share_wei": "2025376100927179422598",
+          "gross_usdc_micro": "2058625072",
+          "direct_liminal_cash_usdc_micro": "2052449197",
+          "direct_sy_cash_usdc_micro": "2052449197",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "52.449197",
+          "conditional_excess_over_cash_usdc": "25.18664664979829969833159400",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "31.92470503"
+        },
+        "stress": {
+          "initial_quote_input_micro_usdc": "1997000000",
+          "pt_output_micro": "2056432317",
+          "sy_minted_raw": "1964746338146743463600",
+          "swap_fee_sy_raw": "1256357633095110663",
+          "price_impact_raw": "50915062152768",
+          "mint_capacity": true,
+          "conditional_sy_units": "2023219151410446116550",
+          "limUSD_share_wei": "2023219151410446116550",
+          "gross_usdc_micro": "2056432714",
+          "direct_liminal_cash_usdc_micro": "2050263416",
+          "direct_sy_cash_usdc_micro": "2050263416",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "48.213152584",
+          "conditional_excess_over_cash_usdc": "20.95060223379829969833159400",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "27.73102105816"
+        }
+      },
+      "base_single_token_lp": {
+        "lp_raw": "882005391392641",
+        "pt_from_swap_raw": "816653557",
+        "swap_fee_sy_raw": "498910879010169064",
+        "price_impact_raw": "20213990666809",
+        "sy_minted_raw": "1966714036031717668371"
+      },
+      "holding_days": "126",
+      "cash_hurdle_pnl_usdc": "27.26255035020170030166840600"
+    },
+    {
+      "target": "2026-09-24T00:00:00+00:00",
+      "canonical": {
+        "number": 46717417,
+        "timestamp": 1790208000,
+        "hash": "0x43c8908f74b73be6fc21367821018a311583d29b517d54fdf8e95dc99a64b4e9"
+      },
+      "successor": {
+        "number": 46717418,
+        "timestamp": 1790208001,
+        "hash": "0x9add7e4e6cdeb7b2949065193a18c96ba2178e39af367ceff7956fc44153e410"
+      },
+      "market_balances": {
+        "pt_raw": "673473644738",
+        "sy_raw": "763698830372805463016062",
+        "lp_raw": "630849420461166955",
+        "ln_fee_rate_root": "1971227815354214",
+        "reserve_fee_percent": 80
+      },
+      "pt_total_supply_raw": "1255008988833",
+      "sy_decimals": 18,
+      "lp_decimals": 18,
+      "exchange_rate_raw": "1030745",
+      "watermark_raw": "1030745",
+      "current_redemption_index_raw": "1030745",
+      "instant_redeem_fee_bps": 30,
+      "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "spendable_usdc_micro": "469995243991",
+      "remaining_share_capacity_wei": "10880477321871718788568962",
+      "quotes": {
+        "base": {
+          "initial_quote_input_micro_usdc": "1999000000",
+          "pt_output_micro": "2031181882",
+          "sy_minted_raw": "1939373436924778301840",
+          "swap_fee_sy_raw": "659703418401253462",
+          "price_impact_raw": "30978190761950",
+          "mint_capacity": true,
+          "conditional_sy_units": "1970595910724767037434",
+          "limUSD_share_wei": "1970595910724767037434",
+          "gross_usdc_micro": "2031182417",
+          "direct_liminal_cash_usdc_micro": "2025088870",
+          "direct_sy_cash_usdc_micro": "2025088870",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "25.08887",
+          "conditional_excess_over_cash_usdc": "11.50373380624983502912645600",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "4.8379813"
+        },
+        "stress": {
+          "initial_quote_input_micro_usdc": "1997000000",
+          "pt_output_micro": "2029159800",
+          "sy_minted_raw": "1937433093316049158966",
+          "swap_fee_sy_raw": "659046611916623413",
+          "price_impact_raw": "30947344483159",
+          "mint_capacity": true,
+          "conditional_sy_units": "1968634143265308102391",
+          "limUSD_share_wei": "1968634143265308102391",
+          "gross_usdc_micro": "2029160334",
+          "direct_liminal_cash_usdc_micro": "2023072853",
+          "direct_sy_cash_usdc_micro": "2023072853",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "21.049780147",
+          "conditional_excess_over_cash_usdc": "7.46464395324983502912645600",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "0.83928234553"
+        }
+      },
+      "base_single_token_lp": {
+        "lp_raw": "869708216821420",
+        "pt_from_swap_raw": "927269265",
+        "swap_fee_sy_raw": "301160810869807760",
+        "price_impact_raw": "14140370260992",
+        "sy_minted_raw": "1939373436924778301840"
+      },
+      "holding_days": "63",
+      "cash_hurdle_pnl_usdc": "13.58513619375016497087354400"
+    },
+    {
+      "target": "2026-10-29T00:00:00+00:00",
+      "canonical": {
+        "number": 49791528,
+        "timestamp": 1793232000,
+        "hash": "0x4c3b8e8da182fb443ff961f1d97fb68ef9d9a0e2f88eb1c2060895fec005b1a7"
+      },
+      "successor": {
+        "number": 49791529,
+        "timestamp": 1793232001,
+        "hash": "0x2f28cdb4ff146ffc6a6199f632555642a63f21979a527e95fb375968cd67a820"
+      },
+      "market_balances": {
+        "pt_raw": "483459488643",
+        "sy_raw": "772222477162162655000430",
+        "lp_raw": "553196000911213758",
+        "ln_fee_rate_root": "1793657624489143",
+        "reserve_fee_percent": 80
+      },
+      "pt_total_supply_raw": "1229125685956",
+      "sy_decimals": 18,
+      "lp_decimals": 18,
+      "exchange_rate_raw": "1038830",
+      "watermark_raw": "1038827",
+      "current_redemption_index_raw": "1038830",
+      "instant_redeem_fee_bps": 30,
+      "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "spendable_usdc_micro": "450657727873",
+      "remaining_share_capacity_wei": "11323752453706478347137260",
+      "quotes": {
+        "base": {
+          "initial_quote_input_micro_usdc": "1999000000",
+          "pt_output_micro": "2011480613",
+          "sy_minted_raw": "1924278423771591862016",
+          "swap_fee_sy_raw": "264738215107380418",
+          "price_impact_raw": "16579047376455",
+          "mint_capacity": true,
+          "conditional_sy_units": "1936294305131734740044",
+          "limUSD_share_wei": "1936294305131734740044",
+          "gross_usdc_micro": "2011482469",
+          "direct_liminal_cash_usdc_micro": "2005448022",
+          "direct_sy_cash_usdc_micro": "2005448022",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "5.448022",
+          "conditional_excess_over_cash_usdc": "-0.578463918616605724874142000",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "-14.60645822"
+        },
+        "stress": {
+          "initial_quote_input_micro_usdc": "1997000000",
+          "pt_output_micro": "2009458822",
+          "sy_minted_raw": "1922353182727298123284",
+          "swap_fee_sy_raw": "264472531598047803",
+          "price_impact_raw": "16562369453337",
+          "mint_capacity": true,
+          "conditional_sy_units": "1934348085827324971362",
+          "limUSD_share_wei": "1934348085827324971362",
+          "gross_usdc_micro": "2009460676",
+          "direct_liminal_cash_usdc_micro": "2003432294",
+          "direct_sy_cash_usdc_micro": "2003432294",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "1.428861706",
+          "conditional_excess_over_cash_usdc": "-4.597624212616605724874142000",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "-18.58542691106"
+        }
+      },
+      "base_single_token_lp": {
+        "lp_raw": "862157775362737",
+        "pt_from_swap_raw": "752308711",
+        "swap_fee_sy_raw": "99012350432698324",
+        "price_impact_raw": "6197457798171",
+        "sy_minted_raw": "1924278423771591862016"
+      },
+      "holding_days": "28",
+      "cash_hurdle_pnl_usdc": "6.026485918616605724874142000"
+    },
+    {
+      "target": "2026-11-23T23:59:59+00:00",
+      "canonical": {
+        "number": 52075073,
+        "timestamp": 1795478399,
+        "hash": "0xaad486d3493134b550e707eba8985fc82a87f4246c348a7f10312dbc503315ee"
+      },
+      "successor": {
+        "number": 52075074,
+        "timestamp": 1795478400,
+        "hash": "0xc6675795c6960493f9af449aefd5849735da794c2e7e67072e5b70d00a459555"
+      },
+      "market_balances": {
+        "pt_raw": "361663190483",
+        "sy_raw": "166156679959313489402105",
+        "lp_raw": "229416605930867457",
+        "ln_fee_rate_root": "4219444065533768",
+        "reserve_fee_percent": 80
+      },
+      "pt_total_supply_raw": "1271024192345",
+      "sy_decimals": 18,
+      "lp_decimals": 18,
+      "exchange_rate_raw": "1046404",
+      "watermark_raw": "1046403",
+      "current_redemption_index_raw": "1046404",
+      "instant_redeem_fee_bps": 30,
+      "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "spendable_usdc_micro": "299877151436",
+      "remaining_share_capacity_wei": "9836333589071381263438029",
+      "quotes": {
+        "base": {
+          "initial_quote_input_micro_usdc": "1999000000",
+          "pt_output_micro": "2000196553",
+          "sy_minted_raw": "1910350700514632615602",
+          "swap_fee_sy_raw": "44164586526809912",
+          "price_impact_raw": "3031275240468",
+          "mint_capacity": true,
+          "conditional_sy_units": "1911495515116532429157",
+          "limUSD_share_wei": "1911495515116532429157",
+          "gross_usdc_micro": "2000197939",
+          "direct_liminal_cash_usdc_micro": "1994197346",
+          "direct_sy_cash_usdc_micro": "1994197346",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "-5.802654",
+          "conditional_excess_over_cash_usdc": "-6.232518711217041146063234000",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "-25.74462746"
+        },
+        "stress": {
+          "initial_quote_input_micro_usdc": "1997000000",
+          "pt_output_micro": "1998280350",
+          "sy_minted_raw": "1908439394160941137247",
+          "swap_fee_sy_raw": "44122537757883188",
+          "price_impact_raw": "3028379757063",
+          "mint_capacity": true,
+          "conditional_sy_units": "1909664288362812068761",
+          "limUSD_share_wei": "1909664288362812068761",
+          "gross_usdc_micro": "1998281735",
+          "direct_liminal_cash_usdc_micro": "1992286890",
+          "direct_sy_cash_usdc_micro": "1992286890",
+          "capacity_for_liminal_cash_quote": true,
+          "conditional_net_pnl_usdc": "-9.70539689",
+          "conditional_excess_over_cash_usdc": "-10.13526160121704114606323400",
+          "conditional_100bp_rate_fall_net_pnl_usdc": "-29.6083429211"
+        }
+      },
+      "base_single_token_lp": {
+        "lp_raw": "856730480351759",
+        "pt_from_swap_raw": "1345573707",
+        "swap_fee_sy_raw": "29710322208248439",
+        "price_impact_raw": "2041164272894",
+        "sy_minted_raw": "1910350700514632615602"
+      },
+      "holding_days": "2.000011574074074074074074074",
+      "cash_hurdle_pnl_usdc": "0.429864711217041146063234000"
+    }
+  ]
+}

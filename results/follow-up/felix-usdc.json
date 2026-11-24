@@ -1,0 +1,619 @@
+{
+  "vault": "0x8a862fd6c12f9ad34c9c2ff45ab2b6712e8cea27",
+  "providers": [
+    "https://hyperliquid.drpc.org",
+    "https://hyperliquid-rpc.publicnode.com"
+  ],
+  "snapshots": [
+    {
+      "date": "2026-05-17",
+      "canonical": {
+        "number": 35387475,
+        "timestamp": 1779062399,
+        "hash": "0xc8f3e734d822dd8603bbca58939291f4a92bbc5266a65ac468ee46173c44cad5"
+      },
+      "successor": {
+        "number": 35387476,
+        "timestamp": 1779062400,
+        "hash": "0x604dfba185eccbd9edc648e5c87ef1bdc92a128807e7d2c241fecc800defec2a"
+      },
+      "morpho": "0x68e37de8d93d3496ae143f2e900490f6280c57cd",
+      "share_decimals": 18,
+      "total_shares": "15137198394671238691802739",
+      "accounting_assets_micro": "15768503073297",
+      "performance_fee_wad": "100000000000000000",
+      "recorded_lost_assets_micro": "1",
+      "native_usdc_active": true,
+      "core_cash_balance_micro": "5582514182624",
+      "deposit_capacity_micro": "24519928653854221733733552434404946937899904186434561514",
+      "quoted_shares": {
+        "zero_cost": "1919928410783303691950",
+        "base": "1918968446577912040104",
+        "stress": "1916089993908045172044",
+        "extra_100bp_loss": "1916089993908045172044"
+      },
+      "supply_queue": [
+        "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+        "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+        "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+        "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+        "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951"
+      ],
+      "withdrawal_markets": [
+        {
+          "market": "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "3654259673064",
+          "supply_shares": "3547678400693152382",
+          "borrow_assets_micro": "2849255839394",
+          "vault_market_shares": "16971",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951",
+          "collateral_token": "0x0000000000000000000000000000000000000000",
+          "supply_assets_micro": "231146533",
+          "supply_shares": "231146533000000",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "19262124075259",
+          "supply_shares": "18366881959008498745",
+          "borrow_assets_micro": "16427992723868",
+          "vault_market_shares": "14312345075693967472",
+          "withdrawable_lower_bound_micro": "2834131351391"
+        },
+        {
+          "market": "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+          "collateral_token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+          "supply_assets_micro": "814202457529",
+          "supply_shares": "782199359752369170",
+          "borrow_assets_micro": "706349985002",
+          "vault_market_shares": "91009779212474284",
+          "withdrawable_lower_bound_micro": "94733375794"
+        },
+        {
+          "market": "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "2167539794804",
+          "supply_shares": "2068160219879129300",
+          "borrow_assets_micro": "1618439899293",
+          "vault_market_shares": "625149487706041156",
+          "withdrawable_lower_bound_micro": "549099895511"
+        },
+        {
+          "market": "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+          "collateral_token": "0xea84ca9849d9e76a78b91f221f84e9ca065fc9f5",
+          "supply_assets_micro": "8601755487",
+          "supply_shares": "4273398110925973",
+          "borrow_assets_micro": "8601755487",
+          "vault_market_shares": "4273397110925973",
+          "withdrawable_lower_bound_micro": "0"
+        }
+      ],
+      "withdrawable_lower_bound_micro": "3477964622696"
+    },
+    {
+      "date": "2026-07-19",
+      "canonical": {
+        "number": 40920592,
+        "timestamp": 1784505599,
+        "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e"
+      },
+      "successor": {
+        "number": 40920593,
+        "timestamp": 1784505600,
+        "hash": "0x49f3d6a8bd9924cba6906502987ab46d54ecc45e3eb44b5c574f55a8e8348795"
+      },
+      "morpho": "0x68e37de8d93d3496ae143f2e900490f6280c57cd",
+      "share_decimals": 18,
+      "total_shares": "10997007346307391528920912",
+      "accounting_assets_micro": "11571096843044",
+      "performance_fee_wad": "100000000000000000",
+      "recorded_lost_assets_micro": "1",
+      "native_usdc_active": true,
+      "core_cash_balance_micro": "8830444745762",
+      "deposit_capacity_micro": "24519928653854221733733552434404946937899908383840791767",
+      "quoted_shares": {
+        "zero_cost": "1900772579402627143182",
+        "base": "1899822193112925829610",
+        "stress": "1896972459823256440866",
+        "extra_100bp_loss": "1896972459823256440866"
+      },
+      "supply_queue": [
+        "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+        "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+        "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+        "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+        "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951"
+      ],
+      "withdrawal_markets": [
+        {
+          "market": "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "4696795533156",
+          "supply_shares": "4502672312103656316",
+          "borrow_assets_micro": "4244010086718",
+          "vault_market_shares": "16971",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951",
+          "collateral_token": "0x0000000000000000000000000000000000000000",
+          "supply_assets_micro": "212364419",
+          "supply_shares": "212364419000000",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "16276952252409",
+          "supply_shares": "15348498412941705476",
+          "borrow_assets_micro": "13835825061395",
+          "vault_market_shares": "10550877920271065742",
+          "withdrawable_lower_bound_micro": "2441127191014"
+        },
+        {
+          "market": "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+          "collateral_token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+          "supply_assets_micro": "907538007427",
+          "supply_shares": "861883596552228935",
+          "borrow_assets_micro": "587986304980",
+          "vault_market_shares": "349787011892429971",
+          "withdrawable_lower_bound_micro": "319551702447"
+        },
+        {
+          "market": "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "2446816275379",
+          "supply_shares": "2306375112974449228",
+          "borrow_assets_micro": "1885429693343",
+          "vault_market_shares": "4717944181373494",
+          "withdrawable_lower_bound_micro": "5005232038"
+        },
+        {
+          "market": "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+          "collateral_token": "0xea84ca9849d9e76a78b91f221f84e9ca065fc9f5",
+          "supply_assets_micro": "8613016928",
+          "supply_shares": "4273398110925973",
+          "borrow_assets_micro": "5468681669",
+          "vault_market_shares": "4273397110925973",
+          "withdrawable_lower_bound_micro": "3144335259"
+        }
+      ],
+      "withdrawable_lower_bound_micro": "2768828460758",
+      "redemption_quote_micro": {
+        "zero_cost": "2020155837",
+        "base": "2019145759",
+        "stress": "2016117040",
+        "extra_100bp_loss": "2016117040"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "canonical": {
+        "number": 46453895,
+        "timestamp": 1789948799,
+        "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648"
+      },
+      "successor": {
+        "number": 46453896,
+        "timestamp": 1789948800,
+        "hash": "0x4a5af5754ba3a0fbce467f9de07996f423e5a868bf513f2c0946f21ce0153daa"
+      },
+      "morpho": "0x68e37de8d93d3496ae143f2e900490f6280c57cd",
+      "share_decimals": 18,
+      "total_shares": "5496828952371211167696603",
+      "accounting_assets_micro": "5845551710382",
+      "performance_fee_wad": "100000000000000000",
+      "recorded_lost_assets_micro": "1",
+      "native_usdc_active": true,
+      "core_cash_balance_micro": "14751258517070",
+      "deposit_capacity_micro": "24519928653854221733733552434404946937899864134373181484",
+      "quoted_shares": {
+        "zero_cost": "1880688718382481815411",
+        "base": "1879748374023290574504",
+        "stress": "1876928751462255638642",
+        "extra_100bp_loss": "1876928751462255638642"
+      },
+      "supply_queue": [
+        "0xd7d38220652d19c87099c3b23de9a70a1893620a050c635d1a94bd947c9c59a8",
+        "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+        "0xcac72237bf1391fd999e993cb8824dc38d4ef941856fc9c2680b96b8961b133b",
+        "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+        "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+        "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951"
+      ],
+      "withdrawal_markets": [
+        {
+          "market": "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "6303181772483",
+          "supply_shares": "5971404899086835354",
+          "borrow_assets_micro": "4618834481769",
+          "vault_market_shares": "887836104567159438",
+          "withdrawable_lower_bound_micro": "937165113709"
+        },
+        {
+          "market": "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951",
+          "collateral_token": "0x0000000000000000000000000000000000000000",
+          "supply_assets_micro": "70723436948",
+          "supply_shares": "70723436948000000",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "9960448665843",
+          "supply_shares": "9280771034295774574",
+          "borrow_assets_micro": "7334417417715",
+          "vault_market_shares": "3742304158506142861",
+          "withdrawable_lower_bound_micro": "2626031248128"
+        },
+        {
+          "market": "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+          "collateral_token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+          "supply_assets_micro": "758613237402",
+          "supply_shares": "711332628158977114",
+          "borrow_assets_micro": "557569790601",
+          "vault_market_shares": "105250454952618336",
+          "withdrawable_lower_bound_micro": "112246205514"
+        },
+        {
+          "market": "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "1477294468483",
+          "supply_shares": "1375812755551823559",
+          "borrow_assets_micro": "1058225022146",
+          "vault_market_shares": "4656845481238913",
+          "withdrawable_lower_bound_micro": "5000340374"
+        },
+        {
+          "market": "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+          "collateral_token": "0xea84ca9849d9e76a78b91f221f84e9ca065fc9f5",
+          "supply_assets_micro": "8613016928",
+          "supply_shares": "4273398110925973",
+          "borrow_assets_micro": "5468681669",
+          "vault_market_shares": "4273397110925973",
+          "withdrawable_lower_bound_micro": "3144335259"
+        },
+        {
+          "market": "0xd7d38220652d19c87099c3b23de9a70a1893620a050c635d1a94bd947c9c59a8",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "36302205631487",
+          "supply_shares": "34501847694921713357",
+          "borrow_assets_micro": "26583612382504",
+          "vault_market_shares": "542981318606957947",
+          "withdrawable_lower_bound_micro": "571314894681"
+        },
+        {
+          "market": "0xcac72237bf1391fd999e993cb8824dc38d4ef941856fc9c2680b96b8961b133b",
+          "collateral_token": "0x94e8396e0869c9f2200760af0621afd240e1cf38",
+          "supply_assets_micro": "242133627746",
+          "supply_shares": "230521210794860754",
+          "borrow_assets_micro": "221151481135",
+          "vault_market_shares": "185492923881736174",
+          "withdrawable_lower_bound_micro": "20982146611"
+        },
+        {
+          "market": "0xbdceb93661a9efbd67f97ff2842d159a493f792e71f762c8ba426b586dc1c565",
+          "collateral_token": "0x50fc4edc6346f36993bb30fe60e932504ed17391",
+          "supply_assets_micro": "59776348357",
+          "supply_shares": "59251087705910620",
+          "borrow_assets_micro": "55453220927",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        }
+      ],
+      "withdrawable_lower_bound_micro": "4275884284276",
+      "redemption_quote_micro": {
+        "zero_cost": "2021357985",
+        "base": "2020347306",
+        "stress": "2017316785",
+        "extra_100bp_loss": "2017316785"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "canonical": {
+        "number": 51987233,
+        "timestamp": 1795391999,
+        "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03"
+      },
+      "successor": {
+        "number": 51987234,
+        "timestamp": 1795392000,
+        "hash": "0x5a2c54f61a5d8a21561a1f0bfe3556a4f0f94ca58b83d25a6aa554ce62264290"
+      },
+      "morpho": "0x68e37de8d93d3496ae143f2e900490f6280c57cd",
+      "share_decimals": 18,
+      "total_shares": "2479589894650247947413383",
+      "accounting_assets_micro": "2658144837446",
+      "performance_fee_wad": "100000000000000000",
+      "recorded_lost_assets_micro": "1",
+      "native_usdc_active": true,
+      "core_cash_balance_micro": "5331985571358",
+      "deposit_capacity_micro": "24519928653854221733733552434404946937899863857396074004",
+      "quoted_shares": {
+        "zero_cost": "1865655649662386524962",
+        "base": "1864722821837555331700",
+        "stress": "1861925737604798998702",
+        "extra_100bp_loss": "1861925737604798998702"
+      },
+      "supply_queue": [
+        "0xd7d38220652d19c87099c3b23de9a70a1893620a050c635d1a94bd947c9c59a8",
+        "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+        "0xcac72237bf1391fd999e993cb8824dc38d4ef941856fc9c2680b96b8961b133b",
+        "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+        "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+        "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951"
+      ],
+      "withdrawal_markets": [
+        {
+          "market": "0x96c47d3797394dd25e33f814216793a89d2e6edcc54d1dac3ab4c2b2d82a73b9",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "10291151654242",
+          "supply_shares": "9662951164140228076",
+          "borrow_assets_micro": "8537668905530",
+          "vault_market_shares": "1168863054422181341",
+          "withdrawable_lower_bound_micro": "1244852297374"
+        },
+        {
+          "market": "0x725d0f4c005c0a521ea5005bb4730845ff0d4cc76b40a618103b103cddd1f951",
+          "collateral_token": "0x0000000000000000000000000000000000000000",
+          "supply_assets_micro": "4299822",
+          "supply_shares": "4299822000000",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xe7aa046832007a975d4619260d221229e99cc27da2e6ef162881202b4cd2349b",
+          "collateral_token": "0xfd739d4e423301ce9385c1fb8850539d657c296d",
+          "supply_assets_micro": "6295620297063",
+          "supply_shares": "5813600923511681122",
+          "borrow_assets_micro": "5263622396245",
+          "vault_market_shares": "501515073634518631",
+          "withdrawable_lower_bound_micro": "543096872041"
+        },
+        {
+          "market": "0x45af9c72aa97978e143a646498c8922058b7c6f18b6f7b05d7316c8cf7ab942f",
+          "collateral_token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+          "supply_assets_micro": "755402652711",
+          "supply_shares": "702272750734907406",
+          "borrow_assets_micro": "492308583550",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xd13b1bad542045a8dc729fa0ffcc4f538b9771592c2666e1f09667dcf85804fc",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "695509342437",
+          "supply_shares": "642418027497310590",
+          "borrow_assets_micro": "455179638349",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xcd9898604b9b658fc3295f86d4cd7f02fa3a6b0a573879f1db9b83369f4951fb",
+          "collateral_token": "0xea84ca9849d9e76a78b91f221f84e9ca065fc9f5",
+          "supply_assets_micro": "8615233670",
+          "supply_shares": "4273398110925973",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "4273397110925973",
+          "withdrawable_lower_bound_micro": "8615231652"
+        },
+        {
+          "market": "0xd7d38220652d19c87099c3b23de9a70a1893620a050c635d1a94bd947c9c59a8",
+          "collateral_token": "0x5555555555555555555555555555555555555555",
+          "supply_assets_micro": "9675582525899",
+          "supply_shares": "9114390253478395754",
+          "borrow_assets_micro": "8026456024623",
+          "vault_market_shares": "803232398913149638",
+          "withdrawable_lower_bound_micro": "852689115456"
+        },
+        {
+          "market": "0xcac72237bf1391fd999e993cb8824dc38d4ef941856fc9c2680b96b8961b133b",
+          "collateral_token": "0x94e8396e0869c9f2200760af0621afd240e1cf38",
+          "supply_assets_micro": "202437308601",
+          "supply_shares": "190791798349745794",
+          "borrow_assets_micro": "167819813462",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        },
+        {
+          "market": "0xbdceb93661a9efbd67f97ff2842d159a493f792e71f762c8ba426b586dc1c565",
+          "collateral_token": "0x50fc4edc6346f36993bb30fe60e932504ed17391",
+          "supply_assets_micro": "15038879678",
+          "supply_shares": "14788253264678976",
+          "borrow_assets_micro": "12019105050",
+          "vault_market_shares": "8740055541595762",
+          "withdrawable_lower_bound_micro": "3019774628"
+        },
+        {
+          "market": "0xf5d30dcdafb1c03369a7a269edf1285f4456bce0a9cb18f39e9aca95f573ec68",
+          "collateral_token": "0x94e8396e0869c9f2200760af0621afd240e1cf38",
+          "supply_assets_micro": "8376011",
+          "supply_shares": "8376011000000",
+          "borrow_assets_micro": "0",
+          "vault_market_shares": "0",
+          "withdrawable_lower_bound_micro": "0"
+        }
+      ],
+      "withdrawable_lower_bound_micro": "2652273291151",
+      "redemption_quote_micro": {
+        "zero_cost": "2016115587",
+        "base": "2015107530",
+        "stress": "2012084868",
+        "extra_100bp_loss": "2012084868"
+      }
+    }
+  ],
+  "windows": [
+    {
+      "entry": "2026-05-17",
+      "exit": "2026-07-19",
+      "days": 63,
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "cases": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "share_units": "1919928410783303691950",
+          "quoted_exit_micro_usdc": "2020155837",
+          "marked_exit_micro_usdc": "2020155837",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "20.155837",
+          "excess_usdc": "6.57070080624983502912645600",
+          "passes": true
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "share_units": "1918968446577912040104",
+          "quoted_exit_micro_usdc": "2019145759",
+          "marked_exit_micro_usdc": "2019145759",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "19.145759",
+          "excess_usdc": "5.56062280624983502912645600",
+          "passes": true
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1916089993908045172044",
+          "quoted_exit_micro_usdc": "2016117040",
+          "marked_exit_micro_usdc": "2014100922",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "14.100922",
+          "excess_usdc": "0.51578580624983502912645600",
+          "passes": true
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1916089993908045172044",
+          "quoted_exit_micro_usdc": "2016117040",
+          "marked_exit_micro_usdc": "1993939752",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "-6.060248",
+          "excess_usdc": "-19.64538419375016497087354400",
+          "passes": false
+        }
+      }
+    },
+    {
+      "entry": "2026-07-19",
+      "exit": "2026-09-20",
+      "days": 63,
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "cases": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "share_units": "1900772579402627143182",
+          "quoted_exit_micro_usdc": "2021357985",
+          "marked_exit_micro_usdc": "2021357985",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "21.357985",
+          "excess_usdc": "7.77284880624983502912645600",
+          "passes": true
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "share_units": "1899822193112925829610",
+          "quoted_exit_micro_usdc": "2020347306",
+          "marked_exit_micro_usdc": "2020347306",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "20.347306",
+          "excess_usdc": "6.76216980624983502912645600",
+          "passes": true
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1896972459823256440866",
+          "quoted_exit_micro_usdc": "2017316785",
+          "marked_exit_micro_usdc": "2015299468",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "15.299468",
+          "excess_usdc": "1.71433180624983502912645600",
+          "passes": true
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1896972459823256440866",
+          "quoted_exit_micro_usdc": "2017316785",
+          "marked_exit_micro_usdc": "1995126300",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "-4.8737",
+          "excess_usdc": "-18.45883619375016497087354400",
+          "passes": false
+        }
+      }
+    },
+    {
+      "entry": "2026-09-20",
+      "exit": "2026-11-22",
+      "days": 63,
+      "cash_pnl_usdc": "13.58513619375016497087354400",
+      "cases": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "share_units": "1880688718382481815411",
+          "quoted_exit_micro_usdc": "2016115587",
+          "marked_exit_micro_usdc": "2016115587",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "16.115587",
+          "excess_usdc": "2.53045080624983502912645600",
+          "passes": true
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "share_units": "1879748374023290574504",
+          "quoted_exit_micro_usdc": "2015107530",
+          "marked_exit_micro_usdc": "2015107530",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "15.10753",
+          "excess_usdc": "1.52239380624983502912645600",
+          "passes": true
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1876928751462255638642",
+          "quoted_exit_micro_usdc": "2012084868",
+          "marked_exit_micro_usdc": "2010072783",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "10.072783",
+          "excess_usdc": "-3.51235319375016497087354400",
+          "passes": false
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "share_units": "1876928751462255638642",
+          "quoted_exit_micro_usdc": "2012084868",
+          "marked_exit_micro_usdc": "1989951934",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "net_pnl_usdc": "-10.048066",
+          "excess_usdc": "-23.63320219375016497087354400",
+          "passes": false
+        }
+      }
+    }
+  ],
+  "qualifies": false
+}

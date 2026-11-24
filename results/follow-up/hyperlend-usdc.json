@@ -1,0 +1,289 @@
+{
+  "vault": "0x00a89d7a5a02160f20150ebea7a2b5e4879a1a8b",
+  "hUSDC": "0x744e4f26ee30213989216e1632d9be3547c4885b",
+  "usdc": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+  "providers": [
+    "https://hyperliquid.drpc.org",
+    "https://hyperliquid-rpc.publicnode.com"
+  ],
+  "snapshots": [
+    {
+      "date": "2026-05-17",
+      "block": {
+        "number": 35387475,
+        "timestamp": 1779062399,
+        "hash": "0xc8f3e734d822dd8603bbca58939291f4a92bbc5266a65ac468ee46173c44cad5"
+      },
+      "next_block": {
+        "number": 35387476,
+        "timestamp": 1779062400,
+        "hash": "0x604dfba185eccbd9edc648e5c87ef1bdc92a128807e7d2c241fecc800defec2a"
+      },
+      "flags": {
+        "active": true,
+        "frozen": false,
+        "paused": false,
+        "native_usdc_transfer_enabled": true
+      },
+      "index_ray": "1038542777249667509410870688",
+      "native_usdc_balance_micro": "13483983857178",
+      "virtual_balance_micro": "13483983857178",
+      "deficit_micro": "0",
+      "supply_cap_usdc": "83915460",
+      "hUSDC_supply_micro": "76803390914770",
+      "hUSDC_scaled_supply_micro": "73953035539052",
+      "accrued_treasury_scaled_micro": "0",
+      "quoted_supply_apr_ray": "51044948699052820738790102",
+      "variable_debt_micro": "63319410995216",
+      "reserve_config_word": "7237005577332262213973186568751991983076883092589653041565212925703347247160"
+    },
+    {
+      "date": "2026-07-19",
+      "block": {
+        "number": 40920592,
+        "timestamp": 1784505599,
+        "hash": "0x186354b359002b521e0f4b7e82a82f6b33a49a4fd01f491a4d078d717195b78e"
+      },
+      "next_block": {
+        "number": 40920593,
+        "timestamp": 1784505600,
+        "hash": "0x49f3d6a8bd9924cba6906502987ab46d54ecc45e3eb44b5c574f55a8e8348795"
+      },
+      "flags": {
+        "active": true,
+        "frozen": false,
+        "paused": false,
+        "native_usdc_transfer_enabled": true
+      },
+      "index_ray": "1049561236227916811449016223",
+      "native_usdc_balance_micro": "8682018930492",
+      "virtual_balance_micro": "8682018930492",
+      "deficit_micro": "3314",
+      "supply_cap_usdc": "100980180",
+      "hUSDC_supply_micro": "97318418300943",
+      "hUSDC_scaled_supply_micro": "92722954070505",
+      "accrued_treasury_scaled_micro": "0",
+      "quoted_supply_apr_ray": "110370715622101008165968059",
+      "variable_debt_micro": "88636417845742",
+      "reserve_config_word": "7237005577332262213973186568751993400758355886954925703756109360418517162040"
+    },
+    {
+      "date": "2026-09-20",
+      "block": {
+        "number": 46453895,
+        "timestamp": 1789948799,
+        "hash": "0x7998c75214f4c33c77d2fc3d751006517d89f629465626f0b7cbab782e173648"
+      },
+      "next_block": {
+        "number": 46453896,
+        "timestamp": 1789948800,
+        "hash": "0x4a5af5754ba3a0fbce467f9de07996f423e5a868bf513f2c0946f21ce0153daa"
+      },
+      "flags": {
+        "active": true,
+        "frozen": false,
+        "paused": false,
+        "native_usdc_transfer_enabled": true
+      },
+      "index_ray": "1061042707605179035812490528",
+      "native_usdc_balance_micro": "24197746826317",
+      "virtual_balance_micro": "24197746826317",
+      "deficit_micro": "3314",
+      "supply_cap_usdc": "112311972",
+      "hUSDC_supply_micro": "101107966974467",
+      "hUSDC_scaled_supply_micro": "95291137905912",
+      "accrued_treasury_scaled_micro": "3006751",
+      "quoted_supply_apr_ray": "32331217300344921638021736",
+      "variable_debt_micro": "76910226033123",
+      "reserve_config_word": "7237005577332262213973186568751994342166803928865123273861928655309557209144"
+    },
+    {
+      "date": "2026-11-22",
+      "block": {
+        "number": 51987233,
+        "timestamp": 1795391999,
+        "hash": "0x4526ebb44f14281e46bbc20f43e5c6b6a931757de30ece7931abd5b604854d03"
+      },
+      "next_block": {
+        "number": 51987234,
+        "timestamp": 1795392000,
+        "hash": "0x5a2c54f61a5d8a21561a1f0bfe3556a4f0f94ca58b83d25a6aa554ce62264290"
+      },
+      "flags": {
+        "active": true,
+        "frozen": false,
+        "paused": false,
+        "native_usdc_transfer_enabled": true
+      },
+      "index_ray": "1070658213834382773177120400",
+      "native_usdc_balance_micro": "3968308038568",
+      "virtual_balance_micro": "3968308038568",
+      "deficit_micro": "3314",
+      "supply_cap_usdc": "54276616",
+      "hUSDC_supply_micro": "46636466233850",
+      "hUSDC_scaled_supply_micro": "43558687199372",
+      "accrued_treasury_scaled_micro": "10750870",
+      "quoted_supply_apr_ray": "64078098760489296753143263",
+      "variable_debt_micro": "42668172488296",
+      "reserve_config_word": "7237005577332262213973186568751989520778057603422902961685921702344099371064"
+    }
+  ],
+  "windows": [
+    {
+      "entry": "2026-05-17",
+      "exit": "2026-07-19",
+      "days": 63,
+      "cash_hurdle_pnl_usdc": "13.585136193750164970873544",
+      "scenarios": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "scaled_hUSDC_micro": "1925775272",
+          "gross_exit_micro_usdc": "2021219075",
+          "marked_exit_micro_usdc": "2021219075",
+          "net_pnl_micro_usdc": "21219075",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "8682018930492",
+          "excess_over_cash_usdc": "7.633938806249835029126456"
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "scaled_hUSDC_micro": "1924812384",
+          "gross_exit_micro_usdc": "2020208465",
+          "marked_exit_micro_usdc": "2020208465",
+          "net_pnl_micro_usdc": "20208465",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "8682018930492",
+          "excess_over_cash_usdc": "6.623328806249835029126456"
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1921925166",
+          "gross_exit_micro_usdc": "2017178153",
+          "marked_exit_micro_usdc": "2015160974",
+          "net_pnl_micro_usdc": "15160974",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "8682018930492",
+          "excess_over_cash_usdc": "1.575837806249835029126456"
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1921925166",
+          "gross_exit_micro_usdc": "2017178153",
+          "marked_exit_micro_usdc": "1994989193",
+          "net_pnl_micro_usdc": "-5010807",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "8682018930492",
+          "excess_over_cash_usdc": "-18.595943193750164970873544"
+        }
+      }
+    },
+    {
+      "entry": "2026-07-19",
+      "exit": "2026-09-20",
+      "days": 63,
+      "cash_hurdle_pnl_usdc": "13.585136193750164970873544",
+      "scenarios": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "scaled_hUSDC_micro": "1905558180",
+          "gross_exit_micro_usdc": "2021878610",
+          "marked_exit_micro_usdc": "2021878610",
+          "net_pnl_micro_usdc": "21878610",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "24197746826317",
+          "excess_over_cash_usdc": "8.293473806249835029126456"
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "scaled_hUSDC_micro": "1904605401",
+          "gross_exit_micro_usdc": "2020867671",
+          "marked_exit_micro_usdc": "2020867671",
+          "net_pnl_micro_usdc": "20867671",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "24197746826317",
+          "excess_over_cash_usdc": "7.282534806249835029126456"
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1901748493",
+          "gross_exit_micro_usdc": "2017836370",
+          "marked_exit_micro_usdc": "2015818533",
+          "net_pnl_micro_usdc": "15818533",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "24197746826317",
+          "excess_over_cash_usdc": "2.233396806249835029126456"
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1901748493",
+          "gross_exit_micro_usdc": "2017836370",
+          "marked_exit_micro_usdc": "1995640169",
+          "net_pnl_micro_usdc": "-4359831",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "24197746826317",
+          "excess_over_cash_usdc": "-17.944967193750164970873544"
+        }
+      }
+    },
+    {
+      "entry": "2026-09-20",
+      "exit": "2026-11-22",
+      "days": 63,
+      "cash_hurdle_pnl_usdc": "13.585136193750164970873544",
+      "scenarios": {
+        "zero_cost": {
+          "deposit_micro_usdc": "2000000000",
+          "scaled_hUSDC_micro": "1884938264",
+          "gross_exit_micro_usdc": "2018124634",
+          "marked_exit_micro_usdc": "2018124634",
+          "net_pnl_micro_usdc": "18124634",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "3968308038568",
+          "excess_over_cash_usdc": "4.539497806249835029126456"
+        },
+        "base": {
+          "deposit_micro_usdc": "1999000000",
+          "scaled_hUSDC_micro": "1883995795",
+          "gross_exit_micro_usdc": "2017115572",
+          "marked_exit_micro_usdc": "2017115572",
+          "net_pnl_micro_usdc": "17115572",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "3968308038568",
+          "excess_over_cash_usdc": "3.530435806249835029126456"
+        },
+        "stress": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1881169801",
+          "gross_exit_micro_usdc": "2014089899",
+          "marked_exit_micro_usdc": "2012075809",
+          "net_pnl_micro_usdc": "12075809",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "3968308038568",
+          "excess_over_cash_usdc": "-1.509327193750164970873544"
+        },
+        "extra_100bp_loss": {
+          "deposit_micro_usdc": "1996001500",
+          "scaled_hUSDC_micro": "1881169801",
+          "gross_exit_micro_usdc": "2014089899",
+          "marked_exit_micro_usdc": "1991934910",
+          "net_pnl_micro_usdc": "-8065090",
+          "entry_capacity": true,
+          "exit_capacity": true,
+          "exit_cash_capacity_micro_usdc": "3968308038568",
+          "excess_over_cash_usdc": "-21.650226193750164970873544"
+        }
+      }
+    }
+  ]
+}
