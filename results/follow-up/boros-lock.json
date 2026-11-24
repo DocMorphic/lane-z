@@ -1,0 +1,504 @@
+{
+  "cutoff_utc": "2026-11-24T00:00:00+00:00",
+  "full_starting_capital_usdc": "2000",
+  "common_notional_usdc": "800",
+  "longest_matured_cost_pass_streak": 0,
+  "threshold_for_full_replay_met": false,
+  "windows": [
+    {
+      "entry_utc": "2026-01-02T00:00:00+00:00",
+      "maturity_utc": "2026-01-30T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 32,
+          "market": "32-HYPERLIQUID-BTC-30JAN2026",
+          "source": "https://historical-data.boros.finance/market-data/32-HYPERLIQUID-BTC-30JAN2026/2026-01.ndjson.zip",
+          "sha256": "33ac6c9a265f38db706013ffe765d92634ddf3e81d74aabba81cfba90ccf848b",
+          "status": "bid_observed",
+          "arbitrum_block": 416939528,
+          "fixed_bid_apr": "0.08664821072322798",
+          "gross_fixed_approx_usdc": "5.317588822466593841095890411",
+          "optimistic_net_usdc": "3.477588822466593841095890411",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.814465972053954104109589041"
+        },
+        {
+          "market_id": 33,
+          "market": "33-HYPERLIQUID-ETH-30JAN2026",
+          "source": "https://historical-data.boros.finance/market-data/33-HYPERLIQUID-ETH-30JAN2026/2026-01.ndjson.zip",
+          "sha256": "25aac2a6579c9f34f4690430c2951b147219fdd68ba3bca6de7d7c8fb82160c1",
+          "status": "bid_observed",
+          "arbitrum_block": 416939528,
+          "fixed_bid_apr": "0.0837182909732027",
+          "gross_fixed_approx_usdc": "5.137780048766412273972602740",
+          "optimistic_net_usdc": "3.297780048766412273972602740",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.994274745754135671232876712"
+        },
+        {
+          "market_id": 34,
+          "market": "34-HYPERLIQUID-HYPE-30JAN2026",
+          "source": "https://historical-data.boros.finance/market-data/34-HYPERLIQUID-HYPE-30JAN2026/2026-01.ndjson.zip",
+          "sha256": "e7df9613e621829e7d852cb51ff62e72298d15645e22e24caaf450c7370fbb72",
+          "status": "bid_observed",
+          "arbitrum_block": 416939528,
+          "fixed_bid_apr": "0.11337652790738319",
+          "gross_fixed_approx_usdc": "6.957901986644886180821917808",
+          "optimistic_net_usdc": "5.117901986644886180821917808",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-2.174152807875661764383561644"
+        }
+      ],
+      "selected_market": "34-HYPERLIQUID-HYPE-30JAN2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-01-30T00:00:00+00:00",
+      "maturity_utc": "2026-02-27T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 47,
+          "market": "47-HYPERLIQUID-ETH-27FEB2026",
+          "source": "https://historical-data.boros.finance/market-data/47-HYPERLIQUID-ETH-27FEB2026/2026-01.ndjson.zip",
+          "sha256": "a1b624ceccb4d2d32b28240d5132a7ed2825cb7958e88ecf2cfc7a14f84c1fce",
+          "status": "bid_observed",
+          "arbitrum_block": 426620836,
+          "fixed_bid_apr": "0.07777434979169341",
+          "gross_fixed_approx_usdc": "4.773001192695705161643835616",
+          "optimistic_net_usdc": "2.933001192695705161643835616",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-4.359053601824842783561643836"
+        },
+        {
+          "market_id": 50,
+          "market": "50-HYPERLIQUID-BTC-27FEB2026",
+          "source": "https://historical-data.boros.finance/market-data/50-HYPERLIQUID-BTC-27FEB2026/2026-01.ndjson.zip",
+          "sha256": "d2beb00c2d4bd0865512e5f005765255c6b2359f528822f3f33191af606046f9",
+          "status": "bid_observed",
+          "arbitrum_block": 426620836,
+          "fixed_bid_apr": "0.07993200148292605",
+          "gross_fixed_approx_usdc": "4.905415981417927452054794520",
+          "optimistic_net_usdc": "3.065415981417927452054794520",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-4.226638813102620493150684932"
+        }
+      ],
+      "selected_market": "50-HYPERLIQUID-BTC-27FEB2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-02-27T00:00:00+00:00",
+      "maturity_utc": "2026-03-27T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 58,
+          "market": "58-HYPERLIQUID-SOL-27MAR2026",
+          "source": "https://historical-data.boros.finance/market-data/58-HYPERLIQUID-SOL-27MAR2026/2026-02.ndjson.zip",
+          "sha256": "4908d23fa6512710a933effd5a5f27ba34b5205e7f7cebc291e83f40335ad019",
+          "status": "bid_observed",
+          "arbitrum_block": 436332188,
+          "fixed_bid_apr": "-0.03821102379097692",
+          "gross_fixed_approx_usdc": "-2.345005295665432898630136986",
+          "optimistic_net_usdc": "-4.185005295665432898630136986",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-11.47706009018598084383561644"
+        },
+        {
+          "market_id": 60,
+          "market": "60-HYPERLIQUID-BTC-27MAR2026",
+          "source": "https://historical-data.boros.finance/market-data/60-HYPERLIQUID-BTC-27MAR2026/2026-02.ndjson.zip",
+          "sha256": "be313c74cace476f641fec8c7a04aa736e59e2463eb8e67e30a13ea94cc3afe9",
+          "status": "bid_observed",
+          "arbitrum_block": 436332188,
+          "fixed_bid_apr": "0.05590544446145489",
+          "gross_fixed_approx_usdc": "3.430909468319423386301369863",
+          "optimistic_net_usdc": "1.590909468319423386301369863",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-5.701145326201124558904109589"
+        },
+        {
+          "market_id": 67,
+          "market": "67-HYPERLIQUID-HYPE-27MAR2026",
+          "source": "https://historical-data.boros.finance/market-data/67-HYPERLIQUID-HYPE-27MAR2026/2026-02.ndjson.zip",
+          "status": "archive_not_exported"
+        }
+      ],
+      "selected_market": "60-HYPERLIQUID-BTC-27MAR2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-03-27T00:00:00+00:00",
+      "maturity_utc": "2026-04-24T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 80,
+          "market": "80-HYPERLIQUID-SOL-24APR2026",
+          "source": "https://historical-data.boros.finance/market-data/80-HYPERLIQUID-SOL-24APR2026/2026-03.ndjson.zip",
+          "sha256": "7c39567180131eba40fa868a200029be68f7f56ff4f22e6303289e54ed531da3",
+          "status": "bid_observed",
+          "arbitrum_block": 446013508,
+          "fixed_bid_apr": "-0.06034946213324704",
+          "gross_fixed_approx_usdc": "-3.703638224067763550684931507",
+          "optimistic_net_usdc": "-5.543638224067763550684931507",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-12.83569301858831149589041096"
+        },
+        {
+          "market_id": 91,
+          "market": "91-HYPERLIQUID-BTC-24APR2026",
+          "source": "https://historical-data.boros.finance/market-data/91-HYPERLIQUID-BTC-24APR2026/2026-03.ndjson.zip",
+          "sha256": "77e78be1ea6cd791d7a968f4d5eeb2ee928aa7624de21757fa6c5393d3ef10a0",
+          "status": "bid_observed",
+          "arbitrum_block": 446013508,
+          "fixed_bid_apr": "0.035929527142072065",
+          "gross_fixed_approx_usdc": "2.204990158855929468493150685",
+          "optimistic_net_usdc": "0.364990158855929468493150685",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-6.927064635664618476712328767"
+        },
+        {
+          "market_id": 97,
+          "market": "97-HYPERLIQUID-HYPE-24APR2026",
+          "source": "https://historical-data.boros.finance/market-data/97-HYPERLIQUID-HYPE-24APR2026/2026-03.ndjson.zip",
+          "sha256": "584383bf90e1bff7f64a7cb46152dbd8a8bcf51db1f9783dc92b9d2ec37ba6da",
+          "status": "bid_observed",
+          "arbitrum_block": 446013508,
+          "fixed_bid_apr": "0.07982401638172783",
+          "gross_fixed_approx_usdc": "4.898788950549872306849315068",
+          "optimistic_net_usdc": "3.058788950549872306849315068",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-4.233265843970675638356164384"
+        }
+      ],
+      "selected_market": "97-HYPERLIQUID-HYPE-24APR2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-05-01T00:00:00+00:00",
+      "maturity_utc": "2026-05-29T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 109,
+          "market": "109-HYPERLIQUID-BTC-29MAY2026",
+          "source": "https://historical-data.boros.finance/market-data/109-HYPERLIQUID-BTC-29MAY2026/2026-05.ndjson.zip",
+          "sha256": "fc6b226285fb25003faa3d6f58270a0008c00691228b6dc6f033459ff22eab18",
+          "status": "bid_observed",
+          "arbitrum_block": 458085624,
+          "fixed_bid_apr": "0.011161552984419164",
+          "gross_fixed_approx_usdc": "0.6849829776739432153424657534",
+          "optimistic_net_usdc": "-1.155017022326056784657534247",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-8.447071816846604729863013699"
+        },
+        {
+          "market_id": 115,
+          "market": "115-HYPERLIQUID-HYPE-29MAY2026",
+          "source": "https://historical-data.boros.finance/market-data/115-HYPERLIQUID-HYPE-29MAY2026/2026-05.ndjson.zip",
+          "sha256": "45d63207d851386b949c0445da6f5cee603ab80028380ce822c3e6cc07c9ebc1",
+          "status": "bid_observed",
+          "arbitrum_block": 458085624,
+          "fixed_bid_apr": "0.046026683167261016",
+          "gross_fixed_approx_usdc": "2.824651240949717146301369863",
+          "optimistic_net_usdc": "0.984651240949717146301369863",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-6.307403553570830798904109589"
+        },
+        {
+          "market_id": 117,
+          "market": "117-HYPERLIQUID-SOL-29MAY2026",
+          "source": "https://historical-data.boros.finance/market-data/117-HYPERLIQUID-SOL-29MAY2026/2026-05.ndjson.zip",
+          "sha256": "88b068af40ecc25e2dd5b153f35aeea4fa8bfa8a798bc776c0488148c787471c",
+          "status": "bid_observed",
+          "arbitrum_block": 458085624,
+          "fixed_bid_apr": "0.019894823247636036",
+          "gross_fixed_approx_usdc": "1.220942577389170428493150685",
+          "optimistic_net_usdc": "-0.619057422610829571506849315",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-7.911112217131377516712328767"
+        }
+      ],
+      "selected_market": "115-HYPERLIQUID-HYPE-29MAY2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-05-29T00:00:00+00:00",
+      "maturity_utc": "2026-06-26T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 135,
+          "market": "135-HYPERLIQUID-BTC-26JUN2026",
+          "source": "https://historical-data.boros.finance/market-data/135-HYPERLIQUID-BTC-26JUN2026/2026-05.ndjson.zip",
+          "sha256": "2d67a18e9bbe872f6a3e7cdc18a540182a4e10e03ab01fe1528dc7008985b68a",
+          "status": "bid_observed",
+          "arbitrum_block": 467717658,
+          "fixed_bid_apr": "0.03510113563075791",
+          "gross_fixed_approx_usdc": "2.154151885284868997260273973",
+          "optimistic_net_usdc": "0.314151885284868997260273973",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-6.977902909235678947945205479"
+        },
+        {
+          "market_id": 138,
+          "market": "138-HYPERLIQUID-SOL-26JUN2026",
+          "source": "https://historical-data.boros.finance/market-data/138-HYPERLIQUID-SOL-26JUN2026/2026-05.ndjson.zip",
+          "sha256": "1734bfbb4333a942365b7c6a7eca4e8eb68e13f38c00f3a9366353e3fcda28c7",
+          "status": "bid_observed",
+          "arbitrum_block": 467717658,
+          "fixed_bid_apr": "0.005917290912516196",
+          "gross_fixed_approx_usdc": "0.3631433327133227134246575342",
+          "optimistic_net_usdc": "-1.476856667286677286575342466",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-8.768911461807225231780821918"
+        },
+        {
+          "market_id": 140,
+          "market": "140-HYPERLIQUID-HYPE-26JUN2026",
+          "source": "https://historical-data.boros.finance/market-data/140-HYPERLIQUID-HYPE-26JUN2026/2026-05.ndjson.zip",
+          "sha256": "2a36de8ba3ba7024b9136b886338b33604a34a6eb4178f238d449737dc7a7f64",
+          "status": "bid_observed",
+          "arbitrum_block": 467717658,
+          "fixed_bid_apr": "0.06406709437211267",
+          "gross_fixed_approx_usdc": "3.931788805302257008219178082",
+          "optimistic_net_usdc": "2.091788805302257008219178082",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-5.200265989218290936986301370"
+        }
+      ],
+      "selected_market": "140-HYPERLIQUID-HYPE-26JUN2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-07-03T00:00:00+00:00",
+      "maturity_utc": "2026-07-31T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 161,
+          "market": "161-HYPERLIQUID-BTC-31JUL2026",
+          "source": "https://historical-data.boros.finance/market-data/161-HYPERLIQUID-BTC-31JUL2026/2026-07.ndjson.zip",
+          "sha256": "607d18e342789ef859fa39b3e6b2de0c2bf6826af5d29da58349a399024c36be",
+          "status": "bid_observed",
+          "arbitrum_block": 479781685,
+          "fixed_bid_apr": "0.04686381839503354",
+          "gross_fixed_approx_usdc": "2.876026115202058345205479452",
+          "optimistic_net_usdc": "1.036026115202058345205479452",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-6.256028679318489600000000000"
+        },
+        {
+          "market_id": 164,
+          "market": "164-HYPERLIQUID-HYPE-31JUL2026",
+          "source": "https://historical-data.boros.finance/market-data/164-HYPERLIQUID-HYPE-31JUL2026/2026-07.ndjson.zip",
+          "sha256": "61e7bc66a58c2baef451771aaca3ee0fb95184c2fc54933d7365a1ab4738747b",
+          "status": "bid_observed",
+          "arbitrum_block": 479781685,
+          "fixed_bid_apr": "0.09023998319017024",
+          "gross_fixed_approx_usdc": "5.538015406739214728767123288",
+          "optimistic_net_usdc": "3.698015406739214728767123288",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.594039387781333216438356164"
+        },
+        {
+          "market_id": 166,
+          "market": "166-HYPERLIQUID-SOL-31JUL2026",
+          "source": "https://historical-data.boros.finance/market-data/166-HYPERLIQUID-SOL-31JUL2026/2026-07.ndjson.zip",
+          "sha256": "a2009681cb18bd23cdb408888aaf71ce5e3e0d0986a7e54f2ad6bf50748d2dfa",
+          "status": "bid_observed",
+          "arbitrum_block": 479781685,
+          "fixed_bid_apr": "0.04686381839503354",
+          "gross_fixed_approx_usdc": "2.876026115202058345205479452",
+          "optimistic_net_usdc": "1.036026115202058345205479452",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-6.256028679318489600000000000"
+        }
+      ],
+      "selected_market": "164-HYPERLIQUID-HYPE-31JUL2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-07-31T00:00:00+00:00",
+      "maturity_utc": "2026-08-28T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 178,
+          "market": "178-HYPERLIQUID-BTC-28AUG2026",
+          "source": "https://historical-data.boros.finance/market-data/178-HYPERLIQUID-BTC-28AUG2026/2026-07.ndjson.zip",
+          "sha256": "7c73338cdbfbe49a8dc56561a658f7c256117c5a6f2584c4c0a1fac3b4c74d1b",
+          "status": "bid_observed",
+          "arbitrum_block": 489457098,
+          "fixed_bid_apr": "0.06523818287955056",
+          "gross_fixed_approx_usdc": "4.003658346580637106849315068",
+          "optimistic_net_usdc": "2.163658346580637106849315068",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-5.128396447939910838356164384"
+        },
+        {
+          "market_id": 179,
+          "market": "179-HYPERLIQUID-HYPE-28AUG2026",
+          "source": "https://historical-data.boros.finance/market-data/179-HYPERLIQUID-HYPE-28AUG2026/2026-07.ndjson.zip",
+          "sha256": "c0923c88d4ca7215275b41aedd6f14275e36d54921408547575ea6743dde07de",
+          "status": "bid_observed",
+          "arbitrum_block": 489457098,
+          "fixed_bid_apr": "0.07896052419867212",
+          "gross_fixed_approx_usdc": "4.845796553562343802739726027",
+          "optimistic_net_usdc": "3.005796553562343802739726027",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-4.286258240958204142465753425"
+        }
+      ],
+      "selected_market": "179-HYPERLIQUID-HYPE-28AUG2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-08-28T00:00:00+00:00",
+      "maturity_utc": "2026-09-25T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 190,
+          "market": "190-HYPERLIQUID-HYPE-25SEP2026",
+          "source": "https://historical-data.boros.finance/market-data/190-HYPERLIQUID-HYPE-25SEP2026/2026-08.ndjson.zip",
+          "sha256": "29f41c9be676a6b30c5533df1423925df1f5602e9361eba8fb83abe4f4d0b235",
+          "status": "bid_observed",
+          "arbitrum_block": 499082673,
+          "fixed_bid_apr": "0.09275035821730691",
+          "gross_fixed_approx_usdc": "5.692076778267602147945205479",
+          "optimistic_net_usdc": "3.852076778267602147945205479",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.439978016252945797260273973"
+        },
+        {
+          "market_id": 194,
+          "market": "194-HYPERLIQUID-BTC-25SEP2026",
+          "source": "https://historical-data.boros.finance/market-data/194-HYPERLIQUID-BTC-25SEP2026/2026-08.ndjson.zip",
+          "sha256": "da6f6d10582ba332441ffa4a0bc0edd5eef7a9b04683617703bae087e6598b1d",
+          "status": "bid_observed",
+          "arbitrum_block": 499082673,
+          "fixed_bid_apr": "0.08577926150422924",
+          "gross_fixed_approx_usdc": "5.264261527930780756164383561",
+          "optimistic_net_usdc": "3.424261527930780756164383561",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.867793266589767189041095891"
+        }
+      ],
+      "selected_market": "190-HYPERLIQUID-HYPE-25SEP2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-10-02T00:00:00+00:00",
+      "maturity_utc": "2026-10-30T00:00:00+00:00",
+      "matured_at_cutoff": true,
+      "candidates": [
+        {
+          "market_id": 206,
+          "market": "206-HYPERLIQUID-BTC-30OCT2026",
+          "source": "https://historical-data.boros.finance/market-data/206-HYPERLIQUID-BTC-30OCT2026/2026-10.ndjson.zip",
+          "sha256": "965e1b98915f7f2d519b0c4816b0db4cbec8348ff3b629e977725ad27e07e557",
+          "status": "bid_observed",
+          "arbitrum_block": 510818493,
+          "fixed_bid_apr": "0.08090435346842496",
+          "gross_fixed_approx_usdc": "4.965089089569093435616438356",
+          "optimistic_net_usdc": "3.125089089569093435616438356",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-4.166965704951454509589041096"
+        },
+        {
+          "market_id": 216,
+          "market": "216-HYPERLIQUID-HYPE-30OCT2026",
+          "source": "https://historical-data.boros.finance/market-data/216-HYPERLIQUID-HYPE-30OCT2026/2026-10.ndjson.zip",
+          "sha256": "32a5ec63fa47e8297139d35e32e9b0d5a35c5ead21bd5d1df02a9957416d02f3",
+          "status": "bid_observed",
+          "arbitrum_block": 510818493,
+          "fixed_bid_apr": "0.08436870079111024",
+          "gross_fixed_approx_usdc": "5.177695610194162673972602740",
+          "optimistic_net_usdc": "3.337695610194162673972602740",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.954359184326385271232876712"
+        }
+      ],
+      "selected_market": "216-HYPERLIQUID-HYPE-30OCT2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    },
+    {
+      "entry_utc": "2026-10-30T00:00:00+00:00",
+      "maturity_utc": "2026-11-27T00:00:00+00:00",
+      "matured_at_cutoff": false,
+      "candidates": [
+        {
+          "market_id": 219,
+          "market": "219-HYPERLIQUID-BTC-27NOV2026",
+          "source": "https://historical-data.boros.finance/market-data/219-HYPERLIQUID-BTC-27NOV2026/2026-10.ndjson.zip",
+          "sha256": "4197920529e848fc1a150551135e43854c82eda6f2d51e915aff759df9dde258",
+          "status": "bid_observed",
+          "arbitrum_block": 519510280,
+          "fixed_bid_apr": "0.08415185415745885",
+          "gross_fixed_approx_usdc": "5.164387761991995178082191781",
+          "optimistic_net_usdc": "3.324387761991995178082191781",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.967667032528552767123287671"
+        },
+        {
+          "market_id": 230,
+          "market": "230-HYPERLIQUID-HYPE-27NOV2026",
+          "source": "https://historical-data.boros.finance/market-data/230-HYPERLIQUID-HYPE-27NOV2026/2026-10.ndjson.zip",
+          "sha256": "fe43b5dab7e5782547a3a6639536a73ad27a4760b9c58bf1a506b1dbb5b47fd2",
+          "status": "bid_observed",
+          "arbitrum_block": 519510280,
+          "fixed_bid_apr": "0.09089430709966655",
+          "gross_fixed_approx_usdc": "5.578171175431591013698630137",
+          "optimistic_net_usdc": "3.738171175431591013698630137",
+          "boros_taker_usdc": "0.03068493150684931506849315068",
+          "boros_settlement_usdc": "0.06136986301369863013698630137",
+          "cost_aware_net_usdc": "-3.553883619088956931506849315"
+        }
+      ],
+      "selected_market": "230-HYPERLIQUID-HYPE-27NOV2026",
+      "cash_pnl_usdc": "6.026485918616605724874142000",
+      "cost_screen_pass": false
+    }
+  ],
+  "markets_sha256": "eca46dfec0bc7b0bbde86a48e3e6b96276866773960024c23954e61ecc56b6ee"
+}

@@ -9,3 +9,19 @@ Fix the spot-lock screen's four native assets and USD₮0 Boros venues. Use last
 Use the Boros archive's next-hour top-of-book as the delayed execution proxy. Treat the opening settlement epoch as complete and include the events with nominal settlement hours strictly later than that hour, through maturity. The selected order must still clear the entry-time projection hurdle at the proxy. Apply the publication's signed fixed and floating cash-flow formulas. Charge the venue's listed time-scaled opening and hourly settlement fees. Base charges 1 USDC equivalent for the market entrance and 1 for gas and transfers. Stress reserves 4 total USDC equivalent, moves the execution rate 100 bp annualized against the position, haircuts final USD₮0 recovery by 25 bp, and stresses the adverse mark by 10 percentage points of annualized APR for the margin check. There are no exit fills at contractual maturity. [Archive fields](https://docs.pendle.finance/boros-dev/Backend/historical-data) · [Fees](https://docs.pendle.finance/boros-dev/Mechanics/Fees) · [Trade and floating-payment accounting](https://docs.pendle.finance/boros-dev/Mechanics/Settlement)
 
 Require complete hourly on-chain settlement events and archived market marks through the live position, including its terminal event. Prices at the sampled touches are best-case proxies for available depth. Require positive stress cash excess in at least three consecutive matured vintages before validating the full 2,000-unit amount against historical order books and recording an independent prospective rule. Funding archives overlap earlier studies. With the rules fixed before this replay, these results diagnose the rate model but remain retrospective.
+
+## Result
+
+Nine of ten forecast vintages produced no qualifying entry. The one delayed-entry signal paid floating SOL funding in the February 27 to March 27 maturity window. The past weekly medians forecast −17.93% annual floating APR. Across 671 observed settlement hours, realized floating funding averaged −7.60%. The strategy received 11.64 USDC on its floating payments, but paid 5.77 USDC for the fixed leg before base costs. It earned 3.63 USDC in base and lost 4.90 USDC in stress, against compounded cash of 6.03 USDC. Without the extra 25 bp collateral haircut, the stressed margin over initial capital was still only 0.10 USDC.
+
+Archived hourly marks showed no modeled margin breach. In stress the minimum headroom was 1,967.70 USDC. The forecast overestimated how negative funding would stay. The fixed rule failed cash in every observed vintage and was retired. No full-size execution or real orders were evaluated. [Forecast decisions, maturity cash flows, and input hashes](../results/follow-up/boros-floating.json)
+
+```sh
+python -m lane_z.boros_lock --fetch --data data/boros-yields --output data/boros-yields/lock.json
+python -m lane_z.boros_floating --data data/boros-yields --fetch \
+  --funding data/agent-spot-carry data/agent-spot-carry/older \
+  data/agent-native-trend data/agent-selective-carry/late \
+  --output data/boros-yields/floating.json
+```
+
+The funding tapes use the official Hyperliquid funding-history API and can be restored from the capture commands in the earlier [spot carry](spot-carry.md), [native trend](native-trend.md) and [selective carry](selective-carry.md) studies. The report identifies every file it used.
