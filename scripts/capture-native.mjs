@@ -3,10 +3,11 @@ import { dirname } from "node:path";
 import { pipeline } from "node:stream/promises";
 import { createGzip } from "node:zlib";
 
-const [path, argument] = process.argv.slice(2);
+const [path, argument, mode, ...extra] = process.argv.slice(2);
 const seconds = Number(argument);
-if (!path || !Number.isInteger(seconds) || seconds < 1 || seconds > 3600) {
-  throw new Error("Usage: node scripts/capture-native.mjs OUTPUT.jsonl.gz SECONDS");
+if (!path || !Number.isInteger(seconds) || seconds < 1 || seconds > 3600 ||
+    (mode !== undefined && mode !== "--bbo") || extra.length) {
+  throw new Error("Usage: node scripts/capture-native.mjs OUTPUT.jsonl.gz SECONDS [--bbo]");
 }
 
 const coins = ["BTC", "ETH", "SOL", "HYPE", "DOGE", "SUI"];
@@ -19,7 +20,8 @@ void flushed.catch(error => {
   void stop();
 });
 const socket = new WebSocket("wss://api.hyperliquid.xyz/ws");
-const counts = { l2Book: 0, trades: 0 };
+const bookChannel = mode === "--bbo" ? "bbo" : "l2Book";
+const counts = { [bookChannel]: 0, trades: 0 };
 let stopped = false;
 
 function write(channel, data, received_ms = Date.now()) {
@@ -41,7 +43,8 @@ socket.addEventListener("message", event => {
   const { channel, data } = JSON.parse(event.data);
   if (!Object.hasOwn(counts, channel)) return;
   counts[channel]++;
-  write(channel, data, received_ms);
+  const fields = channel === "trades" ? data.map(({ coin, time, tid, side, px, sz }) => ({ coin, time, tid, side, px, sz })) : data;
+  write(channel, fields, received_ms);
 });
 
 socket.addEventListener("close", () => void stop(true));
@@ -62,7 +65,7 @@ async function stop(incomplete = false) {
     output.end();
     await flushed;
   }
-  if (incomplete || !counts.l2Book || !counts.trades) process.exitCode = 1;
+  if (incomplete || !counts[bookChannel] || !counts.trades) process.exitCode = 1;
   console.log(JSON.stringify(counts));
 }
 
