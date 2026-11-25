@@ -4,12 +4,17 @@ import { performance } from "node:perf_hooks";
 import { pipeline } from "node:stream/promises";
 import { createGzip } from "node:zlib";
 
-const [directory, secondsArg, mode, ...extra] = process.argv.slice(2);
+const [directory, secondsArg, ...options] = process.argv.slice(2);
 const seconds = Number(secondsArg);
 const modes = ["--hyperliquid-trades-only", "--hyperliquid-context-only"];
+const clockOption = "--clock-offset-ms=";
+const offsets = options.filter(option => option.startsWith(clockOption));
+const [mode, ...extra] = options.filter(option => !option.startsWith(clockOption));
+const clockOffset = offsets.length ? Number(offsets[0].slice(clockOption.length) || NaN) : 0;
 if (!directory || !Number.isSafeInteger(seconds) || seconds < 1 || seconds > 86_400 ||
-    (mode !== undefined && !modes.includes(mode)) || extra.length) {
-  throw new Error("Usage: node scripts/capture.mjs OUTPUT_DIRECTORY SECONDS [--hyperliquid-trades-only|--hyperliquid-context-only]");
+    (mode !== undefined && !modes.includes(mode)) || extra.length || offsets.length > 1 ||
+    !Number.isSafeInteger(clockOffset)) {
+  throw new Error("Usage: node scripts/capture.mjs OUTPUT_DIRECTORY SECONDS [--hyperliquid-trades-only|--hyperliquid-context-only] [--clock-offset-ms=INTEGER]");
 }
 
 const tradesOnly = mode === "--hyperliquid-trades-only";
@@ -67,7 +72,7 @@ function connect(url, onOpen, onQuote) {
     });
     socket.addEventListener("message", event => {
       if (stopped) return;
-      const receivedMs = Math.floor(performance.timeOrigin + performance.now());
+      const receivedMs = Math.floor(performance.timeOrigin + performance.now()) + clockOffset;
       try {
         onQuote(JSON.parse(event.data), receivedMs);
       } catch (error) {

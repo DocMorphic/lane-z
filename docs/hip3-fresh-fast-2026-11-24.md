@@ -69,3 +69,7 @@ followup=data/equity-fast/2026-11-25-regular
 node scripts/capture.mjs "$followup" 600
 python -m lane_z.equity_fast "$followup" --day 2026-11-25 --output "$followup/replay.json"
 ```
+
+The first November 25 tape had zero usable decisions in the primary replay. More than 269,000 Binance rows in its scoring window had exchange timestamps later than their recorded receipt times. Read-only Apple and Google time probes both placed the host clock about 301 ms behind their clocks. Preserve the original tape and treat this replay as a clock diagnostic.
+
+For the new 600-second tape, take read-only time probes immediately before the capture. Require the two estimates to agree within their reported combined uncertainty. Round their mean offset to the nearest millisecond and apply that fixed value to the common monotonic receipt clock for all feeds. Check the estimates again after capture and publish both measurements with the replay. The collector's `--clock-offset-ms` option applies this adjustment to new captures, with no changes to venue timestamps or the host clock. The strategy and fee assumptions remain frozen.
