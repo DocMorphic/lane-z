@@ -40,7 +40,7 @@ The positive case uses two held-out regular sessions, roughly $100 requested per
 
 On November 24, the frozen five-second equity model and a new 30-second cross-venue rule produced 18 premarket attempts and zero fills at 500 ms. A separate ten-second native crypto rule lost in both fresh samples. A 30-second native flow reversal stayed flat in its first two best-quote samples. The three-minute HIP-3 volume breakout lost after stress in all three historical holdouts. [Fresh equity replay](docs/hip3-fresh-fast-2026-11-24.md) · [Native continuation](docs/native-flow-transition.md) · [Native reversal](docs/native-fast.md) · [Volume breakout](docs/hip3-volume-breakout.md)
 
-The November 24 regular-session equity replay earned +0.2200 USDC for the five-second model and +0.0356 USDC for the 30-second rule at 500 ms in one recovered opening segment. Both lost at 900 ms. A later regular-session tape produced zero fills at every delay. [Regular-session evidence](docs/hip3-fresh-fast-2026-11-24.md#regular-session-clock-recovery)
+The November 24 regular-session equity replay earned +0.2200 USDC for the five-second model and +0.0356 USDC for the 30-second rule at 500 ms in one recovered opening segment. Both lost at 900 ms. A later tape and a separate clock-checked November 25 tape both produced zero fills at every delay. [Regular-session evidence](docs/hip3-fresh-fast-2026-11-24.md#regular-session-clock-recovery) · [November 25 audit](results/follow-up/hip3-regular-2026-11-25.json)
 
 ## Follow-up venue tests
 
