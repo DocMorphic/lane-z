@@ -1,4 +1,4 @@
-import { createWriteStream, mkdirSync } from "node:fs";
+import { createWriteStream, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { performance } from "node:perf_hooks";
 import { pipeline } from "node:stream/promises";
@@ -35,6 +35,17 @@ let stopped = false;
 let heartbeat;
 
 mkdirSync(directory, { recursive: true });
+const clockAtStart = offsets.length ? clockSnapshot() : null;
+
+function receiptTimeMs() {
+  return Math.floor(performance.timeOrigin + performance.now()) + clockOffset;
+}
+
+function clockSnapshot() {
+  const wallBefore = Date.now();
+  const receiptClock = receiptTimeMs();
+  return { wallBefore, receiptClock, wallAfter: Date.now() };
+}
 
 function record(exchange, symbol, venueMs, receivedMs, fields) {
   const day = new Date(receivedMs).toISOString().slice(0, 10);
@@ -72,7 +83,7 @@ function connect(url, onOpen, onQuote) {
     });
     socket.addEventListener("message", event => {
       if (stopped) return;
-      const receivedMs = Math.floor(performance.timeOrigin + performance.now()) + clockOffset;
+      const receivedMs = receiptTimeMs();
       try {
         onQuote(JSON.parse(event.data), receivedMs);
       } catch (error) {
@@ -96,6 +107,10 @@ function connect(url, onOpen, onQuote) {
 async function stop(error) {
   if (stopped) return;
   stopped = true;
+  if (clockAtStart) {
+    const clock = { offsetMs: clockOffset, start: clockAtStart, end: clockSnapshot() };
+    writeFileSync(join(directory, "receipt-clock.json"), JSON.stringify(clock, null, 2) + "\n", { flag: "wx" });
+  }
   clearTimeout(timeout);
   clearInterval(heartbeat);
   for (const socket of sockets) socket.close();
