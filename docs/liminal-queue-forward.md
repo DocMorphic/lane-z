@@ -9,7 +9,7 @@ This separate paper cohort compares two exit policies using the same entry block
 
 ## Cohort and replay
 
-The live archive read verified the opening block on November 24. The simulated queue window begins January 19, 2027, and the paired deadline is January 26, 2027 at 01:12 Berlin time. [Exact paper entry](../results/forward/liminal-queue-entry-2026-11-24.json) · [Frozen specification at entry](https://github.com/dharmay-dave-lyceum/lane-z/blob/11e5867/docs/liminal-queue-forward.md)
+The live archive read verified the opening block on November 24. The simulated queue window begins January 19, 2027, and the paired deadline is January 26, 2027 at 01:12 Berlin time. [Exact paper entry](../results/forward/liminal-queue-entry-2026-11-24.json) · [Frozen specification at entry](https://github.com/DocMorphic/lane-z/blob/11e5867/docs/liminal-queue-forward.md)
 
 The 63-day cash hurdle is 2,013.5851 USDC on the original 2,000 USDC. With 1,996.0015 USDC deposited after the entry reserve, the lowest of the eight gross queued share valuations has to exceed 2,015.6007 USDC to cover the 10 bp modeled payout cost and beat cash. The instant control needs a gross valuation above 2,021.6657 USDC if the verified instant fee is still 30 bp. Those levels imply appreciation of about 0.982% and 1.286% over the entry share value, respectively. The queue still has to pass the capacity gate.
 
