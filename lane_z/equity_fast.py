@@ -1,8 +1,8 @@
-"""Replay the frozen November 24 Hyperliquid equity-perp paper tests."""
+"""Replay the frozen Hyperliquid equity-perp paper tests on a captured UTC date."""
 
 import argparse
 from dataclasses import replace
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 import json
 
@@ -14,7 +14,7 @@ from lane_z.model import Features, GRID_MS, delta_bps
 from lane_z.replay import Execution, Session, replay, sides
 from lane_z.study import breakdown, load_sessions, predictions
 
-DAY = "2026-11-24"
+DEFAULT_DAY = "2026-11-24"
 TARGETS = ("NVDA", "TSLA")
 PASSES = ((250, 0), (500, 0), (900, 0), (500, 125))
 STEP = GRID_MS * US_PER_MS
@@ -49,7 +49,7 @@ def price_change(series, seconds):
     return np.r_[np.full(steps, np.nan), delta_bps(series[steps:], series[:-steps])]
 
 
-def handwritten(quotes, start, signal_end, last, delay, source_delay):
+def handwritten(quotes, start, signal_end, last, delay, source_delay, day):
     output, frequencies = {}, {}
     for target in TARGETS:
         grid = np.arange(start, last, STEP)
@@ -63,7 +63,7 @@ def handwritten(quotes, start, signal_end, last, delay, source_delay):
         widths = spread(values, relative_mid)
         direction = np.sign(b5)
         threshold = np.maximum(5, widths + 2 * (0.9 + 0.5) + 1)
-        session = Session(DAY, target, grid, signal_end, Features(None, None, relative_mid, values), Book.executed(hl_rows))
+        session = Session(day, target, grid, signal_end, Features(None, None, relative_mid, values), Book.executed(hl_rows))
         allowed = session.can_signal & (grid % US_PER_HOUR < US_PER_HOUR - 40 * 10**6)
         finite = np.isfinite(h5 + b5 + delta + widths) & allowed
         passes = finite & (np.abs(b5) >= 4) & (direction * h5 >= 0) & (direction * (b5 - h5) >= 4) & (
@@ -71,16 +71,16 @@ def handwritten(quotes, start, signal_end, last, delay, source_delay):
         levels = np.where(passes, direction, 0).astype(np.int8)
         transitions = np.where(levels != np.r_[0, levels[:-1]], levels, 0).astype(np.int8)
         result = replay(session, transitions, Execution(hold_ms=30_000, delay_ms=delay, fee_bps=.9, slippage_bps=.5))
-        output[(DAY, target)] = result
+        output[(day, target)] = result
         frequencies[target] = {"rows": int(allowed.sum()), "usable": int(finite.sum()), "eligible_rows": int(passes.sum()),
                                "transitions": int(np.count_nonzero(transitions))}
     return {"coverage": frequencies, "performance": breakdown(output)}
 
 
-def published(root, start, end, report, delay, source_delay):
-    sessions, _ = load_sessions(root, (DAY,), "binance", source_delay_ms=source_delay, window=(start, end))
+def published(root, start, end, report, delay, source_delay, day):
+    sessions, _ = load_sessions(root, (day,), "binance", source_delay_ms=source_delay, window=(start, end))
     execution = replace(Execution(**report["execution_assumptions"]["cross_base"]), delay_ms=delay, fee_bps=.9, slippage_bps=.5)
-    scores = predictions(sessions, (DAY,), execution.hold_ms, frozen_models(report, execution.hold_ms))
+    scores = predictions(sessions, (day,), execution.hold_ms, frozen_models(report, execution.hold_ms))
     output, coverage = {}, {}
     for key, session in sessions.items():
         predicted = scores[key]["cross"]
@@ -96,9 +96,9 @@ def published(root, start, end, report, delay, source_delay):
     return {"coverage": coverage, "performance": breakdown(output)}
 
 
-def run(root, evaluation_start=None, evaluation_end=None):
+def run(root, evaluation_start=None, evaluation_end=None, *, day=DEFAULT_DAY):
     market_pairs = [(a, "hyperliquid") for a in SYMBOLS] + [(a, BINANCE) for a in TARGETS]
-    paths = {key: sample_path(root, DAY, *key) for key in market_pairs}
+    paths = {key: sample_path(root, day, *key) for key in market_pairs}
     quotes = {key: read_quotes(path, *key) for key, path in paths.items()}
     all_start = max(rows[0]["receive"] for rows in quotes.values())
     start = (int(all_start) // STEP + 1) * STEP
@@ -115,14 +115,14 @@ def run(root, evaluation_start=None, evaluation_end=None):
         raise ValueError("insufficient common recorded tape with a 35-second exit buffer")
     report = json.loads(Path("results/binance.json").read_bytes())
     results = {"signal_start_utc": fmt(start), "signal_end_utc": fmt(end), "last_target_receipt_utc": fmt(last),
-               "quote_audit": [quote_audit(path, quotes[key], DAY, *key, window=(start, end))
+               "quote_audit": [quote_audit(path, quotes[key], day, *key, window=(start, end))
                                for key, path in paths.items()], "tests": {}}
     for label in results["quote_audit"]:
         del label["url"]
     for delay, source_delay in PASSES:
         results["tests"][f"{delay}ms-plus-{source_delay}ms-source"] = {
-            "published_5s": published(root, start, end, report, delay, source_delay),
-            "binance_divergence_30s": handwritten(quotes, start, end, last, delay, source_delay),
+            "published_5s": published(root, start, end, report, delay, source_delay, day),
+            "binance_divergence_30s": handwritten(quotes, start, end, last, delay, source_delay, day),
         }
     return results
 
@@ -130,11 +130,12 @@ def run(root, evaluation_start=None, evaluation_end=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("data", type=Path)
+    parser.add_argument("--day", type=date.fromisoformat, default=DEFAULT_DAY, help="UTC date of the quote files")
     parser.add_argument("--start", help="Earliest decision time as an ISO 8601 timestamp")
     parser.add_argument("--end", help="Last decision boundary as an ISO 8601 timestamp")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    report = run(args.data, args.start, args.end)
+    report = run(args.data, args.start, args.end, day=args.day.isoformat())
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x") as output:
         json.dump(report, output, indent=2, default=lambda value: value.item(), allow_nan=False)

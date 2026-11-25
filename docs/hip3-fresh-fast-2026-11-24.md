@@ -59,3 +59,13 @@ for part in before after; do
     --end 2026-11-24T15:05:00+00:00 --output "$parts/$part/replay.json"
 done
 ```
+
+## Next-date confirmation
+
+The November 25 regular-session follow-up uses a new 600-second capture with the same five-second and 30-second rules, fees, order limits, modeled delays and final 35-second exit buffer. Use the first common quote window in that capture. A result with no fills is flat for the sample. A positive result on a few fills remains exploratory.
+
+```sh
+followup=data/equity-fast/2026-11-25-regular
+node scripts/capture.mjs "$followup" 600
+python -m lane_z.equity_fast "$followup" --day 2026-11-25 --output "$followup/replay.json"
+```
