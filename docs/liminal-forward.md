@@ -28,6 +28,8 @@ python -m lane_z.liminal_forward --state data/liminal/forward-2026-11-23/state.j
 
 The watcher retrieves missed fixed checkpoints in order from both providers’ archives and labels them as recovered observations. A terminal provider disagreement or unavailable archive keeps the result unresolved for retry. An unavailable nonterminal daily mark may be recorded as missing after one day. The strategy score and streak survive restart. A manual restart uses `watch` against the existing state file.
 
+The public recovery snapshot preserves the original entry and the November 24–26 contemporaneous observations. Both providers' quotes were rechecked and the stored values were reconciled with the benchmark. On a host that lost its local state, use the snapshot as `state.json` and start `watch`. Subsequent missed checkpoints acquire their own archival recovery labels. [Recovery snapshot](../results/forward/liminal-forward-recovery.json)
+
 On the experiment host, user-level macOS LaunchAgents supervise both watchers. Each uses the project as `WorkingDirectory`, the absolute virtual-environment Python and state paths in `ProgramArguments`, and `KeepAlive` with `SuccessfulExit` set to false. It restarts after failure or when the user logs in again. A successful terminal exit stops the watcher for that login session. The host has to be awake and logged in for contemporaneous marks. Outages use the same archival recovery rules.
 
 ```sh
