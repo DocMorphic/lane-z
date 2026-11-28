@@ -54,11 +54,11 @@
     "awaiting_exit": false
   },
   "last_block": {
-    "number": 52330328,
-    "timestamp": 1795729469,
-    "hash": "0x2cf088f05e58ed7c474224efb1b41306749c0c1721320d66a717d60f3ad8049d"
+    "number": 52418168,
+    "timestamp": 1795815869,
+    "hash": "0xd98f72ae5430badf0b70ffb0210cdf0c1855774e2015289e7406cfee33111070"
   },
-  "next_at": 1795815869,
+  "next_at": 1795902269,
   "streak_target": 3,
   "streak": 0,
   "observations": [
@@ -139,6 +139,32 @@
       "entry": null,
       "paper_pnl_if_redeemed_usdc": "-10.620309062",
       "cash_excess_if_redeemed_usdc": "-11.265137042277742397086384"
+    },
+    {
+      "target_utc": "2026-11-27T21:44:29+00:00",
+      "block": {
+        "number": 52418168,
+        "timestamp": 1795815869,
+        "hash": "0xd98f72ae5430badf0b70ffb0210cdf0c1855774e2015289e7406cfee33111070"
+      },
+      "providers": [
+        "https://hyperliquid.drpc.org",
+        "https://hyperliquid-rpc.publicnode.com"
+      ],
+      "captured_at_utc": "2026-11-28T09:27:18+00:00",
+      "observation": "archival_recovery",
+      "price_per_share_usdc": "1.047124912635309484774840248",
+      "liquidity_provider": "0x14b1a46c82579506c461f6ae915af1350d2b2d66",
+      "spendable_reserve_micro_usdc": 148476152004,
+      "fee_bps": 30,
+      "quote": {
+        "gross_micro_usdc": 1997377121,
+        "net_micro_usdc": 1991384990,
+        "reason": null
+      },
+      "entry": null,
+      "paper_pnl_if_redeemed_usdc": "-10.60639499",
+      "cash_excess_if_redeemed_usdc": "-11.466211827407753639799704"
     }
   ],
   "results": []
